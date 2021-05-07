@@ -1,0 +1,165 @@
+:root {
+	--background-color:#fffff8;
+	--text-color: black;
+	--gradient-color: gainsboro;
+	--link-underline-color:#e09f3e;
+	--header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--body-font-family: 'PT Serif', serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+body,html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--background-color);
+	color:var(--text-color);
+	width:100%;
+	margin:auto;
+	height: 100vh;
+}
+p,li {
+	/*https://www.smashingmagazine.com/2020/07/css-techniques-legibility/*/
+	line-height: calc(1ex / 0.32);
+}
+a {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-skip-ink: auto;
+	text-decoration-color: var(--link-underline-color);
+	text-decoration-style: solid;
+}
+a:hover {
+	background-color: #2B3099;
+	color:white;
+	text-decoration-color:#2B3099;
+}
+ul {list-style-type: '\2013';}
+li {padding-bottom:.5em;}
+li span {position:relative;right:-0.5em;}
+
+/*Custom Classes*/
+#headerImage {
+	max-height:200px;
+	filter:grayscale(100%);
+	border-radius:50%;
+	margin-bottom:1em;
+}
+.container {
+	height: 100vh;
+	width:100%;
+	padding: 3em 4em;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items:flex-start;
+	align-content: flex-start;
+}
+.container > div {
+	height: 100%;
+	width:33%;
+	margin-right:1.5em;
+	flex:auto;
+	display:flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+.content {
+	max-width: 34em;
+	margin-bottom: 1em;
+}
+.filler {
+	flex: 0 1 100%;
+	content: '';
+	/*https://www.magicpattern.design/tools/css-backgrounds*/
+	background-color: gainsboro;
+	opacity: 0.55;
+	background: repeating-linear-gradient( -45deg, var(--gradient-color), var(--gradient-color) 5px, var(--background-color) 5px, var(--background-color) 25px );
+}
+.midFiller {
+	height:22em
+}
+
+#col-3 {
+	margin-right:0;
+}
+.endContent {
+	margin:auto;
+	display:flex;
+}
+.endContent > div {
+	flex:auto;
+	width:50%;
+}
+.tinyHeader {
+	font-family: var(--header-font-family);
+	font-weight: 500;
+	font-size:1.35rem;
+}
+
+/*https://type-scale.com/ Perfect Fourth*/
+
+html {font-size: 112.5%;} /*18px*/
+
+body {
+	font-family: var(--body-font-family);  
+	font-weight: 400;
+	line-height: 1.65;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Public Sans',sans-serif;
+	margin: 1.75rem 0 1.05rem;
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 4.209rem;
+}
+
+h2 {font-size: 2.55rem;}
+
+h3 {font-size: 2.369rem;}
+
+h4 {font-size: 1.777rem;}
+
+h5 {font-size: 1.333rem;}
+
+small, .text_small {font-size: 0.75em;}
+
+@media only screen and (min-width:1401px){
+	p {margin-bottom: 1.15rem;}
+	#midContent {margin:auto;}
+}
+
+@media only screen and (max-width: 1400px) {
+	html {font-size: 100%;}
+}
+@media only screen and (max-width: 930px) {
+	p, ul {margin-bottom:0;}
+	#headerImage {max-height: 175px;margin-bottom:0;}
+	.container {padding:1.5em;flex-wrap: wrap;}
+	.container > div {
+		width:100%;
+		height:auto;
+		flex:auto;
+		margin:0;
+	}
+	.content{ margin:auto;}
+	.filler {display:none;}
+	#midFiller, #endFiller {
+		display:block;
+		flex:auto;
+		height:2em;
+		margin-top:1em;
+	}
+	h1, h2, h3, h4, h5 {
+		margin: 1.75rem 0 1.05rem;
+	}
+}
