@@ -3,6 +3,9 @@
 	--text-color: black;
 	--gradient-color: gainsboro;
 	--link-underline-color:#e09f3e;
+	--decoration-color: #2B3099;
+	--dark-mode-background-color:#4C4E52;
+	--dark-mode-content-color: #F1EDF2;
 	--header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--body-font-family: 'PT Serif', serif;
 }
@@ -17,9 +20,11 @@ body,html {
 body {
 	background-color: var(--background-color);
 	color:var(--text-color);
+	transition: background-color .5s, color .5s;
 	width:100%;
 	margin:auto;
 	height: 100vh;
+	text-rendering: optimizeLegibility;
 }
 p,li {
 	/*https://www.smashingmagazine.com/2020/07/css-techniques-legibility/*/
@@ -33,9 +38,9 @@ a {
 	text-decoration-style: solid;
 }
 a:hover {
-	background-color: #2B3099;
+	background-color: var(--decoration-color);
 	color:white;
-	text-decoration-color:#2B3099;
+	text-decoration-color: var(--decoration-color);
 }
 ul {list-style-type: '\2013';}
 li {padding-bottom:.5em;}
@@ -51,6 +56,8 @@ li span {position:relative;right:-0.5em;}
 .container {
 	height: 100vh;
 	width:100%;
+}
+.flex {
 	padding: 3em 4em;
 	display:flex;
 	flex-wrap: nowrap;
@@ -108,7 +115,6 @@ body {
 	font-family: var(--body-font-family);  
 	font-weight: 400;
 	line-height: 1.65;
-	color: #333;
 }
 
 h1, h2, h3, h4, h5 {
@@ -133,6 +139,59 @@ h5 {font-size: 1.333rem;}
 
 small, .text_small {font-size: 0.75em;}
 
+/* BLOG STYLES (taken from Hugo test)*/
+
+/* #blog > header {
+	border: 5px solid var(--decoration-color);
+	padding: 1em 1em;
+} */
+
+article, #blog > header {
+	max-width: 38em;
+	margin: 2em auto 2em auto;
+}
+	
+article {
+	padding-bottom: 2em;
+	border-bottom: 2px solid black;
+}
+
+article img, iframe {
+	display:block;
+	width:100%;
+	margin:auto;
+}
+
+article p {
+	text-align: justify;
+    hyphens: auto;
+}
+
+blockquote p {
+	font-size:90%;
+	font-style: italic;
+	border-left: 1px solid var(--text-color);
+	padding-left: 1em;
+	margin: 1.5em 1.5em 1.5em 0;
+}
+
+/* Dark Mode */
+.dark-mode {
+	color:var(--dark-mode-content-color);
+	background-color:var(--dark-mode-background-color);
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	border-bottom: 1px solid var(--link-underline-color)
+}
+
 @media only screen and (min-width:1401px){
 	p {margin-bottom: 1.15rem;}
 	#midContent {margin:auto;}
@@ -142,6 +201,7 @@ small, .text_small {font-size: 0.75em;}
 	html {font-size: 100%;}
 }
 @media only screen and (max-width: 930px) {
+	html {font-size: 90%;}
 	p, ul {margin-bottom:0;}
 	#headerImage {max-height: 175px;margin-bottom:0;}
 	.container {padding:1.5em;flex-wrap: wrap;}
@@ -163,3 +223,4 @@ small, .text_small {font-size: 0.75em;}
 		margin: 1.75rem 0 1.05rem;
 	}
 }
+
