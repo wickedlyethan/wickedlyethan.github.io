@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <header>
+        <h1>{{.Title}}</h1>
+    </header>
+    <hr>
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+        <li>
+            <a class="post-data" href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} // {{.Title}}</a>
+        </li>
+    {{ end }}
+{{ end }}

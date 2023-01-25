@@ -1,0 +1,17 @@
+baseURL: 'https://ethanthibault.com/'
+languageCode: 'en-us'
+
+disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+
+title: 'Ethan Thibault // Writer'
+
+Params:
+    author: 'Ethan Thibault'
+    description: 'Ethan Thibault is a writer'
+    headshot: '/images/et_friendmaker.png'
+    gfonts: 'https://fonts.googleapis.com/css2?family=PT+Serif&family=Public+Sans:wght@400;700&display=swap'
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true

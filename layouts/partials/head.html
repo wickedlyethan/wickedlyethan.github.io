@@ -1,0 +1,28 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>
+		{{ if .IsHome }}
+			{{.Title}}
+		{{ end }}
+		{{ if ne .IsHome true}}
+			{{.Title}} // Ethan Thibault
+		{{ end }}
+	</title>
+	<meta name="description" content="{{$.Site.Params.description}}">
+
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<meta name="theme-color" content="#e09f3e">
+
+	<meta property="og:title" content="{{.Title}}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{.Site.BaseURL}}">
+	<meta property="og:image" content="{{$.Site.Params.headshot}}">
+	<meta property="og:locale" content="{{.Site.LanguageCode}}">
+	<meta property="article:author" content="{{$.Site.Params.headshot}}">
+
+	<!-- <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"> -->
+
+</head>

@@ -1,0 +1,21 @@
+---
+title: "The Great Blue Hill"
+date: 2021-11-23
+image: blog/The Great Blue Hill.png
+---
+Thanksgiving as a holiday has been having a slow-motion reckoning over the years, somewhat alongside Columbus in all of his fuckery. In celebration, in a friend's Discord server someone casually dropped [Native Land Digital](https://native-land.ca/), a not-for-profit that superimposes indigenous nation territories onto the world as we definitely don't know it today, without standard state and country borders and topographical information only.
+
+Being from Massachusetts I've always been surrounded by Indigenous American culture in the exact way that makes it sadly invisible. The name Massachusetts itself is named after the Massachusett tribe, and the name of our state translates, approximately, to "near the great hill", an apparent reference to Great Blue Hill, in modern day Milton and Canton. (The [mass.gov page](https://www.mass.gov/locations/blue-hills-reservation) for the nature reservation mentions this briefly, at the bottom of the page; the [Friends of the Blue Hills website](https://friendsofthebluehills.org/learn/about-the-blue-hills/) does not mention it all as far as I can tell, as their timeline begins in 1887.)
+
+The town I grew up in wraps around Lake Massapoag and was home to the Wampanoag people. It has trails around a site titled "King Phillip's Rock", presumably related to King Phillip's Cave in nearby Norton, Massachusetts but with no literature I can find as to how. Indeed, King Phillip's Cave gets [barely a stub](https://www.wikiwand.com/en/King_Phillip%27s_Cave_(Massachusetts)) on Wikipedia, and searching for either returns blogs about hiking trails first and foremost. Admittedly the latter has tenuous and small significance to King Phillip's War to begin with, but one might assume there would be more written about anything connected to the ["bloodiest war per capita in U.S. history"](https://www.history.com/topics/native-american-history/king-philips-war), a war that destroyed indigenous culture in the area brutally, and which laid the ground work for American colonists to [think of themselves as independent](https://books.google.com/books?id=eHJ0AAAAMAAJ), with all the consequences that would bring.
+
+The summer camp I went to for many years as a kid had a "Native American" theme  - there was a teepee built in the fields in which we did arts and crafts like dreamcatchers and friendship bracelets; all the campers would be divided into maroon and white teams for "color wars", which featured teenagers dressed in feathered headwear "burying the hatchet" to signify that the games were over; the logo of the camp was a stencil of a thunderbird. When you're a kid it all feels a bit much, but in hindsight I have to wonder whose fucking idea was all that? (The founder, who died a few years ago, was the patriarch of a wealthy, white Jewish family.)
+
+The teepee especially catches me - in forests and parks around the area you can find replica wigwams and wetus, and in just a moment's research you find that teepee's are, who would have guessed, a reductive choice of iconography to represent indigenous culture, despite being regionally associated with the Great Plains. Did someone tell me that when I was younger, while hand waving away its presence there? What was I taught about indigenous culture at my summer camp or my school, and if anything why do I remember so little? I didn't meet someone part of a tribe until a friend in college mentioned it off-handedly, revealing a separate, beautiful, more private part of his life that I'd never have known about otherwise.
+
+And today I live in a different part of the state, on [Nipmuc](https://www.nipmucnation.org/our-history) land ("fresh water people"), a tribe that expanded all over Massachusetts, Connecticut, Vermont, and New Hampshire. I had never heard of them until today. I have, in all likeliness, never spent more time thinking and learning about the indigenous people of Massachusetts as I have today, a few days before Thanksgiving, of all holidays, 2021. (I hope to remedy that immediately by picking up some books from the library.)
+
+Sometimes what you need to think about something otherwise invisible to you is a change of perspective. What better place to start than a map?
+
+
+

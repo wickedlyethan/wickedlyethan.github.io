@@ -1,0 +1,12 @@
+<footer class="content centered">
+    <!-- https://www.w3docs.com/snippets/javascript/how-to-scroll-to-the-top-of-the-page-using-javascript.html -->
+    <button onclick="scrollToTop()">Back to Top</button>
+    <!-- Make these look nice -->
+    <!-- <button><a href="/blog">All Posts</a></button> -->
+    <button onclick="window.location.href='{{ .Site.BaseURL }}';">Home</button>
+    <script>
+        function scrollToTop() {
+          window.scrollTo(0, 0);
+        }
+      </script>
+</footer>
