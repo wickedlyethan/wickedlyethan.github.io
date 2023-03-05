@@ -1,12 +1,16 @@
 {{ define "main" }}
+<div class="content centered">
     <header>
         <h1>{{.Title}}</h1>
     </header>
     <hr>
     <!-- Ranges through content/posts/*.md -->
     {{ range .Pages }}
-        <li>
-            <a class="post-data" href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} // {{.Title}}</a>
-        </li>
+        <p class="post-data">
+            {{.Date.Format "2006-01-02"}} // <a href="{{.Permalink}}">{{.Title}}</a>
+        </p>
+        <blockquote style="font-style: normal;">{{.Summary}}</blockquote>
     {{ end }}
+    {{ partial "footer.html" .}}
+</div>
 {{ end }}

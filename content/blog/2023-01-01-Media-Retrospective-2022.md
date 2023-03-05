@@ -1,6 +1,9 @@
 ---
 title: Media Retrospective 2022
 date: 2023-01-01
+
+summary: "We're back doing one of these! A surprisingly earnest year with lots of adventure."
+
 ---
 
 <style type="text/css">

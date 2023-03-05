@@ -5,7 +5,7 @@ date: 2019-12-28
 
 image: /blog/2019-media-retrospective/vortex.jpg
 
-excerpt: "[**Image Heavy**] That's right, we're doing one of these EVERY year. Featuring: communist witches, superhero ennui, hot scots, and the answer to what part of you your cat will eat first when you die."
+summary: "That's right, we're doing one of these EVERY year. Featuring: communist witches, superhero ennui, hot scots, and the answer to what part of you your cat will eat first when you die."
 
 ---
 

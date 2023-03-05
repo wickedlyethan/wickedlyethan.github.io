@@ -1,8 +1,7 @@
-<p>I don't really belive in the social internet anymore, but someday this site will be for me to write more often! For now, I write blog posts sometimes!</p>
 <ul>
     {{ range first 5 (where .Site.RegularPages "Section" "blog")}}
         <li>
-            <span>{{ .Date.Format "2006-01-02" }} | <a href="{{ .Permalink }}">{{ .Title }}</a></span>
+            <span>{{ .Date.Format "2006-01-02" }} // <a href="{{ .Permalink }}">{{ .Title }}</a></span>
         </li>
     {{ end }}
 </ul>
