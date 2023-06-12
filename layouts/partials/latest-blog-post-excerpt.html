@@ -1,0 +1,6 @@
+<h2>Latest Blog Post</h2>
+{{ range first 1 (where .Site.RegularPages "Section" "blog")}}
+    <p>{{ .Date.Format "2006-01-02" }} // <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    <p>{{ .Summary }}</p>
+    <p><a href="{{ .RelPermalink }}">Read More…</a></p>
+{{ end }}

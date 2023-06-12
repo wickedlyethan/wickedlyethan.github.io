@@ -1,3 +1,5 @@
+theme: 'hugo-bearblog'
+
 publishDir: 'docs'
 
 baseURL: 'https://ethanthibault.com/'
@@ -5,13 +7,19 @@ languageCode: 'en-us'
 
 disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
 
-title: 'Ethan Thibault // Writer'
+# https://gohugo.io/getting-started/configuration/#configure-dates
+frontmatter:
+  date:
+  - :filename
+  - :default
 
+title: 'Ethan Thibault // Writer'
 Params:
     author: 'Ethan Thibault'
     description: 'Ethan Thibault is a writer'
     headshot: '/images/et_friendmaker.png'
     gfonts: 'https://fonts.googleapis.com/css2?family=PT+Serif&family=Public+Sans:wght@400;700&display=swap'
+    dateFormat: "2006-01-02"
 
 markup:
     goldmark:
