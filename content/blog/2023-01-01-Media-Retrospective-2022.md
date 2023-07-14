@@ -1,5 +1,5 @@
 ---
-title: Media Retrospective 2022
+title: Media of the Year 2022
 date: 2023-01-01
 
 summary: "We're back doing one of these! A surprisingly earnest year with lots of adventure."

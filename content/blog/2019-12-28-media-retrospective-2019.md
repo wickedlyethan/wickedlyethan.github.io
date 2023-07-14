@@ -1,6 +1,6 @@
 ---
 
-title: "Media Retrospective 2019"
+title: "Media of the Year 2019"
 date: 2019-12-28
 
 image: /blog/2019-media-retrospective/vortex.jpg

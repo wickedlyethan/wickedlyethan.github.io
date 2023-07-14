@@ -1,6 +1,6 @@
 ---
 
-title: "Media Retrospective 2018"
+title: "Media of the Year 2018"
 date: 2018-12-28
 
 image: blog/2018-media-retrospective/book-address-book-learning-learn-159751.png
