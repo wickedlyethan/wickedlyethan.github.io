@@ -1,0 +1,28 @@
+---
+title: 2023 is the Wettest Year in Movies
+date: 2023-12-06
+---
+
+Last night I saw James Cameron's stunning technical achievement and ["grandiose weepie"](https://letterboxd.com/silentdawn/film/the-abyss/) _The Abyss_, originally released in 1989 and now finally remastered in 4k and put into theaters for a one-night IMAX showing, cementing 2023 as the wettest year in movies ever.
+
+Matt Patches at Polygon called it back in [November 2022](https://www.polygon.com/23436873/new-movies-releases-2022-2023-only-wet-ones), but with the year closing out with _Aquaman: The Lost Kingdom_ for some reason, the trend is undeniable. _Black Panther: Wakanda Forever_, _The Little Mermaid_, _John Wick: Chapter 4_, _Indiana Jones and the Dial of Destiny_, _Meg 2: The Trench_, _Godzilla Minus One_ - major releases this year included tense encounters with the big blue, actors soaked to the bone for their stunts, or contemplating the rain and its chain reactions.
+
+![Oppenheimer's rain drops](/images/blog/2023-the-wettest-year-for-movies/water-drop-imagery-and-consequence-v0-3x9dkkdvxdgb1.webp)
+
+Cameron himself must be thrilled, seeing as how he is the ocean's greatest champion every year but 2023 started with _Avatar: The Way of Water_  continuing its run in theaters. In turn immersing the audience in its crystalline digital water and churning it up with war and machines, _Way of Water_ stands out as a movie about the whales fighting back against the whalers, and I adored it for that when I saw it in the biggest screen available to me, and I still do. Not a month later Cameron's most enduring oceanic epic came back to theaters for its 25th anniversary - _Titanic_'s ocean being a bottomless darkness that matter-of-factly swallows the ship and passionlessly clutches the survivors with freezing fingers. 
+
+Yet not content with that victory lap, Cameron now brings his first true passion project back to the screen. In an introduction to this remastered special edition - which adds 30 minutes of footage more than the original cut, and which hasn't inexplicably hasn't been available on home media since the 2000 DVD release - Cameron thanks us for coming (a trend which I love, I can't help it) and mentions that _The Abyss_ started as a short story he wrote when he was 15 and getting interested in diving. Not only is that evident in the mish-mash nature of the movie, which is arguably three movies in one - an underwater horror, a cold-war thriller, *and* an awkwardly earnest first contact fable - it makes even more bizarre the stories of the film's nightmarish production. 
+
+It turns out shooting anything underwater is grueling, and in 1989 when CGI was at the wonderful, albeit less convenient, phase of being good enough to *augment* photography, not replace it, that means the largest tank of filtered water in the world (at the time), a never-ending filming schedule, and actors, stuntmen, and director alike [getting dangerously close to drowning](https://people.com/james-cameron-recalls-how-he-survived-after-nearly-drowning-while-filming-the-abyss-underwater-7975986), among other existentially worrying incidents. In _The Abyss_ the ocean is another world with its own rules of engagement - it's waiting patiently to kill you in service of hiding its secrets.
+
+![The Abyss](/images/blog/2023-the-wettest-year-for-movies/02-Abyss-The-01.jpg)
+
+Shooting underwater in 2023 is safer, but still intense and difficult, so the question floats nearby: why is it suddenly popular?  What do these slick sequences mean? 
+
+From my research there doesn't seem to have been a major technological breakthrough that makes filming underwater easier then it has been - sensors have gotten bigger and more sensitive, making exposure easier, but _Way of Water_ shot almost entirely in blindingly-lit tanks for its underwater performance capture technology, beginning in 2018. _Wakanda Forever_ trained its actors for months in tanks and shot parts of sequences underwater, only to do them again on wildly unconvincing ["dry-for-wet" sets](https://youtu.be/xy9Tk9MoOUU?si=jF6hXJlSt5hRkxsQ) to ruin the illusion. _The Little Mermaid_, a movie I will give no quarter for existing at all, went the obvious route and simply had [everyone do everything on blue screen soundstages](https://youtu.be/-Axe6zbNSxA?si=zXHeoZXDjoPfJz2s&t=319) then commit overworked VFX artists to the Herculean task of attempting to make it look good, throwing "correct" out with the saltwater. Meanwhile _Godzilla Minus One_ pulled off one of its multiple miracles by making a $15 million period Kaiju movie mostly set on boats and ships of all sizes, throwing actors around on destroyer decks and showing the titular lizard emerging from the bottom of the ocean with no break in suspension of disbelief.
+
+![Godzilla Minus One](/images/blog/2023-the-wettest-year-for-movies/231128-godzilla-minus-one-tease_wcpxuq.jpg)
+
+I think it's worth noting a contradicting pair of themes that comes from water as a cinematic setting: freedom and claustrophobia. Being _of_ the water means freedom: mermaids, giant lizards, Atlanteans, and Na'Vi alike live there blissfully away from the idiocy of humans, until the Conflict arrives. Being _in_ the water when you're not supposed to means certain death: drowned, eaten, or sunk, to name a few ways. 
+
+In 2023, allegedly post-pandemic, maybe that means we shouldn't take where we are for granted, and should tread very carefully when we go places we don't belong.
