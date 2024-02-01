@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ethan Thibault // Writer</title>
+
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+<style>
+    :root {
+         
+        --background-color:whitesmoke;
+        --text-color: black;
+        --gradient-color: rgb(209, 208, 208);
+        --dark-gradient-color: snow;
+        --link-underline-color:#99942b;
+        --decoration-color: #2B3099;
+        --dark-mode-background-color:#4C4E52;
+        --dark-mode-content-color: #F1EDF2;
+         
+        --header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        --body-font-family: 'PT Serif', serif;
+        --h1-font-size: 2.488rem;
+        --h2-font-size: 2.074rem;
+        --h3-font-size: 1.728rem;
+        --h4-font-size: 1.44rem;
+        --h5-font-size: 1.2rem;
+    }
+    body {
+        max-width:33em;
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+    header {
+        padding-bottom:1em;
+    }
+
+     
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+    p,li {
+	 
+	line-height: calc(1ex / 0.32);
+    }
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
+        text-decoration-color: var(--link-underline-color);
+        text-decoration-style: solid;
+    }
+    a:hover, button:hover {
+        background-color: var(--decoration-color);
+        color:white;
+        text-decoration-color: var(--decoration-color);
+    }
+    ul {list-style-type: '\2013'; margin-bottom:0}
+    li {padding-bottom:.5em;}
+    li span {position:relative;right:-0.5em;}
+
+     
+
+    html {font-size: 112.5%;}  
+
+    body {
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: var(--h1-font-size)
+    }
+
+    h2 {font-size: var(--h2-font-size)}
+
+    h3 {font-size: var(--h3-font-size)}
+
+    h4 {font-size: var(--h4-font-size)}
+
+    h5 {font-size: var(--h5-font-size)}
+
+    small, .text_small {font-size: 0.75em;}
+
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Ethan Thibault // Writer</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+<h1>Lemon Poppy Seed Two-Bite Scones</h1>
+<blockquote>These cute little lemon poppy seed two-bite scones are soft and sweet with a deliciously tart lemon glaze. You won&#39;t be able to have just one!</blockquote>
+<ul>
+    <li>18 serving(s)</li>
+    <li>Prep Time: 15 Minutes</li>
+    <li>Cook Time: 15 Minutes</li>
+    <li>Total Time: 30 Minutes</li>
+</ul>
+<h2>Ingredients</h2>
+
+    <p><input type="checkbox"><label>1 fresh lemon ($0.30)</label></p>
+
+    <p><input type="checkbox"><label>1.25 cups all-purpose flour ($0.13)</label></p>
+
+    <p><input type="checkbox"><label>1/2 tsp salt ($0.02)</label></p>
+
+    <p><input type="checkbox"><label>3/4 cup powdered sugar, divided ($0.15)</label></p>
+
+    <p><input type="checkbox"><label>2 tsp baking powder ($0.08)</label></p>
+
+    <p><input type="checkbox"><label>2 tsp poppy seeds ($0.20)</label></p>
+
+    <p><input type="checkbox"><label>1 cup heavy whipping cream ($1.83)</label></p>
+
+<h2>Directions</h2>
+
+    <p><input type="checkbox"><label>Preheat the oven to 400ºF. Line a baking sheet with parchment. Use a small-holed cheese grater or a zester to remove the zest from the lemon, then squeeze the juice into a separate bowl. You&#39;ll need about 1 tsp of zest and 1 Tbsp juice.</label></p>
+
+    <p><input type="checkbox"><label>In a large bowl, stir together the flour, salt, 1/4 cup powdered sugar, baking powder, poppy seeds, and 1 tsp lemon zest. Make sure these ingredients are well combined.</label></p>
+
+    <p><input type="checkbox"><label>Stir the cream into the dry ingredients until a shaggy ball of dough forms. The dough will be fairly sticky. Turn the dough out onto a floured surface, divide it into three pieces, and shape each piece into a disc (about 3 inches diameter). Cut each disc into six triangles.</label></p>
+
+    <p><input type="checkbox"><label>Arrange the cut scones on the prepared baking sheet. Bake the scones for about 15 minutes, or until they just begin to barely turn golden brown on top.</label></p>
+
+    <p><input type="checkbox"><label>While the scones are baking, place the remaining 1/2 cup powdered sugar in a bowl. Stir in about 1 Tbsp lemon juice, or just enough to form a thick glaze.</label></p>
+
+    <p><input type="checkbox"><label>When the scones have baked, remove them from the oven, let them cool, then drizzle with the prepared lemon glaze.</label></p>
+
+<p><a href=https://budgetbytes.com/lemon-poppy-seed-two-bite-scones target=”_blank” rel="noopener noreferrer">Source</a></p>
+<p>Date Added: 2022-11-23</p>
+
+  </main>
+  <footer>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href=https://fonts.googleapis.com/css2?family&#61;PT&#43;Serif&amp;family&#61;Public&#43;Sans:wght@400;700&amp;display&#61;swap rel="stylesheet">Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

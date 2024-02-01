@@ -5,7 +5,7 @@ publishDir: 'docs'
 baseURL: 'https://ethanthibault.com/'
 languageCode: 'en-us'
 
-disableKinds: ["RSS", "taxonomy", "taxonomyTerm", "sitemap"]
+disableKinds: ["RSS", "taxonomy", "sitemap"]
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ethan Thibault // Writer</title>
+
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+<style>
+    :root {
+         
+        --background-color:whitesmoke;
+        --text-color: black;
+        --gradient-color: rgb(209, 208, 208);
+        --dark-gradient-color: snow;
+        --link-underline-color:#99942b;
+        --decoration-color: #2B3099;
+        --dark-mode-background-color:#4C4E52;
+        --dark-mode-content-color: #F1EDF2;
+         
+        --header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        --body-font-family: 'PT Serif', serif;
+        --h1-font-size: 2.488rem;
+        --h2-font-size: 2.074rem;
+        --h3-font-size: 1.728rem;
+        --h4-font-size: 1.44rem;
+        --h5-font-size: 1.2rem;
+    }
+    body {
+        max-width:33em;
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+    header {
+        padding-bottom:1em;
+    }
+
+     
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+    p,li {
+	 
+	line-height: calc(1ex / 0.32);
+    }
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
+        text-decoration-color: var(--link-underline-color);
+        text-decoration-style: solid;
+    }
+    a:hover, button:hover {
+        background-color: var(--decoration-color);
+        color:white;
+        text-decoration-color: var(--decoration-color);
+    }
+    ul {list-style-type: '\2013'; margin-bottom:0}
+    li {padding-bottom:.5em;}
+    li span {position:relative;right:-0.5em;}
+
+     
+
+    html {font-size: 112.5%;}  
+
+    body {
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: var(--h1-font-size)
+    }
+
+    h2 {font-size: var(--h2-font-size)}
+
+    h3 {font-size: var(--h3-font-size)}
+
+    h4 {font-size: var(--h4-font-size)}
+
+    h5 {font-size: var(--h5-font-size)}
+
+    small, .text_small {font-size: 0.75em;}
+
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Ethan Thibault // Writer</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+<h1>Crispy Baked Peanut Tofu Bowl</h1>
+<blockquote>Simple, delicious, and approved by both kids and adults, this baked peanut tofu buddha bowl is the ultimate weeknight dinner recipe! It&#39;s vegan, gluten free, and smothered in the most delicious creamy peanut sauce there is.</blockquote>
+<ul>
+    <li>4 serving(s)</li>
+    <li>Prep Time: 10 Minutes</li>
+    <li>Cook Time: 35 Minutes</li>
+    <li>Total Time: 45 Minutes</li>
+</ul>
+<h2>Ingredients</h2>
+
+    <p><input type="checkbox"><label>2 cups cooked rice (quinoa or rice noodles are also great)</label></p>
+
+    <p><input type="checkbox"><label>1 avocado</label></p>
+
+    <p><input type="checkbox"><label>2 red bell peppers</label></p>
+
+    <p><input type="checkbox"><label>3 cups chopped kale</label></p>
+
+    <p><input type="checkbox"><label>4 green onions (chopped)</label></p>
+
+    <p><input type="checkbox"><label>1 tbsp olive oil</label></p>
+
+    <p><input type="checkbox"><label>Optional: chopped peanuts for garnish</label></p>
+
+    <p><input type="checkbox"><label>1 block extra firm tofu</label></p>
+
+    <p><input type="checkbox"><label>1 tbsp low sodium tamari or soy sauce</label></p>
+
+    <p><input type="checkbox"><label>1 tsp toasted sesame oil</label></p>
+
+    <p><input type="checkbox"><label>1 tsp maple syrup or honey</label></p>
+
+    <p><input type="checkbox"><label>2 tbsp corn starch</label></p>
+
+    <p><input type="checkbox"><label>2 tbsp gluten free plain breadcrumbs (or regular)</label></p>
+
+    <p><input type="checkbox"><label>1/2 cup peanut sauce</label></p>
+
+<h2>Directions</h2>
+
+    <p><input type="checkbox"><label>drain tofu</label></p>
+
+    <p><input type="checkbox"><label>Remove the tofu from the package and drain out the excess liquid. If you&#39;re using extra firm tofu, you shouldn&#39;t need to press it, but you are more than welcome to.</label></p>
+
+    <p><input type="checkbox"><label>cut tofu</label></p>
+
+    <p><input type="checkbox"><label>Chop the tofu into small cubes, about 1/2 to 1 inch.</label></p>
+
+    <p><input type="checkbox"><label>marinate</label></p>
+
+    <p><input type="checkbox"><label>Add to a bowl with the marinade (1 tbsp tamari, 1 tsp sesame oil, and 1 tbsp maple syrup).</label></p>
+
+    <p><input type="checkbox"><label>let sit</label></p>
+
+    <p><input type="checkbox"><label>Let marinate for about 20 minutes.</label></p>
+
+    <p><input type="checkbox"><label>preheat</label></p>
+
+    <p><input type="checkbox"><label>Preheat the oven to 375 Fahrenheit.</label></p>
+
+    <p><input type="checkbox"><label>toss with corn starch</label></p>
+
+    <p><input type="checkbox"><label>Once marinated, toss with the cornstarch, then toss with the breadcrumbs. Add to a baking sheet lined with parchment paper, leaving space between each piece so they can really get crispy.</label></p>
+
+    <p><input type="checkbox"><label>bake</label></p>
+
+    <p><input type="checkbox"><label>Bake for 25-30 minutes or until golden brown and crispy.</label></p>
+
+    <p><input type="checkbox"><label>make sauce</label></p>
+
+    <p><input type="checkbox"><label>While baking, prepare your sauce and veggies. The sauce calls for 1/4 - 1/2 cup of water to thin it out for this recipe, you&#39;ll want to use closer to 1/2 cup. The sauce makes more than you will need for this recipe, but it stores really well in the fridge so you can save it for noodles or use as a dip for veggies.</label></p>
+
+    <p><input type="checkbox"><label>saute vegetables</label></p>
+
+    <p><input type="checkbox"><label>Slice the red peppers into thin strips and add to a pan with 1 tbsp of oil. Saute for 10 minutes or until it starts to brown on the sides. Add in the kale and let wilt for 1-2 minutes.</label></p>
+
+    <p><input type="checkbox"><label>let tofu cool</label></p>
+
+    <p><input type="checkbox"><label>When the tofu is done, remove from the oven and let cool for 5 minutes. Toss with 1/2 cup of sauce.</label></p>
+
+    <p><input type="checkbox"><label>serve</label></p>
+
+    <p><input type="checkbox"><label>Assemble your bowls starting with the rice, add the veggies, avocado, scallions and tofu and drizzle with the remaining sauce.</label></p>
+
+<p><a href=https://eatwithclarity.com/peanut-tofu-buddha-bowl/ target=”_blank” rel="noopener noreferrer">Source</a></p>
+<p>Date Added: 2023-02-23</p>
+
+  </main>
+  <footer>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href=https://fonts.googleapis.com/css2?family&#61;PT&#43;Serif&amp;family&#61;Public&#43;Sans:wght@400;700&amp;display&#61;swap rel="stylesheet">Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

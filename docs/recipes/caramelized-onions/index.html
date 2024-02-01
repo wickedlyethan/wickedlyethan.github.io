@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ethan Thibault // Writer</title>
+
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+<style>
+    :root {
+         
+        --background-color:whitesmoke;
+        --text-color: black;
+        --gradient-color: rgb(209, 208, 208);
+        --dark-gradient-color: snow;
+        --link-underline-color:#99942b;
+        --decoration-color: #2B3099;
+        --dark-mode-background-color:#4C4E52;
+        --dark-mode-content-color: #F1EDF2;
+         
+        --header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        --body-font-family: 'PT Serif', serif;
+        --h1-font-size: 2.488rem;
+        --h2-font-size: 2.074rem;
+        --h3-font-size: 1.728rem;
+        --h4-font-size: 1.44rem;
+        --h5-font-size: 1.2rem;
+    }
+    body {
+        max-width:33em;
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+    header {
+        padding-bottom:1em;
+    }
+
+     
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+    p,li {
+	 
+	line-height: calc(1ex / 0.32);
+    }
+    a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
+        text-decoration-color: var(--link-underline-color);
+        text-decoration-style: solid;
+    }
+    a:hover, button:hover {
+        background-color: var(--decoration-color);
+        color:white;
+        text-decoration-color: var(--decoration-color);
+    }
+    ul {list-style-type: '\2013'; margin-bottom:0}
+    li {padding-bottom:.5em;}
+    li span {position:relative;right:-0.5em;}
+
+     
+
+    html {font-size: 112.5%;}  
+
+    body {
+        font-family: var(--body-font-family);  
+        font-weight: 400;
+        line-height: 1.65;
+    }
+
+    h1, h2, h3, h4, h5, .post-data {
+        font-family: var(--header-font-family);
+        margin: 1.75rem 0 1.05rem;
+        line-height: 1.15;
+    }
+
+    h1 {
+        margin-top: 0;
+        font-size: var(--h1-font-size)
+    }
+
+    h2 {font-size: var(--h2-font-size)}
+
+    h3 {font-size: var(--h3-font-size)}
+
+    h4 {font-size: var(--h4-font-size)}
+
+    h5 {font-size: var(--h5-font-size)}
+
+    small, .text_small {font-size: 0.75em;}
+
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Ethan Thibault // Writer</h2>
+</a>
+<nav><a href="/">Home</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+<h1>Caramelized Onions</h1>
+<blockquote>Caramelizing onions is an essential skill for any cook. This recipe will show you how to make caramelized onions that are sweet and earthy every single time.</blockquote>
+<ul>
+    <li>0 item(s)</li>
+    <li>Prep Time: </li>
+    <li>Cook Time: </li>
+    <li>Total Time: </li>
+</ul>
+<h2>Ingredients</h2>
+
+    <p><input type="checkbox"><label>2 large yellow onions, peeled (about 1 pound)</label></p>
+
+    <p><input type="checkbox"><label>2 tablespoons unsalted butter</label></p>
+
+    <p><input type="checkbox"><label>Kosher salt</label></p>
+
+    <p><input type="checkbox"><label>Low-sodium chicken broth or water (for pan; optional)</label></p>
+
+<h2>Directions</h2>
+
+    <p><input type="checkbox"><label>Halve both onions through root end. Using the tip of your knife, cut a V-shaped notch around root to remove it (this will ensure that all slices separate when you cut the onion).</label></p>
+
+    <p><input type="checkbox"><label>Place 1 onion half on your cutting board so root end is facing you, then thinly slice onion lengthwise, starting at one side and working all the way to the other (so your knife runs through the root halfway through, not starting or ending at the root end). You’re going for slices that are ¼&#34;–⅛&#34; thick.</label></p>
+
+    <p><input type="checkbox"><label>Repeat same slicing procedure for remaining onion halves. It’s a lot of onion! But it will cook down quite a bit, so it’s best to start with a large quantity.</label></p>
+
+    <p><input type="checkbox"><label>Heat 2 Tbsp. butter in a large saucepan over medium until melted and sizzling. You can use a skillet to cook the onions, but a pan with high sides will keep the onions from flipping out onto your stove. Using a pan that also has a wide base gives water room to evaporate, allowing the onions to caramelize rather than steam.</label></p>
+
+    <p><input type="checkbox"><label>Instead of dumping in all of the onions at once, which would fill the pot and make it hard to stir (which would then cause the ones on the bottom to cook faster), start by adding just a couple of large handfuls to the pot. Cook, stirring, until onions are soft and starting to turn translucent, 1–2 minutes. Stir in a few more handfuls of onion and repeat cooking and stirring process until you’ve added all the onions. Season with a pinch of salt.</label></p>
+
+    <p><input type="checkbox"><label>Reduce heat to medium-low and continue to cook onions, stirring every few minutes to prevent them from sticking and coloring too much in any one place, until blonde-colored, 15–20 minutes. This is the point of doneness for French onion soup! If you feel like onions are getting too brown around the edges or they’re sticking, reduce your heat a bit.</label></p>
+
+    <p><input type="checkbox"><label>If you’re going for onions that are both softer and more caramelized (say for a patty melt or onion dip), keep cooking, stirring on the regular, until onions are unmistakably golden brown, another 15–20 minutes. Because most of the water has cooked off at this point, there might be some bare spots where the pot could start to burn. If this happens, stir in a splash of broth or water. The liquid will dissolve the cooked-on bits, which the onions will re-absorb.</label></p>
+
+    <p><input type="checkbox"><label>For extra-dark onions, the kind that make a great burger topping, cook until they start to almost blacken around the edges and go slightly crisp, another 10–15 minutes. This requires constant attention so they don’t burn. No one said caramelized onions were quick!</label></p>
+
+    <p><input type="checkbox"><label>Let onions cool in the saucepan, then use or transfer to an airtight container and chill. They will keep up to 1 week. Editor’s note: This recipe was originally published on August 3, 2017.</label></p>
+
+<p><a href=https://www.bonappetit.com/recipe/caramelized-onions target=”_blank” rel="noopener noreferrer">Source</a></p>
+<p>Date Added: 2022-11-27</p>
+
+  </main>
+  <footer>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href=https://fonts.googleapis.com/css2?family&#61;PT&#43;Serif&amp;family&#61;Public&#43;Sans:wght@400;700&amp;display&#61;swap rel="stylesheet">Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>
