@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,41 +299,45 @@
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
+    
+        <p><input type="checkbox"><label>3 cloves garlic (minced)</label></p>
+    
+        <p><input type="checkbox"><label>1 onion (diced)</label></p>
+    
+        <p><input type="checkbox"><label>4 cups chicken broth</label></p>
+    
+        <p><input type="checkbox"><label>1 14.5-ounce can petite diced tomatoes, undrained</label></p>
+    
+        <p><input type="checkbox"><label>1 9-ounce package refrigerated three cheese tortellini</label></p>
+    
+        <p><input type="checkbox"><label>1/2 teaspoon dried basil</label></p>
+    
+        <p><input type="checkbox"><label>1/2 teaspoon dried oregano</label></p>
+    
+        <p><input type="checkbox"><label>1 bay leaf</label></p>
+    
+        <p><input type="checkbox"><label>Kosher salt and freshly ground black pepper (to taste)</label></p>
+    
+        <p><input type="checkbox"><label>3 cups baby spinach (chopped)</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoons grated Parmesan</label></p>
+    
 
-    <p><input type="checkbox"><label>3 cloves garlic (minced)</label></p>
 
-    <p><input type="checkbox"><label>1 onion (diced)</label></p>
-
-    <p><input type="checkbox"><label>4 cups chicken broth</label></p>
-
-    <p><input type="checkbox"><label>1 14.5-ounce can petite diced tomatoes, undrained</label></p>
-
-    <p><input type="checkbox"><label>1 9-ounce package refrigerated three cheese tortellini</label></p>
-
-    <p><input type="checkbox"><label>1/2 teaspoon dried basil</label></p>
-
-    <p><input type="checkbox"><label>1/2 teaspoon dried oregano</label></p>
-
-    <p><input type="checkbox"><label>1 bay leaf</label></p>
-
-    <p><input type="checkbox"><label>Kosher salt and freshly ground black pepper (to taste)</label></p>
-
-    <p><input type="checkbox"><label>3 cups baby spinach (chopped)</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoons grated Parmesan</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Heat 1 tablespoon olive oil in a large stockpot or Dutch oven over medium heat. Add garlic and onion, and cook, stirring frequently, until onions have become translucent, about 2-3 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Whisk in chicken broth, diced tomatoes, tortellini, basil, oregano, bay leaf and 1 cup water; season with salt and pepper, to taste.</label></p>
-
-    <p><input type="checkbox"><label>Bring to a boil; reduce heat and simmer until tortellini is cooked through, about 5-6 minutes. Stir in spinach until it begins to wilt, about 2 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Serve immediately, garnished with Parmesan.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Heat 1 tablespoon olive oil in a large stockpot or Dutch oven over medium heat. Add garlic and onion, and cook, stirring frequently, until onions have become translucent, about 2-3 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Whisk in chicken broth, diced tomatoes, tortellini, basil, oregano, bay leaf and 1 cup water; season with salt and pepper, to taste.</label></p>
+    
+        <p><input type="checkbox"><label>Bring to a boil; reduce heat and simmer until tortellini is cooked through, about 5-6 minutes. Stir in spinach until it begins to wilt, about 2 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Serve immediately, garnished with Parmesan.</label></p>
+    
 
 <p><a href=https://damndelicious.net/2014/09/06/spinach-tomato-tortellini-soup/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

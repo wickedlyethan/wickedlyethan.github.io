@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,39 +299,43 @@
     <li>Cook Time: 30 Minutes</li>
     <li>Total Time: 40 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 lb. salmon filet ($11.49)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 lb. salmon filet ($11.49)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup soy sauce ($0.24)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp. water ($0.00)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 Tbsp. toasted sesame oil ($0.28)</label></p>
+    
+        <p><input type="checkbox"><label>1 inch fresh ginger ($0.13)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp minced garlic ($0.04)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp. brown sugar ($0.06)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp. rice wine ($0.27)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp cornstarch ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup mayonnaise ($0.42)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp. sriracha hot sauce ($0.24)</label></p>
+    
 
-    <p><input type="checkbox"><label>1/4 cup soy sauce ($0.24)</label></p>
 
-    <p><input type="checkbox"><label>2 Tbsp. water ($0.00)</label></p>
-
-    <p><input type="checkbox"><label>1/2 Tbsp. toasted sesame oil ($0.28)</label></p>
-
-    <p><input type="checkbox"><label>1 inch fresh ginger ($0.13)</label></p>
-
-    <p><input type="checkbox"><label>1/2 tsp minced garlic ($0.04)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp. brown sugar ($0.06)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp. rice wine ($0.27)</label></p>
-
-    <p><input type="checkbox"><label>1 tsp cornstarch ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup mayonnaise ($0.42)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp. sriracha hot sauce ($0.24)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Make the teriyaki marinade by whisking together the soy sauce, water, sesame oil, minced garlic, grated ginger, brown sugar, rice wine, and corn starch (use a vegetable peeler to remove the ginger skin and then grate with a fine toothed cheese grater).</label></p>
-
-    <p><input type="checkbox"><label>Cut the salmon filet into four equal sized portions and place in a large zip top bag. Pour the marinade over top, remove as much air as possible and close up the bag. Refrigerate for at least 30 minutes, mixing the bag occasionally to redistribute the marinade.</label></p>
-
-    <p><input type="checkbox"><label>Heat a large, well oiled skillet over medium/high heat. It’s a good idea to use a non-stick surface here too just to be safe (teflon or well seasoned cast iron). The teriyaki sauce gets thick and sticky when cooked. Once the skillet is hot, add the fish, face down. Cook on all four sides for 2-3 minutes each side or until the fish has reached your desired doneness.</label></p>
-
-    <p><input type="checkbox"><label>In a small bowl, mix together the sriracha hot sauce and mayonnaise. Serve the fish with a dollop of sriracha mayo on top!</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Make the teriyaki marinade by whisking together the soy sauce, water, sesame oil, minced garlic, grated ginger, brown sugar, rice wine, and corn starch (use a vegetable peeler to remove the ginger skin and then grate with a fine toothed cheese grater).</label></p>
+    
+        <p><input type="checkbox"><label>Cut the salmon filet into four equal sized portions and place in a large zip top bag. Pour the marinade over top, remove as much air as possible and close up the bag. Refrigerate for at least 30 minutes, mixing the bag occasionally to redistribute the marinade.</label></p>
+    
+        <p><input type="checkbox"><label>Heat a large, well oiled skillet over medium/high heat. It’s a good idea to use a non-stick surface here too just to be safe (teflon or well seasoned cast iron). The teriyaki sauce gets thick and sticky when cooked. Once the skillet is hot, add the fish, face down. Cook on all four sides for 2-3 minutes each side or until the fish has reached your desired doneness.</label></p>
+    
+        <p><input type="checkbox"><label>In a small bowl, mix together the sriracha hot sauce and mayonnaise. Serve the fish with a dollop of sriracha mayo on top!</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/teriyaki-salmon-w-sriracha-mayo/#wprm-recipe-container-33041 target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-23</p>

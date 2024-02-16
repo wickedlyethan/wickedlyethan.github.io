@@ -1,3 +1,5 @@
+# https://github.com/janraasch/hugo-bearblog
+# git submodule update --init
 theme: 'hugo-bearblog'
 
 publishDir: 'docs'
@@ -5,7 +7,7 @@ publishDir: 'docs'
 baseURL: 'https://ethanthibault.com/'
 languageCode: 'en-us'
 
-disableKinds: ["RSS", "taxonomy", "sitemap"]
+disableKinds: ["RSS", "sitemap"]
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:

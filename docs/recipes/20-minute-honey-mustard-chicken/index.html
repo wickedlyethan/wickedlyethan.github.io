@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,35 +299,39 @@
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1.5 lbs. boneless, skinless chicken thighs* ($4.50)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1.5 lbs. boneless, skinless chicken thighs* ($4.50)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp smoked paprika ($0.10)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp garlic powder ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp salt ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp cooking oil ($0.04)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup chicken broth ($0.07)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp stone ground or whole grain mustard ($0.16)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp honey ($0.24)</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp butter ($0.13)</label></p>
+    
 
-    <p><input type="checkbox"><label>1 tsp smoked paprika ($0.10)</label></p>
 
-    <p><input type="checkbox"><label>1/4 tsp garlic powder ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1/4 tsp salt ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp cooking oil ($0.04)</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup chicken broth ($0.07)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp stone ground or whole grain mustard ($0.16)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp honey ($0.24)</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp butter ($0.13)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Heat a large skillet over medium flame. While the skillet is preheating, combine the smoked paprika, garlic powder, and salt in a small dish. Sprinkle the spice mixture over both sides of your chicken pieces.</label></p>
-
-    <p><input type="checkbox"><label>Once the skillet is nice and hot, add the cooking oil and swirl to coat the surface. Add the chicken pieces and cook on each side until well browned and cooked through (about 5 minutes each side, this can vary with your cookware and size of your chicken pieces). Transfer the cooked chicken to a clean plate.</label></p>
-
-    <p><input type="checkbox"><label>Add the chicken broth to the skillet and stir to dissolve the browned bits from the bottom of the skillet. Allow the broth to simmer in the skillet for about 5 minutes, or until it has reduced by half.</label></p>
-
-    <p><input type="checkbox"><label>Finally, add the mustard, honey, and butter to the skillet. Stir to melt and dissolve the ingredients together. Add the chicken and juices back to the skillet, and allow the sauce to come back up to a simmer. Spoon the honey mustard sauce over top, then serve.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Heat a large skillet over medium flame. While the skillet is preheating, combine the smoked paprika, garlic powder, and salt in a small dish. Sprinkle the spice mixture over both sides of your chicken pieces.</label></p>
+    
+        <p><input type="checkbox"><label>Once the skillet is nice and hot, add the cooking oil and swirl to coat the surface. Add the chicken pieces and cook on each side until well browned and cooked through (about 5 minutes each side, this can vary with your cookware and size of your chicken pieces). Transfer the cooked chicken to a clean plate.</label></p>
+    
+        <p><input type="checkbox"><label>Add the chicken broth to the skillet and stir to dissolve the browned bits from the bottom of the skillet. Allow the broth to simmer in the skillet for about 5 minutes, or until it has reduced by half.</label></p>
+    
+        <p><input type="checkbox"><label>Finally, add the mustard, honey, and butter to the skillet. Stir to melt and dissolve the ingredients together. Add the chicken and juices back to the skillet, and allow the sauce to come back up to a simmer. Spoon the honey mustard sauce over top, then serve.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/20-minute-honey-mustard-chicken/#wprm-recipe-container-38489 target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

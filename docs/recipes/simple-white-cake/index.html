@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,33 +299,37 @@
     <li>Cook Time: 30 Minutes</li>
     <li>Total Time: 40 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 cup white sugar</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 cup white sugar</label></p>
+    
+        <p><input type="checkbox"><label>0.5 cup unsalted butter</label></p>
+    
+        <p><input type="checkbox"><label>2 large eggs</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons vanilla extract</label></p>
+    
+        <p><input type="checkbox"><label>1.5 cups all-purpose flour</label></p>
+    
+        <p><input type="checkbox"><label>1.75 teaspoons baking powder</label></p>
+    
+        <p><input type="checkbox"><label>0.5 cup milk</label></p>
+    
 
-    <p><input type="checkbox"><label>0.5 cup unsalted butter</label></p>
 
-    <p><input type="checkbox"><label>2 large eggs</label></p>
-
-    <p><input type="checkbox"><label>2 teaspoons vanilla extract</label></p>
-
-    <p><input type="checkbox"><label>1.5 cups all-purpose flour</label></p>
-
-    <p><input type="checkbox"><label>1.75 teaspoons baking powder</label></p>
-
-    <p><input type="checkbox"><label>0.5 cup milk</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch square cake pan.</label></p>
-
-    <p><input type="checkbox"><label>Cream sugar and butter together in a mixing bowl. Add eggs, one at a time, beating briefly after each addition. Mix in vanilla.</label></p>
-
-    <p><input type="checkbox"><label>Combine flour and baking powder in a separate bowl. Add to the wet ingredients and mix well. Add milk and stir until smooth. Pour batter into the prepared cake pan.</label></p>
-
-    <p><input type="checkbox"><label>Bake in the preheated oven until the top springs back when lightly touched, 30 to 40 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Remove from the oven and cool completely.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat the oven to 350 degrees F (175 degrees C). Grease and flour a 9-inch square cake pan.</label></p>
+    
+        <p><input type="checkbox"><label>Cream sugar and butter together in a mixing bowl. Add eggs, one at a time, beating briefly after each addition. Mix in vanilla.</label></p>
+    
+        <p><input type="checkbox"><label>Combine flour and baking powder in a separate bowl. Add to the wet ingredients and mix well. Add milk and stir until smooth. Pour batter into the prepared cake pan.</label></p>
+    
+        <p><input type="checkbox"><label>Bake in the preheated oven until the top springs back when lightly touched, 30 to 40 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Remove from the oven and cool completely.</label></p>
+    
 
 <p><a href=https://www.allrecipes.com/recipe/17481/simple-white-cake/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

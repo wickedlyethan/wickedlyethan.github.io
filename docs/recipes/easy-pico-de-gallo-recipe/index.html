@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -289,32 +296,36 @@
 <ul>
     <li>2 serving(s)</li>
     <li>Prep Time: 10 Minutes</li>
-    <li>Cook Time: </li>
+    
     <li>Total Time: 10 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>5 whole roma tomatoes (diced)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>5 whole roma tomatoes (diced)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 large yellow onion (diced)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup Cilantro (minced)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 large jalapeno pepper (minced, seeded if you want a more mild taste)</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoons freshly squeezed lime juice</label></p>
+    
+        <p><input type="checkbox"><label>2 cloves garlic (minced or pressed)</label></p>
+    
+        <p><input type="checkbox"><label>salt (to taste)</label></p>
+    
 
-    <p><input type="checkbox"><label>1/4 large yellow onion (diced)</label></p>
 
-    <p><input type="checkbox"><label>1/4 cup Cilantro (minced)</label></p>
-
-    <p><input type="checkbox"><label>1/2 large jalapeno pepper (minced, seeded if you want a more mild taste)</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoons freshly squeezed lime juice</label></p>
-
-    <p><input type="checkbox"><label>2 cloves garlic (minced or pressed)</label></p>
-
-    <p><input type="checkbox"><label>salt (to taste)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Place all ingredients into a large bowl.</label></p>
-
-    <p><input type="checkbox"><label>Mix and season with salt, to taste.</label></p>
-
-    <p><input type="checkbox"><label>Cover and place in fridge until ready to serve!</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Place all ingredients into a large bowl.</label></p>
+    
+        <p><input type="checkbox"><label>Mix and season with salt, to taste.</label></p>
+    
+        <p><input type="checkbox"><label>Cover and place in fridge until ready to serve!</label></p>
+    
 
 <p><a href=https://showmetheyummy.com/easy-pico-de-gallo-recipe/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-23</p>

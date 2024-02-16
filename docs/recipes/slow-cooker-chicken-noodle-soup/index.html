@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,49 +299,53 @@
     <li>Cook Time: 4 Hours</li>
     <li>Total Time: 4 Hours 30 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 yellow onion ($0.32)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 yellow onion ($0.32)</label></p>
+    
+        <p><input type="checkbox"><label>3 cloves garlic ($0.24)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 lb. carrots (about 4 medium) ($0.30)</label></p>
+    
+        <p><input type="checkbox"><label>4 ribs celery ($0.43)</label></p>
+    
+        <p><input type="checkbox"><label>2 split chicken breasts* (2-2.5 lbs. total) ($6.30)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp dried basil ($0.10)</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp dried parsley ($0.30)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp dried thyme ($0.05)</label></p>
+    
+        <p><input type="checkbox"><label>1 bay leaf ($0.15)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp freshly cracked black pepper ($0.05)</label></p>
+    
+        <p><input type="checkbox"><label>8 cups water ($0.00)</label></p>
+    
+        <p><input type="checkbox"><label>6 oz. wide egg noodles ($0.68)</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp salt (or to taste) ($0.10)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup chopped fresh parsley (optional) ($0.20)</label></p>
+    
 
-    <p><input type="checkbox"><label>3 cloves garlic ($0.24)</label></p>
 
-    <p><input type="checkbox"><label>1/2 lb. carrots (about 4 medium) ($0.30)</label></p>
-
-    <p><input type="checkbox"><label>4 ribs celery ($0.43)</label></p>
-
-    <p><input type="checkbox"><label>2 split chicken breasts* (2-2.5 lbs. total) ($6.30)</label></p>
-
-    <p><input type="checkbox"><label>1 tsp dried basil ($0.10)</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp dried parsley ($0.30)</label></p>
-
-    <p><input type="checkbox"><label>1/2 tsp dried thyme ($0.05)</label></p>
-
-    <p><input type="checkbox"><label>1 bay leaf ($0.15)</label></p>
-
-    <p><input type="checkbox"><label>1/4 tsp freshly cracked black pepper ($0.05)</label></p>
-
-    <p><input type="checkbox"><label>8 cups water ($0.00)</label></p>
-
-    <p><input type="checkbox"><label>6 oz. wide egg noodles ($0.68)</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp salt (or to taste) ($0.10)</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup chopped fresh parsley (optional) ($0.20)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Dice the onion, mince the garlic, peel and slice the carrots, and slice the celery. Add the onion, garlic, carrots, and celery to a 6 quart slow cooker or crock pot.</label></p>
-
-    <p><input type="checkbox"><label>Remove the skin from the bone-in split chicken breasts, then place them on top of the vegetables in the slow cooker. Add the basil, parsley, thyme, bay leaf, and pepper to the slow cooker.</label></p>
-
-    <p><input type="checkbox"><label>Pour 8 cups of water over the ingredients in the slow cooker. Place the lid on the slow cooker and cook on high for 4 hours or low for 8 hours.</label></p>
-
-    <p><input type="checkbox"><label>After cooking on high for 4 hours or low for 8 hours, carefully remove the chicken to a cutting board and discard the bay leaf. Add the egg noodles to the slow cooker, stir to combine, and replace the lid, with the heat turned on to high.</label></p>
-
-    <p><input type="checkbox"><label>Use two forks to remove the chicken meat from the bones, shredding the meat as you go. Return the meat to the slow cooker and stir to combine with the soup. The noodles should be tender after about 8-10 minutes of being in the soup (this may take a few minutes longer if the slow cooker was previously set to low).</label></p>
-
-    <p><input type="checkbox"><label>Once the chicken has been returned to the soup and the noodles are tender, begin seasoning the soup with salt. The true flavor of the soup will not be pronounced until it is properly salted. Start with 1 tsp salt, adding more until the soup is bold and flavorful. I use about 1 Tbsp (3 tsp). Finally, stir in a handful of chopped parsley for garnish just before serving.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Dice the onion, mince the garlic, peel and slice the carrots, and slice the celery. Add the onion, garlic, carrots, and celery to a 6 quart slow cooker or crock pot.</label></p>
+    
+        <p><input type="checkbox"><label>Remove the skin from the bone-in split chicken breasts, then place them on top of the vegetables in the slow cooker. Add the basil, parsley, thyme, bay leaf, and pepper to the slow cooker.</label></p>
+    
+        <p><input type="checkbox"><label>Pour 8 cups of water over the ingredients in the slow cooker. Place the lid on the slow cooker and cook on high for 4 hours or low for 8 hours.</label></p>
+    
+        <p><input type="checkbox"><label>After cooking on high for 4 hours or low for 8 hours, carefully remove the chicken to a cutting board and discard the bay leaf. Add the egg noodles to the slow cooker, stir to combine, and replace the lid, with the heat turned on to high.</label></p>
+    
+        <p><input type="checkbox"><label>Use two forks to remove the chicken meat from the bones, shredding the meat as you go. Return the meat to the slow cooker and stir to combine with the soup. The noodles should be tender after about 8-10 minutes of being in the soup (this may take a few minutes longer if the slow cooker was previously set to low).</label></p>
+    
+        <p><input type="checkbox"><label>Once the chicken has been returned to the soup and the noodles are tender, begin seasoning the soup with salt. The true flavor of the soup will not be pronounced until it is properly salted. Start with 1 tsp salt, adding more until the soup is bold and flavorful. I use about 1 Tbsp (3 tsp). Finally, stir in a handful of chopped parsley for garnish just before serving.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/slow-cooker-chicken-noodle-soup/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

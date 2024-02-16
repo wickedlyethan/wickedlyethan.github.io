@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -288,47 +295,51 @@
 <blockquote>A tea cake that&#39;s true to its name, this loaf harnesses the power of citrusy Earl Grey tea for its distinct flavor. Lemon poppyseed can&#39;t hold a candle. Because high quality loose-leaf tea is often much more fragrant and flavorful than tea bags, you won’t need as much of it. If you’re using tea bags, just snip them open and measure out the tea inside.</blockquote>
 <ul>
     <li>9 item(s)</li>
-    <li>Prep Time: </li>
-    <li>Cook Time: </li>
-    <li>Total Time: </li>
+    
+    
+    
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 cup vegetable oil, plus more for pan</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 cup vegetable oil, plus more for pan</label></p>
+    
+        <p><input type="checkbox"><label>2 cups (250 g) all-purpose flour</label></p>
+    
+        <p><input type="checkbox"><label>1½ tsp. Diamond Crystal or 1 tsp. Morton kosher salt</label></p>
+    
+        <p><input type="checkbox"><label>½ tsp. baking powder</label></p>
+    
+        <p><input type="checkbox"><label>½ tsp. baking soda</label></p>
+    
+        <p><input type="checkbox"><label>2 large eggs</label></p>
+    
+        <p><input type="checkbox"><label>1¼ cups (250 g) granulated sugar</label></p>
+    
+        <p><input type="checkbox"><label>1 cup plain whole-milk yogurt</label></p>
+    
+        <p><input type="checkbox"><label>3 Tbsp. loose-leaf Earl Grey tea or ¼ cup tea from bags</label></p>
+    
+        <p><input type="checkbox"><label>2 tsp. vanilla extract</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp. raw or granulated sugar</label></p>
+    
 
-    <p><input type="checkbox"><label>2 cups (250 g) all-purpose flour</label></p>
 
-    <p><input type="checkbox"><label>1½ tsp. Diamond Crystal or 1 tsp. Morton kosher salt</label></p>
-
-    <p><input type="checkbox"><label>½ tsp. baking powder</label></p>
-
-    <p><input type="checkbox"><label>½ tsp. baking soda</label></p>
-
-    <p><input type="checkbox"><label>2 large eggs</label></p>
-
-    <p><input type="checkbox"><label>1¼ cups (250 g) granulated sugar</label></p>
-
-    <p><input type="checkbox"><label>1 cup plain whole-milk yogurt</label></p>
-
-    <p><input type="checkbox"><label>3 Tbsp. loose-leaf Earl Grey tea or ¼ cup tea from bags</label></p>
-
-    <p><input type="checkbox"><label>2 tsp. vanilla extract</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp. raw or granulated sugar</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat oven to 325°. Lightly coat a 9x5&#34; or 8½x4½&#34; loaf pan with vegetable oil and line with parchment paper, leaving overhang on long sides. If you’re not sure what size your loaf pan is, measure it with a ruler from inside edge to inside edge for both the length and width. If you measure from the outside edge, you’ll get an inaccurate reading of the width of the pan, and your cake may end up overflowing! It&#39;s the actual empty space of the pan where the cake bakes that matters here, not the width of the entire pan including its edges.</label></p>
-
-    <p><input type="checkbox"><label>Whisk 2 cups (250 g) all-purpose flour, 1½ tsp. Diamond Crystal or 1 tsp. Morton kosher salt, ½ tsp. baking powder, and ½ tsp. baking soda in a medium bowl to combine.</label></p>
-
-    <p><input type="checkbox"><label>Vigorously whisk 2 large eggs and 1¼ cups (250 g) granulated sugar in a large bowl 1 minute (seriously, time it!); mixture should be pale yellow and frothy. Whisk in 1 cup plain whole-milk yogurt, 3 Tbsp. loose-leaf Earl Grey tea (or ¼ cup tea from bags), and 2 tsp. vanilla extract.</label></p>
-
-    <p><input type="checkbox"><label>Gradually stream in 1 cup vegetable oil, whisking constantly until incorporated. (Place a kitchen towel under your bowl to stabilize it so that you have two free hands.) Add dry ingredients and whisk to combine. Scrape batter into prepared pan and smooth top. Gently tap pan against surface to eliminate any air bubbles.</label></p>
-
-    <p><input type="checkbox"><label>Sprinkle evenly with 1 Tbsp. raw or granulated sugar. Bake cake until a skewer or toothpick inserted into the center comes out clean, about 1 hour.</label></p>
-
-    <p><input type="checkbox"><label>Let cool 15 minutes in pan, then run a butter knife or offset spatula between the cake and pan to release. Lift it out using parchment overhang and transfer to a wire rack. Serve warm or room temperature (or even better, toast slices and slather them with butter!).</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat oven to 325°. Lightly coat a 9x5&#34; or 8½x4½&#34; loaf pan with vegetable oil and line with parchment paper, leaving overhang on long sides. If you’re not sure what size your loaf pan is, measure it with a ruler from inside edge to inside edge for both the length and width. If you measure from the outside edge, you’ll get an inaccurate reading of the width of the pan, and your cake may end up overflowing! It&#39;s the actual empty space of the pan where the cake bakes that matters here, not the width of the entire pan including its edges.</label></p>
+    
+        <p><input type="checkbox"><label>Whisk 2 cups (250 g) all-purpose flour, 1½ tsp. Diamond Crystal or 1 tsp. Morton kosher salt, ½ tsp. baking powder, and ½ tsp. baking soda in a medium bowl to combine.</label></p>
+    
+        <p><input type="checkbox"><label>Vigorously whisk 2 large eggs and 1¼ cups (250 g) granulated sugar in a large bowl 1 minute (seriously, time it!); mixture should be pale yellow and frothy. Whisk in 1 cup plain whole-milk yogurt, 3 Tbsp. loose-leaf Earl Grey tea (or ¼ cup tea from bags), and 2 tsp. vanilla extract.</label></p>
+    
+        <p><input type="checkbox"><label>Gradually stream in 1 cup vegetable oil, whisking constantly until incorporated. (Place a kitchen towel under your bowl to stabilize it so that you have two free hands.) Add dry ingredients and whisk to combine. Scrape batter into prepared pan and smooth top. Gently tap pan against surface to eliminate any air bubbles.</label></p>
+    
+        <p><input type="checkbox"><label>Sprinkle evenly with 1 Tbsp. raw or granulated sugar. Bake cake until a skewer or toothpick inserted into the center comes out clean, about 1 hour.</label></p>
+    
+        <p><input type="checkbox"><label>Let cool 15 minutes in pan, then run a butter knife or offset spatula between the cake and pan to release. Lift it out using parchment overhang and transfer to a wire rack. Serve warm or room temperature (or even better, toast slices and slather them with butter!).</label></p>
+    
 
 <p><a href=https://www.bonappetit.com/recipe/earl-grey-yogurt-cake target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,53 +299,57 @@
     <li>Cook Time: 35 Minutes</li>
     <li>Total Time: 1 Hour 50 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1.5 cups all-purpose flour ($0.23)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1.5 cups all-purpose flour ($0.23)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup granulated sugar ($0.80)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp salt ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp baking soda ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1/3 cup unsweetened cocoa powder ($0.21)</label></p>
+    
+        <p><input type="checkbox"><label>1/3 cup cooking oil* ($0.21)</label></p>
+    
+        <p><input type="checkbox"><label>1 Tbsp vinegar** ($0.06)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp vanilla extract ($0.30)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup water ($0.00)</label></p>
+    
+        <p><input type="checkbox"><label>1.5 cups powdered sugar ($0.10)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup cocoa powder ($0.16)</label></p>
+    
+        <p><input type="checkbox"><label>3 Tbsp water ($0.00)</label></p>
+    
+        <p><input type="checkbox"><label>1 tsp vanilla extract ($0.30)</label></p>
+    
 
-    <p><input type="checkbox"><label>1 cup granulated sugar ($0.80)</label></p>
 
-    <p><input type="checkbox"><label>1/2 tsp salt ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1 tsp baking soda ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1/3 cup unsweetened cocoa powder ($0.21)</label></p>
-
-    <p><input type="checkbox"><label>1/3 cup cooking oil* ($0.21)</label></p>
-
-    <p><input type="checkbox"><label>1 Tbsp vinegar** ($0.06)</label></p>
-
-    <p><input type="checkbox"><label>1 tsp vanilla extract ($0.30)</label></p>
-
-    <p><input type="checkbox"><label>1 cup water ($0.00)</label></p>
-
-    <p><input type="checkbox"><label>1.5 cups powdered sugar ($0.10)</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup cocoa powder ($0.16)</label></p>
-
-    <p><input type="checkbox"><label>3 Tbsp water ($0.00)</label></p>
-
-    <p><input type="checkbox"><label>1 tsp vanilla extract ($0.30)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Chocolate Cake</label></p>
-
-    <p><input type="checkbox"><label>Preheat the oven to 350ºF. In a large bowl, stir together the flour, sugar, salt, baking soda, and cocoa powder until well combined.</label></p>
-
-    <p><input type="checkbox"><label>Add 1 cup water to a liquid measuring cup, then add the vanilla extract and vinegar to the water.</label></p>
-
-    <p><input type="checkbox"><label>Add the oil to the bowl of dry ingredients, followed by the water mixture. Stir until the chocolate cake batter is mostly smooth. Make sure no dry flour remains on the bottom of the bowl.</label></p>
-
-    <p><input type="checkbox"><label>Pour the cake batter into an 8x8&#34; or 9x9&#34; baking dish. Transfer the baking dish to the oven and bake the cake for 35 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Chocolate Icing</label></p>
-
-    <p><input type="checkbox"><label>If using the chocolate icing, let the cake cool for at least an hour after baking before adding the icing.</label></p>
-
-    <p><input type="checkbox"><label>Wait until the cake is cool, then prepare the icing. Add the powdered sugar, cocoa powder, and vanilla extract to a bowl. Begin adding water, 1 tablespoon at a time, until it forms a thick but pourable icing (about 3 Tbsp total). If you let the icing sit, it may begin to dry, but you can add a splash more water to make it moist again.</label></p>
-
-    <p><input type="checkbox"><label>Pour the icing over the cooled cake and spread until the cake is evenly covered. Slice the cake into 9 pieces and serve.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Chocolate Cake</label></p>
+    
+        <p><input type="checkbox"><label>Preheat the oven to 350ºF. In a large bowl, stir together the flour, sugar, salt, baking soda, and cocoa powder until well combined.</label></p>
+    
+        <p><input type="checkbox"><label>Add 1 cup water to a liquid measuring cup, then add the vanilla extract and vinegar to the water.</label></p>
+    
+        <p><input type="checkbox"><label>Add the oil to the bowl of dry ingredients, followed by the water mixture. Stir until the chocolate cake batter is mostly smooth. Make sure no dry flour remains on the bottom of the bowl.</label></p>
+    
+        <p><input type="checkbox"><label>Pour the cake batter into an 8x8&#34; or 9x9&#34; baking dish. Transfer the baking dish to the oven and bake the cake for 35 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Chocolate Icing</label></p>
+    
+        <p><input type="checkbox"><label>If using the chocolate icing, let the cake cool for at least an hour after baking before adding the icing.</label></p>
+    
+        <p><input type="checkbox"><label>Wait until the cake is cool, then prepare the icing. Add the powdered sugar, cocoa powder, and vanilla extract to a bowl. Begin adding water, 1 tablespoon at a time, until it forms a thick but pourable icing (about 3 Tbsp total). If you let the icing sit, it may begin to dry, but you can add a splash more water to make it moist again.</label></p>
+    
+        <p><input type="checkbox"><label>Pour the icing over the cooled cake and spread until the cake is evenly covered. Slice the cake into 9 pieces and serve.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/chocolate-depression-cake/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

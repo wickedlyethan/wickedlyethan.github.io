@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,43 +299,47 @@
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>8.8 ounces Italian sausages (crumbled)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>8.8 ounces Italian sausages (crumbled)</label></p>
+    
+        <p><input type="checkbox"><label>3 cloves garlic (minced)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup chicken broth</label></p>
+    
+        <p><input type="checkbox"><label>1 cup heavy/whipping cream</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon lemon juice</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup sun-dried tomatoes</label></p>
+    
+        <p><input type="checkbox"><label>1 pound potato gnocchi</label></p>
+    
+        <p><input type="checkbox"><label>1.5 cups (packed) fresh baby spinach</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup freshly grated parmesan cheese</label></p>
+    
+        <p><input type="checkbox"><label>Fresh basil (optional) (to taste)</label></p>
+    
+        <p><input type="checkbox"><label>Salt &amp; pepper (to taste)</label></p>
+    
 
-    <p><input type="checkbox"><label>3 cloves garlic (minced)</label></p>
 
-    <p><input type="checkbox"><label>1/2 cup chicken broth</label></p>
-
-    <p><input type="checkbox"><label>1 cup heavy/whipping cream</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon lemon juice</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup sun-dried tomatoes</label></p>
-
-    <p><input type="checkbox"><label>1 pound potato gnocchi</label></p>
-
-    <p><input type="checkbox"><label>1.5 cups (packed) fresh baby spinach</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup freshly grated parmesan cheese</label></p>
-
-    <p><input type="checkbox"><label>Fresh basil (optional) (to taste)</label></p>
-
-    <p><input type="checkbox"><label>Salt &amp; pepper (to taste)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Take the sausage meat out of the casings and crumble it into a deep skillet. Sauté the sausage over medium-high heat, breaking it up as you go along, until browned (about 5-7 minutes).</label></p>
-
-    <p><input type="checkbox"><label>Stir in the garlic and cook for about 30 seconds.</label></p>
-
-    <p><input type="checkbox"><label>Add the chicken broth, cream, lemon juice, sun-dried tomatoes, and gnocchi to the pan. Give it a good stir.</label></p>
-
-    <p><input type="checkbox"><label>Reduce the heat to medium and cover the pan. Cook for 5 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Give the gnocchi a stir and then add in the spinach. Cover the pan again for 1-2 minutes until the spinach has wilted.</label></p>
-
-    <p><input type="checkbox"><label>Stir in the parmesan and basil (if using). Ensure the gnocchi is cooked through and the sauce is thickened to your liking (cook for another minute or two if necessary). Season with salt &amp; pepper to taste and serve immediately.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Take the sausage meat out of the casings and crumble it into a deep skillet. Sauté the sausage over medium-high heat, breaking it up as you go along, until browned (about 5-7 minutes).</label></p>
+    
+        <p><input type="checkbox"><label>Stir in the garlic and cook for about 30 seconds.</label></p>
+    
+        <p><input type="checkbox"><label>Add the chicken broth, cream, lemon juice, sun-dried tomatoes, and gnocchi to the pan. Give it a good stir.</label></p>
+    
+        <p><input type="checkbox"><label>Reduce the heat to medium and cover the pan. Cook for 5 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Give the gnocchi a stir and then add in the spinach. Cover the pan again for 1-2 minutes until the spinach has wilted.</label></p>
+    
+        <p><input type="checkbox"><label>Stir in the parmesan and basil (if using). Ensure the gnocchi is cooked through and the sauce is thickened to your liking (cook for another minute or two if necessary). Season with salt &amp; pepper to taste and serve immediately.</label></p>
+    
 
 <p><a href=https://saltandlavender.com/creamy-tuscan-sausage-gnocchi target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

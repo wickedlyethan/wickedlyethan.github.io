@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,35 +299,39 @@
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 30 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 fresh lemon ($0.30)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 fresh lemon ($0.30)</label></p>
+    
+        <p><input type="checkbox"><label>1.25 cups all-purpose flour ($0.13)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp salt ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>3/4 cup powdered sugar, divided ($0.15)</label></p>
+    
+        <p><input type="checkbox"><label>2 tsp baking powder ($0.08)</label></p>
+    
+        <p><input type="checkbox"><label>2 tsp poppy seeds ($0.20)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup heavy whipping cream ($1.83)</label></p>
+    
 
-    <p><input type="checkbox"><label>1.25 cups all-purpose flour ($0.13)</label></p>
 
-    <p><input type="checkbox"><label>1/2 tsp salt ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>3/4 cup powdered sugar, divided ($0.15)</label></p>
-
-    <p><input type="checkbox"><label>2 tsp baking powder ($0.08)</label></p>
-
-    <p><input type="checkbox"><label>2 tsp poppy seeds ($0.20)</label></p>
-
-    <p><input type="checkbox"><label>1 cup heavy whipping cream ($1.83)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat the oven to 400ºF. Line a baking sheet with parchment. Use a small-holed cheese grater or a zester to remove the zest from the lemon, then squeeze the juice into a separate bowl. You&#39;ll need about 1 tsp of zest and 1 Tbsp juice.</label></p>
-
-    <p><input type="checkbox"><label>In a large bowl, stir together the flour, salt, 1/4 cup powdered sugar, baking powder, poppy seeds, and 1 tsp lemon zest. Make sure these ingredients are well combined.</label></p>
-
-    <p><input type="checkbox"><label>Stir the cream into the dry ingredients until a shaggy ball of dough forms. The dough will be fairly sticky. Turn the dough out onto a floured surface, divide it into three pieces, and shape each piece into a disc (about 3 inches diameter). Cut each disc into six triangles.</label></p>
-
-    <p><input type="checkbox"><label>Arrange the cut scones on the prepared baking sheet. Bake the scones for about 15 minutes, or until they just begin to barely turn golden brown on top.</label></p>
-
-    <p><input type="checkbox"><label>While the scones are baking, place the remaining 1/2 cup powdered sugar in a bowl. Stir in about 1 Tbsp lemon juice, or just enough to form a thick glaze.</label></p>
-
-    <p><input type="checkbox"><label>When the scones have baked, remove them from the oven, let them cool, then drizzle with the prepared lemon glaze.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat the oven to 400ºF. Line a baking sheet with parchment. Use a small-holed cheese grater or a zester to remove the zest from the lemon, then squeeze the juice into a separate bowl. You&#39;ll need about 1 tsp of zest and 1 Tbsp juice.</label></p>
+    
+        <p><input type="checkbox"><label>In a large bowl, stir together the flour, salt, 1/4 cup powdered sugar, baking powder, poppy seeds, and 1 tsp lemon zest. Make sure these ingredients are well combined.</label></p>
+    
+        <p><input type="checkbox"><label>Stir the cream into the dry ingredients until a shaggy ball of dough forms. The dough will be fairly sticky. Turn the dough out onto a floured surface, divide it into three pieces, and shape each piece into a disc (about 3 inches diameter). Cut each disc into six triangles.</label></p>
+    
+        <p><input type="checkbox"><label>Arrange the cut scones on the prepared baking sheet. Bake the scones for about 15 minutes, or until they just begin to barely turn golden brown on top.</label></p>
+    
+        <p><input type="checkbox"><label>While the scones are baking, place the remaining 1/2 cup powdered sugar in a bowl. Stir in about 1 Tbsp lemon juice, or just enough to form a thick glaze.</label></p>
+    
+        <p><input type="checkbox"><label>When the scones have baked, remove them from the oven, let them cool, then drizzle with the prepared lemon glaze.</label></p>
+    
 
 <p><a href=https://budgetbytes.com/lemon-poppy-seed-two-bite-scones target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-23</p>

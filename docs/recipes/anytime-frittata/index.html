@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -288,41 +295,45 @@
 <blockquote>Frittata is the ideal one-pan meal, easy enough to put together after work and classy enough to serve a crowd at Sunday brunch. Eat it warm, at room temperature or cold, next to a salad or piled inside a fluffy biscuit. Anything goes.</blockquote>
 <ul>
     <li>4-6 servings</li>
-    <li>Prep Time: </li>
-    <li>Cook Time: </li>
-    <li>Total Time: </li>
+    
+    
+    
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>8 large eggs</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>8 large eggs</label></p>
+    
+        <p><input type="checkbox"><label>1 cup whole or low-fat milk</label></p>
+    
+        <p><input type="checkbox"><label>1 cup grated pepper Jack cheese</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoons unsalted butter</label></p>
+    
+        <p><input type="checkbox"><label>1 yellow or white onion, cut into 1/4-inch slices</label></p>
+    
+        <p><input type="checkbox"><label>8 ounces sliced mushrooms</label></p>
+    
+        <p><input type="checkbox"><label>1/2 red bell pepper ($0.75)</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
+    
 
-    <p><input type="checkbox"><label>1 cup whole or low-fat milk</label></p>
 
-    <p><input type="checkbox"><label>1 cup grated pepper Jack cheese</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoons unsalted butter</label></p>
-
-    <p><input type="checkbox"><label>1 yellow or white onion, cut into 1/4-inch slices</label></p>
-
-    <p><input type="checkbox"><label>8 ounces sliced mushrooms</label></p>
-
-    <p><input type="checkbox"><label>1/2 red bell pepper ($0.75)</label></p>
-
-    <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat the oven to 350 degrees. Whisk together the eggs, milk and half the cheese in a mixing bowl. Season lightly with salt and pepper.</label></p>
-
-    <p><input type="checkbox"><label>Heat a 12-inch ovenproof nonstick skillet over medium heat. Add 1 tablespoon of the butter. Once the butter has melted and stopped foaming, add the onion, mushrooms and red bell pepper. Cook for 6 to 8 minutes, stirring frequently, until the onion has softened and started taking on some color and most of the moisture released by the mushrooms has evaporated.</label></p>
-
-    <p><input type="checkbox"><label>Transfer the vegetable mixture to a plate. Wipe out the skillet and return it to the stove top, over medium-high heat.</label></p>
-
-    <p><input type="checkbox"><label>Add the oil and the remaining tablespoon of butter. Once the butter melts and the oil begins to shimmer, pour in the egg mixture. Cook for 1 to 2 minutes, until it just begins to set around the edges. (If the eggs are bubbling too much or getting too firm elsewhere, reduce the heat.) Scatter the vegetable mixture over the eggs, then the remaining cheese.</label></p>
-
-    <p><input type="checkbox"><label>Transfer to the oven; bake (middle rack) for 20 to 25 minutes, until the frittata looks puffy (it will deflate when it comes out of the oven) and golden brown on the edges and in spots.</label></p>
-
-    <p><input type="checkbox"><label>Let cool for a few minutes, then run a heatproof spatula around the edges and slide onto a large plate for serving. Or serve directly from the skillet.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat the oven to 350 degrees. Whisk together the eggs, milk and half the cheese in a mixing bowl. Season lightly with salt and pepper.</label></p>
+    
+        <p><input type="checkbox"><label>Heat a 12-inch ovenproof nonstick skillet over medium heat. Add 1 tablespoon of the butter. Once the butter has melted and stopped foaming, add the onion, mushrooms and red bell pepper. Cook for 6 to 8 minutes, stirring frequently, until the onion has softened and started taking on some color and most of the moisture released by the mushrooms has evaporated.</label></p>
+    
+        <p><input type="checkbox"><label>Transfer the vegetable mixture to a plate. Wipe out the skillet and return it to the stove top, over medium-high heat.</label></p>
+    
+        <p><input type="checkbox"><label>Add the oil and the remaining tablespoon of butter. Once the butter melts and the oil begins to shimmer, pour in the egg mixture. Cook for 1 to 2 minutes, until it just begins to set around the edges. (If the eggs are bubbling too much or getting too firm elsewhere, reduce the heat.) Scatter the vegetable mixture over the eggs, then the remaining cheese.</label></p>
+    
+        <p><input type="checkbox"><label>Transfer to the oven; bake (middle rack) for 20 to 25 minutes, until the frittata looks puffy (it will deflate when it comes out of the oven) and golden brown on the edges and in spots.</label></p>
+    
+        <p><input type="checkbox"><label>Let cool for a few minutes, then run a heatproof spatula around the edges and slide onto a large plate for serving. Or serve directly from the skillet.</label></p>
+    
 
 <p><a href=https://www.washingtonpost.com/recipes/anytime-frittata/16345/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2019-02-09</p>

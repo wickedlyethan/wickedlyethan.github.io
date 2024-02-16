@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,37 +299,41 @@
     <li>Cook Time: 10 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1.5 cups pearl couscous ($2.20)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1.5 cups pearl couscous ($2.20)</label></p>
+    
+        <p><input type="checkbox"><label>1 fresh lemon ($0.89)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp olive oil ($0.32)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp garlic powder ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp salt ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1 English cucumber ($1.49)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 bunch parsley ($0.27)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp freshly cracked pepper ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>3 oz. feta cheese, crumbled ($1.23)</label></p>
+    
 
-    <p><input type="checkbox"><label>1 fresh lemon ($0.89)</label></p>
 
-    <p><input type="checkbox"><label>2 Tbsp olive oil ($0.32)</label></p>
-
-    <p><input type="checkbox"><label>1/4 tsp garlic powder ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1/4 tsp salt ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1 English cucumber ($1.49)</label></p>
-
-    <p><input type="checkbox"><label>1/4 bunch parsley ($0.27)</label></p>
-
-    <p><input type="checkbox"><label>1/4 tsp freshly cracked pepper ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>3 oz. feta cheese, crumbled ($1.23)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Bring a pot of water to a boil. Add the couscous and continue to boil for about 5 minutes, or until the couscous is tender. Drain the couscous in a colander or wire strainer. Rinse briefly with cool water to cool off the couscous, then allow to drain while you prepare the rest of the salad.</label></p>
-
-    <p><input type="checkbox"><label>Zest the lemon and then squeeze the juice. You&#39;ll need about ½ tsp of zest and 3 Tbsp of juice.</label></p>
-
-    <p><input type="checkbox"><label>Add the lemon juice, olive oil, garlic powder, salt, and some freshly cracked pepper to a bowl and stir to combine.</label></p>
-
-    <p><input type="checkbox"><label>Chop the cucumber into quarter-rounds and roughly chop the parsley.</label></p>
-
-    <p><input type="checkbox"><label>Add the cooled and drained couscous to a large bowl along with the cucumber, parsley, lemon zest, and feta. Pour the dressing over top, then stir to combine. Serve immediately or refrigerate until ready to eat.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Bring a pot of water to a boil. Add the couscous and continue to boil for about 5 minutes, or until the couscous is tender. Drain the couscous in a colander or wire strainer. Rinse briefly with cool water to cool off the couscous, then allow to drain while you prepare the rest of the salad.</label></p>
+    
+        <p><input type="checkbox"><label>Zest the lemon and then squeeze the juice. You&#39;ll need about ½ tsp of zest and 3 Tbsp of juice.</label></p>
+    
+        <p><input type="checkbox"><label>Add the lemon juice, olive oil, garlic powder, salt, and some freshly cracked pepper to a bowl and stir to combine.</label></p>
+    
+        <p><input type="checkbox"><label>Chop the cucumber into quarter-rounds and roughly chop the parsley.</label></p>
+    
+        <p><input type="checkbox"><label>Add the cooled and drained couscous to a large bowl along with the cucumber, parsley, lemon zest, and feta. Pour the dressing over top, then stir to combine. Serve immediately or refrigerate until ready to eat.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/lemony-cucumber-couscous-salad/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

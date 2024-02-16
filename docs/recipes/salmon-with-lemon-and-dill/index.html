@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,29 +299,33 @@
     <li>Cook Time: 25 Minutes</li>
     <li>Total Time: 35 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 pound salmon fillets</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 pound salmon fillets</label></p>
+    
+        <p><input type="checkbox"><label>0.25 cup butter, melted</label></p>
+    
+        <p><input type="checkbox"><label>5 tablespoons lemon juice</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon dried dill weed</label></p>
+    
+        <p><input type="checkbox"><label>0.25 teaspoon garlic powder</label></p>
+    
+        <p><input type="checkbox"><label>sea salt to taste</label></p>
+    
+        <p><input type="checkbox"><label>freshly ground black pepper to taste</label></p>
+    
 
-    <p><input type="checkbox"><label>0.25 cup butter, melted</label></p>
 
-    <p><input type="checkbox"><label>5 tablespoons lemon juice</label></p>
-
-    <p><input type="checkbox"><label>1 tablespoon dried dill weed</label></p>
-
-    <p><input type="checkbox"><label>0.25 teaspoon garlic powder</label></p>
-
-    <p><input type="checkbox"><label>sea salt to taste</label></p>
-
-    <p><input type="checkbox"><label>freshly ground black pepper to taste</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a medium baking dish.</label></p>
-
-    <p><input type="checkbox"><label>Place salmon in the baking dish. Mix butter and lemon juice in a small bowl, and drizzle over salmon. Season with dill, garlic powder, sea salt, and pepper.</label></p>
-
-    <p><input type="checkbox"><label>Bake in the preheated oven until salmon is easily flaked with a fork, about 25 minutes.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat the oven to 350 degrees F (175 degrees C). Lightly grease a medium baking dish.</label></p>
+    
+        <p><input type="checkbox"><label>Place salmon in the baking dish. Mix butter and lemon juice in a small bowl, and drizzle over salmon. Season with dill, garlic powder, sea salt, and pepper.</label></p>
+    
+        <p><input type="checkbox"><label>Bake in the preheated oven until salmon is easily flaked with a fork, about 25 minutes.</label></p>
+    
 
 <p><a href=https://www.allrecipes.com/recipe/87279/salmon-with-lemon-and-dill/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

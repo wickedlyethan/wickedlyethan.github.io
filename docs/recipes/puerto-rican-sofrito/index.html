@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -289,26 +296,30 @@
 <ul>
     <li>7 serving(s)</li>
     <li>Prep Time: 5 Minutes</li>
-    <li>Cook Time: </li>
-    <li>Total Time: </li>
+    
+    
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 yellow onion ($0.37)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 yellow onion ($0.37)</label></p>
+    
+        <p><input type="checkbox"><label>1 green bell pepper ($0.79)</label></p>
+    
+        <p><input type="checkbox"><label>1 bunch fresh cilantro ($0.89)</label></p>
+    
+        <p><input type="checkbox"><label>6 cloves garlic ($0.48)</label></p>
+    
 
-    <p><input type="checkbox"><label>1 green bell pepper ($0.79)</label></p>
 
-    <p><input type="checkbox"><label>1 bunch fresh cilantro ($0.89)</label></p>
-
-    <p><input type="checkbox"><label>6 cloves garlic ($0.48)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Peel the onion and deseed bell pepper, then quarter them. Rinse the cilantro and chop the bunch roughly.</label></p>
-
-    <p><input type="checkbox"><label>Add the onion, bell pepper, cilantro, and garlic to the bowl of a food processor. Pulse until a smooth, thick puree forms.</label></p>
-
-    <p><input type="checkbox"><label>Use the sofrito in a recipe immediately, store in an air-tight container for up to a month in the fridge, or portion into ice cube trays and store in the freezer for up to three months.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Peel the onion and deseed bell pepper, then quarter them. Rinse the cilantro and chop the bunch roughly.</label></p>
+    
+        <p><input type="checkbox"><label>Add the onion, bell pepper, cilantro, and garlic to the bowl of a food processor. Pulse until a smooth, thick puree forms.</label></p>
+    
+        <p><input type="checkbox"><label>Use the sofrito in a recipe immediately, store in an air-tight container for up to a month in the fridge, or portion into ice cube trays and store in the freezer for up to three months.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/how-to-make-sofrito/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2023-01-18</p>

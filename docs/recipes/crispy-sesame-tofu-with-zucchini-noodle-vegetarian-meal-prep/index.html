@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,45 +299,49 @@
     <li>Cook Time: 20 Minutes</li>
     <li>Total Time: 30 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1/2 cup Peanut butter</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1/2 cup Peanut butter</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoons Sesame Oil</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup Light low sodium Soy Sauce</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup Rice Vinegar</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon Chilli Flakes</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoons Maple Syrup (or Honey)</label></p>
+    
+        <p><input type="checkbox"><label>2-3 Garlic Cloves (roughly chopped)</label></p>
+    
+        <p><input type="checkbox"><label>1 knob Ginger (peeled and roughly chopped)</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon Oil</label></p>
+    
+        <p><input type="checkbox"><label>350 gms Firm Tofu (cut into small pieces)</label></p>
+    
+        <p><input type="checkbox"><label>Zucchinis (spiralized)</label></p>
+    
+        <p><input type="checkbox"><label>Sesame Seeds and Green Onions ( for topping)</label></p>
+    
 
-    <p><input type="checkbox"><label>2 tablespoons Sesame Oil</label></p>
 
-    <p><input type="checkbox"><label>1/4 cup Light low sodium Soy Sauce</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup Rice Vinegar</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon Chilli Flakes</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoons Maple Syrup (or Honey)</label></p>
-
-    <p><input type="checkbox"><label>2-3 Garlic Cloves (roughly chopped)</label></p>
-
-    <p><input type="checkbox"><label>1 knob Ginger (peeled and roughly chopped)</label></p>
-
-    <p><input type="checkbox"><label>1 tablespoon Oil</label></p>
-
-    <p><input type="checkbox"><label>350 gms Firm Tofu (cut into small pieces)</label></p>
-
-    <p><input type="checkbox"><label>Zucchinis (spiralized)</label></p>
-
-    <p><input type="checkbox"><label>Sesame Seeds and Green Onions ( for topping)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Make the Sauce</label></p>
-
-    <p><input type="checkbox"><label>In a blender or add all the ingredients for the sauce along with a splash of water and blend till smooth. Set aside 1/4 cup sauce and divide the rest in the mini sauce containers. You might be left with a little extra sauce which you can reserve for later - it works really well as a salad dressing!</label></p>
-
-    <p><input type="checkbox"><label>Cook the crispy tofu</label></p>
-
-    <p><input type="checkbox"><label>Heat oil in a pan and add the tofu. As soon as the tofu is a very light brown, add 1/4 cup sauce to the pan and toss the tofu in it. Cook everything on low heat. In some time, the sauce will start to evaporate and slowly it will start turning into golden brown and sticking to the pan and tofu. Things will become crispy and you finally you&#39;ll be left with crispy browned bits of tofu in the pan.</label></p>
-
-    <p><input type="checkbox"><label>Assemble</label></p>
-
-    <p><input type="checkbox"><label>To assemble the meal prep containers, divide zucchini noodles in the containers. Divide the tofu amongst the containers and place the mini sauce containers on one side. Place the lid and refrigerate for up to 5 days.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Make the Sauce</label></p>
+    
+        <p><input type="checkbox"><label>In a blender or add all the ingredients for the sauce along with a splash of water and blend till smooth. Set aside 1/4 cup sauce and divide the rest in the mini sauce containers. You might be left with a little extra sauce which you can reserve for later - it works really well as a salad dressing!</label></p>
+    
+        <p><input type="checkbox"><label>Cook the crispy tofu</label></p>
+    
+        <p><input type="checkbox"><label>Heat oil in a pan and add the tofu. As soon as the tofu is a very light brown, add 1/4 cup sauce to the pan and toss the tofu in it. Cook everything on low heat. In some time, the sauce will start to evaporate and slowly it will start turning into golden brown and sticking to the pan and tofu. Things will become crispy and you finally you&#39;ll be left with crispy browned bits of tofu in the pan.</label></p>
+    
+        <p><input type="checkbox"><label>Assemble</label></p>
+    
+        <p><input type="checkbox"><label>To assemble the meal prep containers, divide zucchini noodles in the containers. Divide the tofu amongst the containers and place the mini sauce containers on one side. Place the lid and refrigerate for up to 5 days.</label></p>
+    
 
 <p><a href=https://myfoodstory.com/crispy-sesame-tofu-zucchini-noodle-meal-prep-recipe/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,39 +299,43 @@
     <li>Cook Time: 14 Minutes</li>
     <li>Total Time: 24 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 cup all-purpose flour</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 cup all-purpose flour</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons chia seeds</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon baking powder</label></p>
+    
+        <p><input type="checkbox"><label>1/4 teaspoon baking soda</label></p>
+    
+        <p><input type="checkbox"><label>1/4 teaspoon salt</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup granulated sugar</label></p>
+    
+        <p><input type="checkbox"><label>1 large egg</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup milk</label></p>
+    
+        <p><input type="checkbox"><label>1/4 cup unsalted butter (melted)</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons lemon zest</label></p>
+    
 
-    <p><input type="checkbox"><label>2 teaspoons chia seeds</label></p>
 
-    <p><input type="checkbox"><label>1 teaspoon baking powder</label></p>
-
-    <p><input type="checkbox"><label>1/4 teaspoon baking soda</label></p>
-
-    <p><input type="checkbox"><label>1/4 teaspoon salt</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup granulated sugar</label></p>
-
-    <p><input type="checkbox"><label>1 large egg</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup milk</label></p>
-
-    <p><input type="checkbox"><label>1/4 cup unsalted butter (melted)</label></p>
-
-    <p><input type="checkbox"><label>2 teaspoons lemon zest</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat oven to 350 degrees Fahrenheit and butter or grease mini muffin pan. Set aside.</label></p>
-
-    <p><input type="checkbox"><label>In a large bowl, whisk together flour, chia seeds, baking powder, baking soda, and salt. Set aside.</label></p>
-
-    <p><input type="checkbox"><label>In a separate bowl, add sugar, egg, milk, butter, and lemon zest. Mix until fully combined. Add wet mixture to dry mixture and stir until just combined.</label></p>
-
-    <p><input type="checkbox"><label>Fill mini muffin tins halfway with batter. Bake for 12-14 minutes, or until a toothpick inserted in the middle comes out clean (or with crumbs, not batter).</label></p>
-
-    <p><input type="checkbox"><label>Allow pan to cool for 5 minutes before removing muffins from pan. If needed, use a butter knife around the edges of the pan to loosen your muffins. Allow to cool completely before storing in a sealed container.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat oven to 350 degrees Fahrenheit and butter or grease mini muffin pan. Set aside.</label></p>
+    
+        <p><input type="checkbox"><label>In a large bowl, whisk together flour, chia seeds, baking powder, baking soda, and salt. Set aside.</label></p>
+    
+        <p><input type="checkbox"><label>In a separate bowl, add sugar, egg, milk, butter, and lemon zest. Mix until fully combined. Add wet mixture to dry mixture and stir until just combined.</label></p>
+    
+        <p><input type="checkbox"><label>Fill mini muffin tins halfway with batter. Bake for 12-14 minutes, or until a toothpick inserted in the middle comes out clean (or with crumbs, not batter).</label></p>
+    
+        <p><input type="checkbox"><label>Allow pan to cool for 5 minutes before removing muffins from pan. If needed, use a butter knife around the edges of the pan to loosen your muffins. Allow to cool completely before storing in a sealed container.</label></p>
+    
 
 <p><a href=https://thetoastykitchen.com/lemon-chia-seed-mini-muffins/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

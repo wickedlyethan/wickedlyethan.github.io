@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,51 +299,55 @@
     <li>Cook Time: 22 Minutes</li>
     <li>Total Time: 32 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 1/2 cup granulated sugar</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 1/2 cup granulated sugar</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup packed light brown sugar</label></p>
+    
+        <p><input type="checkbox"><label>1 cup vegetable oil</label></p>
+    
+        <p><input type="checkbox"><label>3 large eggs</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons pure vanilla extract</label></p>
+    
+        <p><input type="checkbox"><label>2 1/2 cups all-purpose flour</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup unsweetened cocoa powder (I used Hershey&#39;s Special Dark)</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon salt</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon baking soda</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon ground cinnamon</label></p>
+    
+        <p><input type="checkbox"><label>2 cups finely grated zucchini, slightly drained</label></p>
+    
+        <p><input type="checkbox"><label>1 cup semisweet chocolate chips</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup mini milk chocolate chips, optional</label></p>
+    
 
-    <p><input type="checkbox"><label>1/2 cup packed light brown sugar</label></p>
 
-    <p><input type="checkbox"><label>1 cup vegetable oil</label></p>
-
-    <p><input type="checkbox"><label>3 large eggs</label></p>
-
-    <p><input type="checkbox"><label>2 teaspoons pure vanilla extract</label></p>
-
-    <p><input type="checkbox"><label>2 1/2 cups all-purpose flour</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup unsweetened cocoa powder (I used Hershey&#39;s Special Dark)</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon salt</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon baking soda</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon ground cinnamon</label></p>
-
-    <p><input type="checkbox"><label>2 cups finely grated zucchini, slightly drained</label></p>
-
-    <p><input type="checkbox"><label>1 cup semisweet chocolate chips</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup mini milk chocolate chips, optional</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Preheat oven to 350°F. Spray muffin pan wells with nonstick cooking spray or line with paper liners.</label></p>
-
-    <p><input type="checkbox"><label>In a large bowl with an electric mixer, beat together the sugars, oil, eggs, and vanilla until thoroughly combined.</label></p>
-
-    <p><input type="checkbox"><label>In a medium bowl, whisk together the flour, cocoa powder, salt, baking soda, and cinnamon.</label></p>
-
-    <p><input type="checkbox"><label>Gradually add the dry ingredients into the sugar mixture and mix until just combined.</label></p>
-
-    <p><input type="checkbox"><label>Fold in zucchini until it is evenly distributed into the batter. Stir in semisweet chocolate chips.</label></p>
-
-    <p><input type="checkbox"><label>Use a large cookie scoop (about 3 tablespoons) to distribute batter amongst the prepared muffin wells.</label></p>
-
-    <p><input type="checkbox"><label>If desired, sprinkle mini milk chocolate chips onto the top of each muffin.</label></p>
-
-    <p><input type="checkbox"><label>Bake in preheated oven for 18-22 minutes.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Preheat oven to 350°F. Spray muffin pan wells with nonstick cooking spray or line with paper liners.</label></p>
+    
+        <p><input type="checkbox"><label>In a large bowl with an electric mixer, beat together the sugars, oil, eggs, and vanilla until thoroughly combined.</label></p>
+    
+        <p><input type="checkbox"><label>In a medium bowl, whisk together the flour, cocoa powder, salt, baking soda, and cinnamon.</label></p>
+    
+        <p><input type="checkbox"><label>Gradually add the dry ingredients into the sugar mixture and mix until just combined.</label></p>
+    
+        <p><input type="checkbox"><label>Fold in zucchini until it is evenly distributed into the batter. Stir in semisweet chocolate chips.</label></p>
+    
+        <p><input type="checkbox"><label>Use a large cookie scoop (about 3 tablespoons) to distribute batter amongst the prepared muffin wells.</label></p>
+    
+        <p><input type="checkbox"><label>If desired, sprinkle mini milk chocolate chips onto the top of each muffin.</label></p>
+    
+        <p><input type="checkbox"><label>Bake in preheated oven for 18-22 minutes.</label></p>
+    
 
 <p><a href=https://www.mybakingaddiction.com/chocolate-zucchini-muffins/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -288,21 +295,25 @@
 <blockquote>Dark, bittersweet hot chocolate--made with water, not milk--is enjoyed in Mexico City as an alternative to coffee. It&#39;s prepared with a special Mexican chocolate that usually contains cinnamon, ground almonds and vanilla. Look for high-quality brands, such as Taza, Hernán, Rancho Gordo or Seasons of My Heart, which are sold in hockey puck-size disks. To create the classic foam, you can use a blender, a whisk or a wooden instrument called a molinillo and a tall, heatproof pitcher, such as a chocolatera. Both are available online.</blockquote>
 <ul>
     <li>4 serving(s)</li>
-    <li>Prep Time: </li>
-    <li>Cook Time: </li>
+    
+    
     <li>Total Time: 10 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>3 ½ cups water</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>3 ½ cups water</label></p>
+    
+        <p><input type="checkbox"><label>4 ounces high-quality Mexican chocolate, chopped</label></p>
+    
 
-    <p><input type="checkbox"><label>4 ounces high-quality Mexican chocolate, chopped</label></p>
 
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Bring water to a boil in a medium saucepan. Add chocolate, reduce heat to medium and stir until the chocolate is melted, 1 to 2 minutes. Pour into a heatproof pitcher. Using a molinillo (or large whisk) between your palms, quickly roll back and forth until foamy.</label></p>
-
-    <p><input type="checkbox"><label>Pour into mugs. Serve hot, frothing with the molinillo (or whisk) again to add more foam, if desired.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Bring water to a boil in a medium saucepan. Add chocolate, reduce heat to medium and stir until the chocolate is melted, 1 to 2 minutes. Pour into a heatproof pitcher. Using a molinillo (or large whisk) between your palms, quickly roll back and forth until foamy.</label></p>
+    
+        <p><input type="checkbox"><label>Pour into mugs. Serve hot, frothing with the molinillo (or whisk) again to add more foam, if desired.</label></p>
+    
 
 <p><a href=https://www.eatingwell.com/recipe/257141/chocolate-de-agua-mexican-hot-chocolate/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -288,51 +295,55 @@
 <blockquote>Any type of tomatoes will work, though cherry tomatoes hold their shape well. If what you’ve got is a couple of ripe beefsteaks or Romas, cut them into 1&#34; pieces and carry on.</blockquote>
 <ul>
     <li>4 serving(s)</li>
-    <li>Prep Time: </li>
-    <li>Cook Time: </li>
-    <li>Total Time: </li>
+    
+    
+    
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>¼ cup olive oil, plus more for drizzling</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>¼ cup olive oil, plus more for drizzling</label></p>
+    
+        <p><input type="checkbox"><label>5 garlic cloves, smashed</label></p>
+    
+        <p><input type="checkbox"><label>Kosher salt, freshly ground pepper</label></p>
+    
+        <p><input type="checkbox"><label>½ teaspoon crushed red pepper flakes</label></p>
+    
+        <p><input type="checkbox"><label>20 ounces cherry tomatoes</label></p>
+    
+        <p><input type="checkbox"><label>1 bunch Swiss chard, preferably rainbow</label></p>
+    
+        <p><input type="checkbox"><label>6 large eggs</label></p>
+    
+        <p><input type="checkbox"><label>4 thin slices country-style bread</label></p>
+    
+        <p><input type="checkbox"><label>1 lemon</label></p>
+    
+        <p><input type="checkbox"><label>Flaky sea salt or kosher salt</label></p>
+    
+        <p><input type="checkbox"><label>Handful of basil leaves</label></p>
+    
 
-    <p><input type="checkbox"><label>5 garlic cloves, smashed</label></p>
 
-    <p><input type="checkbox"><label>Kosher salt, freshly ground pepper</label></p>
-
-    <p><input type="checkbox"><label>½ teaspoon crushed red pepper flakes</label></p>
-
-    <p><input type="checkbox"><label>20 ounces cherry tomatoes</label></p>
-
-    <p><input type="checkbox"><label>1 bunch Swiss chard, preferably rainbow</label></p>
-
-    <p><input type="checkbox"><label>6 large eggs</label></p>
-
-    <p><input type="checkbox"><label>4 thin slices country-style bread</label></p>
-
-    <p><input type="checkbox"><label>1 lemon</label></p>
-
-    <p><input type="checkbox"><label>Flaky sea salt or kosher salt</label></p>
-
-    <p><input type="checkbox"><label>Handful of basil leaves</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Heat ¼ cup oil in a medium skillet over medium-high. When it just starts to shimmer, add garlic and season generously with kosher salt and black pepper. Cook, stirring constantly, until garlic is just turning golden around the edges, about 2 minutes. Stir in red pepper flakes, then add tomatoes and cook, tossing occasionally, until tomatoes look plumped and some of the skins start to split, about 2 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Reduce heat to medium. Cover pan and cook, stirring tomatoes every couple of minutes and lightly smashing them with a wooden spoon to encourage them to release some juices, until mixture is saucy and tomatoes are slightly deflated but still hold some shape, 5–7 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Meanwhile, strip leaves off Swiss chard stems and tear into bite-sized pieces (or bigger, your call). Reserve stems for your next sauté. Transfer leaves to a medium bowl.</label></p>
-
-    <p><input type="checkbox"><label>Reduce heat under tomatoes to medium-low (sauce should be bubbling gently). Carefully crack eggs into a large measuring glass, then slip one at a time into tomato mixture, spacing them evenly apart around perimeter of pan. Season eggs with salt and pepper, cover pan, and cook until whites are set but yolks are still runny, 4–6 minutes.</label></p>
-
-    <p><input type="checkbox"><label>While eggs are cooking, toast bread until crisp. Drizzle with oil, then firmly rub outside of lemon onto toasts to release aromatic oils from peel (you’ll smell it!). Sprinkle toasts with sea salt.</label></p>
-
-    <p><input type="checkbox"><label>Squeeze about 2 Tbsp. lemon juice over greens, then toss in basil. Drizzle some oil over and season with kosher salt and black pepper. Toss again to combine.</label></p>
-
-    <p><input type="checkbox"><label>Scoop an egg out of pan, spooning it up from underneath to keep the yolk intact, and transfer to a small shallow bowl. Spoon extra sauce around egg and sprinkle with sea salt. Repeat with remaining eggs. Serve with salad and toasts alongside.</label></p>
-
-    <p><input type="checkbox"><label>Do Ahead: Tomato mixture can be made 1 day ahead. Let cool; cover and chill. Reheat over medium until simmering before adding eggs.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Heat ¼ cup oil in a medium skillet over medium-high. When it just starts to shimmer, add garlic and season generously with kosher salt and black pepper. Cook, stirring constantly, until garlic is just turning golden around the edges, about 2 minutes. Stir in red pepper flakes, then add tomatoes and cook, tossing occasionally, until tomatoes look plumped and some of the skins start to split, about 2 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Reduce heat to medium. Cover pan and cook, stirring tomatoes every couple of minutes and lightly smashing them with a wooden spoon to encourage them to release some juices, until mixture is saucy and tomatoes are slightly deflated but still hold some shape, 5–7 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Meanwhile, strip leaves off Swiss chard stems and tear into bite-sized pieces (or bigger, your call). Reserve stems for your next sauté. Transfer leaves to a medium bowl.</label></p>
+    
+        <p><input type="checkbox"><label>Reduce heat under tomatoes to medium-low (sauce should be bubbling gently). Carefully crack eggs into a large measuring glass, then slip one at a time into tomato mixture, spacing them evenly apart around perimeter of pan. Season eggs with salt and pepper, cover pan, and cook until whites are set but yolks are still runny, 4–6 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>While eggs are cooking, toast bread until crisp. Drizzle with oil, then firmly rub outside of lemon onto toasts to release aromatic oils from peel (you’ll smell it!). Sprinkle toasts with sea salt.</label></p>
+    
+        <p><input type="checkbox"><label>Squeeze about 2 Tbsp. lemon juice over greens, then toss in basil. Drizzle some oil over and season with kosher salt and black pepper. Toss again to combine.</label></p>
+    
+        <p><input type="checkbox"><label>Scoop an egg out of pan, spooning it up from underneath to keep the yolk intact, and transfer to a small shallow bowl. Spoon extra sauce around egg and sprinkle with sea salt. Repeat with remaining eggs. Serve with salad and toasts alongside.</label></p>
+    
+        <p><input type="checkbox"><label>Do Ahead: Tomato mixture can be made 1 day ahead. Let cool; cover and chill. Reheat over medium until simmering before adding eggs.</label></p>
+    
 
 <p><a href=https://www.bonappetit.com/recipe/eggs-in-purgatory target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

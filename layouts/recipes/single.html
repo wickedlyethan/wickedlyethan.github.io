@@ -1,19 +1,23 @@
 {{ define "main" }}
 <h1>{{.Params.name}}</h1>
-<blockquote>{{.Params.description}}</blockquote>
+{{if .Params.description}}<blockquote>{{.Params.description}}</blockquote>{{end}}
 <ul>
-    <li>{{.Params.servings}}</li>
-    <li>Prep Time: {{.Params.prep_time}}</li>
-    <li>Cook Time: {{.Params.cook_time}}</li>
-    <li>Total Time: {{.Params.total_time}}</li>
+    {{if .Params.servings}}<li>{{.Params.servings}}</li>{{end}}
+    {{if .Params.prep_time}}<li>Prep Time: {{.Params.prep_time}}</li>{{end}}
+    {{if .Params.cook_time}}<li>Cook Time: {{.Params.cook_time}}</li>{{end}}
+    {{if .Params.total_time}}<li>Total Time: {{.Params.total_time}}</li>{{end}}
 </ul>
-<h2>Ingredients</h2>
-{{range .Params.ingredients}}
-    <p><input type="checkbox"><label>{{.}}</label></p>
+{{if .Params.ingredients}}
+    <h2>Ingredients</h2>
+    {{range .Params.ingredients}}
+        <p><input type="checkbox"><label>{{.}}</label></p>
+    {{end}}
 {{end}}
-<h2>Directions</h2>
-{{range .Params.directions}}
-    <p><input type="checkbox"><label>{{.}}</label></p>
+{{if .Params.directions}}
+    <h2>Directions</h2>
+    {{range .Params.directions}}
+        <p><input type="checkbox"><label>{{.}}</label></p>
+    {{end}}
 {{end}}
 <p><a href={{.Params.source_url}} target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: {{.Params.date_added}}</p>

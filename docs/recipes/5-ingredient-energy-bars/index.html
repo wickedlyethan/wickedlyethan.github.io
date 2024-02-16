@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,29 +299,33 @@
     <li>Cook Time: 10 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 cup almonds*, pulsed or roughly chopped</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 cup almonds*, pulsed or roughly chopped</label></p>
+    
+        <p><input type="checkbox"><label>1 1/2 cup quick 1-minute oats, uncooked</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup honey (or maple syrup)**</label></p>
+    
+        <p><input type="checkbox"><label>1 cup almond butter (or nut butter of choice)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp. coconut oil, melted</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp. salt (optional)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup dried cranberries, dried tart cherries, chocolate chips, other dried fruits or nuts.</label></p>
+    
 
-    <p><input type="checkbox"><label>1 1/2 cup quick 1-minute oats, uncooked</label></p>
 
-    <p><input type="checkbox"><label>1/2 cup honey (or maple syrup)**</label></p>
-
-    <p><input type="checkbox"><label>1 cup almond butter (or nut butter of choice)</label></p>
-
-    <p><input type="checkbox"><label>2 Tbsp. coconut oil, melted</label></p>
-
-    <p><input type="checkbox"><label>1/2 tsp. salt (optional)</label></p>
-
-    <p><input type="checkbox"><label>1 cup dried cranberries, dried tart cherries, chocolate chips, other dried fruits or nuts.</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Place almonds, oats, and cranberries (or other mix ins you want) in a medium sized bowl. Heat the honey, coconut oil and nut butter in a small saucepan over low heat until mixed. Pour the peanut butter mixture over the oat and almond mixture and stir together.</label></p>
-
-    <p><input type="checkbox"><label>Once mixed, transfer to an 8x8-inch baking dish and flatten into a 1-inch thick square.</label></p>
-
-    <p><input type="checkbox"><label>Cover with plastic wrap and place in the fridge overnight or for 2-3 hours. Then, cut and store in an airtight container. Will stay good for up to 5 days in fridge. (I also like to store mine in a freezer safe baggie. When I am ready to grab a bar, I&#39;ll let it sit on the counter for 10 minutes to soften and then enjoy!)</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Place almonds, oats, and cranberries (or other mix ins you want) in a medium sized bowl. Heat the honey, coconut oil and nut butter in a small saucepan over low heat until mixed. Pour the peanut butter mixture over the oat and almond mixture and stir together.</label></p>
+    
+        <p><input type="checkbox"><label>Once mixed, transfer to an 8x8-inch baking dish and flatten into a 1-inch thick square.</label></p>
+    
+        <p><input type="checkbox"><label>Cover with plastic wrap and place in the fridge overnight or for 2-3 hours. Then, cut and store in an airtight container. Will stay good for up to 5 days in fridge. (I also like to store mine in a freezer safe baggie. When I am ready to grab a bar, I&#39;ll let it sit on the counter for 10 minutes to soften and then enjoy!)</label></p>
+    
 
 <p><a href=https://krollskorner.com/recipes/5-ingredient-energy-bars/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

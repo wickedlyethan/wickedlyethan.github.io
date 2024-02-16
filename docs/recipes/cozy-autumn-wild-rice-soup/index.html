@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,71 +299,75 @@
     <li>Cook Time: 45 Minutes</li>
     <li>Total Time: 1 Hour</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>6 cups vegetable stock (or chicken stock)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>6 cups vegetable stock (or chicken stock)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup uncooked wild rice*</label></p>
+    
+        <p><input type="checkbox"><label>8 ounces baby bella mushrooms, sliced</label></p>
+    
+        <p><input type="checkbox"><label>4 cloves garlic, minced</label></p>
+    
+        <p><input type="checkbox"><label>2 medium carrots, diced</label></p>
+    
+        <p><input type="checkbox"><label>2 ribs celery, diced</label></p>
+    
+        <p><input type="checkbox"><label>1 large (about 1 pound) sweet potato, peeled and diced</label></p>
+    
+        <p><input type="checkbox"><label>1 small white onion, peeled and diced</label></p>
+    
+        <p><input type="checkbox"><label>1 bay leaf</label></p>
+    
+        <p><input type="checkbox"><label>1 1/2 tablespoon Old Bay seasoning</label></p>
+    
+        <p><input type="checkbox"><label>1 (14-ounce) can unsweetened coconut milk (or see cream sauce option below*)</label></p>
+    
+        <p><input type="checkbox"><label>2 large handfuls of kale, roughly chopped with thick stems removed</label></p>
+    
+        <p><input type="checkbox"><label>fine sea salt and freshly-cracked black pepper</label></p>
+    
 
-    <p><input type="checkbox"><label>1 cup uncooked wild rice*</label></p>
 
-    <p><input type="checkbox"><label>8 ounces baby bella mushrooms, sliced</label></p>
-
-    <p><input type="checkbox"><label>4 cloves garlic, minced</label></p>
-
-    <p><input type="checkbox"><label>2 medium carrots, diced</label></p>
-
-    <p><input type="checkbox"><label>2 ribs celery, diced</label></p>
-
-    <p><input type="checkbox"><label>1 large (about 1 pound) sweet potato, peeled and diced</label></p>
-
-    <p><input type="checkbox"><label>1 small white onion, peeled and diced</label></p>
-
-    <p><input type="checkbox"><label>1 bay leaf</label></p>
-
-    <p><input type="checkbox"><label>1 1/2 tablespoon Old Bay seasoning</label></p>
-
-    <p><input type="checkbox"><label>1 (14-ounce) can unsweetened coconut milk (or see cream sauce option below*)</label></p>
-
-    <p><input type="checkbox"><label>2 large handfuls of kale, roughly chopped with thick stems removed</label></p>
-
-    <p><input type="checkbox"><label>fine sea salt and freshly-cracked black pepper</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Instant Pot (Pressure Cooker) Method:</label></p>
-
-    <p><input type="checkbox"><label>Combine base ingredients</label></p>
-
-    <p><input type="checkbox"><label>Combine vegetable stock, wild rice, mushrooms, garlic, carrots, celery, sweet potato, onion, bay leaf and Old Bay seasoning in the bowl of an Instant Pot pressure cooker. Stir briefly to combine.</label></p>
-
-    <p><input type="checkbox"><label>Pressure cook</label></p>
-
-    <p><input type="checkbox"><label>Cover and cook on manual (high pressure) for 25 minutes. Let the Instant Pot rest and naturally release the pressure for 10 minutes. Then carefully open the vent and quick release the remaining pressure. Remove lid and discard the bay leaf.</label></p>
-
-    <p><input type="checkbox"><label>Add final ingredients</label></p>
-
-    <p><input type="checkbox"><label>Add the coconut milk and kale to the soup, and stir gently until combined. Taste and season with salt and pepper (plus any extra Old Bay seasoning, if you would like) as needed.</label></p>
-
-    <p><input type="checkbox"><label>Serve warm and enjoy!</label></p>
-
-    <p><input type="checkbox"><label>Stovetop Method:</label></p>
-
-    <p><input type="checkbox"><label>Sauté the veggies</label></p>
-
-    <p><input type="checkbox"><label>Heat (an extra) 1 tablespoon butter or olive oil in a large stockpot over medium-high heat. Add onion and sauté for 5 minutes, stirring occasionally, until soft and translucent. Stir in the garlic and cook for an additional 1-2 minutes, stirring occasionally, until fragrant.</label></p>
-
-    <p><input type="checkbox"><label>Add base ingredients</label></p>
-
-    <p><input type="checkbox"><label>Add in the vegetable stock, wild rice, mushrooms, carrots, celery, sweet potato, bay leaf and Old Bay seasoning. Stir to combine.</label></p>
-
-    <p><input type="checkbox"><label>Simmer</label></p>
-
-    <p><input type="checkbox"><label>Continue cooking until the soup reaches a simmer. Then reduce heat to medium-low, cover and simmer for 30 to 40 minutes until the rice is tender, stirring occasionally.</label></p>
-
-    <p><input type="checkbox"><label>Add final ingredients</label></p>
-
-    <p><input type="checkbox"><label>Add the coconut milk and kale to the soup, and stir gently until combined. Taste and season with salt and pepper (plus any extra Old Bay seasoning, if you would like) as needed.</label></p>
-
-    <p><input type="checkbox"><label>Serve warm and enjoy!</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Instant Pot (Pressure Cooker) Method:</label></p>
+    
+        <p><input type="checkbox"><label>Combine base ingredients</label></p>
+    
+        <p><input type="checkbox"><label>Combine vegetable stock, wild rice, mushrooms, garlic, carrots, celery, sweet potato, onion, bay leaf and Old Bay seasoning in the bowl of an Instant Pot pressure cooker. Stir briefly to combine.</label></p>
+    
+        <p><input type="checkbox"><label>Pressure cook</label></p>
+    
+        <p><input type="checkbox"><label>Cover and cook on manual (high pressure) for 25 minutes. Let the Instant Pot rest and naturally release the pressure for 10 minutes. Then carefully open the vent and quick release the remaining pressure. Remove lid and discard the bay leaf.</label></p>
+    
+        <p><input type="checkbox"><label>Add final ingredients</label></p>
+    
+        <p><input type="checkbox"><label>Add the coconut milk and kale to the soup, and stir gently until combined. Taste and season with salt and pepper (plus any extra Old Bay seasoning, if you would like) as needed.</label></p>
+    
+        <p><input type="checkbox"><label>Serve warm and enjoy!</label></p>
+    
+        <p><input type="checkbox"><label>Stovetop Method:</label></p>
+    
+        <p><input type="checkbox"><label>Sauté the veggies</label></p>
+    
+        <p><input type="checkbox"><label>Heat (an extra) 1 tablespoon butter or olive oil in a large stockpot over medium-high heat. Add onion and sauté for 5 minutes, stirring occasionally, until soft and translucent. Stir in the garlic and cook for an additional 1-2 minutes, stirring occasionally, until fragrant.</label></p>
+    
+        <p><input type="checkbox"><label>Add base ingredients</label></p>
+    
+        <p><input type="checkbox"><label>Add in the vegetable stock, wild rice, mushrooms, carrots, celery, sweet potato, bay leaf and Old Bay seasoning. Stir to combine.</label></p>
+    
+        <p><input type="checkbox"><label>Simmer</label></p>
+    
+        <p><input type="checkbox"><label>Continue cooking until the soup reaches a simmer. Then reduce heat to medium-low, cover and simmer for 30 to 40 minutes until the rice is tender, stirring occasionally.</label></p>
+    
+        <p><input type="checkbox"><label>Add final ingredients</label></p>
+    
+        <p><input type="checkbox"><label>Add the coconut milk and kale to the soup, and stir gently until combined. Taste and season with salt and pepper (plus any extra Old Bay seasoning, if you would like) as needed.</label></p>
+    
+        <p><input type="checkbox"><label>Serve warm and enjoy!</label></p>
+    
 
 <p><a href=https://www.gimmesomeoven.com/cozy-autumn-wild-rice-soup/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

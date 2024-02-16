@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,10 +286,17 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
 <content>
+  This is my personal recipe book! Not my recipes unless otherwise noted, but stored in plain text for easy use. 
+
+<p>Also, here's a link to my favorite <a href="https://www.allrecipes.com/article/cup-to-gram-conversions/" target=”_blank” rel="noopener noreferrer">ingredient conversions</a>.</p>
+
+<hr>
   
   <ul class="blog-posts">
     

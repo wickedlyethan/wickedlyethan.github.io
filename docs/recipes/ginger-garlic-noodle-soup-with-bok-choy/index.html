@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,51 +299,55 @@
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>1 tablespoon olive oil</label></p>
+    
+        <p><input type="checkbox"><label>3 shallots (diced)</label></p>
+    
+        <p><input type="checkbox"><label>1 bunch green onions (chopped, green and white divided)</label></p>
+    
+        <p><input type="checkbox"><label>4 cloves garlic (minced)</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoon ginger (fresh, minced)</label></p>
+    
+        <p><input type="checkbox"><label>5.5 cups low sodium chicken broth (or vegetable broth for vegan)</label></p>
+    
+        <p><input type="checkbox"><label>2 whole star anise</label></p>
+    
+        <p><input type="checkbox"><label>2 tablespoon soy sauce (or Tamari for a Gluten Free option)</label></p>
+    
+        <p><input type="checkbox"><label>10 oz crimini mushrooms (sliced)</label></p>
+    
+        <p><input type="checkbox"><label>6 oz rice noodles</label></p>
+    
+        <p><input type="checkbox"><label>1.5 heads bok choy (roughly chopped)</label></p>
+    
+        <p><input type="checkbox"><label>sesame seeds (for topping)</label></p>
+    
+        <p><input type="checkbox"><label>red pepper flakes (for topping)</label></p>
+    
 
-    <p><input type="checkbox"><label>3 shallots (diced)</label></p>
 
-    <p><input type="checkbox"><label>1 bunch green onions (chopped, green and white divided)</label></p>
-
-    <p><input type="checkbox"><label>4 cloves garlic (minced)</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoon ginger (fresh, minced)</label></p>
-
-    <p><input type="checkbox"><label>5.5 cups low sodium chicken broth (or vegetable broth for vegan)</label></p>
-
-    <p><input type="checkbox"><label>2 whole star anise</label></p>
-
-    <p><input type="checkbox"><label>2 tablespoon soy sauce (or Tamari for a Gluten Free option)</label></p>
-
-    <p><input type="checkbox"><label>10 oz crimini mushrooms (sliced)</label></p>
-
-    <p><input type="checkbox"><label>6 oz rice noodles</label></p>
-
-    <p><input type="checkbox"><label>1.5 heads bok choy (roughly chopped)</label></p>
-
-    <p><input type="checkbox"><label>sesame seeds (for topping)</label></p>
-
-    <p><input type="checkbox"><label>red pepper flakes (for topping)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Heat 1-2 tablespoons olive oil in a medium-sized stockpot over medium heat.</label></p>
-
-    <p><input type="checkbox"><label>To the oil add the diced shallots and mix well. Cook over medium heat for 4-5 minutes, or until the shallots turn translucent and start to soften. Stir often.</label></p>
-
-    <p><input type="checkbox"><label>Chop the end off of each green onion- dividing the white part from the green part. Chop and set aside the green part for topping. Meanwhile, finely chop the white part of each green onion.</label></p>
-
-    <p><input type="checkbox"><label>Add the white part of the green onions, minced garlic, and ginger to the shallots and mix. Cook, stirring occasionally, for 1-2 minutes or until garlic and ginger is fragrant.</label></p>
-
-    <p><input type="checkbox"><label>Carefully pour the chicken stock or water (or mix) into the pot and bring to a simmer. To the pot add the star anise and soy sauce. Cover and continue to simmer for 10 minutes.</label></p>
-
-    <p><input type="checkbox"><label>Remove lid from the pot and carefully remove and discard each star anise from the soup.</label></p>
-
-    <p><input type="checkbox"><label>Add the sliced mushrooms, uncooked noodles, and bok choy to the pot and simmer for 5-8 minutes, or until noodles and bok choy are tender. Season to taste.</label></p>
-
-    <p><input type="checkbox"><label>Divide soup between bowls and garnish with sesame seeds, the green parts of green onions and red pepper flakes (if desired).</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Heat 1-2 tablespoons olive oil in a medium-sized stockpot over medium heat.</label></p>
+    
+        <p><input type="checkbox"><label>To the oil add the diced shallots and mix well. Cook over medium heat for 4-5 minutes, or until the shallots turn translucent and start to soften. Stir often.</label></p>
+    
+        <p><input type="checkbox"><label>Chop the end off of each green onion- dividing the white part from the green part. Chop and set aside the green part for topping. Meanwhile, finely chop the white part of each green onion.</label></p>
+    
+        <p><input type="checkbox"><label>Add the white part of the green onions, minced garlic, and ginger to the shallots and mix. Cook, stirring occasionally, for 1-2 minutes or until garlic and ginger is fragrant.</label></p>
+    
+        <p><input type="checkbox"><label>Carefully pour the chicken stock or water (or mix) into the pot and bring to a simmer. To the pot add the star anise and soy sauce. Cover and continue to simmer for 10 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>Remove lid from the pot and carefully remove and discard each star anise from the soup.</label></p>
+    
+        <p><input type="checkbox"><label>Add the sliced mushrooms, uncooked noodles, and bok choy to the pot and simmer for 5-8 minutes, or until noodles and bok choy are tender. Season to taste.</label></p>
+    
+        <p><input type="checkbox"><label>Divide soup between bowls and garnish with sesame seeds, the green parts of green onions and red pepper flakes (if desired).</label></p>
+    
 
 <p><a href=https://theforkedspoon.com/ginger-garlic-noodle-soup-with-bok-choy/?format&#61;amp target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2023-01-31</p>

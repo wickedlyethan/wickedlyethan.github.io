@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,41 +299,45 @@
     <li>Cook Time: 10 Minutes</li>
     <li>Total Time: 15 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>4 cups all-purpose flour</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>4 cups all-purpose flour</label></p>
+    
+        <p><input type="checkbox"><label>3 tablespoons baking powder</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons baking soda</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon salt</label></p>
+    
+        <p><input type="checkbox"><label>3 tablespoons sugar</label></p>
+    
+        <p><input type="checkbox"><label>1 cup pancake mix above</label></p>
+    
+        <p><input type="checkbox"><label>1 egg</label></p>
+    
+        <p><input type="checkbox"><label>1 cup milk (or as needed)</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon melted butter or oil</label></p>
+    
 
-    <p><input type="checkbox"><label>3 tablespoons baking powder</label></p>
 
-    <p><input type="checkbox"><label>2 teaspoons baking soda</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon salt</label></p>
-
-    <p><input type="checkbox"><label>3 tablespoons sugar</label></p>
-
-    <p><input type="checkbox"><label>1 cup pancake mix above</label></p>
-
-    <p><input type="checkbox"><label>1 egg</label></p>
-
-    <p><input type="checkbox"><label>1 cup milk (or as needed)</label></p>
-
-    <p><input type="checkbox"><label>1 tablespoon melted butter or oil</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Dry Pancake Mix</label></p>
-
-    <p><input type="checkbox"><label>Combine all ingredients. (You can easily double or triple this part)</label></p>
-
-    <p><input type="checkbox"><label>Store tightly sealed in a cool dry place.</label></p>
-
-    <p><input type="checkbox"><label>To Make Pancakes</label></p>
-
-    <p><input type="checkbox"><label>Preheat &amp; lightly grease a griddle or pan over medium to high heat.</label></p>
-
-    <p><input type="checkbox"><label>Combine 1 cup of pancake mix with egg, ½ cup milk &amp; butter or oil. Add additional milk as needed, you may need up to 1 cup.</label></p>
-
-    <p><input type="checkbox"><label>Pour ⅓ cup batter and cook until bubbles on the surface of the pancakes have popped (about 3-4 minutes). Flip and cook until the underside is light golden (another 1 – 2 minutes).</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Dry Pancake Mix</label></p>
+    
+        <p><input type="checkbox"><label>Combine all ingredients. (You can easily double or triple this part)</label></p>
+    
+        <p><input type="checkbox"><label>Store tightly sealed in a cool dry place.</label></p>
+    
+        <p><input type="checkbox"><label>To Make Pancakes</label></p>
+    
+        <p><input type="checkbox"><label>Preheat &amp; lightly grease a griddle or pan over medium to high heat.</label></p>
+    
+        <p><input type="checkbox"><label>Combine 1 cup of pancake mix with egg, ½ cup milk &amp; butter or oil. Add additional milk as needed, you may need up to 1 cup.</label></p>
+    
+        <p><input type="checkbox"><label>Pour ⅓ cup batter and cook until bubbles on the surface of the pancakes have popped (about 3-4 minutes). Flip and cook until the underside is light golden (another 1 – 2 minutes).</label></p>
+    
 
 <p><a href=https://www.spendwithpennies.com/homemade-pancake-mix/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,39 +299,43 @@
     <li>Cook Time: 18 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>Canola oil</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>Canola oil</label></p>
+    
+        <p><input type="checkbox"><label>4 bratwurst sausages</label></p>
+    
+        <p><input type="checkbox"><label>1 red onion, sliced</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup water, beer or stock</label></p>
+    
+        <p><input type="checkbox"><label>Kosher salt</label></p>
+    
 
-    <p><input type="checkbox"><label>4 bratwurst sausages</label></p>
 
-    <p><input type="checkbox"><label>1 red onion, sliced</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup water, beer or stock</label></p>
-
-    <p><input type="checkbox"><label>Kosher salt</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Heat a large cast-iron skillet with a drizzle of canola oil over medium-high heat until it just starts to smoke.</label></p>
-
-    <p><input type="checkbox"><label>With a fork, poke a few holes on each side of the bratwurst sausages to keep them from bursting while they cook.</label></p>
-
-    <p><input type="checkbox"><label>Place the brats in the hot skillet, then place the onions around them.</label></p>
-
-    <p><input type="checkbox"><label>Stir the onions to spread them around and coat with oil.</label></p>
-
-    <p><input type="checkbox"><label>Cook the brats for about 3 to 4 minutes per side, or until they are nicely browned.</label></p>
-
-    <p><input type="checkbox"><label>Carefully pour 1/2 cup of water into the skillet, then immediately cover and reduce the heat to medium-low.</label></p>
-
-    <p><input type="checkbox"><label>Continue to cook with the lid on for about 10 more minutes, or until the internal temperature reaches 160° F / 71° C</label></p>
-
-    <p><input type="checkbox"><label>Remove the lid and the brats from the skillet.</label></p>
-
-    <p><input type="checkbox"><label>Increase the heat and season the onions with salt. Continue to cook the onions for a few more minutes to reduce the liquid.</label></p>
-
-    <p><input type="checkbox"><label>Serve the sausages topped with the onions and your favorite mustard.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Heat a large cast-iron skillet with a drizzle of canola oil over medium-high heat until it just starts to smoke.</label></p>
+    
+        <p><input type="checkbox"><label>With a fork, poke a few holes on each side of the bratwurst sausages to keep them from bursting while they cook.</label></p>
+    
+        <p><input type="checkbox"><label>Place the brats in the hot skillet, then place the onions around them.</label></p>
+    
+        <p><input type="checkbox"><label>Stir the onions to spread them around and coat with oil.</label></p>
+    
+        <p><input type="checkbox"><label>Cook the brats for about 3 to 4 minutes per side, or until they are nicely browned.</label></p>
+    
+        <p><input type="checkbox"><label>Carefully pour 1/2 cup of water into the skillet, then immediately cover and reduce the heat to medium-low.</label></p>
+    
+        <p><input type="checkbox"><label>Continue to cook with the lid on for about 10 more minutes, or until the internal temperature reaches 160° F / 71° C</label></p>
+    
+        <p><input type="checkbox"><label>Remove the lid and the brats from the skillet.</label></p>
+    
+        <p><input type="checkbox"><label>Increase the heat and season the onions with salt. Continue to cook the onions for a few more minutes to reduce the liquid.</label></p>
+    
+        <p><input type="checkbox"><label>Serve the sausages topped with the onions and your favorite mustard.</label></p>
+    
 
 <p><a href=https://saltpepperskillet.com/recipes/bratwurst target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-23</p>

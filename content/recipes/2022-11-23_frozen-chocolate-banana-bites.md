@@ -11,7 +11,5 @@ total_time: null
 categories: ''
 tags: ''
 ingredients:
-- Could not detect ingredients
 directions:
-- Could not detect instructions
 ---

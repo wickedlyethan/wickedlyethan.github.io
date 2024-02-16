@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -288,39 +295,43 @@
 <blockquote>This shrimp scampi recipe gets an extra punch of garlicky flavor from a short marinade before cooking. Serve it with bread to sop up the rich pan sauce.</blockquote>
 <ul>
     <li>4 serving(s)</li>
-    <li>Prep Time: </li>
+    
     <li>Cook Time: 15 Minutes</li>
     <li>Total Time: 45 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>4 garlic cloves, 2 grated, 2 thinly sliced</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>4 garlic cloves, 2 grated, 2 thinly sliced</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon kosher salt</label></p>
+    
+        <p><input type="checkbox"><label>3 tablespoons olive oil, divided</label></p>
+    
+        <p><input type="checkbox"><label>1 pound large shrimp, peeled, deveined</label></p>
+    
+        <p><input type="checkbox"><label>¼ teaspoon red pepper flakes</label></p>
+    
+        <p><input type="checkbox"><label>¼ cup dry white wine</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon fresh lemon juice</label></p>
+    
+        <p><input type="checkbox"><label>¼ cup (½ stick) unsalted butter</label></p>
+    
+        <p><input type="checkbox"><label>3 tablespoons chopped parsley</label></p>
+    
+        <p><input type="checkbox"><label>Warm crusty bread (for serving)</label></p>
+    
 
-    <p><input type="checkbox"><label>1 teaspoon kosher salt</label></p>
 
-    <p><input type="checkbox"><label>3 tablespoons olive oil, divided</label></p>
-
-    <p><input type="checkbox"><label>1 pound large shrimp, peeled, deveined</label></p>
-
-    <p><input type="checkbox"><label>¼ teaspoon red pepper flakes</label></p>
-
-    <p><input type="checkbox"><label>¼ cup dry white wine</label></p>
-
-    <p><input type="checkbox"><label>1 tablespoon fresh lemon juice</label></p>
-
-    <p><input type="checkbox"><label>¼ cup (½ stick) unsalted butter</label></p>
-
-    <p><input type="checkbox"><label>3 tablespoons chopped parsley</label></p>
-
-    <p><input type="checkbox"><label>Warm crusty bread (for serving)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Whisk grated garlic, salt, and 1 Tbsp. oil in a medium bowl. Add shrimp, toss to coat, and chill, uncovered, at least 30 minutes and up to 1 hour.</label></p>
-
-    <p><input type="checkbox"><label>Heat remaining 2 Tbsp. oil in a large skillet over medium and cook shrimp mixture, being careful not to let shrimp or garlic brown, until shrimp is pink but still slightly underdone, about 1 minute per side. Transfer to a plate with a slotted spoon, leaving as much oil in pan as possible. Add sliced garlic and red pepper to skillet and cook, tossing, until fragrant, about 1 minute. Add wine and lemon juice and cook, stirring occasionally, until reduced by half, about 2 minutes. Add butter and cook, stirring and swirling pan occasionally, until butter is melted and sauce is thickened, about 5 minutes more.</label></p>
-
-    <p><input type="checkbox"><label>Scrape shrimp along with any accumulated juices into skillet. Toss to coat and cook until shrimp are fully cooked through, about 2 minutes. Transfer to a platter, top with parsley, and serve with bread for dipping alongside.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Whisk grated garlic, salt, and 1 Tbsp. oil in a medium bowl. Add shrimp, toss to coat, and chill, uncovered, at least 30 minutes and up to 1 hour.</label></p>
+    
+        <p><input type="checkbox"><label>Heat remaining 2 Tbsp. oil in a large skillet over medium and cook shrimp mixture, being careful not to let shrimp or garlic brown, until shrimp is pink but still slightly underdone, about 1 minute per side. Transfer to a plate with a slotted spoon, leaving as much oil in pan as possible. Add sliced garlic and red pepper to skillet and cook, tossing, until fragrant, about 1 minute. Add wine and lemon juice and cook, stirring occasionally, until reduced by half, about 2 minutes. Add butter and cook, stirring and swirling pan occasionally, until butter is melted and sauce is thickened, about 5 minutes more.</label></p>
+    
+        <p><input type="checkbox"><label>Scrape shrimp along with any accumulated juices into skillet. Toss to coat and cook until shrimp are fully cooked through, about 2 minutes. Transfer to a platter, top with parsley, and serve with bread for dipping alongside.</label></p>
+    
 
 <p><a href=https://www.bonappetit.com/recipe/shrimp-scampi target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-12-18</p>

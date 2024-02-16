@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,43 +299,47 @@
     <li>Cook Time: 12 Minutes</li>
     <li>Total Time: 20 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>4 medium zucchini (about 2 pounds)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>4 medium zucchini (about 2 pounds)</label></p>
+    
+        <p><input type="checkbox"><label>3 tablespoons extra virgin olive oil</label></p>
+    
+        <p><input type="checkbox"><label>1 tablespoon minced garlic (3 to 4 cloves)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 to 1/2 teaspoon crushed red pepper flakes, depending on how spicy you like the pasta</label></p>
+    
+        <p><input type="checkbox"><label>2 medium tomatoes, chopped, see note (about 12 ounces)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 cup shredded parmesan cheese, plus more for serving, see notes for alternatives</label></p>
+    
+        <p><input type="checkbox"><label>1 cup basil leaves, torn into pieces</label></p>
+    
+        <p><input type="checkbox"><label>1 teaspoon cornstarch</label></p>
+    
+        <p><input type="checkbox"><label>2 teaspoons cold water</label></p>
+    
+        <p><input type="checkbox"><label>Salt, to taste</label></p>
+    
 
-    <p><input type="checkbox"><label>3 tablespoons extra virgin olive oil</label></p>
 
-    <p><input type="checkbox"><label>1 tablespoon minced garlic (3 to 4 cloves)</label></p>
-
-    <p><input type="checkbox"><label>1/4 to 1/2 teaspoon crushed red pepper flakes, depending on how spicy you like the pasta</label></p>
-
-    <p><input type="checkbox"><label>2 medium tomatoes, chopped, see note (about 12 ounces)</label></p>
-
-    <p><input type="checkbox"><label>1/2 cup shredded parmesan cheese, plus more for serving, see notes for alternatives</label></p>
-
-    <p><input type="checkbox"><label>1 cup basil leaves, torn into pieces</label></p>
-
-    <p><input type="checkbox"><label>1 teaspoon cornstarch</label></p>
-
-    <p><input type="checkbox"><label>2 teaspoons cold water</label></p>
-
-    <p><input type="checkbox"><label>Salt, to taste</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Trim and spiralize the zucchini (see notes below for doing this without a spiralizer). Then cut the spiralized zucchini into long noodles to be about the length of spaghetti.</label></p>
-
-    <p><input type="checkbox"><label>Add olive oil, garlic, and the red pepper flakes to a large, deep skillet. Turn to medium heat. When the oil bubbles around the garlic, add the zucchini noodles.</label></p>
-
-    <p><input type="checkbox"><label>Toss the noodles with pasta tongs and cook until al dente — they should be wilted but still have a crunch; 5 to 7 minutes. Do not let the noodles cook any longer, or else they will become mushy. As they cook, keep tossing so that all the zucchini noodles have a chance to hit the bottom of the skillet.</label></p>
-
-    <p><input type="checkbox"><label>Stir in the tomatoes, basil, and parmesan cheese, and then cook for one minute. Use pasta tongs to transfer the noodles, tomatoes, and basil to a serving dish. Leave the liquid in the skillet.</label></p>
-
-    <p><input type="checkbox"><label>Bring the liquid left in the skillet to a simmer.</label></p>
-
-    <p><input type="checkbox"><label>Combine cornstarch and cold water in a small bowl, then whisk into the simmering liquid. Cook while whisking until the liquid thickens to a sauce; about 1 minute. Taste the sauce and season with salt.</label></p>
-
-    <p><input type="checkbox"><label>Pour the sauce over the zucchini, tomatoes, and basil. Finish with more parmesan cheese on top and serve immediately.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Trim and spiralize the zucchini (see notes below for doing this without a spiralizer). Then cut the spiralized zucchini into long noodles to be about the length of spaghetti.</label></p>
+    
+        <p><input type="checkbox"><label>Add olive oil, garlic, and the red pepper flakes to a large, deep skillet. Turn to medium heat. When the oil bubbles around the garlic, add the zucchini noodles.</label></p>
+    
+        <p><input type="checkbox"><label>Toss the noodles with pasta tongs and cook until al dente — they should be wilted but still have a crunch; 5 to 7 minutes. Do not let the noodles cook any longer, or else they will become mushy. As they cook, keep tossing so that all the zucchini noodles have a chance to hit the bottom of the skillet.</label></p>
+    
+        <p><input type="checkbox"><label>Stir in the tomatoes, basil, and parmesan cheese, and then cook for one minute. Use pasta tongs to transfer the noodles, tomatoes, and basil to a serving dish. Leave the liquid in the skillet.</label></p>
+    
+        <p><input type="checkbox"><label>Bring the liquid left in the skillet to a simmer.</label></p>
+    
+        <p><input type="checkbox"><label>Combine cornstarch and cold water in a small bowl, then whisk into the simmering liquid. Cook while whisking until the liquid thickens to a sauce; about 1 minute. Taste the sauce and season with salt.</label></p>
+    
+        <p><input type="checkbox"><label>Pour the sauce over the zucchini, tomatoes, and basil. Finish with more parmesan cheese on top and serve immediately.</label></p>
+    
 
 <p><a href=https://www.inspiredtaste.net/29992/garlic-zucchini-pasta-recipe/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

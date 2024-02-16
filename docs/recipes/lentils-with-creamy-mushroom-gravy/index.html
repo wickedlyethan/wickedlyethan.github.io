@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,39 +299,43 @@
     <li>Cook Time: 35 Minutes</li>
     <li>Total Time: 40 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>2 cloves garlic ($0.16)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>2 cloves garlic ($0.16)</label></p>
+    
+        <p><input type="checkbox"><label>8 oz. mushrooms ($1.69)</label></p>
+    
+        <p><input type="checkbox"><label>2 Tbsp olive oil ($0.32)</label></p>
+    
+        <p><input type="checkbox"><label>1 cup brown lentils ($0.50)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 tsp dried thyme ($0.05)</label></p>
+    
+        <p><input type="checkbox"><label>3/4 tsp rubbed (dried) sage ($0.07)</label></p>
+    
+        <p><input type="checkbox"><label>Freshly cracked black pepper ($0.03)</label></p>
+    
+        <p><input type="checkbox"><label>2 cups vegetable broth ($0.26)</label></p>
+    
+        <p><input type="checkbox"><label>1 13.5oz. can coconut milk ($1.99)</label></p>
+    
+        <p><input type="checkbox"><label>salt to taste (about 1/2 tsp) ($0.02)</label></p>
+    
 
-    <p><input type="checkbox"><label>8 oz. mushrooms ($1.69)</label></p>
 
-    <p><input type="checkbox"><label>2 Tbsp olive oil ($0.32)</label></p>
-
-    <p><input type="checkbox"><label>1 cup brown lentils ($0.50)</label></p>
-
-    <p><input type="checkbox"><label>1/2 tsp dried thyme ($0.05)</label></p>
-
-    <p><input type="checkbox"><label>3/4 tsp rubbed (dried) sage ($0.07)</label></p>
-
-    <p><input type="checkbox"><label>Freshly cracked black pepper ($0.03)</label></p>
-
-    <p><input type="checkbox"><label>2 cups vegetable broth ($0.26)</label></p>
-
-    <p><input type="checkbox"><label>1 13.5oz. can coconut milk ($1.99)</label></p>
-
-    <p><input type="checkbox"><label>salt to taste (about 1/2 tsp) ($0.02)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>Mince the garlic and slice the mushrooms. Add the olive oil and garlic to a large skillet and sauté for about one minute. Add the sliced mushrooms and continue to sauté until the mushrooms have released all their moisture and begin to brown.</label></p>
-
-    <p><input type="checkbox"><label>Add the lentils, sage, thyme, freshly cracked pepper, and vegetable broth to the skillet with the mushrooms. Stir to combine. Place a lid on the skillet, let the broth come up to a boil, then turn the heat down to medium-low. Let the lentils simmer for 20 minutes (with lid), stirring occasionally.</label></p>
-
-    <p><input type="checkbox"><label>After simmering for 20 minutes, the lentils should be tender and most of the broth absorbed. Add the coconut milk, stir to combine, turn the heat back up to medium, and let the lentils simmer for about five more minutes (without lid), or until the mixture in the skillet has thickened to a gravy.</label></p>
-
-    <p><input type="checkbox"><label>Once the mixture has thickened, turn the heat off. Taste the mixture and add salt to your liking. I added about 1/2 tsp. The salt will help the herbal flavors pop and reduce the sweetness of the coconut milk.</label></p>
-
-    <p><input type="checkbox"><label>Serve hot with crusty bread for dipping or over mashed potatoes, rice, or pasta.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>Mince the garlic and slice the mushrooms. Add the olive oil and garlic to a large skillet and sauté for about one minute. Add the sliced mushrooms and continue to sauté until the mushrooms have released all their moisture and begin to brown.</label></p>
+    
+        <p><input type="checkbox"><label>Add the lentils, sage, thyme, freshly cracked pepper, and vegetable broth to the skillet with the mushrooms. Stir to combine. Place a lid on the skillet, let the broth come up to a boil, then turn the heat down to medium-low. Let the lentils simmer for 20 minutes (with lid), stirring occasionally.</label></p>
+    
+        <p><input type="checkbox"><label>After simmering for 20 minutes, the lentils should be tender and most of the broth absorbed. Add the coconut milk, stir to combine, turn the heat back up to medium, and let the lentils simmer for about five more minutes (without lid), or until the mixture in the skillet has thickened to a gravy.</label></p>
+    
+        <p><input type="checkbox"><label>Once the mixture has thickened, turn the heat off. Taste the mixture and add salt to your liking. I added about 1/2 tsp. The salt will help the herbal flavors pop and reduce the sweetness of the coconut milk.</label></p>
+    
+        <p><input type="checkbox"><label>Serve hot with crusty bread for dipping or over mashed potatoes, rice, or pasta.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/lentils-with-creamy-mushroom-gravy/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-27</p>

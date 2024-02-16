@@ -206,7 +206,12 @@
         max-width:33em;
         font-family: var(--body-font-family);  
         font-weight: 400;
-        line-height: 1.65;
+
+        line-height: calc(1.5em + .2vw);
+        word-break: break-word;
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "liga";
+        letter-spacing: normal;
     }
     header {
         padding-bottom:1em;
@@ -235,7 +240,7 @@
         text-decoration-color: var(--decoration-color);
     }
     ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;}
+    li {padding-bottom:.5em;padding-left:.5em;}
     li span {position:relative;right:-0.5em;}
 
      
@@ -281,6 +286,8 @@
 
 <a href="/blog">Blog</a>
 
+
+<a href="/recipes">Recipes</a>
 </nav>
 </header>
   <main>
@@ -292,27 +299,31 @@
     <li>Cook Time: 45 Minutes</li>
     <li>Total Time: 18 Hours 45 Minutes</li>
 </ul>
-<h2>Ingredients</h2>
 
-    <p><input type="checkbox"><label>3 cups all-purpose flour ($0.29)</label></p>
+    <h2>Ingredients</h2>
+    
+        <p><input type="checkbox"><label>3 cups all-purpose flour ($0.29)</label></p>
+    
+        <p><input type="checkbox"><label>1/4 tsp instant or bread machine yeast ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1/2 Tbsp salt ($0.02)</label></p>
+    
+        <p><input type="checkbox"><label>1.5 to 1.75 cup water* ($0.00)</label></p>
+    
 
-    <p><input type="checkbox"><label>1/4 tsp instant or bread machine yeast ($0.02)</label></p>
 
-    <p><input type="checkbox"><label>1/2 Tbsp salt ($0.02)</label></p>
-
-    <p><input type="checkbox"><label>1.5 to 1.75 cup water* ($0.00)</label></p>
-
-<h2>Directions</h2>
-
-    <p><input type="checkbox"><label>The day before baking, combine the flour, yeast, and salt in a large bowl and stir until they&#39;re well combined. Stir in about 1.5 to 1.75 cups room temperature water until a shaggy, sticky ball of dough forms and there is no dry flour left on the bottom of the bowl. Cover the bowl loosely with plastic and let it sit at room temperature for 12-18 hours.</label></p>
-
-    <p><input type="checkbox"><label>When you&#39;re ready to bake, sprinkle a little flour on top of the fermented dough, and scrape it out of the bowl (the dough should be very light, fluffy, and bubbly by this time). With well floured hands, shape the dough into a ball and place it on a piece of parchment paper. Let the dough rise for 30-60 minutes.</label></p>
-
-    <p><input type="checkbox"><label>While the dough is rising, preheat the oven to 425ºF, or the highest recommended temperature listed on the packaging for your parchment paper. Place the Dutch oven inside the oven as it heats, and make sure it sits in the fully heated oven for at least 15 minutes before baking the bread.</label></p>
-
-    <p><input type="checkbox"><label>Once the bread has risen and the Dutch oven is fully heated, carefully remove the Dutch oven from the oven (it will be EXTREMELY hot). Lift the parchment with the dough straight into the dutch oven and cover it with the lid.</label></p>
-
-    <p><input type="checkbox"><label>Return the Dutch oven to the oven and bake for 30 minutes. Carefully remove the lid and bake for another 15-20 minutes, or until the crust is a deep golden brown. Remove the Dutch oven from the oven, lift the bread out by by using the parchment paper, and allow it to cool before cutting open and serving.</label></p>
+    <h2>Directions</h2>
+    
+        <p><input type="checkbox"><label>The day before baking, combine the flour, yeast, and salt in a large bowl and stir until they&#39;re well combined. Stir in about 1.5 to 1.75 cups room temperature water until a shaggy, sticky ball of dough forms and there is no dry flour left on the bottom of the bowl. Cover the bowl loosely with plastic and let it sit at room temperature for 12-18 hours.</label></p>
+    
+        <p><input type="checkbox"><label>When you&#39;re ready to bake, sprinkle a little flour on top of the fermented dough, and scrape it out of the bowl (the dough should be very light, fluffy, and bubbly by this time). With well floured hands, shape the dough into a ball and place it on a piece of parchment paper. Let the dough rise for 30-60 minutes.</label></p>
+    
+        <p><input type="checkbox"><label>While the dough is rising, preheat the oven to 425ºF, or the highest recommended temperature listed on the packaging for your parchment paper. Place the Dutch oven inside the oven as it heats, and make sure it sits in the fully heated oven for at least 15 minutes before baking the bread.</label></p>
+    
+        <p><input type="checkbox"><label>Once the bread has risen and the Dutch oven is fully heated, carefully remove the Dutch oven from the oven (it will be EXTREMELY hot). Lift the parchment with the dough straight into the dutch oven and cover it with the lid.</label></p>
+    
+        <p><input type="checkbox"><label>Return the Dutch oven to the oven and bake for 30 minutes. Carefully remove the lid and bake for another 15-20 minutes, or until the crust is a deep golden brown. Remove the Dutch oven from the oven, lift the bread out by by using the parchment paper, and allow it to cool before cutting open and serving.</label></p>
+    
 
 <p><a href=https://www.budgetbytes.com/no-knead-bread/ target=”_blank” rel="noopener noreferrer">Source</a></p>
 <p>Date Added: 2022-11-23</p>
