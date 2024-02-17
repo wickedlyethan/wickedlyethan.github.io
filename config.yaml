@@ -6,6 +6,7 @@ publishDir: 'docs'
 
 baseURL: 'https://ethanthibault.com/'
 languageCode: 'en-us'
+enableRobotsTXT: false
 
 disableKinds: ["RSS", "sitemap"]
 
