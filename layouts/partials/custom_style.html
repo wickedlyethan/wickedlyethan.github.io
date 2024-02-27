@@ -5,13 +5,13 @@
         --text-color: black;
         --gradient-color: rgb(209, 208, 208);
         --dark-gradient-color: snow;
-        --link-underline-color:#99942b;
+        --link-underline-color:#DAA520;
         --decoration-color: #2B3099;
         --dark-mode-background-color:#4C4E52;
         --dark-mode-content-color: #F1EDF2;
         /* Typography Variables */
         --header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        --body-font-family: 'PT Serif', serif;
+        --body-font-family: 'Georgia', serif;
         --h1-font-size: 2.488rem;
         --h2-font-size: 2.074rem;
         --h3-font-size: 1.728rem;
@@ -89,5 +89,11 @@
     h5 {font-size: var(--h5-font-size)}
 
     small, .text_small {font-size: 0.75em;}
+
+    /* https://getcssscan.com/css-box-shadow-examples #50 */
+
+    content img {
+        box-shadow: rgba(218,165,32, 0.4) 5px 5px, rgba(218,165,32, 0.3) 10px 10px, rgba(218,165,32, 0.2) 15px 15px;
+    }
 
 </style>
