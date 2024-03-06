@@ -1,7 +1,7 @@
 ---
 source_url: https://budgetbytes.com/easy-cilantro-lime-chicken
 slug: easy-cilantro-lime-chicken
-name: Easy Cilantro Lime Chicken
+title: Easy Cilantro Lime Chicken
 date_added: '2022-11-27'
 description: Easy Cilantro Lime Chicken is full of the bright fresh flavors of summer.
   Cook it quickly in a skillet or throw it on the grill for a fast dinner!

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/24052/brigadeiro/
 slug: brigadeiro
-name: Brigadeiro
+title: Brigadeiro
 date_added: '2022-11-27'
 description: This brigadeiro recipe uses cooked cocoa, butter, and condensed milk,
   cooled and formed into bite-sized balls to make a popular Brazilian dessert.

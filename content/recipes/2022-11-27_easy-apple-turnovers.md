@@ -1,7 +1,7 @@
 ---
 source_url: https://www.justataste.com/easy-apple-turnovers-recipe/
 slug: easy-apple-turnovers
-name: Easy Apple Turnovers
+title: Easy Apple Turnovers
 date_added: '2022-11-27'
 description: Transform store-bought puff pastry into a family favorite recipe for
   Easy Apple Turnovers. These light and flaky pockets are bursting with fresh flavor

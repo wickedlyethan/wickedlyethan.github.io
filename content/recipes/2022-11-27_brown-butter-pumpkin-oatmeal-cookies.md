@@ -1,7 +1,7 @@
 ---
 source_url: https://sallysbakingaddiction.com/brown-butter-pumpkin-oatmeal-cookies/
 slug: brown-butter-pumpkin-oatmeal-cookies
-name: Brown Butter Pumpkin Oatmeal Cookies
+title: Brown Butter Pumpkin Oatmeal Cookies
 date_added: '2022-11-27'
 description: These soft and chewy brown butter pumpkin oatmeal cookies are the perfect
   choice if you’re looking for a fun, flavorful, and satisfying fall cookie recipe.

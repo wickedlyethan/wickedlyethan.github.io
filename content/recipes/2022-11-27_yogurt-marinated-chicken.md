@@ -1,7 +1,7 @@
 ---
 source_url: https://budgetbytes.com/yogurt-marinated-chicken
 slug: yogurt-marinated-chicken
-name: Yogurt Marinated Chicken
+title: Yogurt Marinated Chicken
 date_added: '2022-11-27'
 description: This tangy and garlicky Yogurt Marinated Chicken is full of warm spices
   and can be served several different ways!

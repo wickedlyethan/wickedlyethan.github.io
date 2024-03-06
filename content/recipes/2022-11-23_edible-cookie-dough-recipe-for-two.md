@@ -1,7 +1,7 @@
 ---
 source_url: https://www.familyfreshmeals.com/2014/04/edible-cookie-dough-recipe-two.html
 slug: edible-cookie-dough-recipe-for-two
-name: Edible Cookie Dough Recipe {for two}
+title: Edible Cookie Dough Recipe {for two}
 date_added: '2022-11-23'
 description: What if you want a quick treat for just you and your honey? This Edible
   Cookie Dough Recipe makes enough for two, or one if you are having a really bad

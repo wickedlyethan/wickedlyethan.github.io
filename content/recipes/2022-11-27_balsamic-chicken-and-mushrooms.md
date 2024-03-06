@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/balsamic-chicken-and-mushrooms/#wprm-recipe-container-46000
 slug: balsamic-chicken-and-mushrooms
-name: Balsamic Chicken and Mushrooms
+title: Balsamic Chicken and Mushrooms
 date_added: '2022-11-27'
 description: A quick buttery balsamic pan sauce brings a ton of flavor to these Balsamic
   Chicken and Mushrooms without a lot of work. Perfect for weeknight dinners!

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/arroz-con-pollo/
 slug: arroz-con-pollo-puerto-rican-chicken-and-rice
-name: Arroz Con Pollo (Puerto Rican Chicken and Rice)
+title: Arroz Con Pollo (Puerto Rican Chicken and Rice)
 date_added: '2023-01-18'
 description: This scrumptious Puerto Rican chicken and rice dish is a weekly staple
   at my house. Arroz con Pollo is an easy one-pot meal, that's ready in no time and

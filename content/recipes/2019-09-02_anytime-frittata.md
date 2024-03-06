@@ -1,7 +1,7 @@
 ---
 source_url: https://www.washingtonpost.com/recipes/anytime-frittata/16345/
 slug: anytime-frittata
-name: Anytime Frittata
+title: Anytime Frittata
 date_added: 2019-02-09
 description: Frittata is the ideal one-pan meal, easy enough to put together after work and classy enough to serve a crowd at Sunday brunch. Eat it warm, at room temperature or cold, next to a salad or piled inside a fluffy biscuit. Anything goes.
 servings: 4-6 servings

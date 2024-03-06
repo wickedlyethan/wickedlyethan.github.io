@@ -1,7 +1,7 @@
 ---
 source_url: https://eatwithclarity.com/peanut-tofu-buddha-bowl/
 slug: crispy-baked-peanut-tofu-bowl
-name: Crispy Baked Peanut Tofu Bowl
+title: Crispy Baked Peanut Tofu Bowl
 date_added: '2023-02-23'
 description: Simple, delicious, and approved by both kids and adults, this baked peanut
   tofu buddha bowl is the ultimate weeknight dinner recipe! It's vegan, gluten free,

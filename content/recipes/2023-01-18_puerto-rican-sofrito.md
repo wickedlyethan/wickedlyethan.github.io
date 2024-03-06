@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/how-to-make-sofrito/
 slug: puerto-rican-sofrito
-name: Puerto Rican Sofrito
+title: Puerto Rican Sofrito
 date_added: '2023-01-18'
 description: Sofrito is the aromatic flavor base of many Caribbean dishes. It's budget-friendly,
   easy to make, and pure magic in almost any savory recipe.

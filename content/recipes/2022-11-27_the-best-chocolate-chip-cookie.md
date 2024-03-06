@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies
 slug: the-best-chocolate-chip-cookie
-name: The Best Chocolate Chip Cookie
+title: The Best Chocolate Chip Cookie
 date_added: '2022-11-27'
 description: What makes this the best chocolate chip cookie recipe? Crispy edges,
   chewy centers, and classic cookie flavor with every batch. Oh, and no mixer required.

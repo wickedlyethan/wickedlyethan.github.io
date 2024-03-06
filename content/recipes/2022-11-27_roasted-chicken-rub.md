@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/238147/roasted-chicken-rub/
 slug: roasted-chicken-rub
-name: Roasted Chicken Rub
+title: Roasted Chicken Rub
 date_added: '2022-11-27'
 description: This seasoning for whole chicken is an herb and spice blend of paprika,
   garlic powder, thyme, rosemary, and sage — the perfect rub for roast chicken.

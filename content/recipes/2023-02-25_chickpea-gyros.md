@@ -1,7 +1,7 @@
 ---
 source_url: https://midwestfoodieblog.com/chickpea-gyros/
 slug: chickpea-gyros
-name: Chickpea Gyros
+title: Chickpea Gyros
 date_added: '2023-02-25'
 description: These chickpea gyros are a quick vegetarian dinner that takes just 10
   minutes to cook on your stovetop and only a few minutes to prep. That means you

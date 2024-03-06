@@ -1,7 +1,7 @@
 ---
 source_url: https://krollskorner.com/recipes/5-ingredient-energy-bars/
 slug: 5-ingredient-energy-bars
-name: 5-Ingredient Energy Bars
+title: 5-Ingredient Energy Bars
 date_added: '2022-11-27'
 description: Perfect energizing snack for on the go, or pair with a piece of fruit
   for breakfast!

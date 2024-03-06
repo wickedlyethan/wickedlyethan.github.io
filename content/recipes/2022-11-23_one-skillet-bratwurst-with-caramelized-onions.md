@@ -1,7 +1,7 @@
 ---
 source_url: https://saltpepperskillet.com/recipes/bratwurst
 slug: one-skillet-bratwurst-with-caramelized-onions
-name: One Skillet Bratwurst with Caramelized Onions
+title: One Skillet Bratwurst with Caramelized Onions
 date_added: '2022-11-23'
 description: The best and easiest method for how to cook brats. Only a few ingredients
   and less than 20 minutes. Perfect every time for an easy weeknight dinner, Sunday

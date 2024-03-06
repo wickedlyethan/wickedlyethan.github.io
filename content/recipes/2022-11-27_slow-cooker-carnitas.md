@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/slow-cooker-carnitas/
 slug: slow-cooker-carnitas
-name: Slow Cooker Carnitas
+title: Slow Cooker Carnitas
 date_added: '2022-11-27'
 description: Warm spices, fresh orange essence, and a low slow cook time makes this
   Slow Cooker Carnitas tender, juicy, and full of flavor. Perfect for tacos, burritos

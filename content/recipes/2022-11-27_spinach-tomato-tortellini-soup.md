@@ -1,7 +1,7 @@
 ---
 source_url: https://damndelicious.net/2014/09/06/spinach-tomato-tortellini-soup/
 slug: spinach-tomato-tortellini-soup
-name: Spinach Tomato Tortellini Soup
+title: Spinach Tomato Tortellini Soup
 date_added: '2022-11-27'
 description: The easiest, most comforting and hearty soup ever. All you need is 5
   min prep. SO EASY!

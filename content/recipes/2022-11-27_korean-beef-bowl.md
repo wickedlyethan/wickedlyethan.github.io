@@ -1,7 +1,7 @@
 ---
 source_url: https://damndelicious.net/2013/07/07/korean-beef-bowl/
 slug: korean-beef-bowl
-name: Korean Beef Bowl
+title: Korean Beef Bowl
 date_added: '2022-11-27'
 description: Tastes like Korean BBQ and is on your dinner table in just 15 min from
   start to finish! Seriously. It doesn't get any easier than this!

@@ -1,7 +1,7 @@
 ---
 source_url: https://thetoastykitchen.com/lemon-chia-seed-mini-muffins/
 slug: lemon-chia-seed-mini-muffins
-name: Lemon Chia Seed Mini Muffins
+title: Lemon Chia Seed Mini Muffins
 date_added: '2022-11-27'
 description: Make a batch of these quick and easy Lemon Chia Seed Mini Muffins today.
   These tiny, bite-sized muffins are filled with lemon flavor and a light, barely

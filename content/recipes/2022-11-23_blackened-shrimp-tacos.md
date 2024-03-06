@@ -1,7 +1,7 @@
 ---
 source_url: https://budgetbytes.com/blackened-shrimp-tacos
 slug: blackened-shrimp-tacos
-name: Blackened Shrimp Tacos
+title: Blackened Shrimp Tacos
 date_added: 2022-11-23
 description: Smoky and spicy shrimp, sweet and tangy slaw, and a zesty garlic lime sauce make these Blackened Shrimp Tacos seriously delicious!
 servings: 6 serving(s)

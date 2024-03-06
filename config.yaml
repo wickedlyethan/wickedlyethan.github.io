@@ -8,7 +8,7 @@ baseURL: 'https://ethanthibault.com/'
 languageCode: 'en-us'
 enableRobotsTXT: false
 
-disableKinds: ["RSS", "sitemap"]
+disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:

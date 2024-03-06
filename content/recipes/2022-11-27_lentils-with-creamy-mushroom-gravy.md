@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/lentils-with-creamy-mushroom-gravy/
 slug: lentils-with-creamy-mushroom-gravy
-name: Lentils with Creamy Mushroom Gravy
+title: Lentils with Creamy Mushroom Gravy
 date_added: '2022-11-27'
 description: These Lentils with Creamy Mushroom Gravy are an easy, hearty, and comforting
   vegan weeknight dinner, perfect for cold winter nights.

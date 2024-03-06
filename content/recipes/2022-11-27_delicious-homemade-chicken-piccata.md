@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/chicken-piccata/#wprm-recipe-container-31966
 slug: delicious-homemade-chicken-piccata
-name: Delicious Homemade Chicken Piccata
+title: Delicious Homemade Chicken Piccata
 date_added: '2022-11-27'
 description: This rich Chicken Piccata in a buttery lemon caper sauce is a fast, easy,
   and elegant answer to your weeknight dinner with just a few simple ingredients!

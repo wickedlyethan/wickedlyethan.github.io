@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/9599/quick-and-easy-brownies/
 slug: quick-and-easy-brownies
-name: Quick and Easy Brownies
+title: Quick and Easy Brownies
 date_added: '2022-11-27'
 description: This easy brownie recipe takes minutes to whip up in one bowl and just
   20 minutes to bake for a rich and chocolaty crowd-pleasing treat.

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/easiest-chocolate-birthday-cake
 slug: easiest-chocolate-birthday-cake
-name: Easiest Chocolate Birthday Cake
+title: Easiest Chocolate Birthday Cake
 date_added: '2022-11-27'
 description: Pure homemade birthday love. If you've got a bowl, a cheap hand mixer,
   and a couple of measuring cups, you can make this rich, chocolatey cake.

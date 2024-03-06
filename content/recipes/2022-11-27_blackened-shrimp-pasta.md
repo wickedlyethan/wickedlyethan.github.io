@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/blackened-shrimp-pasta/
 slug: blackened-shrimp-pasta
-name: Blackened Shrimp Pasta
+title: Blackened Shrimp Pasta
 date_added: '2022-11-27'
 description: This quick and easy 30 minute Blackened Shrimp Pasta with homemade blackening
   seasoning boasts huge flavor without a lot of work.

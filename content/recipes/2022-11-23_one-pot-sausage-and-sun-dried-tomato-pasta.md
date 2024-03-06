@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/one-pot-sausage-sun-dried-tomato-pasta/
 slug: one-pot-sausage-and-sun-dried-tomato-pasta
-name: One Pot Sausage and Sun Dried Tomato Pasta
+title: One Pot Sausage and Sun Dried Tomato Pasta
 date_added: '2022-11-23'
 description: This One Pot Sausage and Sun Dried Tomato Pasta cooks quickly and in
   one skillet so that no flavor is lost! Make dinner fast, easy, and delicious.

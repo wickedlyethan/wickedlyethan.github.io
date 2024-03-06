@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/sesame-glazed-salmon-and-green-beans
 slug: sesame-glazed-salmon-and-green-beans
-name: Sesame Glazed Salmon and Green Beans
+title: Sesame Glazed Salmon and Green Beans
 date_added: '2022-11-27'
 description: This incredible fast and easy Sesame Glazed Salmon dinner is faster than
   take-out and fancy enough to impress your friends and family.

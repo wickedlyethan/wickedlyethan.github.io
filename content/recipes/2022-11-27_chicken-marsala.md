@@ -1,7 +1,7 @@
 ---
 source_url: https://www.foodnetwork.com/recipes/tyler-florence/chicken-marsala-recipe-1951778
 slug: chicken-marsala
-name: Chicken Marsala
+title: Chicken Marsala
 date_added: '2022-11-27'
 description: For an Italian favorite, try Tyler Florence's Chicken Marsala recipe,
   a flavorful meal of mushrooms, prosciutto and Marsala wine over tender chicken.

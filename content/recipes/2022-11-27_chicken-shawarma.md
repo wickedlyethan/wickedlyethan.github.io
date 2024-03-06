@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/chicken-shawarma/
 slug: chicken-shawarma
-name: Chicken Shawarma
+title: Chicken Shawarma
 date_added: '2022-11-27'
 description: A magical blend of yogurt, lemon, and mediterranean spices makes this
   homemade chicken shawarma mouthwateringly delicious.

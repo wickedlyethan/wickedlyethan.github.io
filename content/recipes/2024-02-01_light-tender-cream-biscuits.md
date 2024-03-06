@@ -1,7 +1,7 @@
 ---
 source_url: https://www.seriouseats.com/light-tender-cream-biscuits-recipe
 slug: light-tender-cream-biscuits
-name: Light and Tender Cream Biscuits
+title: Light and Tender Cream Biscuits
 date_added: 2024-02-01
 description: Short of a box mix, this cream biscuit is the simplest biscuit out there.
 servings: 12 biscuits

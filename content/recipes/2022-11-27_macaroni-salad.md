@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/macaroni-salad/
 slug: macaroni-salad
-name: Macaroni Salad
+title: Macaroni Salad
 date_added: '2022-11-27'
 description: Macaroni Salad is an easy and inexpensive classic for potlucks, summer
   BBQs, or an easy side dish for dinner.

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/teriyaki-salmon-w-sriracha-mayo/#wprm-recipe-container-33041
 slug: teriyaki-salmon-with-sriracha-mayo
-name: Teriyaki Salmon with Sriracha Mayo
+title: Teriyaki Salmon with Sriracha Mayo
 date_added: '2022-11-23'
 description: Teriyaki Sriracha Salmon is incredibly easy to prepare, big on flavor,
   and a spicy yet creamy sriracha mayonnaise offers just the right kick.

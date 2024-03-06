@@ -1,7 +1,7 @@
 ---
 source_url: https://saltandlavender.com/creamy-tuscan-sausage-gnocchi
 slug: creamy-tuscan-sausage-gnocchi
-name: Creamy Tuscan Sausage Gnocchi
+title: Creamy Tuscan Sausage Gnocchi
 date_added: '2022-11-27'
 description: This creamy Tuscan sausage gnocchi is the ultimate comfort food! Italian
   sausage, sun-dried tomatoes, spinach, garlic, cream, and fresh basil make the most

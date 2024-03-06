@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/chipotle-portobello-oven-fajitas/
 slug: sheet-pan-portobello-fajitas
-name: Sheet Pan Portobello Fajitas
+title: Sheet Pan Portobello Fajitas
 date_added: '2022-11-23'
 description: Sheet Pan Portobello Fajitas are an easy and flavorful vegetarian dinner
   idea that all cooks on one pan for easy cleanup!

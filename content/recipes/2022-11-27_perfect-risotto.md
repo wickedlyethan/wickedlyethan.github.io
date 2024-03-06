@@ -1,7 +1,7 @@
 ---
 source_url: https://www.joshuaweissman.com/post/perfect-risotto
 slug: perfect-risotto
-name: Perfect Risotto
+title: Perfect Risotto
 date_added: '2022-11-27'
 description: 'Don''t be shy. Risotto is in fact one of the simplest dishes on the  planet.
   Just give it some good old fashioned TLC, some very basic  ingredients and you''ll

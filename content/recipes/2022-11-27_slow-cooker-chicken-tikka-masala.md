@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/slow-cooker-chicken-tikka-masala/#wprm-recipe-container-31002
 slug: slow-cooker-chicken-tikka-masala
-name: Slow Cooker Chicken Tikka Masala
+title: Slow Cooker Chicken Tikka Masala
 date_added: '2022-11-27'
 description: This Slow Cooker Chicken Tikka Masala boasts a rich and aromatic sauce,
   and tender juicy chicken. Make four servings for the price of one take out!

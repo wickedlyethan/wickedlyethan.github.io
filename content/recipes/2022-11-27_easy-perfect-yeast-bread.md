@@ -1,7 +1,7 @@
 ---
 source_url: https://gatherforbread.com/easy-perfect-yeast-bread/
 slug: easy-perfect-yeast-bread
-name: Easy Perfect Yeast Bread
+title: Easy Perfect Yeast Bread
 date_added: '2022-11-27'
 description: The easiest yeast bread I've ever made. So good that I make it several
   times each month. Makes 2 loaves, so you can share or freeze one for later.

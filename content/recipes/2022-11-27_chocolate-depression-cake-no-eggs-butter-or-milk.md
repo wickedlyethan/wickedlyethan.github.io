@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/chocolate-depression-cake/
 slug: chocolate-depression-cake-no-eggs-butter-or-milk
-name: Chocolate Depression Cake (No Eggs, Butter, or Milk)
+title: Chocolate Depression Cake (No Eggs, Butter, or Milk)
 date_added: '2022-11-27'
 description: This unique Chocolate Cake recipe, popularized during the great depression,
   is rich and chocolatey without the using any eggs, butter, or milk!

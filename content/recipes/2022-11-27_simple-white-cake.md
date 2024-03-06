@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/17481/simple-white-cake/
 slug: simple-white-cake
-name: Simple White Cake
+title: Simple White Cake
 date_added: '2022-11-27'
 description: This easy cake recipe requires just 7 ingredients and tastes like you
   spent hours making it, even though it's out of the oven in under an hour.

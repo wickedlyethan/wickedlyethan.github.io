@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/shrimp-scampi
 slug: shrimp-scampi
-name: Shrimp Scampi
+title: Shrimp Scampi
 date_added: 2022-12-18
 description: This shrimp scampi recipe gets an extra punch of garlicky flavor from a short marinade before cooking. Serve it with bread to sop up the rich pan sauce.
 servings: 4 serving(s)

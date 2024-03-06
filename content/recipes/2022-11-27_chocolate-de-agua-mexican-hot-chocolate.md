@@ -1,7 +1,7 @@
 ---
 source_url: https://www.eatingwell.com/recipe/257141/chocolate-de-agua-mexican-hot-chocolate/
 slug: chocolate-de-agua-mexican-hot-chocolate
-name: Chocolate de Agua (Mexican Hot Chocolate)
+title: Chocolate de Agua (Mexican Hot Chocolate)
 date_added: '2022-11-27'
 description: Dark, bittersweet hot chocolate--made with water, not milk--is enjoyed
   in Mexico City as an alternative to coffee. It's prepared with a special Mexican
