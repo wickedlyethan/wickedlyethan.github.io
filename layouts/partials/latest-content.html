@@ -1,5 +1,13 @@
 <h2>Latest</h2>
-{{ $pages := where .Site.Pages "Section" "recipes"}}
-{{ range last 4 $pages }}
-  <p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+{{ range first 6 .Site.RegularPages }}
+  <div>
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{if in .Section "blog"}}{{- partial "post-data.html" . -}}{{end}}
+  {{if in .Section "recipe"}}
+    {{if .Params.description}}<blockquote>{{.Params.description}}</blockquote>
+  {{end}}
+  {{end}}
+  {{ .Summary }}
+  {{if or (in .Section "blog") (in .Section "recipe")}}<a href="{{ .RelPermalink }}">&rarr;</a>{{end}}
+  </div>
 {{ end }}

@@ -24,13 +24,13 @@
   {{- partial "custom_head.html" . -}}
 </head>
 
-<body style="position: absolute; top:50%; transform: translateY(-50%);">
+<body>
   <main>
+    <header>
+      {{- partial "header.html" . -}}
+    </header>
     {{- block "main" . }}{{- end }}
     <content>
-        <h1>Ethan Thibault, Future Writer</h1>
-        <h2>Behold, a landing page!</h2>
-        <h3>Someday there might be a proper website here, but for now there's nothing.</h3>
         {{partial "latest-content.html" .}}
     </content>
   </main>
