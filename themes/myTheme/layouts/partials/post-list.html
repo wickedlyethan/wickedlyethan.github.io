@@ -1,7 +1,0 @@
-<ul>
-    {{ range first 5 (where .Site.RegularPages "Section" "blog")}}
-        <li>
-            <span>{{ .Date.Format "2006-01-02" }} // <a href="{{ .Permalink }}">{{ .Title }}</a></span>
-        </li>
-    {{ end }}
-</ul>
