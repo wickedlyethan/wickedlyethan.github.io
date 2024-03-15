@@ -1,5 +1,13 @@
 :root {
-    --background-color:#4f523a;
+    /* Sherwin Williams Secret Garden */
+    /* --background-color:#4f523a; */
+    /* Sherwin Williams Night Watch, goes with secret garden */
+    /* --hover-color:#303636; */
+
+    /* Sherwin Williams Courtyard */
+    --background-color:#475842;
+    /* Sherwin Williams Fawn Brindle */
+    --hover-color:#a7a094;
 }
 * {box-sizing: border-box;}
 html {
@@ -31,7 +39,7 @@ a {
     text-decoration:none;
 }
 a:hover {
-    color:gray;
+    color:var(--hover-color);
 }
 body {
     display:flex;
@@ -41,7 +49,6 @@ body {
 }
 img {
     max-width:100%;
-    max-height:50vh;
 }
 
 /* Sidebar Styles */
@@ -91,7 +98,7 @@ main {
     margin-bottom:0.5em;
 }
 .post-data {
-    font-family:monospace;
+    font-weight:600;
 }
 article a {
     color: gold;

@@ -3,6 +3,12 @@ title: "Now"
 type: single
 menu: second
 ---
-Tempor ea aliqua aute reprehenderit sit cillum et sit occaecat. Occaecat officia quis proident ullamco fugiat Lorem magna et adipisicing aliqua pariatur elit irure ea. Nisi fugiat quis cupidatat consectetur. Amet occaecat non dolore anim occaecat quis laborum id. Cillum non sunt minim exercitation laborum deserunt esse amet. Et elit consectetur consectetur voluptate cupidatat dolor officia mollit dolor nisi cupidatat officia.
+![Profile illustration](/images/et_friendmaker.png "Made with 'friend maker' picrew by Rowan!")
 
-Eiusmod sunt laboris incididunt enim pariatur eiusmod. Culpa reprehenderit magna exercitation in aute cupidatat sint ea minim officia ea cillum. Irure consectetur do exercitation Lorem dolor eu laborum minim mollit tempor. Ex cupidatat adipisicing eiusmod adipisicing fugiat commodo incididunt. Minim do amet reprehenderit ullamco.
+Hi, I'm Ethan and I'm a technical writer in biotechnology in Massachusetts. 
+
+I love books and movies, have a love-hate relationship with games, play drums, and am getting back into photography. I try to be thoughtful about media and tech - the things I love I really love and the stuff I hate I try to understand, at least.
+
+I have a lot of stories I want to tell and am constantly struggling to carve out the time in life to write them, so I call myself a "writer" aspirationally for now!
+
+I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I want to post more and own it all. Indieweb vibes.
