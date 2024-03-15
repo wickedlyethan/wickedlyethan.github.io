@@ -7,5 +7,13 @@
         {{- end }}
         </ul>
     </nav>
+    <nav style="margin-top:2em;">
+        <ul>
+        {{range site.Menus.second}}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}
+        </ul>
+    </nav>
+
     {{- partial "human-badge.html" . -}}
 </div>

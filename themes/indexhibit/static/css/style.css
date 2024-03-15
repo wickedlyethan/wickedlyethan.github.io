@@ -75,10 +75,10 @@ img {
 }
 
 /* Main Styles */
-main, article {
+main {
     max-width:36em;
     /* margin:auto; */
-    margin: 13px 0 2.25em 2.25em;
+    margin: 36px 2.25em 2.25em 2.25em;
 }
 
 /* Blog */
@@ -106,7 +106,7 @@ article ol > li {
 
 /*https://type-scale.com/ Minor Third*/
 
-html {font-size: 112.5%;} /*18px*/
+/* html {font-size: 112.5%;} 18px */
 
 body {
     font-weight: 400;

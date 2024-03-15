@@ -7,7 +7,15 @@ languageCode: 'en-us'
 enableRobotsTXT: false
 
 disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
-sectionPagesMenu: main
+
+menus:
+  main:
+    - name: Blog
+      pageRef: /blog
+    - name: Photos
+      pageRef: /photos
+    - name: Recipebook
+      pageRef: /recipes
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
@@ -16,8 +24,9 @@ frontmatter:
   - :default
 
 Params:
-  author: 'Ethan Thibault'
-  description: 'Ethan Thibault is a writer'
+  title: 'wickedlyethan'
+  author: ''
+  description: ''
   headshot: '/images/et_friendmaker.png'
   gfonts: 'https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap'
   dateFormat: "2006-01-02"
