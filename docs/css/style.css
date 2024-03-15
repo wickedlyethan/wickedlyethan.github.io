@@ -50,7 +50,9 @@ body {
 img {
     max-width:100%;
 }
-
+.excerpt img {
+    max-height:50vh;
+}
 /* Sidebar Styles */
 .sidebar {
     position: -webkit-sticky;
