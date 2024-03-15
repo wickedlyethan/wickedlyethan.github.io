@@ -1,0 +1,12 @@
+{{ $latest := where .Site.RegularPages "Type" "in" "blog, photos"}}
+{{ range first 6 $latest }}
+  <div>
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{if in .Section "blog"}}{{- partial "post-data.html" . -}}{{end}}
+  {{if in .Section "recipe"}}
+    {{if .Params.description}}<blockquote>{{.Params.description}}</blockquote>
+  {{end}}
+  {{end}}
+  {{ .Summary }}
+  </div>
+{{ end }}
