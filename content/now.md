@@ -3,7 +3,7 @@ title: "Now"
 type: single
 menu: second
 ---
-![Profile illustration](/images/et_friendmaker.png "Made with 'friend maker' picrew by Rowan!")
+![Profile illustration](/images/et_friendmaker.png#profile-picture "Made with 'friend maker' picrew by Rowan!")
 
 Hi, I'm Ethan and I'm a technical writer in biotechnology in Massachusetts. 
 

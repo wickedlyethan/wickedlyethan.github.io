@@ -1,15 +1,10 @@
 {{ define "main" }}
-<main>
-  <ul class="blog-posts">
+<div style="display: grid;grid-template-columns: 6em 1fr;column-gap: 1em;row-gap:0.5em;">
     {{ range .Pages }}
-    <li>
-      <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
         {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
       </time>
-      //
       <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
     {{ end }}
-  </ul>
-</main>
+</div>
 {{ end }}

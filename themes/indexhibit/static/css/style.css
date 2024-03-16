@@ -87,7 +87,11 @@ img {
 main {
     max-width:36em;
     /* margin:auto; */
-    margin: 36px 2.25em 2.25em 2.25em;
+    margin: 41px 2.25em 2.25em 2.25em;
+}
+img[src$='#profile-picture'] {
+    max-height: 18em;
+    border-radius:50%;
 }
 
 /* Blog */
@@ -147,4 +151,21 @@ small, .text_small {font-size: 0.75em;}
 content img {
     box-shadow: rgba(218,165,32, 0.4) 5px 5px, rgba(218,165,32, 0.3) 10px 10px, rgba(218,165,32, 0.2) 15px 15px;
     max-height:50vh;
+}
+
+@media only screen and (max-width: 850px) {
+    body {
+        flex-wrap: wrap;
+    }
+    .sidebar {
+        height: 100%;
+        position:relative;
+        padding: 36px 0 0 36px;
+    }
+    .title {
+        margin-bottom:0.5em;
+    }
+    .human-badge {
+        position: relative;
+    }
 }
