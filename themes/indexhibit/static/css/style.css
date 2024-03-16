@@ -8,6 +8,9 @@
     --background-color:#475842;
     /* Sherwin Williams Fawn Brindle */
     --hover-color:#a7a094;
+
+    /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
+    font-size: calc(1rem + 0.25vw);
 }
 * {box-sizing: border-box;}
 html {
@@ -75,7 +78,7 @@ img {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size:112%;
+    /* font-size:112%; */
 }
 .human-badge {
     position:absolute;
