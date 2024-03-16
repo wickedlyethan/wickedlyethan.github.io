@@ -1,18 +1,10 @@
 {{ define "main" }}
-{{ .Content }}
-<ul class="blog-posts">
-  {{ range .Pages }}
-  <li>
+<div class="content-list">
+    {{ range .Pages }}
     <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
       {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
     </time>
-    //
-    <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-  </li>
-  {{ else }}
-  <li>
-    No posts yet
-  </li>
-  {{ end }}
-</ul>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ end }}
+</div>
 {{ end }}

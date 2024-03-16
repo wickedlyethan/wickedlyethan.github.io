@@ -66,6 +66,8 @@ img {
     width: 18em;
     height: 100vh;
     padding:36px;
+    display:flex;
+    flex-direction: column;
 }
 .title {
     display:block;
@@ -80,10 +82,9 @@ img {
     padding: 0;
     /* font-size:112%; */
 }
-.human-badge {
-    position:absolute;
-    bottom:0;
-    margin-bottom:2em;
+.sidebar-bottom {
+    margin-top:auto;
+    /* margin-bottom:2em; */
 }
 
 /* Main Styles */
@@ -97,15 +98,14 @@ img[src$='#profile-picture'] {
     border-radius:50%;
 }
 
+.content-list {
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    column-gap: 0.25em;
+    row-gap:0.5em;
+}
+
 /* Blog */
-.blog-posts {
-    list-style-type: none;
-    padding:0;
-    margin:0;
-}
-.blog-posts > li {
-    margin-bottom:0.5em;
-}
 .post-data {
     font-weight:600;
 }
@@ -169,6 +169,6 @@ content img {
         margin-bottom:0.5em;
     }
     .human-badge {
-        position: relative;
+        margin-top: 1em;
     }
 }
