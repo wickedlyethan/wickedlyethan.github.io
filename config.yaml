@@ -1,3 +1,4 @@
+title: 'wickedlyethan'
 theme: 'indexhibit'
 
 publishDir: 'docs'
@@ -14,8 +15,10 @@ menus:
       pageRef: /blog
     - name: Photos
       pageRef: /photos
+    - name: Notes
+      pageRef: /notes
     - name: Recipebook
-      pageRef: /recipes
+      pageRef: /recipes  
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
@@ -23,7 +26,8 @@ frontmatter:
   - :filename
   - :default
 
-title: 'wickedlyethan'
+permalinks:
+  blog: /blog/:year/:month/:slug/
 
 Params:
   author: ''

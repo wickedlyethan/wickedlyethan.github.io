@@ -31,13 +31,15 @@
     /* Sherwin Williams Fawn Brindle */
     --hover-color:#a7a094;
     
-
     /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
-    font-size: calc(1rem + 0.25vw);
+    font-size: calc(1rem + 0.1vw);
+
+    /* Default fonts */
+    --system-font: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 * {box-sizing: border-box;}
 html {
-    overscroll-behavior: none;;
+    overscroll-behavior: none;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -53,11 +55,11 @@ body {
     margin:0;
     overscroll-behavior: none;
     background-color: var(--background-color);
-    font-family: 'PublicSans-ExtraLight', system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     color: whitesmoke;
+    font-family: 'PublicSans-ExtraLight', var(--system-font);
 }
 h1,h2,h3,h4,h5,h6, .title {
-    font-family: "PublicSans-ExtraBold", system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "PublicSans-ExtraBold", var(--system-font);
 }
 a {
     color: inherit;
@@ -129,7 +131,7 @@ img[src$='#profile-picture'] {
 
 /* Blog */
 .post-data {
-    font-style:italic;
+    /* color:var(--hover-); */
 }
 p a {
     color: var(--link-color);
@@ -171,6 +173,14 @@ blockquote {
     margin:0;
 }
 
+/* Notes */
+
+.note p {
+    border-left: 1px solid var(--hover-color);
+    padding-left: 1em;
+    font-size:90%;
+}
+
 /*https://type-scale.com/ Minor Third*/
 
 /* html {font-size: 112.5%;} 18px */
@@ -210,6 +220,9 @@ content img {
 @media only screen and (max-width: 850px) {
     body {
         flex-wrap: wrap;
+    }
+    main {
+        margin: 41px 1.25em 1.25em 1.25em;
     }
     .sidebar {
         height: 100%;

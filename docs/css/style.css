@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'PublicSans';
+    src:url('/fonts/public-sans/PublicSans-Regular.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PublicSans-ExtraLight';
+    src:url('/fonts/public-sans/PublicSans-ExtraLight.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PublicSans-ExtraBold';
+    src:url('/fonts/public-sans/PublicSans-ExtraBold.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     /* Sherwin Williams Secret Garden */
     /* --background-color:#4f523a; */
@@ -6,12 +27,19 @@
 
     /* Sherwin Williams Courtyard */
     --background-color:#475842;
+    --link-color: gold;
     /* Sherwin Williams Fawn Brindle */
     --hover-color:#a7a094;
+    
+    /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
+    font-size: calc(1rem + 0.1vw);
+
+    /* Default fonts */
+    --system-font: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 * {box-sizing: border-box;}
 html {
-    overscroll-behavior: none;;
+    overscroll-behavior: none;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -27,12 +55,11 @@ body {
     margin:0;
     overscroll-behavior: none;
     background-color: var(--background-color);
-    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     color: whitesmoke;
+    font-family: 'PublicSans-ExtraLight', var(--system-font);
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Public Sans", sans-serif;
-    font-weight:800;
+h1,h2,h3,h4,h5,h6, .title {
+    font-family: "PublicSans-ExtraBold", var(--system-font);
 }
 a {
     color: inherit;
@@ -63,6 +90,8 @@ img {
     width: 18em;
     height: 100vh;
     padding:36px;
+    display:flex;
+    flex-direction: column;
 }
 .title {
     display:block;
@@ -75,12 +104,11 @@ img {
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size:112%;
+    /* font-size:112%; */
 }
-.human-badge {
-    position:absolute;
-    bottom:0;
-    margin-bottom:2em;
+.sidebar-bottom {
+    margin-top:auto;
+    /* margin-bottom:2em; */
 }
 
 /* Main Styles */
@@ -94,20 +122,19 @@ img[src$='#profile-picture'] {
     border-radius:50%;
 }
 
+.content-list {
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    column-gap: 0.25em;
+    row-gap:0.5em;
+}
+
 /* Blog */
-.blog-posts {
-    list-style-type: none;
-    padding:0;
-    margin:0;
-}
-.blog-posts > li {
-    margin-bottom:0.5em;
-}
 .post-data {
-    font-weight:600;
+    /* color:var(--hover-); */
 }
-article a {
-    color: gold;
+p a {
+    color: var(--link-color);
     text-decoration: underline;
     text-decoration-skip-ink: auto;
     text-decoration-color: var(--link-underline-color);
@@ -115,6 +142,43 @@ article a {
 }
 article ol > li {
     margin-bottom:0.5em;
+}
+blockquote {
+    border-left: 1px solid var(--link-color);
+    padding: 0.1em;
+    padding-left:1em;
+}
+
+/* Photos */
+
+.camera-roll {
+    margin:0;
+    padding:0;
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1em;
+    row-gap:1em;
+    justify-content: center;
+    align-items:center;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.photo-post img{
+    max-height:40vh;
+    /* max-width: 25vw; */
+}
+
+.photo-post p {
+    margin:0;
+}
+
+/* Notes */
+
+.note p {
+    border-left: 1px solid var(--hover-color);
+    padding-left: 1em;
+    font-size:90%;
 }
 
 /*https://type-scale.com/ Minor Third*/
@@ -157,6 +221,9 @@ content img {
     body {
         flex-wrap: wrap;
     }
+    main {
+        margin: 41px 1.25em 1.25em 1.25em;
+    }
     .sidebar {
         height: 100%;
         position:relative;
@@ -166,6 +233,6 @@ content img {
         margin-bottom:0.5em;
     }
     .human-badge {
-        position: relative;
+        margin-top: 1em;
     }
 }
