@@ -1,9 +1,7 @@
 {{ define "main" }}
-<ul class="blog-posts">
+<article>{{ .Content}}</article>
+<div class="camera-roll">
   {{ range .Pages }}
-  <li>
-    <a href="{{ .Permalink }}">{{ .Content }}</a>
-  </li>
+  <div class="photo-post"><a href="{{ .Permalink }}">{{ .Content }}</a></div>
   {{ end }}
-</ul>
 {{ end }}

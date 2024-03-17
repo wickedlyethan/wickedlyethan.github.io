@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'PublicSans';
+    src:url('/fonts/public-sans/PublicSans-Regular.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PublicSans-ExtraLight';
+    src:url('/fonts/public-sans/PublicSans-ExtraLight.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PublicSans-ExtraBold';
+    src:url('/fonts/public-sans/PublicSans-ExtraBold.woff2') format('woff2'),
+        url('/fonts/public-sans/PublicSans-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 :root {
     /* Sherwin Williams Secret Garden */
     /* --background-color:#4f523a; */
@@ -30,12 +51,11 @@ body {
     margin:0;
     overscroll-behavior: none;
     background-color: var(--background-color);
-    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: 'PublicSans-ExtraLight', system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     color: whitesmoke;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Public Sans", sans-serif;
-    font-weight:800;
+h1,h2,h3,h4,h5,h6, .title {
+    font-family: "PublicSans-ExtraBold", system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 a {
     color: inherit;
@@ -107,7 +127,7 @@ img[src$='#profile-picture'] {
 
 /* Blog */
 .post-data {
-    font-weight:600;
+    font-style:italic;
 }
 article a {
     color: gold;
@@ -118,6 +138,30 @@ article a {
 }
 article ol > li {
     margin-bottom:0.5em;
+}
+
+/* Photos */
+
+.camera-roll {
+    margin:0;
+    padding:0;
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1em;
+    row-gap:1em;
+    justify-content: center;
+    align-items:center;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.photo-post img{
+    max-height:40vh;
+    /* max-width: 25vw; */
+}
+
+.photo-post p {
+    margin:0;
 }
 
 /*https://type-scale.com/ Minor Third*/

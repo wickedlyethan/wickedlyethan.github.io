@@ -11,4 +11,4 @@ I love books and movies, have a love-hate relationship with games, play drums, a
 
 I have a lot of stories I want to tell and am constantly struggling to carve out the time in life to write them, so I call myself a "writer" aspirationally for now!
 
-I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I want to post more and own it all. Indieweb vibes.
+I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I want to post more and own it all.
