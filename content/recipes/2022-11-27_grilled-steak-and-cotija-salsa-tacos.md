@@ -1,7 +1,7 @@
 ---
 source_url: https://www.wisconsincheese.com/recipes/3745/grilled-steak-and-cotija-salsa-tacos
 slug: grilled-steak-and-cotija-salsa-tacos
-name: Grilled Steak and Cotija Salsa Tacos
+title: Grilled Steak and Cotija Salsa Tacos
 date_added: '2022-11-27'
 description: ''
 servings: 0 item(s)

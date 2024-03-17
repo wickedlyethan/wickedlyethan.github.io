@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/smoky-maple-roasted-acorn-squash/
 slug: smoky-maple-roasted-acorn-squash
-name: Smoky Maple Roasted Acorn Squash
+title: Smoky Maple Roasted Acorn Squash
 date_added: '2022-11-23'
 description: Smoky Maple Roasted Acorn Squash is an easy but elegant side dish that
   highlights fall produce. Easy enough for a week day, pretty enough for the holidays!

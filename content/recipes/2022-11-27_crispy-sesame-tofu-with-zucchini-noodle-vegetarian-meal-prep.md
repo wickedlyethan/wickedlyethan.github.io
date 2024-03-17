@@ -1,7 +1,7 @@
 ---
 source_url: https://myfoodstory.com/crispy-sesame-tofu-zucchini-noodle-meal-prep-recipe/
 slug: crispy-sesame-tofu-with-zucchini-noodle-vegetarian-meal-prep
-name: Crispy Sesame Tofu with Zucchini Noodle (Vegetarian Meal Prep)
+title: Crispy Sesame Tofu with Zucchini Noodle (Vegetarian Meal Prep)
 date_added: '2022-11-27'
 description: Crispy sesame tofu with zucchini noodles is the perfect healthy, vegetarian
   meal prep that is low carb, vegan and gluten free too. These meal prep lunches are

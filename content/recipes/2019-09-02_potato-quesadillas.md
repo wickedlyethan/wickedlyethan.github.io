@@ -1,7 +1,7 @@
 ---
 source_url: https://www.washingtonpost.com/recipes/potato-quesadillas/7246/
 slug: potato-quesadillas
-name: Potato Quesadillas
+title: Potato Quesadillas
 date_added: 2019-09-02
 description: Street vendors in Mexico City can't make enough of these. This version not only replaces the cheese with potato but also uses fat- free tortillas and fat-free chicken broth. Save leftovers for breakfast.
 servings: "4"

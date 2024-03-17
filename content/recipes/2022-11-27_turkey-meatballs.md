@@ -1,7 +1,7 @@
 ---
 source_url: https://www.culinaryhill.com/turkey-meatballs/
 slug: turkey-meatballs
-name: Turkey Meatballs
+title: Turkey Meatballs
 date_added: '2022-11-27'
 description: Leaner than beef, these Turkey Meatballs are healthy, packed with flavor,
   and incredibly moist on the inside. A combination of fresh and dried herbs give

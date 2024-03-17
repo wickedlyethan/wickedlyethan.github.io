@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/eggs-in-purgatory
 slug: eggs-in-purgatory
-name: Eggs in Purgatory
+title: Eggs in Purgatory
 date_added: '2022-11-27'
 description: Any type of tomatoes will work, though cherry tomatoes hold their shape
   well. If what you’ve got is a couple of ripe beefsteaks or Romas, cut them into

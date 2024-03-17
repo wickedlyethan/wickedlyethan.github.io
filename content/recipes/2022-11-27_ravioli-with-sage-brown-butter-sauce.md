@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/ravioli-with-sage-brown-butter-sauce-spinach-and-walnuts/
 slug: ravioli-with-sage-brown-butter-sauce
-name: Ravioli with Sage Brown Butter Sauce
+title: Ravioli with Sage Brown Butter Sauce
 date_added: '2022-11-27'
 description: Do something special for yourself and make this simple, yet elegant Ravioli
   with Sage Brown Butter Sauce. Restaurant quality without the enormous bill!

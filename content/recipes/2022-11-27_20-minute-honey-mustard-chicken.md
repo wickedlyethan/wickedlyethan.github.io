@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/20-minute-honey-mustard-chicken/#wprm-recipe-container-38489
 slug: 20-minute-honey-mustard-chicken
-name: 20 Minute Honey Mustard Chicken
+title: 20 Minute Honey Mustard Chicken
 date_added: '2022-11-27'
 description: This sweet and tangy 20 Minute Honey Mustard Chicken will be your new
   family favorite weeknight dinner. Only a few pantry staples needed!

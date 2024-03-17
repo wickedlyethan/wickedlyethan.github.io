@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/one-pot-creamy-cajun-chicken-pasta/
 slug: one-pot-creamy-cajun-chicken-pasta
-name: One Pot Creamy Cajun Chicken Pasta
+title: One Pot Creamy Cajun Chicken Pasta
 date_added: '2022-11-27'
 description: Cook a complete dinner in one pot with this Creamy Cajun Chicken Pasta,
   using mostly pantry-stable items. Perfect for busy weeknights!

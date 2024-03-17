@@ -1,0 +1,21 @@
+<div class="sidebar">
+    <a href="{{ "" | relURL }}" class="title">WCKD</a>
+    <nav>
+        <ul>
+        {{range site.Menus.main}}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}
+        </ul>
+    </nav>
+    <nav style="margin-top:2em;">
+        <ul>
+        {{range site.Menus.second}}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}
+        </ul>
+    </nav>
+    <div class="sidebar-bottom">
+        <img src="/images/BaBajaTrails8723construct.gif">
+    {{- partial "human-badge.html" . -}}
+    </div>
+</div>

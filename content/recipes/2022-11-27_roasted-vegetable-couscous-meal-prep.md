@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/roasted-vegetable-couscous-meal-prep/
 slug: roasted-vegetable-couscous-meal-prep
-name: Roasted Vegetable Couscous Meal Prep
+title: Roasted Vegetable Couscous Meal Prep
 date_added: '2022-11-27'
 description: Roasted Vegetable Couscous Meal Prep is a super filling, veggie-packed
   meal that can be made with chicken or vegetarian with chickpeas.

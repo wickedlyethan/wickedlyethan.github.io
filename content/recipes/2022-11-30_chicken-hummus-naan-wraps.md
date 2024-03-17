@@ -1,7 +1,7 @@
 ---
 source_url: https://www.therisingspoon.com/2018/02/chicken-hummus-naan-wraps.html
 slug: chicken-hummus-naan-wraps
-name: Chicken Hummus Naan Wraps
+title: Chicken Hummus Naan Wraps
 date_added: 2022-11-30
 description: An easy chicken wrap recipe you can throw together in just 15 minutes for a quick & healthy dinner or lunch. Featuring simple ingredients like shredded chicken, hummus, chopped fresh veggies, a homemade red wine vinaigrette, and crumbled cheese all piled onto a piece of soft & chewy naan bread (Indian flatbread). Fix this on a busy weeknight or prep it for the week ahead for grab & go meals.
 servings: 4 serving(s)

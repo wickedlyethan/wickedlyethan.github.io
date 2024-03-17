@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/blackened-salmon-with-zucchini/
 slug: blackened-salmon-with-zucchini
-name: Blackened Salmon with Zucchini
+title: Blackened Salmon with Zucchini
 date_added: '2022-11-27'
 description: Blackened salmon coated in Cajun spices, cooked to perfection in butter,
   and paired with simple sautéed zucchini makes a simple but delicious dinner!

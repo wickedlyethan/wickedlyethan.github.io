@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/one-pot-lemon-garlic-shrimp-and-rice/
 slug: one-pot-lemon-garlic-shrimp-and-rice
-name: One Pot Lemon Garlic Shrimp and Rice
+title: One Pot Lemon Garlic Shrimp and Rice
 date_added: '2022-11-27'
 description: You only need one pot and 8 ingredients to make this easy and flavorful
   Lemon Garlic Shrimp and Rice. Fast, easy, and delicious!

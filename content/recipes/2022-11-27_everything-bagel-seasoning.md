@@ -1,7 +1,7 @@
 ---
 source_url: https://twopeasandtheirpod.com/everything-bagel-seasoning
 slug: everything-bagel-seasoning
-name: Everything Bagel Seasoning
+title: Everything Bagel Seasoning
 date_added: '2022-11-27'
 description: Make your own Everything Bagel Seasoning at home! It only takes 5 spices
   and 5 minutes to make!

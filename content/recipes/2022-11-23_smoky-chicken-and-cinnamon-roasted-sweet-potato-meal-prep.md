@@ -1,7 +1,7 @@
 ---
 source_url: https://budgetbytes.com/smoky-chicken-and-cinnamon-roasted-sweet-potato-meal-prep
 slug: smoky-chicken-and-cinnamon-roasted-sweet-potato-meal-prep
-name: Smoky Chicken and Cinnamon Roasted Sweet Potato Meal Prep
+title: Smoky Chicken and Cinnamon Roasted Sweet Potato Meal Prep
 date_added: '2022-11-23'
 description: Smoky Chicken and Cinnamon Roasted Sweet Potato Meal Prep is an easy,
   delicious, filling, and healthy daily lunch or dinner.

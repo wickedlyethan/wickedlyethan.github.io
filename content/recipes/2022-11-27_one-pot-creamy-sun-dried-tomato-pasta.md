@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/one-pot-creamy-sun-dried-tomato-pasta/
 slug: one-pot-creamy-sun-dried-tomato-pasta
-name: One Pot Creamy Sun Dried Tomato Pasta
+title: One Pot Creamy Sun Dried Tomato Pasta
 date_added: '2022-11-27'
 description: This incredibly fast and easy Creamy Sun Dried Tomato Pasta cooks in
   30 minutes and uses just one pot. The perfect quick and satisfying weeknight dinner!

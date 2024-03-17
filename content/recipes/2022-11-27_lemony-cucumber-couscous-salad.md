@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/lemony-cucumber-couscous-salad/
 slug: lemony-cucumber-couscous-salad
-name: Lemony Cucumber Couscous Salad
+title: Lemony Cucumber Couscous Salad
 date_added: '2022-11-27'
 description: Lemony Cucumber Couscous Salad is a light, fresh, and vibrant pasta salad
   perfect for any summer meal.

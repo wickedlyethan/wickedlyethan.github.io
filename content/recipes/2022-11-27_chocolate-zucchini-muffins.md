@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mybakingaddiction.com/chocolate-zucchini-muffins/
 slug: chocolate-zucchini-muffins
-name: Chocolate Zucchini Muffins
+title: Chocolate Zucchini Muffins
 date_added: '2022-11-27'
 description: Chocolate Zucchini Muffins are rich, delicious and loaded with flavor.
   Have ’em for breakfast all week long. Every morning is better with chocolate!

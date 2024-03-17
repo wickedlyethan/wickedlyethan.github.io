@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/raspberry-oat-bars/
 slug: raspberry-oatmeal-bars
-name: Raspberry Oatmeal Bars
+title: Raspberry Oatmeal Bars
 date_added: '2022-11-27'
 description: These easy Raspberry Oatmeal bars are a fast fix for your sweet tooth
   and they only require a few pantry staples plus your favorite jam!

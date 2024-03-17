@@ -1,7 +1,7 @@
 ---
 source_url: https://theforkedspoon.com/ginger-garlic-noodle-soup-with-bok-choy/?format=amp
 slug: ginger-garlic-noodle-soup-with-bok-choy
-name: Ginger Garlic Noodle Soup with Bok Choy
+title: Ginger Garlic Noodle Soup with Bok Choy
 date_added: '2023-01-31'
 description: Ginger Garlic Noodle Soup with Bok Choy is a nutritious, comforting,
   and flu-fighting twenty-minute recipe made with homemade vegetarian broth, noodles,

@@ -1,7 +1,7 @@
 ---
 source_url: https://showmetheyummy.com/easy-pico-de-gallo-recipe/
 slug: easy-pico-de-gallo-recipe
-name: Easy Pico de Gallo Recipe
+title: Easy Pico de Gallo Recipe
 date_added: '2022-11-23'
 description: This Easy Pico de Gallo Recipe comes together in a matter of minutes!
   Fresh tomatoes, onion, cilantro, jalapeno, lime, & garlic make this truly delicious.

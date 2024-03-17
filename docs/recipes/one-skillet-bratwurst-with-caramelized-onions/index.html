@@ -1,303 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ethan Thibault // Writer</title>
-
-  <meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-<style>
-    :root {
-         
-        --background-color:whitesmoke;
-        --text-color: black;
-        --gradient-color: rgb(209, 208, 208);
-        --dark-gradient-color: snow;
-        --link-underline-color:#DAA520;
-        --decoration-color: #2B3099;
-        --dark-mode-background-color:#4C4E52;
-        --dark-mode-content-color: #F1EDF2;
-         
-        --header-font-family:'Public Sans',system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Helvetica Neue', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        --body-font-family: 'Georgia', serif;
-        --h1-font-size: 2.488rem;
-        --h2-font-size: 2.074rem;
-        --h3-font-size: 1.728rem;
-        --h4-font-size: 1.44rem;
-        --h5-font-size: 1.2rem;
-    }
-    body {
-        max-width:33em;
-        font-family: var(--body-font-family);  
-        font-weight: 400;
-
-        line-height: calc(1.5em + .2vw);
-        word-break: break-word;
-        text-rendering: optimizeLegibility;
-        font-feature-settings: "liga";
-        letter-spacing: normal;
-    }
-    header {
-        padding-bottom:1em;
-    }
-
-     
-    h1, h2, h3, h4, h5, .post-data {
-        font-family: var(--header-font-family);
-        margin: 1.75rem 0 1.05rem;
-        line-height: 1.15;
-    }
-    p,li {
-	 
-	line-height: calc(1ex / 0.32);
-    }
-    a {
-        color: inherit;
-        text-decoration: underline;
-        text-decoration-skip-ink: auto;
-        text-decoration-color: var(--link-underline-color);
-        text-decoration-style: solid;
-    }
-    a:hover, button:hover {
-        background-color: var(--decoration-color);
-        color:white;
-        text-decoration-color: var(--decoration-color);
-    }
-    ul {list-style-type: '\2013'; margin-bottom:0}
-    li {padding-bottom:.5em;padding-left:.5em;}
-    li span {position:relative;right:-0.5em;}
-
-     
-
-    html {font-size: 112.5%;}  
-
-    body {
-        font-family: var(--body-font-family);  
-        font-weight: 400;
-        line-height: 1.65;
-    }
-
-    h1, h2, h3, h4, h5, .post-data {
-        font-family: var(--header-font-family);
-        margin: 1.75rem 0 1.05rem;
-        line-height: 1.15;
-    }
-
-    h1 {
-        margin-top: 0;
-        font-size: var(--h1-font-size)
-    }
-
-    h2 {font-size: var(--h2-font-size)}
-
-    h3 {font-size: var(--h3-font-size)}
-
-    h4 {font-size: var(--h4-font-size)}
-
-    h5 {font-size: var(--h5-font-size)}
-
-    small, .text_small {font-size: 0.75em;}
-
-     
-
-    content img {
-        box-shadow: rgba(218,165,32, 0.4) 5px 5px, rgba(218,165,32, 0.3) 10px 10px, rgba(218,165,32, 0.2) 15px 15px;
-    }
-
-</style>
-</head>
-
-<body>
-  <header><a href="/" class="title">
-  <h2>Ethan Thibault // Writer</h2>
-</a>
-<nav><a href="/">Home</a>
+<link rel="stylesheet" type="text/css" href="https://ethanthibault.com/css/style.css" />
 
 
-<a href="/blog">Blog</a>
+<title>One Skillet Bratwurst with Caramelized Onions</title>
 
 
-<a href="/recipes">Recipes</a>
-</nav>
-</header>
-  <main>
+<body><div class="sidebar">
+    <a href="/" class="title">WCKD</a>
+    <nav>
+        <ul>
+        
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/photos/">Photos</a></li>
+        <li><a href="/recipes/">Recipebook</a></li>
+        </ul>
+    </nav>
+    <nav style="margin-top:2em;">
+        <ul>
+        
+        <li><a href="/now/">Now</a></li>
+        </ul>
+    </nav>
+    <div class="sidebar-bottom">
+        <img src="/images/BaBajaTrails8723construct.gif"><div class="human-badge">
+    <img src="/images/Written By Human/SVG/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written by a Human">
+</div></div>
+</div><main id="content">
+<article>
 <h1>One Skillet Bratwurst with Caramelized Onions</h1>
+<p><a href=https://saltpepperskillet.com/recipes/bratwurst target=”_blank” rel="noopener noreferrer">> Source</a></p>
+<p>Date Added: 2022-11-23</p>
 <blockquote>The best and easiest method for how to cook brats. Only a few ingredients and less than 20 minutes. Perfect every time for an easy weeknight dinner, Sunday supper or an Oktoberfest party.</blockquote>
 <ul>
     <li>4 serving(s)</li>
@@ -343,23 +80,8 @@
         <p><input type="checkbox"><label>Serve the sausages topped with the onions and your favorite mustard.</label></p>
     
 
-<p><a href=https://saltpepperskillet.com/recipes/bratwurst target=”_blank” rel="noopener noreferrer">Source</a></p>
-<p>Date Added: 2022-11-23</p>
+</article>
 
-  </main>
-  <footer>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href=https://fonts.googleapis.com/css2?family&#61;Public&#43;Sans:wght@400;700&amp;display&#61;swap rel="stylesheet">
-<img src="/images/Written By Human/SVG/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Written by a Human">
-<p>
-    &copy; Ethan Thibault 2022</a>
-    <br>
-    Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear
-</p>
-
-</footer>
-
-    
-</body>
-
+        </main>
+    </body>
 </html>

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/molten-caramel-cakes
 slug: molten-caramel-cakes
-name: Molten Caramel Cakes
+title: Molten Caramel Cakes
 date_added: '2022-11-27'
 description: Everybody has heard of molten chocolate cake, so we thought we’d try
   to create a caramel version, with a toffee-ish tender cake encasing a runny dulce

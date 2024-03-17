@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/vegan-winter-lentil-stew/
 slug: vegan-winter-lentil-stew
-name: Vegan Winter Lentil Stew
+title: Vegan Winter Lentil Stew
 date_added: '2022-11-27'
 description: A rich and hearty medley of vegetables, lentils, and herbs makes this
   freezer-friendly Vegan Winter Lentil Stew the perfect cold-weather comfort food.

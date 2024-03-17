@@ -15,7 +15,7 @@ I'm deeply jealous at how amazing a writer Becky Chambers is, but the truth is i
 
 ### Black River Orchard by Chuck Wendig
 
-I had the pleasure of seeing Wendig at a author talk in Cambridge alongside the venerable folklorist Aaron Mankhe, and he described his 2019 novel *Wanderers* as his "anxiety book" - a novel built out of all the things that were freaking him out at the time. If that's the case, then [*Black River Orchard*](https://www.goodreads.com/book/show/75352300-black-river-orchard) is built out of all the things that he knew would freak **me** out. 
+I had the pleasure of seeing Wendig at a author talk in Cambridge alongside the venerable folklorist Aaron Mankhe, and he described his 2019 novel *Wanderers* as his "anxiety book" - a novel built out of all the things that were freaking him out at the time. If that's the case, then [*Black River Orchard*](https://www.goodreads.com/book/show/75352300-ExtraBold-river-orchard) is built out of all the things that he knew would freak **me** out. 
 
 A cursed variety of apple gives its devoted devourers better lives and inspires complete devotion to it and the man who controls it - from there this thing freaking goes places. Demagoguery, body horror, abusive families, feeling trapped in a wide open place - there's a lot going on here and all of it starts at unnerving and gets worse from there, while staying at a steady pace and shoving you along, saying "oh no, there's more, much worse things over here". This is Wendig's densest text yet, and the product of his own pandemic-time obsession with apples; their history, their place as an object of folklore and metaphor, their ubiquity even as they are freakish products of nature.
 

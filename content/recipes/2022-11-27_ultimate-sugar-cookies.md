@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/ultimate-sugar-cookies
 slug: ultimate-sugar-cookies
-name: Ultimate Sugar Cookies
+title: Ultimate Sugar Cookies
 date_added: '2022-11-27'
 description: This sugar cookie recipe yields the cutouts of your dreams with a delicious
   canvas to decorate and are a worthy addition to your Christmas cookie plate.

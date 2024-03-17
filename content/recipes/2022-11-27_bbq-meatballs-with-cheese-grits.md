@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/bbq-meatballs-with-cheese-grits/
 slug: bbq-meatballs-with-cheese-grits
-name: BBQ Meatballs with Cheese Grits
+title: BBQ Meatballs with Cheese Grits
 date_added: '2022-11-27'
 description: BBQ Meatballs with Cheese Grits is the perfect cozy meal for crisp fall
   evenings, football games, and afternoons spent raking leaves.

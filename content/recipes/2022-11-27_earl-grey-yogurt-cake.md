@@ -1,7 +1,7 @@
 ---
 source_url: https://www.bonappetit.com/recipe/earl-grey-yogurt-cake
 slug: earl-grey-yogurt-cake
-name: Earl Grey Yogurt Cake
+title: Earl Grey Yogurt Cake
 date_added: '2022-11-27'
 description: A tea cake that's true to its name, this loaf harnesses the power of
   citrusy Earl Grey tea for its distinct flavor. Lemon poppyseed can't hold a candle.

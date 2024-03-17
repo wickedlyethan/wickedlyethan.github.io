@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/16383/basic-crepes/
 slug: basic-crepes
-name: Basic Crêpes
+title: Basic Crêpes
 date_added: '2022-11-27'
 description: This easy crêpe recipe uses simple pantry ingredients to make delicious
   French-style pancakes. Perfect for brunch with a sweet or savory filling!

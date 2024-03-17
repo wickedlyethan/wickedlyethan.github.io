@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/slow-cooker-chicken-noodle-soup/
 slug: slow-cooker-chicken-noodle-soup
-name: Slow Cooker Chicken Noodle Soup
+title: Slow Cooker Chicken Noodle Soup
 date_added: '2022-11-27'
 description: Slow cooker chicken noodle soup is an incredibly easy and soothing winter
   recipe that will fill you up and warm you from the inside out!

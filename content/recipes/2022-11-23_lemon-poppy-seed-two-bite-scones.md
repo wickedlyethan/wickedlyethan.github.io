@@ -1,7 +1,7 @@
 ---
 source_url: https://budgetbytes.com/lemon-poppy-seed-two-bite-scones
 slug: lemon-poppy-seed-two-bite-scones
-name: Lemon Poppy Seed Two-Bite Scones
+title: Lemon Poppy Seed Two-Bite Scones
 date_added: '2022-11-23'
 description: These cute little lemon poppy seed two-bite scones are soft and sweet
   with a deliciously tart lemon glaze. You won't be able to have just one!

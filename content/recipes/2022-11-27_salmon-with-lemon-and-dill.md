@@ -1,7 +1,7 @@
 ---
 source_url: https://www.allrecipes.com/recipe/87279/salmon-with-lemon-and-dill/
 slug: salmon-with-lemon-and-dill
-name: Salmon with Lemon and Dill
+title: Salmon with Lemon and Dill
 date_added: '2022-11-27'
 description: Salmon is baked in lemon dill butter sauce for this quick, easy, light,
   yet delicious recipe. The fresh flavors complement the fish perfectly.

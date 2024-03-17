@@ -1,7 +1,7 @@
 ---
 source_url: https://www.gimmesomeoven.com/cozy-autumn-wild-rice-soup/
 slug: cozy-autumn-wild-rice-soup
-name: Cozy Autumn Wild Rice Soup
+title: Cozy Autumn Wild Rice Soup
 date_added: '2022-11-27'
 description: This Cozy Autumn Wild Rice Soup features fresh seasonal produce, hearty
   wild rice, and a zesty creamy broth. The vegan version of the soup is listed here

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/honey-mustard-sauce/
 slug: honey-mustard-sauce
-name: Honey Mustard Sauce
+title: Honey Mustard Sauce
 date_added: '2022-11-27'
 description: This sweet, tangy, and creamy homemade honey mustard sauce only takes
   a few minutes to make and is great for sandwiches, salads, dipping, and more!

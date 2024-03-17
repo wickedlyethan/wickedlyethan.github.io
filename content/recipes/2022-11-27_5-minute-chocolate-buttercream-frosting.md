@@ -1,7 +1,7 @@
 ---
 source_url: https://www.justataste.com/5-minute-chocolate-buttercream-frosting-recipe/
 slug: 5-minute-chocolate-buttercream-frosting
-name: 5-Minute Chocolate Buttercream Frosting
+title: 5-Minute Chocolate Buttercream Frosting
 date_added: '2022-11-27'
 description: Skip the store-bought frosting in favor of this easy recipe for the best
   Chocolate Buttercream Frosting that takes just 5 minutes to make.

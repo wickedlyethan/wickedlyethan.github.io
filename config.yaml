@@ -1,6 +1,5 @@
-# https://github.com/janraasch/hugo-bearblog
-# git submodule update --init
-theme: 'hugo-bearblog'
+title: 'wickedlyethan'
+theme: 'indexhibit'
 
 publishDir: 'docs'
 
@@ -8,7 +7,18 @@ baseURL: 'https://ethanthibault.com/'
 languageCode: 'en-us'
 enableRobotsTXT: false
 
-disableKinds: ["RSS", "sitemap"]
+disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
+
+menus:
+  main:
+    - name: Blog
+      pageRef: /blog
+    - name: Photos
+      pageRef: /photos
+    - name: Notes
+      pageRef: /notes
+    - name: Recipebook
+      pageRef: /recipes  
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
@@ -16,15 +26,15 @@ frontmatter:
   - :filename
   - :default
 
-title: 'Ethan Thibault // Writer'
+permalinks:
+  blog: /blog/:year/:month/:slug/
+
 Params:
-    author: 'Ethan Thibault'
-    description: 'Ethan Thibault is a writer'
-    headshot: '/images/et_friendmaker.png'
-    gfonts: 'https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap'
-    dateFormat: "2006-01-02"
+  author: ''
+  description: ''
+  dateFormat: "2006-01-02"
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true

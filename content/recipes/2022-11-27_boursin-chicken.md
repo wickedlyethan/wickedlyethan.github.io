@@ -1,7 +1,7 @@
 ---
 source_url: https://www.saltandlavender.com/boursin-chicken/
 slug: boursin-chicken
-name: Boursin Chicken
+title: Boursin Chicken
 date_added: '2022-11-27'
 description: This easy Boursin chicken recipe comes together quickly with a handful
   of everyday ingredients and has a deliciously creamy and cheesy herb sauce!

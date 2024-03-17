@@ -1,7 +1,7 @@
 ---
 source_url: https://www.spendwithpennies.com/homemade-pancake-mix/
 slug: homemade-pancake-mix
-name: Homemade Pancake Mix!
+title: Homemade Pancake Mix!
 date_added: '2022-11-27'
 description: Delicious fluffy pancakes from a homemade mix.
 servings: 20 serving(s)

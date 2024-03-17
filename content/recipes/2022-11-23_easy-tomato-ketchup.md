@@ -1,7 +1,7 @@
 ---
 source_url: https://thespruceeats.com/easy-tomato-ketchup-recipe-1327422
 slug: easy-tomato-ketchup
-name: Easy Tomato Ketchup
+title: Easy Tomato Ketchup
 date_added: '2022-11-23'
 description: Easily make ketchup starting with tomato paste instead of fresh tomatoes
   to closely replicate the flavor of commercially available ketchup.

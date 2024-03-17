@@ -1,7 +1,7 @@
 ---
 source_url: https://www.littlepotatoes.com/recipes/rustic-mashed-potatoes/
 slug: country-style-smashed-garlic-potatoes
-name: Country Style Smashed Garlic Potatoes
+title: Country Style Smashed Garlic Potatoes
 date_added: '2022-11-27'
 description: These rustic mashed potatoes with garlic are rich with cream and butter
   and any little chef would be proud to serve these.

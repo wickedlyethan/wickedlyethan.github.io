@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/chana-saag/
 slug: chana-saag
-name: Chana Saag
+title: Chana Saag
 date_added: 2024-02-26
 description: Chana saag is a creamy chickpea and spinach curry that comes together quickly, is full of warm spices, filling, and vegan! Perfect for meal prep!
 servings: 6 serving(s)

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.inspiredtaste.net/29992/garlic-zucchini-pasta-recipe/
 slug: guilt-free-garlic-parmesan-zucchini-noodles-pasta
-name: Guilt-Free Garlic Parmesan Zucchini Noodles Pasta
+title: Guilt-Free Garlic Parmesan Zucchini Noodles Pasta
 date_added: '2022-11-27'
 description: We are in love with this easy zucchini noodles recipe. There’s fresh
   zucchini, tomatoes, basil, parmesan, and garlic. Plus, it only takes 20 minutes

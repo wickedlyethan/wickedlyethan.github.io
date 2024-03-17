@@ -1,4 +1,0 @@
-<h2>Latest Blog Posts</h2>
-{{ range first 5 (where .Site.RegularPages "Section" "blog")}}
-    <p>{{ .Date.Format "2006-01-02" }} // <a href="{{ .Permalink }}">{{ .Title }}</a></p>
-{{ end }}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "sidebar.html" . -}}
+        <main id="content">
+            <blockquote>Welcome to my site! I recently re-designed and am trying to post more stuff more often — please pardon some dust!</blockquote>
+            {{partial "latest-content.html" .}}
+            <p>//</p>
+            <a href="#content">Back to top</a>
+        </main>
+    </body>
+</html>

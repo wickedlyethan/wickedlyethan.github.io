@@ -1,7 +1,7 @@
 ---
 source_url: https://www.budgetbytes.com/mushroom-herb-gravy/#wprm-recipe-container-33399
 slug: mushroom-herb-gravy
-name: Mushroom Herb Gravy
+title: Mushroom Herb Gravy
 date_added: '2022-11-27'
 description: This one quick, easy, and insanely flavorful Mushroom Herb Gravy will
   satisfy both meat eaters and vegetarians alike.

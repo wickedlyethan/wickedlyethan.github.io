@@ -1,7 +1,7 @@
 ---
 source_url: https://www.eatyourselfskinny.com/one-skillet-cashew-chicken-stir-fry/
 slug: one-skillet-cashew-chicken-stir-fry
-name: One Skillet Cashew Chicken Stir Fry
+title: One Skillet Cashew Chicken Stir Fry
 date_added: '2022-11-27'
 description: This One Skillet Cashew Chicken Stir Fry is the perfect weeknight meal
   that is quick and easy to make, full of fresh veggies and tossed together in a delicious
