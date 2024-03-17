@@ -141,6 +141,11 @@ p a {
 article ol > li {
     margin-bottom:0.5em;
 }
+blockquote {
+    border-left: 1px solid var(--link-color);
+    padding: 0.1em;
+    padding-left:1em;
+}
 
 /* Photos */
 
