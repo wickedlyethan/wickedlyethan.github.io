@@ -27,8 +27,10 @@
 
     /* Sherwin Williams Courtyard */
     --background-color:#475842;
+    --link-color: gold;
     /* Sherwin Williams Fawn Brindle */
     --hover-color:#a7a094;
+    
 
     /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
     font-size: calc(1rem + 0.25vw);
@@ -129,8 +131,8 @@ img[src$='#profile-picture'] {
 .post-data {
     font-style:italic;
 }
-article a {
-    color: gold;
+p a {
+    color: var(--link-color);
     text-decoration: underline;
     text-decoration-skip-ink: auto;
     text-decoration-color: var(--link-underline-color);
