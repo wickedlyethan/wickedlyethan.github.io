@@ -1,15 +1,15 @@
 ---
 source_url: https://www.budgetbytes.com/chana-saag/
 slug: chana-saag
-title: Chana Saag
+title: Chana Saag Curry – Chickpea and Spinach Curry
 date_added: 2024-02-26
 description: Chana saag is a creamy chickpea and spinach curry that comes together quickly, is full of warm spices, filling, and vegan! Perfect for meal prep!
 servings: 6 serving(s)
 prep_time: 10 Minutes
 cook_time: 30 Minutes
 total_time: 40 Minutes
-categories: Dinner
-tags: Vegan
+categories: Dinner, Vegan
+tags: 
 ingredients:
   - 1.5 cups long grain white rice ($0.93)
   - 1 yellow onion ($0.32)
