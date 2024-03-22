@@ -128,6 +128,9 @@ img[src$='#profile-picture'] {
     column-gap: 0.25em;
     row-gap:0.5em;
 }
+.excerpt {
+    padding:0.5em 0 0.5em 0;
+}
 
 /* Blog */
 .post-data {
@@ -212,7 +215,7 @@ small, .text_small {font-size: 0.75em;}
 
 /* https://getcssscan.com/css-box-shadow-examples #50 */
 
-content img {
+img {
     box-shadow: rgba(218,165,32, 0.4) 5px 5px, rgba(218,165,32, 0.3) 10px 10px, rgba(218,165,32, 0.2) 15px 15px;
     max-height:50vh;
 }

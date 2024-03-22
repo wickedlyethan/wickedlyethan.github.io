@@ -6,5 +6,6 @@
 <!-- <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title> -->
 <title>{{.Title}}</title>
 
-<!-- TODO: open graph shit -->
+{{ template "_internal/opengraph.html" . }}
+
 <!-- TODO: RSS -->

@@ -1,12 +1,13 @@
 {{ $latest := where .Site.RegularPages "Type" "in" "blog, photos,notes"}}
 {{ range first 6 $latest }}
   <div class="excerpt">
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
   {{if in .Section "blog"}}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{- partial "post-data.html" . -}}
   {{end}}
   {{ if in .Section "notes"}}
     {{.Content}}
+    <p>> {{ .Date.Format "2006-01-02" }}</p>
   {{else}}
     {{.Summary}}
   {{end}}

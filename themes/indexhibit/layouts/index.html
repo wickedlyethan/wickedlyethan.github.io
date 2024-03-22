@@ -4,10 +4,9 @@
     <body>
         {{- partial "sidebar.html" . -}}
         <main id="content">
-            <blockquote>Welcome to my site! I recently re-designed and am trying to post more stuff more often — please pardon some dust!</blockquote>
+            {{ .Content }}
             {{partial "latest-content.html" .}}
-            <p>//</p>
-            <a href="#content">Back to top</a>
+            <p>// <a href="#content">Back to top</a></p>
         </main>
     </body>
 </html>

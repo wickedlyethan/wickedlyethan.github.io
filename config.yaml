@@ -1,13 +1,9 @@
 title: 'wickedlyethan'
 theme: 'indexhibit'
-
-publishDir: 'docs'
-
-baseURL: 'https://ethanthibault.com/'
-languageCode: 'en-us'
-enableRobotsTXT: false
-
-disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
+Params:
+  author: ''
+  description: "Wickedlyethan's personal website and garden"
+  dateFormat: "2006-01-02"
 
 menus:
   main:
@@ -18,21 +14,24 @@ menus:
     - name: Notes
       pageRef: /notes
     - name: Recipebook
-      pageRef: /recipes  
+      pageRef: /recipes
+
+permalinks:
+  blog: /blog/:year/:month/:slug/
+
+publishDir: 'docs'
+
+baseURL: 'https://ethanthibault.com/'
+languageCode: 'en-us'
+enableRobotsTXT: false
+
+disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
   date:
   - :filename
   - :default
-
-permalinks:
-  blog: /blog/:year/:month/:slug/
-
-Params:
-  author: ''
-  description: ''
-  dateFormat: "2006-01-02"
 
 markup:
   goldmark:
