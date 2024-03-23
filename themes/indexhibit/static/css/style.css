@@ -19,6 +19,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 :root {
     /* Sherwin Williams Secret Garden */
     /* --background-color:#4f523a; */
@@ -36,6 +37,9 @@
 
     /* Default fonts */
     --system-font: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    /* --body-font: 'PublicSans-ExtraLight'; */
+    --body-font: "Inclusive Sans";
+    
 }
 * {box-sizing: border-box;}
 html {
@@ -56,7 +60,7 @@ body {
     overscroll-behavior: none;
     background-color: var(--background-color);
     color: whitesmoke;
-    font-family: 'PublicSans-ExtraLight', var(--system-font);
+    font-family: var(--body-font), var(--system-font);
 }
 h1,h2,h3,h4,h5,h6, .title {
     font-family: "PublicSans-ExtraBold", var(--system-font);
@@ -215,7 +219,7 @@ small, .text_small {font-size: 0.75em;}
 
 /* https://getcssscan.com/css-box-shadow-examples #50 */
 
-img {
+main img {
     box-shadow: rgba(218,165,32, 0.4) 5px 5px, rgba(218,165,32, 0.3) 10px 10px, rgba(218,165,32, 0.2) 15px 15px;
     max-height:50vh;
 }
