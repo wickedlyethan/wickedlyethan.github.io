@@ -143,7 +143,7 @@ img[src$='#profile-picture'] {
 }
 
 /* Blog */
-.post-data {
+.post-data, summary {
     /* color:var(--hover-); */
     font-family:"PublicSans-ExtraLight", var(--system-font);
 }
