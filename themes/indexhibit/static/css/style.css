@@ -29,6 +29,7 @@
     /* Sherwin Williams Courtyard */
     --background-color:#475842;
     --link-color: gold;
+    --light-link-color:#475842;
     /* Sherwin Williams Fawn Brindle */
     --hover-color:#a7a094;
     
@@ -38,7 +39,6 @@
     /* Default fonts */
     --system-font: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     /* --body-font: 'PublicSans-ExtraLight'; */
-    --body-font: "Inclusive Sans";
     
 }
 * {box-sizing: border-box;}
@@ -58,9 +58,7 @@ body {
     padding:0;
     margin:0;
     overscroll-behavior: none;
-    background-color: var(--background-color);
-    color: whitesmoke;
-    font-family: var(--body-font), var(--system-font);
+    font-family: var(--system-font);
 }
 h1,h2,h3,h4,h5,h6, .title {
     font-family: "PublicSans-ExtraBold", var(--system-font);
@@ -91,11 +89,13 @@ img {
     top: 0;
     left: 0;
     right: 0;
-    width: 18em;
+    width: 14em;
     height: 100vh;
     padding:36px;
     display:flex;
     flex-direction: column;
+    background-color: var(--background-color);
+    color: whitesmoke;;
 }
 .title {
     display:block;
@@ -113,6 +113,10 @@ img {
 .sidebar-bottom {
     margin-top:auto;
     /* margin-bottom:2em; */
+}
+.second-nav {
+    margin-top:2em;
+    margin-bottom:2em
 }
 
 /* Main Styles */
@@ -134,11 +138,14 @@ img[src$='#profile-picture'] {
 }
 .excerpt {
     padding:0.5em 0 0.5em 0;
+    /* padding: 1em; */
+    /* margin-bottom: 1em; */
 }
 
 /* Blog */
 .post-data {
     /* color:var(--hover-); */
+    font-family:"PublicSans-ExtraLight", var(--system-font);
 }
 p a {
     color: var(--link-color);
@@ -224,17 +231,38 @@ main img {
     max-height:50vh;
 }
 
+@media (prefers-color-scheme: light){
+    body {
+        background-color: whitesmoke;
+        color: #232323; 
+    }
+    p a {
+        color: var(--light-ink-color);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: whitesmoke;
+        background-color:#2f3b2c;
+    }
+}
+
 @media only screen and (max-width: 850px) {
     body {
         flex-wrap: wrap;
     }
     main {
-        margin: 41px 1.25em 1.25em 1.25em;
+        /* margin: 41px 1.25em 1.25em 1.25em; */
+        margin: auto;
+        padding: 1em;
     }
     .sidebar {
         height: 100%;
         position:relative;
         padding: 36px 0 0 36px;
+        padding-bottom:1em;
+        width:100%;
     }
     .title {
         margin-bottom:0.5em;

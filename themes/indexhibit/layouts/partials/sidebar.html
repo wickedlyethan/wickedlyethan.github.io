@@ -1,13 +1,13 @@
 <div class="sidebar">
     <a href="{{ "" | relURL }}" class="title">WCKD</a>
-    <nav>
+    <nav class="first-nav">
         <ul>
         {{range site.Menus.main}}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{- end }}
         </ul>
     </nav>
-    <nav style="margin-top:2em;">
+    <nav class="second-nav">
         <ul>
         {{range site.Menus.second}}
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
