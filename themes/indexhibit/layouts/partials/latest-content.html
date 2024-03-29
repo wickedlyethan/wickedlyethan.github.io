@@ -5,6 +5,7 @@
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{- partial "post-data.html" . -}}
     {{.Summary}}
+    <p><a href="{{ .RelPermalink }}">↳</a></p>
   {{else}}
     {{.Content}}
     <p>> {{ .Date.Format "2006-01-02" }}</p>
