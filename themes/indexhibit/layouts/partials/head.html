@@ -1,9 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/style.css" />
-
-<meta name="theme-color" content="#475842">
+{{ $css := resources.Get "css/style2.css" }}
+{{ $style := $css | resources.Minify }}
+<link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
 
 <!-- <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title> -->
 <title>{{.Title}}</title>

@@ -1,5 +1,5 @@
-<div class="sidebar">
-    <a href="{{ "" | relURL }}" class="title">WCKD</a>
+<div>
+    <a href="{{ "" | relURL }}" id="title" class="title">WCKD</a>
     <nav class="first-nav">
         <ul>
         {{range site.Menus.main}}
@@ -14,8 +14,4 @@
         {{- end }}
         </ul>
     </nav>
-    <div class="sidebar-bottom">
-        <img src="/images/BaBajaTrails8723construct.gif" alt="retro under construction gif">
-    {{- partial "human-badge.html" . -}}
-    </div>
 </div>

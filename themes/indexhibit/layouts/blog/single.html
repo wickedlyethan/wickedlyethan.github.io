@@ -1,9 +1,8 @@
 {{ define "main" }}
 <article>
 <h1>{{ .Title }}</h1>
-<p class="post-data">{{ .Date.Format "2006-01-02" }} // {{ .WordCount }} words // {{ .ReadingTime }} minute read</p>
+<p><em>{{ .Date.Format "2006-01-02" }} // {{ .WordCount }} words // {{ .ReadingTime }} minute read</em></p>
 {{ with .TableOfContents }}
-  <!-- the variable is set -->
   {{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
     <details class="post-toc">
         <summary>Table of Contents</summary>

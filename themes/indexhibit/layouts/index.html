@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "sidebar.html" . -}}
-        <main id="content">
-            {{ .Content }}
-            {{partial "latest-content.html" .}}
-            <p>// <a href="#content">Back to top</a></p>
-        </main>
-    </body>
-</html>
+{{define "main"}}
+{{.Content}}
+{{partial "latest-content.html" .}}
+{{end}}

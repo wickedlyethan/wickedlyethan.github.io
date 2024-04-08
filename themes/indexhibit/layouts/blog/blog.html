@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="content-list">
     {{ range .Pages }}
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-    </time>
+    <p>
+    <span class="post-date">{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}</span>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
     {{ end }}
 </div>
 {{ end }}
