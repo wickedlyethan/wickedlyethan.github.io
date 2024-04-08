@@ -136,10 +136,16 @@ img[src$='#profile-picture'] {
     column-gap: 0.25em;
     row-gap:0.5em;
 }
-.excerpt {
-    padding:0.5em 0 0.5em 0;
-    /* padding: 1em; */
-    /* margin-bottom: 1em; */
+
+p:first-of-type {
+    margin-top:0;
+}
+
+hr {
+    border: 0;
+    border-bottom: 0.2em dotted var(--link-color);
+    text-align:center;
+    margin:1em 0 1em 0;
 }
 
 /* Blog */
@@ -195,10 +201,9 @@ code {
 
 /* Notes */
 
-.note p {
+.note p:first-of-type {
     border-left: 1px solid var(--hover-color);
     padding-left: 1em;
-    font-size:90%;
 }
 
 /*https://type-scale.com/ Minor Third*/
