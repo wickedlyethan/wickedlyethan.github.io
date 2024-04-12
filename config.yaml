@@ -13,8 +13,6 @@ menus:
       pageRef: /photos
     - name: Notes
       pageRef: /notes
-    - name: Recipebook
-      pageRef: /recipes
 
 permalinks:
   blog: /blog/:year/:month/:slug/

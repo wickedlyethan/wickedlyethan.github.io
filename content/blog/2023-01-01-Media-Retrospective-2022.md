@@ -4,29 +4,7 @@ date: 2023-01-01
 
 summary: "We're back doing one of these! A surprisingly earnest year with lots of adventure."
 
----
-
-<style type="text/css">
-    .link-grid {
-        width: 100%;
-        margin: auto;
-        display:grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-    }
-    .link-grid > p a {
-        font-size: 20px;
-        font-family: inherit;
-    }
-</style>
-
-<div class="link-grid">
-    <p><a href="#games">Games</a></p>
-    <p><a href="#movies">Movies</a></p>
-    <p><a href="#tv">TV</a></p>
-    <p><a href="#books">Books</a></p>
-    <p><a href="#2023">2023</a></p> 
-</div>
+--- 
 
 ## Games
 
