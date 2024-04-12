@@ -22,9 +22,9 @@ I work from home, so my desk is an important place and I recently did a big upgr
 - Stream Deck Mk.2
 - Yeti Snowball ICE (got it for $20 at a pawn shop)
 - JDS Labs Atom DAC and amplifier stack, version 1
-  - Feed into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday along with my wonderful, dependable [Pioneer SP-BS22-LR] speakers
-  - Or my Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
-- Art by Daniella Gamba, Mike Krahulik, Mike Maihack, (game art), (robot dude) and my amazing wife.
+  - Feeds into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday along with my wonderful, dependable Pioneer SP-BS22-LR speakers,
+  - Or into my Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
+- Art by Daniela Gamba, Mike Krahulik, Mike Maihack, Supergiant Games, The Robotorium, and my amazing wife.
 
 ## Writing
 
