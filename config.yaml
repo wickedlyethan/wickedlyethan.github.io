@@ -25,6 +25,13 @@ enableRobotsTXT: false
 
 disableKinds: ["taxonomy", "term"]
 
+outputs:
+  home:
+  - html
+  - rss
+  section:
+  - html
+
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
   date:

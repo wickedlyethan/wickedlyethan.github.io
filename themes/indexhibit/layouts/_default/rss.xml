@@ -65,10 +65,10 @@
       <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <content>{{ .Summary | transform.XMLEscape | safeHTML }}
+      <description>{{ .Summary | transform.XMLEscape | safeHTML }}
       {{if in .Section "blog"}}
       <p><a href="{{.Permalink}}">Continue Reading</a></p>{{end}}
-      </content>
+      </description>
     </item>
     {{- end }}
   </channel>
