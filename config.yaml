@@ -23,7 +23,7 @@ baseURL: 'https://wickedlyethan.com/'
 languageCode: 'en-us'
 enableRobotsTXT: false
 
-disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
+disableKinds: ["taxonomy", "term"]
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
