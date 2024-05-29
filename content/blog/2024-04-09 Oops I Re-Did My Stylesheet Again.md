@@ -2,7 +2,7 @@
 title: "Oops I Re-Did My Stylesheet Again"
 date: 2024-04-09
 ---
-Having no archive and habitually erasing all the evidence anwyays, it might not be obvious that I'm the kind of person who redesigns their website every 6 months to a year. I've had a personal website since middle school in one form or another - Blogger, Wordpress, Tumblr, then in college hand-crafted, deeply amateur HTML. We're way past the ship of Theseus at this point, past sports car getting rebuilt in the garage; it's some kind of mania.
+Having no archive and habitually erasing all the evidence anyways, it might not be obvious that I'm the kind of person who redesigns their website every 6 months to a year. I've had a personal website since middle school in one form or another - Blogger, Wordpress, Tumblr, then in college hand-crafted, deeply amateur HTML. We're way past the ship of Theseus at this point, past sports car getting rebuilt in the garage; it's some kind of mania.
 
 The truth is I'm not an amazing coder or web designer, but I'm addicted to the immediate results. The other forms of creativity I engage in – mainly writing – take time and headspace, but web coding is the equivalent of making with my hands. I used to have to compulsively hammer the keyboard shortcut to refresh, like a monkey before tools; now I use [Hugo](https://gohugo.io/) and it knows how to deliver that drug right to me every time I save.
 

@@ -1,7 +1,7 @@
 ---
 title: "EVERYBODY Loves Pinball"
 date: 2024-04-14
-summary: Playing games in public is back, and pinball is the oldest instutition around, and there was nowhere better to be than Pintastic New England on a Friday night. The other good news about pinball is that it's everywhere – pinball appears to have had a resurgence during the pandemic, like many vintage forms of gaming, and shows like Pintastic will only get bigger. 
+summary: Playing games in public is back, and pinball is the oldest institution around, and there was nowhere better to be than Pintastic New England on a Friday night. The other good news about pinball is that it's everywhere – pinball appears to have had a resurgence during the pandemic, like many vintage forms of gaming, and shows like Pintastic will only get bigger. 
 ---
 It's true! Pinball is the game for all people of all ages, and there was nowhere better to be on Friday night than [Pintastic New England](https://pintasticnewengland.com/) with friends, where $30 gets your free play on tables from across history, from [*Safecracker* (1996)](https://www.ipdb.org/machine.cgi?id=3782) to [*Paragon* (1979)](https://www.ipdb.org/machine.cgi?id=1755) to my drug of choice: Stern's excellently overwhelming [*Jurassic Park* (2019)](https://sternpinball.com/game/jurassic-park/).
 
