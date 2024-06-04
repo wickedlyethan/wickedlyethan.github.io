@@ -1,4 +1,7 @@
+<hr>
 <footer>
-<p>// <a href="#title">Back to top</a></p>
+<p>// <a href="#title">Back to top</a> // <button onclick="setTheme('light')" title="Light mode">Light</button> <button onclick="setTheme('dark')" title="Dark mode">Dark</button></p>
 {{- partial "human-badge.html" . -}}
 </footer>
+
+<script type = "text/javascript" defer>function setTheme(theme){document.documentElement.style.setProperty('color-scheme', theme);}</script>
