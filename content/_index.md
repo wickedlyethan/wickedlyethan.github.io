@@ -1,3 +1,3 @@
 ---
-Title: wickedlyethan
+Title: wickedlyethan's blog and garden
 ---
