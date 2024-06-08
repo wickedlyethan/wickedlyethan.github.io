@@ -4,8 +4,9 @@
 <nav class="second-nav">
     <ul>
     {{range site.Menus.second}}
-    <li><a href="{{ .URL }}">{{ .Name }}</a>    </li>
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{- end }}
+    <li><a href="{{.Site.BaseURL}}/index.xml">RSS</a></li>
     </ul>
 </nav>
 {{- partial "human-badge.html" . -}}
