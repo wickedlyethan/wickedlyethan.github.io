@@ -14,3 +14,9 @@ I have a lot of stories I want to tell and am constantly struggling to carve out
 I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I hope I post stuff that people like, but if not then it's still a great exercise in creativity and finishing things!
 
 Check out my [Now page]({{<ref "/Now">}}) to see the latest.
+
+## The site
+
+My little site is built on [Hugo](https://gohugo.io/) and deployed to [GitHub Pages](https://pages.github.com/) entirely through [Visual Studio Code](https://code.visualstudio.com/) on my M1 Macbook Air. 
+
+After years of struggling to come up with a great identity via design I decided to go as minimalist as possible – read more about it here: ["Oops I Re-Did My Stylesheet Again"]({{<ref "/blog/2024-04-09 Oops I Re-Did My Stylesheet Again.md">}})

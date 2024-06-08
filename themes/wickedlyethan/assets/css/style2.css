@@ -20,10 +20,10 @@ img {
     max-width: 100%;
     height:auto;
 }
-header li {
+header li, footer li {
     display:inline;
 }
-header ul {
+header ul, footer ul {
     padding:0;
 }
 .title {
