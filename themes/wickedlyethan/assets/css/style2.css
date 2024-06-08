@@ -31,6 +31,12 @@ header ul, footer ul {
     font-weight: bolder;
     text-decoration: none;
 }
+.excerpt {
+    margin-bottom: 1em;
+    border: solid 0.1em;
+    padding: 1em;
+    border-radius: 1%;
+}
 .post-date {
     display:inline-block;
     width:6em;
