@@ -17,7 +17,7 @@ menus:
 permalinks:
   blog: /blog/:year/:month/:slug/
 
-publishDir: 'docs'
+publishDir: 'public'
 
 baseURL: 'https://wickedlyethan.com/'
 languageCode: 'en-us'
