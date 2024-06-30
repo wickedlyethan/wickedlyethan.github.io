@@ -24,9 +24,9 @@ Moment updated its lens mounting system in September of 2023 to keep up with cha
 
 This all sounds pretty negative, but that's because I went through some surprisingly big feelings when I sold these lenses. There was an aspirational quality to them, a yearning to capture life beautifully with the tools we always have on us. I wanted to share my favorites, because when they worked these lenses did make photos special – primarily they made colors more vivid and added fun fringing and distortion at the edges. These photos are from 2020-2023, captured on either a Pixel 3a or Pixel 4a 5G, using the Moment anamorphic and 58mm lenses.
 
-![Emily on a bench](/images/blog/2024-06-30-ode-to-moment/IMG_20201106_144830-01.jpeg "Emily on a bench near a pond, love the punchier colors")
-![Emily looking epic](/images/blog/2024-06-30-ode-to-moment/IMG_20201108_150533-01.jpeg "Emily looking epic because I asked her to so I could show off the lens flares")
-![Trees in a row](/images/blog/2024-06-30-ode-to-moment/IMG_20201120_104550-01.jpeg "Love the barrel distortion on the trees at the edges of the anamorphic frame")
+![Emily on a bench](/images/blog/2024-06-30-ode-to-moment/IMG_20201106_144830-01.jpg "Emily on a bench near a pond, love the punchier colors")
+![Emily looking epic](/images/blog/2024-06-30-ode-to-moment/IMG_20201108_150533-01.jpg "Emily looking epic because I asked her to so I could show off the lens flares")
+![Trees in a row](/images/blog/2024-06-30-ode-to-moment/IMG_20201120_104550-01.jpg "Love the barrel distortion on the trees at the edges of the anamorphic frame")
 ![The telephoto did a great job compressing spaces and trying to bring more detail in](/images/blog/2024-06-30-ode-to-moment/IMG_20210514_155243.jpg "The telephoto did a great job compressing spaces and trying to bring more detail in")
 ![Emily and Piper on a trail in the woods](/images/blog/2024-06-30-ode-to-moment/PXL_20210610_202327804.jpg "I loved using the anamorphic for taller portraits - Emily and Piper get placed so well with all that headroom")
 ![Closeup of colorful leaves](/images/blog/2024-06-30-ode-to-moment/PXL_20220320_174542689.jpg "Brought the lenses to a botanical garden in the dead of winter and it was a blast")
