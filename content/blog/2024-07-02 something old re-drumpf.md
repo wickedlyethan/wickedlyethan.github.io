@@ -7,7 +7,7 @@ Today I'm re-publishing a piece I wrote for a web-zine I published with my amazi
 
 It's quaint and painfully naive now at best, but I'd like to point I was talking about fleeing America *before it was cool*. It's worth noting that even at the time I knew that emigration was a non-starter – the world has calcified. After a truly horrific week of news from SCOTUS I'm posting this because it does a feel a bit prescient, I guess.
 
-I've lightly edited the piece to avoid embarrassing myself 10 years later, and added footnotes for additional commentary.
+I've lightly edited the piece to avoid embarrassing myself 8 years later, and added footnotes for additional commentary.
 
 ---
 
