@@ -13,4 +13,12 @@ I'm still working on my **forever project**, which is downsizing our apartment a
 
 ---
 
+## 2024-04-12
+
+I just resigned from the longest job I've ever had after getting recruited for a much better/cooler/higher-paying opportunity! I'm nervous and excited and am having a real hard time giving a damn for the last two weeks I begrudgingly gave.
+
+Meanwhile I'm desperately awaiting warmer weather and turning 30 in a few weeks, which is a bit harrowing but mostly exciting.
+
+---
+
 (Don't know what a Now page is? Learn more from [nownownow.com](https://nownownow.com/about)!)

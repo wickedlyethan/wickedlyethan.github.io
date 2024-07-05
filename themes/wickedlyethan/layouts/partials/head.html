@@ -4,8 +4,8 @@
 {{ $css := resources.Get "css/style2.css" | minify}}
 <style>{{ $css.Content | safeCSS }}</style>
 
-<!-- <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title> -->
-<title>{{.Title}}</title>
+<title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>"/>
 
 {{ template "_internal/opengraph.html" . }}
 

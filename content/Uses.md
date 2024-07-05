@@ -2,29 +2,36 @@
 title: "Uses"
 type: single
 menu: second
-updated: 2024-04-12
+updated: 2024-07-05
 ---
 I love tech and gadgets and thinking about how my setups have changed over the years. Following in the footsteps of [many](https://uses.tech/) indieweb-ers, here's my Uses page where I list out stuff I use and love!
+
+`Last Updated: {{% param updated %}}`
+
+## Computers
+
+- Apple Macbook M1 Air (my favorite, most used)
+- Synology DiskStation DS118
+- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16gb of RAM, and all SSD storage
+- Raspberry Pi 4 for my homelab with a Hifiberry Digi+ S/PDIF output for music streaming
 
 ## My desk
 
 I work from home, so my desk is an important place and I recently did a big upgrade to a electric sit/stand desk.
 
-![my desk](/images/blog/2024-03-04-17h57m07.jpg)
+{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is just a touch of date, my keyboard looks a lot nicer now and I stopped using the Stream Deck">}}
 
 - Flexispot E7 standing desk in black walnut
   - Grovemade walnut desk shelf and matte natural linoleum desk pad
 - 27" 1440p 144hz Dell gaming monitor with G-Sync
   - BenQ Screenbar monitor light (absolute game changer)
-- KBDCraft Adam keyboard with GMK Grand Prix keycaps and a custom BNC-connector cable
-- Logitech G603 mouse (2017, still going)
-- Logitech Lift vertical mouse for work
-- Stream Deck Mk.2
+- Portico68 Black Label keyboard with IFK Blue and White keycaps, S2 linear switches and a custom BNC-connector cable
+- Logitech G603 mouse (2017, still going), Logitech Lift vertical mouse for work
 - Yeti Snowball ICE (got it for $20 at a pawn shop)
 - JDS Labs Atom DAC and amplifier stack, version 1
   - Feeds into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday along with my wonderful, dependable Pioneer SP-BS22-LR speakers,
   - Or into my Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
-- Art by Daniela Gamba, Mike Krahulik, Mike Maihack, Supergiant Games, The Robotorium, and my amazing wife.
+- Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/).
 
 ## Writing
 

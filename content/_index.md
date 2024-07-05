@@ -1,3 +1,3 @@
 ---
-Title: wickedlyethan's blog and garden
+Title: My blog and garden
 ---
