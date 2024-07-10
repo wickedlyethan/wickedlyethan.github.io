@@ -31,15 +31,15 @@ header ul, footer ul {
     font-weight: bolder;
     text-decoration: none;
 }
-.excerpt {
+.card {
     margin-bottom: 1em;
     border: solid 0.1em;
     padding: 1em;
     border-radius: 1%;
 }
-.post-date {
-    display:inline-block;
-    width:6em;
+.blog-list-item {
+    display: flex;
+    gap: 1em;
 }
 /* https://robinrendle.com/notes/the-smallest-css/ */
 pre code {
