@@ -1,6 +1,6 @@
 {{ $latest := where .Site.RegularPages "Type" "in" "blog, photos,notes"}}
 {{ range first 10 $latest }}
-<div class="card">
+<div class="card bordered">
   {{if in .Section "blog"}}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{- partial "post-data.html" . -}}
