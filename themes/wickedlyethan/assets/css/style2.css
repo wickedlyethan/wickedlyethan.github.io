@@ -51,6 +51,9 @@ figcaption {
     font-size: 75%;
     font-family:monospace;
 }
+blockquote p{
+    font-style:italic;
+}
 a {
     text-decoration: underline;
     text-decoration-skip-ink: auto;
