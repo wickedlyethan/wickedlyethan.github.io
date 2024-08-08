@@ -51,6 +51,6 @@ Everyone runs their lives out of apps, but I *really* can't live without my to-d
 - [TickTick](https://www.ticktick.com/) for to-do lists
 - [Obsidian](https://obsidian.md/) for my second brain / personal knowledge base
 - [Pinboard](https://pinboard.in/) for bookmarks
-- [Habitica](https://habitica.com/) for habit gamification
 - [Inoreader](https://www.inoreader.com) to further the great cause of RSS
+- [Instapaper](https://www.instapaper.com/u) to read longer things from the internet
 - [Visual Studio Code](https://code.visualstudio.com/) for making this website
