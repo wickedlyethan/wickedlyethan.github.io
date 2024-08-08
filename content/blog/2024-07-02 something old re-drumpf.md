@@ -57,7 +57,7 @@ Your friends all made fun of you for moving all the way across the globe, but re
 
 [^4]: This translates to "from a good beginning we hope for a good end", which is achingly poetic and I have no idea how I sourced it – I take no credit.
 
-[^5]: I'm not sure freedom of speech was the one to go after here, considering we do have a pretty robust first amendment compared to other large  (for now), but the point about stats has only gotten worse. Infant and maternal mortality come to mind, but that's recency bias much as my thinking about gun violence was – 2016 has its [own wikipedia index](https://en.wikipedia.org/wiki/Category:2016_mass_shootings_in_the_United_States) for mass shootings in the US.
+[^5]: I'm not sure freedom of speech was the one to go after here, considering we do have a pretty robust first amendment compared to other large countries (for now), but the point about stats has only gotten worse. Infant and maternal mortality come to mind, but that's recency bias much as my thinking about gun violence was – 2016 has its [own wikipedia index](https://en.wikipedia.org/wiki/Category:2016_mass_shootings_in_the_United_States) for mass shootings in the US.
 
 [^6]: My ire for Buzzfeed and listicles is misplaced. Said listicles paid for [Buzzfeed News](https://en.wikipedia.org/wiki/BuzzFeed_News#), a truly great news organization that shut down last year.
 
