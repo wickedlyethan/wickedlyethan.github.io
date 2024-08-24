@@ -1,16 +1,7 @@
 <hr>
 <footer>
-<p><a href="#title">Back to top</a>
-<nav class="second-nav">
-    <ul>
-    {{range site.Menus.second}}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{- end }}
-    <li><a href="{{.Site.BaseURL}}/index.xml">RSS</a></li>
-    </ul>
-</nav>
+<p>&#8593;&nbsp;<a href="#title">Back to top</a></p>
+<p>&#9678;&nbsp;<a href="{{.Site.BaseURL}}/index.xml">RSS</a></p>
 {{- partial "human-badge.html" . -}}
-<button onclick="setTheme('light')" title="Light mode">Light</button> <button onclick="setTheme('dark')" title="Dark mode">Dark</button></p>
+<!-- {{- partial "light-dark-buttons.html" . -}} -->
 </footer>
-
-<script type = "text/javascript" defer>function setTheme(theme){document.documentElement.style.setProperty('color-scheme', theme);}</script>
