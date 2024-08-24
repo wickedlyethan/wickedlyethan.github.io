@@ -1,11 +1,11 @@
 {{ $latest := where .Site.RegularPages "Type" "in" "blog, photos,notes"}}
-{{ range first 10 $latest }}
+{{ range first 7 $latest }}
 <div class="card bordered">
   {{if in .Section "blog"}}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{- partial "post-data.html" . -}}
     {{.Summary}}
-    <p><a href="{{ .RelPermalink }}">↳</a></p>
+    <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
   {{else}}
     {{.Content}}
     <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
