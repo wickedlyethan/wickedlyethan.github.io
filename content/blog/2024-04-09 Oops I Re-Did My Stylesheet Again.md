@@ -20,6 +20,14 @@ I'm down to 37 lines of CSS before minify-ing at time of writing, with only two 
 4. A couple of lines to set the paradigm to "blog", a.k.a. readable text width, a dash of margin, and overrides to nav styles when needed, so I can use them appropriately but not have unsightly bullets everywhere.
 5. Make the title a bit bigger, but no math required: you can just write "xx-large" for the font size and it doesn't do much, but it does enough.
 
-That's it! Like I said, 37 lines of code at time of writing. I ripped my hands off the steering wheel at this point. I used as many HTML5 elements as correctly as I know how and that takes care of a lot of the work for me I checked my work against Robin Rendle's ["smallest CSS" post](https://robinrendle.com/notes/the-smallest-css/) and was chuffed to find I had organically come to many of the same conclusions, and the same dumb bug in Safari. (Seriously, fuckin' fix that!) I had to re-structure and standardize few of my templates, but that was it. Commit, sync, push.
+That's it! Like I said, 37 lines of code at time of writing. I ripped my hands off the steering wheel at this point. I used as many HTML5 elements as correctly as I know how and that takes care of a lot of the work for me I checked my work against Robin Rendle's ["smallest CSS" post](https://robinrendle.com/notes/the-smallest-css/) and was chuffed to find I had organically come to many of the same conclusions, and the same dumb bug in Safari. (Seriously, fix that!) I had to re-structure and standardize few of my templates, but that was it. Commit, sync, push.
 
 I've been writing and posting more on here, and hopefully this re-design will let me stop thinking about anything other than that. This is my black t-shirt and black pants of the web; no more decision fatigue here. At least for a few months, right?
+
+## Update 2024-08
+
+I'm up to a back-breaking [62 lines of CSS](https://github.com/wickedlyethan/wickedlyethan.github.io/blob/main/themes/wickedlyethan/assets/css/style.css), but now I minify it and embed it in every page, so I don't feel too bad. The new lines are just some things to differentiate elements in blog posts, specifically figure captions and blockquotes; I did end up having to add a few lines to force Safari's hand and color links nicely, so that's their fault, not mine. I even went crazy and upgraded my title to "xxx-large".
+
+I recently added some more visual elements to site that I'm really happy with because they're just unicode icons, which can be relied upon to be rendered nicely and totally fit the vibe and ethos I'm going for.
+
+Most importantly, I've blogged and posted more this year than I have in the past five combined. The site feels great to me and I'm proud of it, and it feels clever to offload the design work and focus on content.

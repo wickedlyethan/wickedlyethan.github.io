@@ -54,11 +54,6 @@ figcaption {
 blockquote p{
     font-style:italic;
 }
-a {
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
-    text-decoration-style: solid;
-}
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
 @media (prefers-color-scheme: dark) and screen (-webkit-min-device-pixel-ratio:0){
     a {
