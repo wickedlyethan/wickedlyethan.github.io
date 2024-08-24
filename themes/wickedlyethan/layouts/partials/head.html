@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{{ $css := resources.Get "css/style2.css" | minify}}
+{{ $css := resources.Get "css/style.css" | minify}}
 <style>{{ $css.Content | safeCSS }}</style>
 
 <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
