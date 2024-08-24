@@ -12,7 +12,11 @@ I have a lot of stories I want to tell and am constantly struggling to carve out
 
 I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I hope I post stuff that people like, but if not then it's still a great exercise in creativity and finishing things.
 
-Check out my [Now]({{<ref "/Now">}}) page to see the latest, or my [Uses]({{<ref "/Uses">}}) page for what kind of gear and gadgets I use.
+Check out my: 
+
+- [Now]({{<ref "/Now">}}) page to see the latest about what I'm up to
+- [Uses]({{<ref "/Uses">}}) page for what kind of gear and gadgets I use
+- [Blogroll]({{<ref "/Blogroll">}}) for sites and newsletters I like
 
 ## The site
 
