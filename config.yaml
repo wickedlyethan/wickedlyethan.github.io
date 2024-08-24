@@ -9,10 +9,16 @@ menus:
   main:
     - name: Blog
       pageRef: /blog
-    - name: Photos
-      pageRef: /photos
+      weight: 1
     - name: Notes
       pageRef: /notes
+      weight: 2
+    - name: Photos
+      pageRef: /photos
+      weight: 3
+    - name: About
+      pageRef: /about
+      weight: 4
 
 permalinks:
   blog: /blog/:year/:month/:slug/

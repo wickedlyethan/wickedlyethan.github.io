@@ -1,7 +1,6 @@
 ---
 title: "About"
 type: single
-menu: second
 ---
 ![Profile illustration](/images/et_friendmaker.png#profile-picture "Made with 'friend maker' picrew by Rowan!")
 
@@ -13,7 +12,7 @@ I have a lot of stories I want to tell and am constantly struggling to carve out
 
 I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I hope I post stuff that people like, but if not then it's still a great exercise in creativity and finishing things.
 
-Check out my [Now page]({{<ref "/Now">}}) to see the latest.
+Check out my [Now]({{<ref "/Now">}}) page to see the latest, or my [Uses]({{<ref "/Uses">}}) page for what kind of gear and gadgets I use.
 
 ## The site
 

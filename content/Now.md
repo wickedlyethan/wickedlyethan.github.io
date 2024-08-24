@@ -1,7 +1,6 @@
 ---
 title: "Now"
 type: single
-menu: second
 updated: 2024-05-17
 ---
 

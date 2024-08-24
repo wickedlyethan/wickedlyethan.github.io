@@ -1,7 +1,6 @@
 ---
 title: "Uses"
 type: single
-menu: second
 updated: 2024-07-05
 ---
 I love tech and gadgets and thinking about how my setups have changed over the years. Following in the footsteps of [many](https://uses.tech/) indieweb-ers, here's my Uses page where I list out stuff I use and love!
