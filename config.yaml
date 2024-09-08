@@ -22,6 +22,7 @@ menus:
 
 permalinks:
   blog: /blog/:year/:month/:slug/
+  notes: /notes/:filename
 
 publishDir: 'public'
 
