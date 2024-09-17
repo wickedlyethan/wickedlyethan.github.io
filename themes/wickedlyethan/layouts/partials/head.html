@@ -4,6 +4,11 @@
 {{ $css := resources.Get "css/style.css" | minify}}
 <style>{{ $css.Content | safeCSS }}</style>
 
+{{if eq .Section "photos"}}
+{{ $photos_css := resources.Get "css/photos.css" | minify}}
+<style>{{ $photos_css.Content | safeCSS }}</style>
+{{end}}
+
 <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>"/>
 

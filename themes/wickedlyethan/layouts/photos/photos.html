@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article>{{ .Content}}</article>
 <hr>
-<div class="camera-roll">
+<div id="camera-roll">
   {{ range .Pages }}
   <div class="photo-post">
     <a href="{{ .RelPermalink }}">

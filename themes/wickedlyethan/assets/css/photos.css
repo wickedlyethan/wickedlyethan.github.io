@@ -1,0 +1,7 @@
+#camera-roll {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-post {
+    flex: 0 0 33.3%;
+}
