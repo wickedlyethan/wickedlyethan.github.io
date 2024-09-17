@@ -1,0 +1,8 @@
+{{define "main"}}
+{{ range .Params.Photos }}
+<img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
+{{ end }}
+<h1>{{.Title}}</h1>
+{{ .Content }}
+</article>
+{{end}}

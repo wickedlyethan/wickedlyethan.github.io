@@ -1,7 +1,18 @@
+body {
+    max-width: 768px;
+}
 #camera-roll {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .photo-post {
-    flex: 0 0 33.3%;
+    flex: 0 0 calc(95%/3);
+}
+.photo-post img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
