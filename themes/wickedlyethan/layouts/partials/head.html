@@ -5,7 +5,7 @@
 <style>{{ $css.Content | safeCSS }}</style>
 
 {{if eq .Section "photos"}}
-{{ $photos_css := resources.Get "css/photos copy.css" | minify}}
+{{ $photos_css := resources.Get "css/photos.css" | minify}}
 <style>{{ $photos_css.Content | safeCSS }}</style>
 {{end}}
 

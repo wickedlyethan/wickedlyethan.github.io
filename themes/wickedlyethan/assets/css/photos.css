@@ -2,17 +2,22 @@ body {
     max-width: 768px;
 }
 #camera-roll {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 2.5%;
+    justify-items: center;
+    align-items: start;
+    padding-bottom: 1em;
 }
 .photo-post {
-    flex: 0 0 calc(95%/3);
 }
 .photo-post img {
     height: 100%;
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+.photos {
+    width:80%;
+    margin:auto;
 }
