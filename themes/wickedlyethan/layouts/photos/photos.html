@@ -1,11 +1,15 @@
 {{ define "main" }}
 <article>{{ .Content}}</article>
-<hr>
-<div class="camera-roll">
+<div id="camera-roll">
   {{ range .Pages }}
   <div class="photo-post">
-    {{ .Content }}
-    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+    <a href="{{ .RelPermalink }}">
+    {{with .Params.photos}}
+      {{ range first 1 .}}
+      <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
+      {{ end }}
+    </a>
   </div>
+    {{ end }}
   {{ end }}
 {{ end }}

@@ -1,0 +1,13 @@
+#camera-roll {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 0.5em;
+    justify-items: center;
+    padding-bottom: 1em;
+}
+.photo-post img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
