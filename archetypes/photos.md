@@ -1,6 +1,8 @@
 ---
 title: '{{ .File.ContentBaseName }}'
 date: '{{ time.Now.Format "2006-01-02" }}'
+photos:
+    -
+        src: 
+        alt: ""
 ---
-![alt text](/images/photos/{photo} "{hover text}")
-<!--more-->
