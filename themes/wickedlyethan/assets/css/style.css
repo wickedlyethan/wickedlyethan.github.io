@@ -54,6 +54,12 @@ figcaption {
 blockquote p{
     font-style:italic;
 }
+pre {
+    background-color:darkslateblue;
+    padding:1em;
+    font-size:80%;
+    border-radius:5px;
+}
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
 @media (prefers-color-scheme: dark) and screen (-webkit-min-device-pixel-ratio:0){
     a {
