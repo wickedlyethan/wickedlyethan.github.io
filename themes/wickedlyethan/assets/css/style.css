@@ -1,7 +1,7 @@
 :root {    
     /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
     font-size: calc(1rem + 0.25vw);
-    line-height: 1.4;
+    line-height: 1.5;
     color-scheme: light dark;
 }
 * {box-sizing: border-box;}
@@ -26,6 +26,9 @@ header li, footer li {
 header ul, footer ul {
     padding:0;
 }
+li {
+    margin-bottom: 0.5em
+}
 .title {
     font-size:xxx-large;
     font-weight: bolder;
@@ -47,7 +50,7 @@ header ul, footer ul {
 pre code {
     white-space: pre-wrap;
 }
-figcaption {
+figcaption, pre {
     font-size: 75%;
     font-family:monospace;
 }
@@ -57,7 +60,6 @@ blockquote p{
 pre {
     background-color:darkslateblue;
     padding:1em;
-    font-size:80%;
     border-radius:5px;
 }
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
