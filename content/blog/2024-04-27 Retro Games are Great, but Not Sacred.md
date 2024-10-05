@@ -1,7 +1,6 @@
 ---
 title: Retro Games are Great, but Not Sacred
 date: 2024-04-27
-published: false
 ---
 
 A great thing about retro games is that it's always the new best time to play them: [cheap emulator handhelds](https://retrogamecorps.com/) are plentiful and constantly getting better; Apple finally allowed emulators onto the app store due to regulatory pressure and [Delta](https://www.theverge.com/2024/4/17/24132984/delta-free-emulator-nintendo-gba-n64-iphone-app-store-us) is by all reports an incredible option; and FPGA chips are getting more common, so the quality of emulation on certain hardware is near-perfect. You can play old games on any hardware, any time.
