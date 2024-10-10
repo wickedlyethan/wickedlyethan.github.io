@@ -51,3 +51,6 @@ markup:
       footnote: true
     renderer:
       unsafe: true
+
+pagination:
+  disableAliases: true

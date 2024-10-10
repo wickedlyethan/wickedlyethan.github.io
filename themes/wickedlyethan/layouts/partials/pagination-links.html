@@ -1,0 +1,10 @@
+{{ with .myPaginator }}
+  <div class="pagination-button-container">
+    {{ with .Prev }}
+      <p><a class="pagination-button" href="{{ .URL }}">&#8592; Newer</a></p>
+    {{ end }}
+    {{ with .Next }}
+      <p><a class="pagination-button" href="{{ .URL }}">&#8594; Older</a></p>
+    {{ end }}
+  </div>
+{{ end }}

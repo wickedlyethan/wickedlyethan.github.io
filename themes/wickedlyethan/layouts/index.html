@@ -1,4 +1,28 @@
-{{define "main"}}
-{{.Content}}
-{{partial "latest-content.html" .}}
+{{ define "main" }}
+{{ .Content }}
+{{ $content := where .Site.RegularPages "Type" "in" "blog,photos,notes" }}
+{{ $paginator := .Paginate $content.ByDate.Reverse 7 }}
+{{ range $paginator.Pages }}
+<div class="card bordered">
+    {{if in .Section "blog"}}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{- partial "post-data.html" . -}}
+        {{.Summary}}
+      <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
+    {{ else if in .Section "photos"}}
+        <a href="{{ .RelPermalink }}">
+        {{with .Params.photos}}
+            {{ range first 1 .}}
+                <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
+            {{ end }}
+        {{ end }}
+        </a>
+        <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
+    {{else}}
+        {{.Content}}
+        <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+    {{end}}
+  </div>
+{{end}}
+{{ partial "pagination-links" (dict "myPaginator" $paginator) }}
 {{end}}
