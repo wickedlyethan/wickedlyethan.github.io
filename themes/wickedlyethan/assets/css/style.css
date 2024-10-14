@@ -29,6 +29,9 @@ header ul, footer ul {
 li {
     margin-bottom: 0.5em
 }
+article p {
+    line-height: 1.618;
+}
 .title {
     font-size:xxx-large;
     font-weight: bolder;
