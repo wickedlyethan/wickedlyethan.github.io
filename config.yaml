@@ -1,7 +1,7 @@
 title: 'wickedlyethan'
 theme: 'wickedlyethan'
 Params:
-  author: ''
+  author: 'Ethan'
   description: "Wickedlyethan's personal website and garden"
   dateFormat: "2006-01-02"
 
@@ -54,3 +54,10 @@ markup:
 
 pagination:
   disableAliases: true
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepComments: false
+      keepWhitespace: true
