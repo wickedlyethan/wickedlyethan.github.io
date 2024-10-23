@@ -3,6 +3,10 @@ title: "Now"
 type: single
 ---
 
+## 2024-10-23
+
+Work has been bizarre but better, but I'm still fighting to make the project I work on something I'm proud of. Meanwhile we desperately need to get out of this apartment – we live in a neighborhood so noise-polluted that I wear noise-cancelling headphones most of the day, which in turn gives me a migraine that can ruin my evenings. I'm closer than ever to really diving into my dream fiction project, if not just as a way to get away from everything.
+
 ## 2024-05-17
 
 I've started my new technical writing job and have been thrown into the deep end of very corporate, big-scale software development. It's a strange, arcane world but I'm getting a grasp on it quickly enough, and I'm good enough at what I do that I have no problems actually doing my job.

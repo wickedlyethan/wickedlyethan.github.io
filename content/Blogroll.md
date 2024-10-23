@@ -10,6 +10,7 @@ A [blogroll](https://indieweb.org/blogroll) is a time-honored tradition of listi
 - [CHRIS MAHER | multimedia designer / animator](https://chrismaher.xyz/)
 - [Emily Muller Art](https://www.emilymullerart.com/)
 - [nathan wentworth ✨](https://nathanwentworth.co/)
+- [The Classic Gaming Brothers Podcast](https://www.classicgamingbrothers.com/#/)
 
 ## Newsletters
 

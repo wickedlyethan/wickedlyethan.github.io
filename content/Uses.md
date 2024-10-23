@@ -9,37 +9,42 @@ I love tech and gadgets and thinking about how my setups have changed over the y
 
 ## Computers
 
-- Apple Macbook M1 Air (my favorite, most used)
+- Apple Macbook M1 Air
 - Synology DiskStation DS118
-- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16gb of RAM, and all SSD storage
-- Raspberry Pi 4 for my homelab with a Hifiberry Digi+ S/PDIF output for music streaming
+- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16gb of RAM, and all SSD storage – only used for multiplayer games and music library management
+- Lenovo M900 for my [homelab]({{<ref "/blog/2024-10-05 my new homelab.md">}})
+- Raspberry Pi 4 with a Hifiberry Digi+ S/PDIF output for music streaming
 
 ## My desk
 
 I work from home, so my desk is an important place and I recently did a big upgrade to a electric sit/stand desk.
 
-{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is just a touch of date, my keyboard looks a lot nicer now and I stopped using the Stream Deck">}}
+{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is a touch out of date, my keyboard looks a lot nicer now and I stopped using the Stream Deck">}}
 
 - Flexispot E7 standing desk in black walnut
   - Grovemade walnut desk shelf and matte natural linoleum desk pad
 - 27" 1440p 144hz Dell gaming monitor with G-Sync
   - BenQ Screenbar monitor light (absolute game changer)
-- Portico68 Black Label keyboard with IFK Blue and White keycaps, S2 linear switches and a custom BNC-connector cable
-- Logitech G603 mouse (2017, still going), Logitech Lift vertical mouse for work
+- Portico68 Black Label keyboard
+  - "Night Market" keycaps by Osume
+  - C³ EQUALZ X TKC Banana Split linear switches
+  - Custom BNC-connector cable
+- Logitech G603 mouse (2017, still going)
 - Yeti Snowball ICE (got it for $20 at a pawn shop)
 - JDS Labs Atom DAC and amplifier stack, version 1
-  - Feeds into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday along with my wonderful, dependable Pioneer SP-BS22-LR speakers,
-  - Or into my Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
-- Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/).
+  - Feeds into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday
+  - Dependable Pioneer SP-BS22-LR speakers
+  - Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
+  - Sony MX4 headphones for when I need less of everything
+- Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/)
 
 ## Writing
 
-I went through a decade-long relationship with Moleskines ever since I bought my first while on a trip to England as a kid, but recently I leveled up my paper and pens without hopefully becoming a snob (ok maybe a little bit).
+I went through a decade-long relationship with Moleskines ever since I bought my first while on a trip to England as a kid, but recently I leveled up my paper and pens.
 
 - Stalogy 016 Notebook B5 Lined notebook for journaling
 - Midori B6 Slim notebook for ideas and keeping in my EDC bag
-- Lamy Safari charcoal fountain pen, fine nib
-- Pilot Kaküno fountain pen, extra-fine nib
+- Lamy Safari charcoal fountain pen, extra-fine nib
 - Herbin Bleu des Profondeurs ink, Ocean Depths Blue
 - Sharpie S-Gel metal barrel or Uniball Signo gel pens
 
