@@ -54,9 +54,9 @@ I personally can't think of any reason to be against someone doing more investig
 
 What do you replace the MCAS requirement with? Surely we don't want students to be able to graduate without question; our great education systems should have benchmarks and paths for remediation built in, right? The Massachusetts Teacher Association (MTA) says this:
 
-> Voting yes won’t eliminate the MCAS test—rather, it will replace the test as a graduation requirement with other measures that more accurately evaluate a student’s mastery of their coursework and state education standards. 
+> Voting yes won’t eliminate the MCAS test—rather, it will replace the test as a graduation requirement with other measures that more accurately evaluate a student’s mastery of their coursework and state education standards.
 
-However those other measures aren't part of the ballot measure; they would be determined by the state's 300 different educational districts. Not that I don't trust them – again, I'm deeply proud of Massachusetts' school systems, and a proud product of them – but it's worth noting that sometimes large-scale requirements exist for a reason. 
+However those other measures aren't part of the ballot measure; they would be determined by the state's 300 different educational districts. Not that I don't trust them – again, I'm deeply proud of Massachusetts' school systems, and a proud product of them – but it's worth noting that sometimes large-scale requirements exist for a reason.
 
 Then again, the MCAS one is pretty shit: it's one "high-stakes test" as the MTA puts it, in 10th grade oddly enough, and the amount of prep work and curriculum design that surrounds it is a black hole. Getting rid of the requirement will let districts decide what makes sense for their populations for graduating, but more importantly release all that tension around one day in an educational journey made of over a thousand days. Standardized testing has a lot of evidence against it, and the conversation can't stop here with repealing the requirement.
 
@@ -94,13 +94,13 @@ I'm broadly in favor of legalizing, regulating, and taxing the hell out of drugs
 - [Massachusetts tipping point: Boston restaurant workers sound off on Question 5](https://www.bostonherald.com/2024/10/10/massachusetts-tipping-point-restaurant-workers-from-boston-elsewhere-sound-off-on-question-5/)
 - [MA ballot Question 5: Both sides debate the tipped worker issue](https://www.capecodtimes.com/story/news/politics/elections/2024/10/18/massachusetts-debate-ballot-question-on-tipped-worker-wages/75700590007/)
 
-This one is a lot thornier than I thought it would be, because it's at the intersection of main-street economics and class warfare. I'm not pretending I know anything about the service industry; I went into retail as a teen because I knew I'd drop shit and freak out taking orders. The most I know is from [*Writers & Lovers* by Lily King](https://lilykingbooks.com/writers-lovers). 
+This one is a lot thornier than I thought it would be, because it's at the intersection of main-street economics and class warfare. I'm not pretending I know anything about the service industry; I went into retail as a teen because I knew I'd drop shit and freak out taking orders. The most I know is from [*Writers & Lovers* by Lily King](https://lilykingbooks.com/writers-lovers).
 
 The sub-minimum wage for workers is an affront on its face, but some data claims the current "solution" as it is working:
 
 > Based on a survey of 351 servers, bartenders, and other tipped staff conducted last February, Carnegie Mellon University found that 86% of respondents said the current tipping system works well for them. Roughly 89% said they earn at least $20 per hour and 56% reported taking in more than $30 an hour.
 
-The restaurant owners complain that they'll have to implement higher menu prices and service charges to cover the increase in labor costs. While my gut reaction is to shout ["*Then the business should not exist!*"](https://youtu.be/rEQhA-JJlH0?feature=shared), it's also true that inflation has drive up the cost of everything, including what the Bureau of Labor Statistics calls "food away from home", which has risen 3.9% [in 2024](https://www.bls.gov/news.release/cpi.nr0.htm). In other words, I'm genuinely worried that service charges and even more expensive food *will* kill the small town restaurants I adore in central Massachusetts. 
+The restaurant owners complain that they'll have to implement higher menu prices and service charges to cover the increase in labor costs. While my gut reaction is to shout ["*Then the business should not exist!*"](https://youtu.be/rEQhA-JJlH0?feature=shared), it's also true that inflation has drive up the cost of everything, including what the Bureau of Labor Statistics calls "food away from home", which has risen 3.9% [in 2024](https://www.bls.gov/news.release/cpi.nr0.htm). In other words, I'm genuinely worried that service charges and even more expensive food *will* kill the small town restaurants I adore in central Massachusetts.
 
 The initiative wouldn't end tipping culture, it'd still be there. What if costs go up for businesses, which are passed onto the diner, *and* I'm expected to leave a good tip, does that mean dinner now costs $150 for two? If it does, I won't be going out often, which negatively affects those workers too as the restaurants close and they're out of a job.
 

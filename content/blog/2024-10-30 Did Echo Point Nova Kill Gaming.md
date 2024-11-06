@@ -6,7 +6,7 @@ summary: I haven't played many games this year, and I haven't loved most of what
 
 I haven't played many games this year, and I haven't loved most of what I've played. Same with 2023, same with 2022. There are gems, and I'm not saying that good games aren't being made or don't exist – that's statistically impossible given the sheer amount that are being released. What I'm noticing is personal. The biggest genres of the moment – "live-service" games, horror, *Souls*-likes, sports games – aren't my thing, and the games I am playing aren't connecting the way they used to.
 
-Gone are the days of playing 30, 40 games a year and keeping a spreadsheet of hours played, thoughts and feelings, and academic observations. Now I keep a humble text document and scratch in some thoughts when something good comes along, but nothing serious. The games section of my usual "media of the year" posts are getting harder to write – [last year]() I moved it to the bottom of the post and admitted I didn't finish *Baldur's Gate 3* and had mixed feelings about *Counter-Strike 2*.
+Gone are the days of playing 30, 40 games a year and keeping a spreadsheet of hours played, thoughts and feelings, and academic observations. Now I keep a humble text document and scratch in some thoughts when something good comes along, but nothing serious. The games section of my usual "media of the year" posts are getting harder to write – [last year]({{<relref "/blog/2023-12-29 Media of the Year 2023.md">}}) I moved it to the bottom of the post and admitted I didn't finish *Baldur's Gate 3* and had mixed feelings about *Counter-Strike 2*.
 
 And then [*Echo Point Nova*](https://store.steampowered.com/app/1836730/Echo_Point_Nova/) happened.
 
