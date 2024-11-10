@@ -2,10 +2,7 @@
 {{ range first 7 $latest }}
 <div class="card bordered">
   {{if in .Section "blog"}}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{- partial "post-data.html" . -}}
-    {{.Summary}}
-    <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
+    {{ partial "card-blog.html" .}}
   {{ else if in .Section "photos"}}
     <a href="{{ .RelPermalink }}">
     {{with .Params.photos}}
@@ -16,8 +13,7 @@
     </a>
     <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
   {{else}}
-    {{.Content}}
-    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+    {{ partial "card-note.html" .}}
   {{end}}
 </div>
 {{ end }}
