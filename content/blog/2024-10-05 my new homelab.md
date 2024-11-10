@@ -1,8 +1,7 @@
 ---
 title: 'My New Homelab'
 date: 2024-10-05
-updated:
-summary: 
+summary: I recently upgraded my homelab from an over-exerted Raspberry Pi 4 to a Lenovo M900 mini PC, and it went shockingly smoothly. I've learned enough over the years of tinkering that it even felt like I knew what I was doing, which was exciting in and of itself! Now everything is running faster and better and I'm stoked about it.
 ---
 I recently upgraded my homelab from an over-exerted Raspberry Pi 4 to a Lenovo M900 mini PC, and it went shockingly smoothly. I've learned enough over the years of tinkering that it even felt like I knew what I was doing, which was exciting in and of itself! Now everything is running faster and better and I'm stoked about it.
 
