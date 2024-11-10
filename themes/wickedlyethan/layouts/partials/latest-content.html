@@ -4,14 +4,7 @@
   {{if in .Section "blog"}}
     {{ partial "card-blog.html" .}}
   {{ else if in .Section "photos"}}
-    <a href="{{ .RelPermalink }}">
-    {{with .Params.photos}}
-      {{ range first 1 .}}
-        <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
-      {{ end }}
-    {{ end }}
-    </a>
-    <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
+    {{ partial "card-photos.html" .}}
   {{else}}
     {{ partial "card-note.html" .}}
   {{end}}
