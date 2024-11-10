@@ -1,6 +1,5 @@
 {{ $latest := where .Site.RegularPages "Type" "in" "blog, photos,notes"}}
 {{ range first 7 $latest }}
-<div class="card bordered">
   {{if in .Section "blog"}}
     {{ partial "card-blog.html" .}}
   {{ else if in .Section "photos"}}
@@ -8,5 +7,4 @@
   {{else}}
     {{ partial "card-note.html" .}}
   {{end}}
-</div>
 {{ end }}
