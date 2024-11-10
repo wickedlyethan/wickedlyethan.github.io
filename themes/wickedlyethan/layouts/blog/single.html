@@ -2,7 +2,7 @@
 <hr>
 <article>
 <h1>{{ .Title }}</h1>
-<header><p><em>{{ .Date.Format "2006-01-02" }} // {{ .WordCount }} words // {{ .ReadingTime }} minute read{{if .Params.updated}} // Updated {{.Params.updated}}{{end}}</em></p></header>
+<header>{{- partial "post-data.html" . -}}</header>
 {{ with .TableOfContents }}
   {{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
     <details class="post-toc" open>

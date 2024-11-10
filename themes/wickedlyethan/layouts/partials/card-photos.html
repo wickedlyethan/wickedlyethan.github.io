@@ -1,0 +1,10 @@
+<div class="card bordered">
+    <a href="{{ .RelPermalink }}">
+        {{with .Params.photos}}
+        {{ range first 1 .}}
+            <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
+        {{ end }}
+        {{ end }}
+        </a>
+    <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
+</div>
