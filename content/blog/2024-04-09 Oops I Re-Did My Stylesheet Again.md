@@ -28,6 +28,6 @@ I've been writing and posting more on here, and hopefully this re-design will le
 
 I'm up to a back-breaking [62 lines of CSS](https://github.com/wickedlyethan/wickedlyethan.github.io/blob/main/themes/wickedlyethan/assets/css/style.css), but now I minify it and embed it in every page, so I don't feel too bad. The new lines are just some things to differentiate elements in blog posts, specifically figure captions and blockquotes; I did end up having to add a few lines to force Safari's hand and color links nicely, so that's their fault, not mine. I even went crazy and upgraded my title to "xxx-large".
 
-I recently added some more visual elements to site that I'm really happy with because they're just unicode icons, which can be relied upon to be rendered nicely and totally fit the vibe and ethos I'm going for.
+I recently added some more visual elements to site that I'm really happy with because they're just [unicode icons](https://www.compart.com/en/unicode), which can be relied upon to be rendered nicely and totally fit the vibe and ethos I'm going for.
 
 Most importantly, I've blogged and posted more this year than I have in the past five combined. The site feels great to me and I'm proud of it, and it feels clever to offload the design work and focus on content.
