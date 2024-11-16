@@ -32,10 +32,6 @@ li {
 article p {
     line-height: 1.618;
 }
-/* a[rel~="noreferrer"]::after {
-    content: '\00a0\2197';
-    font-size: 90%;
-} */
 .title {
     font-size:xxx-large;
     font-weight: bolder;
@@ -53,8 +49,8 @@ article p {
     display: flex;
     gap: 1em;
 }
+/* https://robinrendle.com/notes/the-smallest-css/ */
 pre code {
-    /* https://robinrendle.com/notes/the-smallest-css/ */
     white-space: pre-wrap;
 }
 figcaption, pre {
