@@ -1,14 +1,12 @@
 ---
 title: Media of the Year 2022
 date: 2023-01-01
-
 summary: "We're back doing one of these! A surprisingly earnest year with lots of adventure."
-
 --- 
 
 ## Games
 
-In a 180 from 2019, where I obsessively tracked what games I played and opened my thoughts on them for the year with how many I played and how long on average I spent on them, I barely tracked anything this year because I barely played anything this year, and only a bit more than 2021. 
+In a 180 from 2019, where I obsessively tracked what games I played and opened my thoughts on them for the year with how many I played and how long on average I spent on them, I barely tracked anything this year because I barely played anything this year, and only a bit more than 2021.
 
 Most of the hours were with *Fortnite* - which I started playing in earnest this year - and I don't think of *Fortnite* as "good" or "bad", because it doesn't exist on that axis - it's a statistical and emotional island. Every aspect of it is fleeting, constant in that it cannot be constant, and yet it was the constant among my friends who wanted to hangout and not be stressed and miserable like we were with *Apex Legends*, or unrewarded as we were by *Halo: Infinite* or *GTA Online*. I wasn't even planning on writing about *Fortnite* and yet here we are, woops!!
 
@@ -18,7 +16,7 @@ Most of the hours were with *Fortnite* - which I started playing in earnest this
 
 What an absolute surprise this was. I should have known when I was promised a grappling hook **and** an open world that it was going to get its claws into me, but having been not a real fan of Halo in the past I didn't expect to be pulled into the mix of meditative exploration and hectic fights. I've won more fights in *Infinite* by the skin of my teeth than any other game I can think of - it's odd to say but making Master Chief feel scrappy is my favorite thing this game does. At a certain point it feels like *Far Cry 2* (that's right, we're calling in the big guns) on floating space rocks - stranded in unfriendly territory, constant threat right under the surface of a beautiful world.
 
-Unfortunately it falls prey to Halo's worst tendencies and includes multiple ass-numbing missions of repetitious tight corridors and droning voice overs that I begged out loud to end soon or end me. They did not heed my call; I suffered through like a good little space marine all to get the job done and then come back for more. 
+Unfortunately it falls prey to Halo's worst tendencies and includes multiple ass-numbing missions of repetitious tight corridors and droning voice overs that I begged out loud to end soon or end me. They did not heed my call; I suffered through like a good little space marine all to get the job done and then come back for more.
 
 ### A Short Hike
 
@@ -34,7 +32,7 @@ I must confess to having never finished a *Monkey Island* game before this, havi
 
 *Return to Monkey Island* has a perfect hint book, one that requires multiple inputs to give away a solution. Otherwise the game itself leads you in the right direction, and there isn't a stronger drug than figuring out why I needed a crate of limes and an incarcerated used sailing ship seller to get one step closer to the mythical treasure of Monkey Island.
 
-This is the only game I can think of that handles aging well: it could be considered an entry in the "sad dad" oeuvre sweeping games as its senior directors turn middle-age, but it's cleverer and has more intent than that. This is a swan song of an age that never had a proper close, a tale told to inspire whoever comes next, but mostly to let the creators rest happy. 
+This is the only game I can think of that handles aging well: it could be considered an entry in the "sad dad" oeuvre sweeping games as its senior directors turn middle-age, but it's cleverer and has more intent than that. This is a swan song of an age that never had a proper close, a tale told to inspire whoever comes next, but mostly to let the creators rest happy.
 
 I finished it on a cold day in the public library, pretending to "work from home", so that also makes it a 10/10.
 
@@ -80,19 +78,19 @@ Prestige TV is dead, they say - there is no more "did you see???" there's instea
 
 ![Dickinson, season 3](/images/blog/2022-media-retrospective/Dickinson.png)
 
-This show felt like a house party you were lucky enough to land an invite to, and season three concludes it with Hailee Steinfeld's Emily Dickinson turning off the music and asking everyone to wrap it up. The anachronisms are still intoxicating and the disposal of a simple plot-forward narrative gives the creatives a lot of room to play - that's the first word I'd ascribe to the show on the whole: playful. Charming, bonkers, and ink-splotched also. 
+This show felt like a house party you were lucky enough to land an invite to, and season three concludes it with Hailee Steinfeld's Emily Dickinson turning off the music and asking everyone to wrap it up. The anachronisms are still intoxicating and the disposal of a simple plot-forward narrative gives the creatives a lot of room to play - that's the first word I'd ascribe to the show on the whole: playful. Charming, bonkers, and ink-splotched also.
 
 ### Our Flag Means Death
 
 ![Our Flag Means Death](/images/blog/2022-media-retrospective/our-flag-means-death.png)
 
-The show we had no idea was coming, another win for on-screen earnestness. Fundamentally it's about people trying to figure themselves out while being as kind to others as they can, but with pirates and nasty wounds and New Zealand deadpan. It's another great argument that emotional stakes always feel bigger and more pressing than world-ending ones - a sky-beam can't compare to Stede buying a cheap treasure map to take Ed on an adventure in an attempt to cheer him up. This show had a rudely uphill battle to get renewed for season 2, and one worries that this kind of high-concept, high-execution, niche audience darling might have trouble surviving the coming lean years of streaming. 
+The show we had no idea was coming, another win for on-screen earnestness. Fundamentally it's about people trying to figure themselves out while being as kind to others as they can, but with pirates and nasty wounds and New Zealand deadpan. It's another great argument that emotional stakes always feel bigger and more pressing than world-ending ones - a sky-beam can't compare to Stede buying a cheap treasure map to take Ed on an adventure in an attempt to cheer him up. This show had a rudely uphill battle to get renewed for season 2, and one worries that this kind of high-concept, high-execution, niche audience darling might have trouble surviving the coming lean years of streaming.
 
 ### The Sandman
 
 ![The Sandman](/images/blog/2022-media-retrospective/sandman.png)
 
-It feels bizarre to be even writing about this show because it seemed an impossibility, but the Netflix adaptation of a cornerstone of comics nonetheless shows the limits of adaptation that explain the difficulty. 
+It feels bizarre to be even writing about this show because it seemed an impossibility, but the Netflix adaptation of a cornerstone of comics nonetheless shows the limits of adaptation that explain the difficulty.
 
 It's a trick that only works once, you see - the specificity and discipline in bringing it to life is a puzzle box, an unwrapping of delights until you hit the ones with the center you don't like - "The Doll's House" is an arc that drags and hisses at you, for example. The ones you do like go too quick meanwhile, and upon a rewatch you're grasping at sand, trying to recapture the magic of seeing it all for the first time.
 
@@ -110,7 +108,7 @@ Also intoxicating here is the depiction of a full life, from beginning to end, t
 
 ### Sea of Tranquility by Emily St. John Mandel
 
-There are so few ways to adequately tackle this book, its specificities, and uncanny timeliness without spoiling or wanting to go re-read it. Much like one of my favorite movies, the not-seen-enough [*Predestination* (2014)](https://www.imdb.com/title/tt2397535/), Mandel's latest fits all together in a way that cannot be predicted, delights, and without a doubt is a writer at the top of their craft stretching out in whatever directions they want to. I'm not sure there's anything Emily St. John Mandel *can't* write about. 
+There are so few ways to adequately tackle this book, its specificities, and uncanny timeliness without spoiling or wanting to go re-read it. Much like one of my favorite movies, the not-seen-enough [*Predestination* (2014)](https://www.imdb.com/title/tt2397535/), Mandel's latest fits all together in a way that cannot be predicted, delights, and without a doubt is a writer at the top of their craft stretching out in whatever directions they want to. I'm not sure there's anything Emily St. John Mandel *can't* write about.
 
 > “When have we ever believed that the world wasn’t ending?”
 

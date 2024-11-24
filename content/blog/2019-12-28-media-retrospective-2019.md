@@ -1,17 +1,13 @@
 ---
-
 title: "Media of the Year 2019"
 date: 2019-12-28
-
 image: /blog/2019-media-retrospective/vortex.jpg
-
 summary: "That's right, we're doing one of these EVERY year. Featuring: communist witches, superhero ennui, hot scots, and the answer to what part of you your cat will eat first when you die."
-
 ---
 
 ## Games
 
-I played 38 games this year, with an average of 7 hours per, so I'm continuing a trend of playing a lot of games for a little, choosing games that either can be completed in a shorter hour count or games that can't be finished at all, so I don't feel bad when I drop out. There were plenty I enjoyed this year, but few I loved, and fewer games that generated the kinds of unique stories I love to tell about playing games. These were straightforward, solid games, and I'm thankful for them, but only one will change how I think about the medium much.
+I played 38 games this year, with an average of 7 hours per, so I'm continuing a trend of playing a lot of games for a little, choosing games that either can be completed in a shorter hour count or games that can't be finished at all so I don't feel bad when I drop out. There were plenty I enjoyed this year but few I loved, and fewer games that generated the kinds of unique stories I love to tell about playing games. These were straightforward, solid games and I'm thankful for them, but only one will change how I think about the medium much.
 
 ![A Bewitching Revolution](/images/blog/2019-media-retrospective/a-bewitching-revolution.png)
 
@@ -19,9 +15,9 @@ I played 38 games this year, with an average of 7 hours per, so I'm continuing a
 
 *(Colestia, 2019, PC)*
 
-The most evocative and deliberate half hour of gaming I've played since *Thirty Flights of Loving* (Blendo Games, 2012). I knew when I first played this that it was my game of the year, and that was back in **May**. It can and should get awards for its pitch alone: 
+The most evocative and deliberate half hour of gaming I've played since *Thirty Flights of Loving* (Blendo Games, 2012). I knew when I first played this that it was my game of the year, and that was back in **May**. It can and should get awards for its pitch alone:
 
-> _A Bewitching Revolution_ is a first-person adventure game about a communist witch living in a cyberpunk city. Use magic to help the city's residents build collective forms of power and resistance!
+> *A Bewitching Revolution* is a first-person adventure game about a communist witch living in a cyberpunk city. Use magic to help the city's residents build collective forms of power and resistance!
 
 This was a year of obvious political turmoil, and amongst that I was learning to articulate what I want from those in power and learning the vocabulary for it. One hero of that personal shift was AOC, the other was *A Bewitching Revolution*. This game-as-polemic uses simple mechanics and pointed visual design to convey important, but radically simple, messages about empathy, organization, and the power of asking the right questions, the chief among them being "who actually is benefiting from this?"
 
@@ -33,7 +29,7 @@ My game of the year moment: casting a spell on anti-bird spikes on top of a lamp
 
 *(Villa Gorilla, 2018, Xbox)*
 
-Patrick Klepek of *VICE* championed this when it came out, but I'm embarrassed to say that I, like many I suspect, waited on it until it came out on XBOX Game Pass, showing the potential benefits of the subscription model - removing any barrier to entry. A blend of *Ori and the Blind Forest* (Moon Studios, 2015) and pinball, but with a softer, more sarcastic touch. More aloof than any Pixar film, but more focused than any *Animal Crossing* game, *Yoku's Island Express* is a joy from beginning to end in about six hours, and we need more games like it, in that it can be universally recommended - anyone can play it, and I bet they'll love it.
+Patrick Klepek of *Waypoint* championed this when it came out, but I'm embarrassed to say that I, like many I suspect, waited on it until it came out on Xbox Game Pass, showing the potential benefits of the subscription model - removing any barrier to entry. A blend of *Ori and the Blind Forest* (Moon Studios, 2015) and pinball, but with a softer, more sarcastic touch. More aloof than any Pixar film, but more focused than any *Animal Crossing* game, *Yoku's Island Express* is a joy from beginning to end in about six hours, and we need more games like it, in that it can be universally recommended - anyone can play it, and I bet they'll love it.
 
 ![Planet Zoo](/images/blog/2019-media-retrospective/planet-zoo.jpg)
 
@@ -97,11 +93,11 @@ Yes, yes, I know that I'm behind - I'm *always* behind with books because I'm mu
 
 ### [Will My Cat Eat My Eyeballs? by Caitlin Doughty](http://caitlindoughty.com/books/will-my-cat-eat-my-eyeballs)
 
-Thinking about death is hard, and Youtuber-Mortician extraordinaire Caitlin Doughty knows that, so she uses the cover of innocent enough children's question to Trojan-horse her way into talking about death planning for the family, some of the horrible ways the death industry handles its charges, and also what would happen if you died during a voyage in space. The book ranges from "good to know!" to "holy shit!" deftly, and there's a lot to be said for the conversation starters you leave armed with, which can be said of all of Doughty's work. 
+Thinking about death is hard, and Youtuber-Mortician extraordinaire Caitlin Doughty knows that, so she uses the cover of innocent enough children's question to Trojan-horse her way into talking about death planning for the family, some of the horrible ways the death industry handles its charges, and also what would happen if you died during a voyage in space. The book ranges from "good to know!" to "holy shit!" deftly, and there's a lot to be said for the conversation starters you leave armed with, which can be said of all of Doughty's work.
 
 ### [Magic for Liars by Sarah Gailey](https://us.macmillan.com/books/9781250174611)
 
-Gailey's work showed up suddenly for me this year, but they sure did show up with aplomb - *Magic for Liars* is an incisive and twisty mystery in a meaner, more online Hogwarts, and its send up of its roots sits comfortably beside its twisty and involved narrative. I read it in just a day or two, totally absorbed in the perfectly realized point of view of Ivy Gamble, PI. (Who clearly has one of the best detective names ever.) Gailey is very interested in the micro-expressions that can, to a trained eye, give away the entire game. In a movie these would be played up; in a game they'd be set in bold red font after a skill check; in a novel told well they become part of the hero's own brand of magic, when they themselves have been shut out of the world of magic as we normally know it. 
+Gailey's work showed up suddenly for me this year, but they sure did show up with aplomb - *Magic for Liars* is an incisive and twisty mystery in a meaner, more online Hogwarts, and its send up of its roots sits comfortably beside its twisty and involved narrative. I read it in just a day or two, totally absorbed in the perfectly realized point of view of Ivy Gamble, PI. (Who clearly has one of the best detective names ever.) Gailey is very interested in the micro-expressions that can, to a trained eye, give away the entire game. In a movie these would be played up; in a game they'd be set in bold red font after a skill check; in a novel told well they become part of the hero's own brand of magic, when they themselves have been shut out of the world of magic as we normally know it.
 
 **Short Stories**: ["Away with the Wolves"](https://uncannymagazine.com/article/away-with-the-wolves/) by Sarah Gailey, ["Bubbles and his Biped"](https://firesidefiction.com/bubbles-and-his-biped) by Mary Berman
 
@@ -129,7 +125,7 @@ I'm not usually a fan of surrealism, but the Russian pop group's matter-of-fact 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9basY324N3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Bon Appetit's meteoric rise in 2019 came right as I started to lean in to cooking as something to do that wasn't just more screen time, so the rascally crew of the BA test kitchen have become reliable companions at home and the perfect distraction at work. Apparently the Food Network [hit it big](http://blogs.wgbh.org/innovation-hub/2018/7/19/food-network-went-bust-big/) after 9/11; in this time of crisis the comfort food has simply moved to YouTube. While I was drawn in by Claire with the legendary "Gourmet Makes" series, I've learned the most from Chris Morroco and given the most smiles by Rick Martinez, but I could sit here all day running through the list, as I did with family over the holidays, and that's part of the magic. 
+Bon Appetit's meteoric rise in 2019 came right as I started to lean in to cooking as something to do that wasn't just more screen time, so the rascally crew of the BA test kitchen have become reliable companions at home and the perfect distraction at work. Apparently the Food Network [hit it big](http://blogs.wgbh.org/innovation-hub/2018/7/19/food-network-went-bust-big/) after 9/11; in this time of crisis the comfort food has simply moved to YouTube. While I was drawn in by Claire with the legendary "Gourmet Makes" series, I've learned the most from Chris Morroco and given the most smiles by Rick Martinez, but I could sit here all day running through the list, as I did with family over the holidays, and that's part of the magic.
 
 ### Randy Feltface
 
