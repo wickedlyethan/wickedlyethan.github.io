@@ -9,7 +9,7 @@ html {
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    margin:1em 1.5em 4em 1.5em;
+    margin:1em 2em 4em 2em;
 }
 body {
     font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -29,11 +29,21 @@ header ul, footer ul {
 li {
     margin-bottom: 0.5em
 }
+article h1 {
+    font-size: 200%;
+    margin-bottom: 0.5em; 
+}
+article header {
+    margin-bottom: 2em;
+}
+#post-data {
+    font-style: italic;
+}
 article p {
     line-height: 1.618;
 }
 .title {
-    font-size:xxx-large;
+    font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
 }
