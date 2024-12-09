@@ -1,6 +1,7 @@
 ---
 title: "Oops I Re-Did My Stylesheet Again"
 date: 2024-04-09
+subheadline: Can't stop, won't stop (but I'm trying desperately to stop)
 ---
 Having no archive and habitually erasing all the evidence anyways, it might not be obvious that I'm the kind of person who redesigns their website every 6 months to a year. I've had a personal website since middle school in one form or another - Blogger, Wordpress, Tumblr, then in college hand-crafted, deeply amateur HTML. We're way past the ship of Theseus at this point, past sports car getting rebuilt in the garage; it's some kind of mania.
 
@@ -31,3 +32,7 @@ I'm up to a back-breaking [62 lines of CSS](https://github.com/wickedlyethan/wic
 I recently added some more visual elements to site that I'm really happy with because they're just [unicode icons](https://www.compart.com/en/unicode), which can be relied upon to be rendered nicely and totally fit the vibe and ethos I'm going for.
 
 Most importantly, I've blogged and posted more this year than I have in the past five combined. The site feels great to me and I'm proud of it, and it feels clever to offload the design work and focus on content.
+
+## Update 2024-12
+
+A few more lines of CSS have crept into the stylesheet, now sitting at a bloated, disgusting 83 lines. It was worth it, I swear! I added sub-headlines and needed to adjust the default spacing, and I realized that using CSS keywords for the few elements that had non-standard sizing was locking them in, instead of letting them ebb and flow with the root font size calculation, so I changed those to percentages. Oh and I dedicated a whole foul line to set the line height of content paragraphs to [the golden ratio](https://medium.com/@zkareemz/golden-ratio-62b3b6d4282a), which feels similar to the root font size like a "well duh!" rule I never would've thought of. It felt instantly right and I'm going to force it upon every citizen I see.

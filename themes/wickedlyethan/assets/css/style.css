@@ -9,11 +9,11 @@ html {
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    margin:1em 2em 4em 2em;
+    margin:1rem 2rem 4rem 2rem;
 }
 body {
     font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    max-width: 34em;
+    max-width: 34rem;
     margin: auto;
 }
 img {
@@ -27,19 +27,20 @@ header ul, footer ul {
     padding:0;
 }
 li {
-    margin-bottom: 0.5em
+    margin-bottom: 0.5rem
 }
 article h1 {
     font-size: 200%;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.5rem; 
 }
 article header {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 #post-data {
     font-style: italic;
 }
 article p {
+    /* https://medium.com/@zkareemz/golden-ratio-62b3b6d4282a */
     line-height: 1.618;
 }
 .title {
@@ -48,16 +49,16 @@ article p {
     text-decoration: none;
 }
 .card {
-    margin-bottom: 1em;
-    padding: 1em;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 .bordered {
-    border: solid 0.1em;
+    border: solid 0.1rem;
     border-radius: 1%;
 }
 .blog-list-item {
     display: flex;
-    gap: 1em;
+    gap: 1rem;
 }
 /* https://robinrendle.com/notes/the-smallest-css/ */
 pre code {
@@ -72,7 +73,7 @@ blockquote p{
 }
 pre {
     background-color:darkslateblue;
-    padding:1em;
+    padding:1rem;
     border-radius:5px;
 }
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
