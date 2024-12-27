@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 type: single
-updated: 2024-07-05
+updated: 2024-12-28
 ---
 I love tech and gadgets and thinking about how my setups have changed over the years. Following in the footsteps of [many](https://uses.tech/) indieweb-ers, here's my Uses page where I list out stuff I use and love!
 
@@ -17,36 +17,37 @@ I love tech and gadgets and thinking about how my setups have changed over the y
 
 ## My desk
 
-I work from home, so my desk is an important place and I recently did a big upgrade to a electric sit/stand desk.
-
-{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is a touch out of date, my keyboard looks a lot nicer now and I stopped using the Stream Deck">}}
+{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is a touch out of date, my keyboard looks a lot nicer now and I sold the Stream Deck">}}
 
 - Flexispot E7 standing desk in black walnut
-  - Grovemade walnut desk shelf and matte natural linoleum desk pad
+  - Grovemade walnut desk shelf
+  - Grovemade matte natural linoleum desk pad
+  - Grovemade walnut headphone stand
+  - (I really like Grovemade's stuff)
 - 27" 1440p 144hz Dell gaming monitor with G-Sync
-  - BenQ Screenbar monitor light (absolute game changer)
-- Portico68 Black Label keyboard
-  - "Night Market" keycaps by Osume
-  - C³ EQUALZ X TKC Banana Split linear switches
-  - Custom BNC-connector cable
+  - BenQ Screenbar monitor light (eye-saver)
+  - Logitech C920 webcam (ancient)
+- [Mode SixtyFive]({{<ref "/blog/2024-12-09 Mode SixtyFive.md">}})
+  - Black aluminum case with walnut wood accent
+  - Mode Obscura long-pole linear switches
+  - Osume Night Market keycaps, using the "luminous orchid" and "brilliant yellow" accent keys
 - Logitech G603 mouse (2017, still going)
 - Yeti Snowball ICE (got it for $20 at a pawn shop)
 - JDS Labs Atom DAC and amplifier stack, version 1
-  - Feeds into my ancient Sherwood stereo receiver, which was a gift for my 16th birthday
+  - Sherwood stereo receiver, which was a gift for my 16th birthday
   - Dependable Pioneer SP-BS22-LR speakers
   - Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
-  - Sony MX4 headphones for when I need less of everything
+  - Sony XM4 headphones for when I need to block out everything
 - Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/)
 
 ## Writing
 
 I went through a decade-long relationship with Moleskines ever since I bought my first while on a trip to England as a kid, but recently I leveled up my paper and pens.
 
-- Stalogy 016 Notebook B5 Lined notebook for journaling
+- Stalogy 016 Notebook B5 Lined notebooks for journaling
 - Midori B6 Slim notebook for ideas and keeping in my EDC bag
-- Lamy Safari charcoal fountain pen, extra-fine nib
-- Herbin Bleu des Profondeurs ink, Ocean Depths Blue
-- Sharpie S-Gel metal barrel or Uniball Signo gel pens
+- Lamy Safari charcoal fountain pen, extra-fine nib and Herbin Bleu des Profondeurs ink, Ocean Depths Blue
+- Sharpie S-Gel metal and Pilot G-2 limited pens with 0.5mm Energel refills
 
 ## Apps
 
@@ -54,7 +55,20 @@ Everyone runs their lives out of apps, but I *really* can't live without my to-d
 
 - [TickTick](https://www.ticktick.com/) for to-do lists
 - [Obsidian](https://obsidian.md/) for my second brain / personal knowledge base
-- [Pinboard](https://pinboard.in/) for bookmarks
+- [iA Writer](https://ia.net/writer) for focused writing
 - [Inoreader](https://www.inoreader.com) to further the great cause of RSS
 - [Instapaper](https://www.instapaper.com/u) to read longer things from the internet
 - [Visual Studio Code](https://code.visualstudio.com/) for making this website
+
+## Homelab
+
+[My homelab]({{<ref "/blog/2024-10-05 my new homelab.md">}}) has become important infrastructure and I self-host some good stuff:
+
+- Lenovo M900 mini PC (i5, 16 GB RAM, 256 GB SSD) running Proxmox VE
+  - Home Assistant OS
+  - AdGuard Home
+  - Portainer
+    - Navidrome
+    - Linkding
+    - MeTube
+    - Whoogle

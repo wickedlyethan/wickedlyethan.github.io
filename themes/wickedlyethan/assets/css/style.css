@@ -29,6 +29,9 @@ header ul, footer ul {
 li {
     margin-bottom: 0.5rem
 }
+ul li ul {
+	margin-top: 0.5rem;
+}
 article h1 {
     font-size: 200%;
     margin-bottom: 0.5rem; 
