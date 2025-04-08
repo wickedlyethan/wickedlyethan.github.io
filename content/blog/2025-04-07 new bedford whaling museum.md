@@ -1,6 +1,6 @@
 ---
 date: 2025-04-07
-subheadline: Madness and progress sit uncomfortably close in local New England history.
+subtitle: Madness and progress sit uncomfortably close in local New England history.
 title: "'The City that Lit the World': Visiting the New Bedford Whaling Museum"
 ---
 Over the past few years I’ve felt a nascent history dork side of myself come to life, and last weekend I engaged with the dorkiest, dadliest kind of history – maritime history – and went to the New Bedford Whaling Museum with my dad and Emily. Whether I love history because I grew up in New England or love New England because of its rich history is a chicken-and-egg question, but where the regional meets global is fascinating: the industrial revolution and its discontents.

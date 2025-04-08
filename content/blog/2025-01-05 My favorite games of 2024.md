@@ -1,7 +1,7 @@
 ---
 title: 'My Favorite Games of 2024'
 date: '2025-01-05T15:46:51-05:00'
-subheadline: An incredible year of games I had no idea were coming
+subtitle: An incredible year of games I had no idea were coming
 summary: "This was an unenthusiastic year for me and video games – as I wrote earlier in the year, I feel like I don't get a lot of what I want – satisfying exploration, unique movement, compelling stories – for the massive time commitments required by games compared to any other media. (Last year I put almost 100 hours into *Baldur's Gate 3* and didn't even see the end of it!) Until it wasn't, that is, and I played some new all-time favorites that invigorated me and made me try to articulate what I love about games specifically."
 
 ---

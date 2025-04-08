@@ -1,7 +1,7 @@
 ---
 title: 'My Favorite Books of 2024'
 date: '2024-12-16T20:34:35-05:00'
-subheadline: 'Greek tragedy (in Italy), the best cozy fantasy, and a couple of timeless reads got me through the year.'
+subtitle: 'Greek tragedy (in Italy), the best cozy fantasy, and a couple of timeless reads got me through the year.'
 summary: I've moved past doing a yearly reading goal, but I read 29 books this year and it was a pretty good, if not amazing selection! Books like *Glorious Exploits* by Ferdia Lennon, *Bookshops & Bonedust* by Travis Baldree, and *Annie Bot* by Sierra Greer were my favorite new releases.
 ---
 

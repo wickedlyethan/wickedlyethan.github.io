@@ -1,7 +1,7 @@
 ---
 title: The Tech We Used to Love
 date: 2025-03-10
-subheadline: Skype's demise brought about some big feelings about all the chat apps we millennials used to fall in love. 
+subtitle: Skype's demise brought about some big feelings about all the chat apps we millennials used to fall in love. 
 summary: 
 ---
 

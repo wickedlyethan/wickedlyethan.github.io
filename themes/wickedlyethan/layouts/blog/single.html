@@ -3,7 +3,7 @@
 <article>
 <header>
   <h1>{{ .Title }}</h1>
-  {{if .Params.Subheadline}}<p id="subheadline">{{.Params.Subheadline}}</p>{{end}}
+  {{if .Params.subtitle}}<p id="subtitle">{{.Params.subtitle}}</p>{{end}}
   {{- partial "post-data.html" . -}}
 </header>
 {{ with .TableOfContents }}

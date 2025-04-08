@@ -1,7 +1,7 @@
 ---
 title: 'Mode SixtyFive Review – Finally Worth It'
 date: '2024-12-03T10:15:52-05:00'
-subheadline: 'After years of being budget-conscious, it turns out going all-out is the path to satisfaction'
+subtitle: 'After years of being budget-conscious, it turns out going all-out is the path to satisfaction'
 summary: 
 ---
 

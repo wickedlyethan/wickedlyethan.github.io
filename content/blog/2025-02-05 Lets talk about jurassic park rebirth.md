@@ -1,7 +1,7 @@
 ---
 title: "Let's Talk About That 'Jurassic Park: Rebirth' Trailer"
 date: '2025-02-05T16:46:30-05:00'
-subheadline: I have concerns and dreams.
+subtitle: I have concerns and dreams.
 summary: It's only been three years since the brain damage of *Jurassic World Dominion*, but here we go again. I have concerns.
 ---
 

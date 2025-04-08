@@ -1,7 +1,7 @@
 ---
 title: "Oops I Re-Did My Stylesheet Again"
 date: 2024-04-09
-subheadline: Can't stop, won't stop (but I'm trying desperately to stop)
+subtitle: Can't stop, won't stop (but I'm trying desperately to stop)
 ---
 Having no archive and habitually erasing all the evidence anyways, it might not be obvious that I'm the kind of person who redesigns their website every 6 months to a year. I've had a personal website since middle school in one form or another - Blogger, Wordpress, Tumblr, then in college hand-crafted, deeply amateur HTML. We're way past the ship of Theseus at this point, past sports car getting rebuilt in the garage; it's some kind of mania.
 
