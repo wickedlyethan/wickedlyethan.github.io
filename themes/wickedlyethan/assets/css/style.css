@@ -43,7 +43,6 @@ article header {
     font-style: italic;
 }
 article p {
-    /* https://medium.com/@zkareemz/golden-ratio-62b3b6d4282a */
     line-height: 1.618;
 }
 .title {
@@ -63,7 +62,6 @@ article p {
     display: flex;
     gap: 1rem;
 }
-/* https://robinrendle.com/notes/the-smallest-css/ */
 pre code {
     white-space: pre-wrap;
 }
