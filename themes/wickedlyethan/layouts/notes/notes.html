@@ -1,7 +1,10 @@
 {{ define "main" }}
 {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
 {{ range $paginator.Pages }}
-    {{ partial "card-note.html" .}}
+<div class="card bordered">
+    {{.Content}}
+    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+</div>
 {{ end }}
 {{ partial "pagination-links" (dict "myPaginator" $paginator) }}
 {{ end }}

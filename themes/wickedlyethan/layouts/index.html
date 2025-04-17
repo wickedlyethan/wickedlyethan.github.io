@@ -6,6 +6,7 @@
 <div class="card bordered">
     {{if in .Section "blog"}}
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <p>{{ .Params.subtitle }}</p>
         {{- partial "post-data.html" . -}}
         {{.Summary}}
       <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
