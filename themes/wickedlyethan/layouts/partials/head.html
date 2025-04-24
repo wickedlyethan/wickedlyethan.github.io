@@ -4,11 +4,6 @@
 {{ $css := resources.Get "css/style.css" | minify}}
 <style>{{ $css.Content | safeCSS }}</style>
 
-{{if eq .Section "photos"}}
-{{ $photos_css := resources.Get "css/photos.css" | minify}}
-<style>{{ $photos_css.Content | safeCSS }}</style>
-{{end}}
-
 <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
 <meta name="description" content="{{ .Page.Summary}}" />
 <link rel="canonical" href="{{ .Permalink }}" />
