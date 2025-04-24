@@ -8,6 +8,7 @@
     {{ end }}
 </header>
 
+{{if in .Section "blog"}}
 {{ with .TableOfContents }}
   {{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
   <details id="post-toc" open>
@@ -15,6 +16,7 @@
       {{ . }}
   </details>
   {{ end }}
+{{ end }}
 {{ end }}
 
 {{ if .Params.Photos }}
