@@ -44,8 +44,11 @@ article header {
 #post-data {
     font-style: italic;
 }
-article p {
+article > p {
     line-height: 1.618;
+    /* https://webkit.org/blog/16831/line-height-units/ */
+    margin-block: 1rem;
+    margin-block: 1lh;
 }
 .title {
     font-size: 250%;
