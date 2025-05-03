@@ -28,6 +28,9 @@ header li, footer li {
 header ul, footer ul {
     padding:0;
 }
+em {
+    font-weight: 500;
+}
 li {
     margin-bottom: 0.5rem
 }
