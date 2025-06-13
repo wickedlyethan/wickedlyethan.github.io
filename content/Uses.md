@@ -17,7 +17,10 @@ I love tech and gadgets and thinking about how my setups have changed over the y
 
 ## My desk
 
-{{<figure src="/images/blog/2024-03-04-17h57m07.jpg" caption="This photo is a touch out of date, my keyboard looks a lot nicer now and I sold the Stream Deck">}}
+<figure>
+    <img src="/images/blog/2024-03-04-17h57m07.jpg" alt="Description of the image content">
+    <figcaption>This photo is a touch out of date, my keyboard looks a lot nicer now and I sold the Stream Deck</figcaption>
+</figure>
 
 - Flexispot E7 standing desk in black walnut
   - Grovemade walnut desk shelf

@@ -12,11 +12,17 @@ Before the trend of [digicams](https://www.polygon.com/24158881/tiktok-retro-dig
 
 I bought the Moment anamorphic smartphone lens back in late 2020 because I wanted something different from my smartphone photos. I am a huge aspect ratio dork – I have favorites (1.66:1) and least favorites (2.4:1) – so getting to take photos and make them look bigger-than life and otherworldly through hardware, instead of through editing, was exciting. Later I was thoughtfully given the 58mm telephoto lens, which promised a further reach than any smartphone I had ever had.
 
-{{<figure src="/images/blog/2024-06-30-ode-to-moment/both-moment-lenses.jpg" caption="Absolutely beautiful objects, both of them">}}
+<figure>
+    <img src="/images/blog/2024-06-30-ode-to-moment/both-moment-lenses.jpg" alt="Description of the image content">
+    <figcaption>Absolutely beautiful objects, both of them</figcaption>
+</figure>
 
 The reality was honestly pretty meh! Moment's app, which could de-squeeze the anamorphic photos automatically, was iPhone exclusive and I had a Google Pixel 3a. Said Pixel 3a was, after all, merely a cellphone with a minuscule 1/2.55" sensor, so there were no details to be found nor a lot of room to work with these photos in editing. Said photos had to be de-squeezed and edited later on a computer anyways, though I think at one point I had a [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed&hl=en_US) workflow, and by the time you get most dinky phone photos onto a monitor what little magic there was is  gone. The noise is unpleasant, the colors either amped up by robots or flat, the lenses neither sharp nor interestingly bad. Either lens added a huge weird weight to the back of your already too-large phone, and switching between them was a pain (though no more a pain than switching lenses on a "proper" camera, which I also hate doing).
 
-{{<figure src="/images/blog/2024-06-30-ode-to-moment/techwelike_Moment-Anamorphic.jpg" caption="Funnily enough, it's hard to take a photo of a lens with the phone it's on, so I borrowed this photo from techwelike.com. You can see how awkward the Moment lenses are, and they're the best version of this.">}}
+<figure>
+    <img src="/images/blog/2024-06-30-ode-to-moment/techwelike_Moment-Anamorphic.jpg" alt="A Moment Anamorphic lens attached to a smartphone, likely an iPhone.">
+    <figcaption>Funnily enough, it's hard to take a photo of a lens with the phone it's on, so I borrowed this photo from techwelike.com. You can see how awkward the Moment lenses are, and they're the best version of this.</figcaption>
+</figure>
 
 Moreover there is something simply uninspiring about phone photos. Maybe it's their ubiquity, or the lack of friction, or the feeling that we don't fully understand how the input became the output. ["Computational photography"](https://petapixel.com/computational-photography/) is a short hand for a long-running trend in making photo nerds and tech journalists freak out about [what even a photo is](https://www.theverge.com/2023/10/7/23906753/google-pixel-8-pro-photo-editing-tools-ai). The Moment lenses didn't fix that – it's still a smartphone, and I defaulted to using the default Pixel camera app because it did enough post-processing to make the photos pleasing enough.
 

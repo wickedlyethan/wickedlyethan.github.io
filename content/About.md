@@ -14,9 +14,9 @@ I have a deeply adversarial relationship with platforms and social media, so par
 
 Check out my:
 
-- [Now]({{<ref "/Now">}}) page to see the latest about what I'm up to
-- [Uses]({{<ref "/Uses">}}) page for what kind of gear and gadgets I use
-- [Blogroll]({{<ref "/Blogroll">}}) for sites and newsletters I like
+- [Now](/now) page to see the latest about what I'm up to
+- [Uses](/uses) page for what kind of gear and gadgets I use
+- [Blogroll](/blogroll) for sites and newsletters I like
 
 ## Colophon
 

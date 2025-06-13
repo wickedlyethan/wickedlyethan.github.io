@@ -13,7 +13,7 @@ So anyways, *Portal 2* (2011) has a good soundtrack, but doesn't recapture the m
 
 Valve Software is a weird company (the more unsaid the better) and has specific sound design elements it uses in its games.[^2] One of those quintessential sound design elements is [Ellen McLain](https://en.wikipedia.org/wiki/Ellen_McLain), who has made a career out of playing AI characters like GLaDOS but is actually a classically trained vocalist. Unfortunately those two things collided in the worst way for the track that ends *Portal 2*:
 
-{{<youtube kis6V6qwYxI>}}
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/kis6V6qwYxI' frameborder='0' allowfullscreen></iframe></div>
 
 *You flew too close to the sun*. The vocal processing butchers a probably wonderful performance, *not that I can tell*, the marching sixteenth notes clash with an inconsistent bass drum, and the jazz solo using the squeaky voices of the turrets near the end is ill-advised. I hate this track, yet there's something compelling here: the opening bleeps and bloops have something baroque about them, and the choice of Italian lyrics feels like a nod to McLain's background as well as a nod to something darkly liturgical about GLAaDOS' final ode to science.
 
@@ -29,7 +29,7 @@ A random channel re-uploaded it in 2016, when the world needed it.
 
 So here it is, one of the most beautiful pieces of music in the world. After the first 44 seconds, which too-faithfully re-create the opening to the original track, and then:
 
-{{<youtube 5MlCM0mR8DQ>}}
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/5MlCM0mR8DQ' frameborder='0' allowfullscreen></iframe></div>
 
 This is one of those things that I can't convey how much, how deeply it makes me feel. I'm not sure what else I can write about it, other than that it is a deeply weird, specific media artifact that makes me want to explode into light particles and float away on the wind, or look deeply at the sky until it doesn't make sense any more, or get dirt under my fingernails.
 
