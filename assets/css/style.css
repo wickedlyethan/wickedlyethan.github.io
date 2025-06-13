@@ -4,87 +4,110 @@
     line-height: 1.5;
     color-scheme: light dark;
 }
+
 * {
     box-sizing: border-box;
 }
+
 html {
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    /* stylelint-disable-next-line shorthand-property-no-redundant-values */
     margin:1rem 2rem 4rem 2rem;
 }
+
 body {
-    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     max-width: 34rem;
     margin: auto;
 }
+
 img {
     max-width: 100%;
     height:auto;
 }
-header li, footer li {
-    display:inline;
-}
-header ul, footer ul {
-    padding:0;
-}
-em {
-    font-weight: 500;
-}
+
 li {
     margin-bottom: 0.5rem
 }
+
+header li, footer li {
+    display:inline;
+}    
+
+header ul, footer ul {
+    padding:0;
+}    
+
+em {
+    font-weight: 500;
+}    
+
 ul li ul {
 	margin-top: 0.5rem;
 }
+
 article h1 {
     font-size: 200%;
     margin-bottom: 0.5rem;
 }
+
 article header {
     margin-bottom: 2rem;
 }
+
 #post-data {
     font-style: italic;
 }
+
 article > p {
     line-height: 1.618;
     /* https://webkit.org/blog/16831/line-height-units/ */
     margin-block: 1rem;
     margin-block: 1lh;
 }
+
 .title {
     font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
 }
+
 .card {
     margin-bottom: 1rem;
     padding: 1rem;
 }
+
 .bordered {
     border: solid 0.1rem;
     border-radius: 1%;
 }
+
 .blog-list-item {
     display: flex;
     gap: 1rem;
 }
+
 pre code {
     white-space: pre-wrap;
 }
+
 figcaption, pre {
     font-size: 75%;
     font-family:monospace;
 }
+
 blockquote p{
     font-style:italic;
 }
+
 pre {
     background-color:darkslateblue;
     padding:1rem;
     border-radius:5px;
 }
+
 /* Photo section styles */
 #camera-roll {
     display: grid;
@@ -93,14 +116,17 @@ pre {
     justify-items: center;
     padding-bottom: 1em;
 }
+
 .photo-post img {
     height: 100%;
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
-@media (prefers-color-scheme: dark) and screen (-webkit-min-device-pixel-ratio:0){
+/* https://wojtek.im/journal/targeting-safari-with-css-media-query */
+@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) and (prefers-color-scheme: dark){
     a {
         color:#8c8cff;
     }
