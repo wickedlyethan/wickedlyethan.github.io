@@ -32,7 +32,7 @@ I’ve seen other bloggers advocate for no email apps, and I’ve heard an apocr
 
 One of my favorite tech reviewers has: in Becca Farsace’s review of the Light Phone 3 she finds herself in a situation where she has no idea where she’s supposed to be going and with no way to log in to her email to check, because she has **no way to authenticate**.
 
-{{<youtube 6Pxhj3El-5w>}}
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/6Pxhj3El-5w' frameborder='0' allowfullscreen></iframe></div>
 
 Farsace is blessed with a friend willing to make a phone call(!) to find out the answer, but her temporary solution is to carry **another smart phone** around, leading to her conclusion that the Light Phone 3 is “like a designer bag or a luxury car, because if you own it I’m positive it is not your only phone.”
 
