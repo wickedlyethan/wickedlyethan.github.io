@@ -1,0 +1,36 @@
+{
+    "editor.wordWrap": "on",
+    "markdownlint.config": {
+        // ATX headers only
+        "MD003": {"style": "atx"},
+        // Must use dashes for unordered lists
+        "MD004": {"style": "dash"},
+        // Allow duplicate headings as long as their parents are different
+        "MD024": {"siblings_only": true},
+        // Allow multiple top-level headings
+        // Remove once we've moved to MFE and cleaned up old frontmatter to remove YAML comments
+        "MD025": false,
+        // Disallow trailing punctuation for headers, but allow exclamation marks
+        "MD026": {"punctuation": ".,;:。，；："},
+        // Ordered lists must start with one or be in order
+        "MD029": {"style": "one_or_ordered"},
+        // Allow inline HTML for custom formatting purposes, but avoid
+        "MD033": false,
+        // Must use three dashes for horiztonal rules
+        "MD035": {"style": "---"},
+        // The first line in a file does NOT have to be an H1. Titles should be in frontmatter
+        "MD041": false,
+        // Must use fenced code blocks
+        "MD046":{"style": "fenced"},
+        // Pages do not need a blank line at the end (too fussy, gets in the way of frontmatter processing)
+        "MD047": false,
+        // Code fences must use backticks
+        "MD048":{"style": "backtick"},
+        // Must use asterisks for emphasis
+        // "MD049": {"style": "asterisk"},
+        // Must use asterisks for strong
+        "MD050": {"style": "asterisk"},
+        // Tables must hae leading and trailing pipes
+        "MD055": {"style": "leading_and_trailing"}
+    }
+}

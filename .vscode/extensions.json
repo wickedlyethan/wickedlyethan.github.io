@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"vivaxy.vscode-conventional-commits",
+		"yzhang.markdown-all-in-one",
+		"DavidAnson.vscode-markdownlint",
+		"redhat.vscode-yaml",
+		"PascalReitermann93.vscode-yaml-sort"
+	]
+}
