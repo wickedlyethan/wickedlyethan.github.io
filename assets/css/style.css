@@ -79,6 +79,12 @@ article > p {
     padding: 1rem;
 }
 
+.card img {
+    display: block;
+    max-width: 50vh;
+    margin: auto;
+}
+
 .bordered {
     border: solid 0.1rem;
     border-radius: 1%;
