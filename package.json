@@ -1,0 +1,25 @@
+{
+  "name": "wickedlyethan.github.io",
+  "version": "1.0.0",
+  "description": "Wickedlyethan's personal website and digital garden",
+  "keywords": [
+    "blog",
+    "personal",
+    "website"
+  ],
+  "homepage": "https://github.com/wickedlyethan/wickedlyethan.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/wickedlyethan/wickedlyethan.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wickedlyethan/wickedlyethan.github.io.git"
+  },
+  "license": "ISC",
+  "author": "wickedlyethan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
