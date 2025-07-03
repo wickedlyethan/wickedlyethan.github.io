@@ -1,8 +1,14 @@
 <div id="blog-stats">
-<p><strong>Blog Stats</strong></p>
-<ul>
-<li>Blog posts: {{where .Site.RegularPages "Type" "in" "blog" | len}}</li>
-<li>Notes: {{where .Site.RegularPages "Type" "in" "notes" | len}}</li>
-<li>Photo posts: {{where .Site.RegularPages "Type" "in" "photos" | len}}</li>
-</ul>
+    <p><strong>Blog Stats</strong></p>
+    <ul>
+        <li>
+            Blog posts: {{where .Site.RegularPages "Type" "in" "blog" | len}}
+        </li>
+        <li>
+            Notes: {{where .Site.RegularPages "Type" "in" "notes" | len}}
+        </li>
+        <li>
+            Photo posts: {{where .Site.RegularPages "Type" "in" "photos" | len}}
+        </li>
+    </ul>
 </div>
