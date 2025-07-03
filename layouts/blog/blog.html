@@ -2,8 +2,11 @@
 <div class="blog-list">
     {{ range .Pages }}
     <p class="blog-list-item">
-    <span>{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}</span>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <span
+            >{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat)
+            }}</span
+        >
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
     </p>
     {{ end }}
 </div>
