@@ -13,7 +13,6 @@ html {
     text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    /* stylelint-disable-next-line shorthand-property-no-redundant-values */
     margin:1rem 2rem 4rem 2rem;
 }
 
