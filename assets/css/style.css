@@ -13,38 +13,42 @@ html {
     text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    margin:1rem 2rem 4rem 2rem;
+    margin: 1rem 2rem 4rem 2rem;
 }
 
 body {
-    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family:
+        system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+        Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     max-width: 34rem;
     margin: auto;
 }
 
 img {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
 
 li {
-    margin-bottom: 0.5rem
+    margin-bottom: 0.5rem;
 }
 
-header li, footer li {
-    display:inline;
-}    
+header li,
+footer li {
+    display: inline;
+}
 
-header ul, footer ul {
-    padding:0;
-}    
+header ul,
+footer ul {
+    padding: 0;
+}
 
 em {
     font-weight: 500;
-}    
+}
 
 ul li ul {
-	margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 article h1 {
@@ -98,25 +102,26 @@ pre code {
     white-space: pre-wrap;
 }
 
-figcaption, pre {
+figcaption,
+pre {
     font-size: 75%;
-    font-family:monospace;
+    font-family: monospace;
 }
 
-blockquote p{
-    font-style:italic;
+blockquote p {
+    font-style: italic;
 }
 
 pre {
-    background-color:darkslateblue;
-    padding:1rem;
-    border-radius:5px;
+    background-color: darkslateblue;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 /* Photo section styles */
 #camera-roll {
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 0.5em;
     justify-items: center;
     padding-bottom: 1em;
@@ -131,8 +136,9 @@ pre {
 
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
 /* https://wojtek.im/journal/targeting-safari-with-css-media-query */
-@supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) and (prefers-color-scheme: dark){
+@supports (hanging-punctuation: first) and (font: -apple-system-body) and
+    (-webkit-appearance: none) and (prefers-color-scheme: dark) {
     a {
-        color:#8c8cff;
+        color: #8c8cff;
     }
 }
