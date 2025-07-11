@@ -77,6 +77,21 @@ article > p {
     text-decoration: none;
 }
 
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+#tagline {
+    font-size: 90%;
+    margin: 0;
+    padding-left: 0.5rem;
+    font-style: italic;
+}
+
 .card {
     margin-bottom: 1rem;
     padding: 1rem;
