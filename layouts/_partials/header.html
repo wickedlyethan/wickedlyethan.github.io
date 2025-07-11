@@ -1,5 +1,8 @@
-<header>
-    <a href="{{ "" | relURL }}" id="title" class="title">WCKD</a>
+<header id="site-header">
+    <div>
+        <a href="{{ "" | relURL }}" id="title" class="title">WCKD</a>
+        <p class="tagline">Go Tell Ea-Nassir</p>
+    </div>
     <nav class="first-nav">
         <ul>
         {{range site.Menus.main}}
@@ -8,3 +11,24 @@
         </ul>
     </nav>
 </header>
+
+<style>
+    #site-header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+        flex-wrap:wrap;
+    }
+    /* .first-nav a {
+        text-decoration: none;
+        font-size: 115%;
+        padding-right:0.5rem;
+    } */
+    .tagline {
+        font-size: 90%;
+        margin: 0;
+        padding-left: 0.5rem;
+        font-style: italic;
+    }
+</style>
