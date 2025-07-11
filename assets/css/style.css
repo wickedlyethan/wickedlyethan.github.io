@@ -24,6 +24,14 @@ body {
     margin: auto;
 }
 
+a:visited {
+    color: light-dark(purple, silver);
+}
+
+a:hover {
+    color: rgb(from gold r g b / 90%);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -54,10 +62,12 @@ ul li ul {
 article h1 {
     font-size: 200%;
     margin-bottom: 0.5rem;
+    margin-bottom: 0.25lh;
 }
 
 article header {
     margin-bottom: 2rem;
+    margin-bottom: 2lh;
 }
 
 #post-data {
@@ -72,6 +82,7 @@ article > p {
 }
 
 .title {
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
@@ -81,7 +92,8 @@ article > p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-bottom: 2lh;
     flex-wrap: wrap;
 }
 
@@ -93,8 +105,9 @@ article > p {
 }
 
 .card {
-    margin-bottom: 1rem;
     padding: 1rem;
+    margin-bottom: 2rem;
+    margin-bottom: 2lh;
 }
 
 .card img {
@@ -105,7 +118,9 @@ article > p {
 
 .bordered {
     border: solid 0.1rem;
-    border-radius: 1%;
+    /* border-radius: 1%; */
+    /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
+    box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
 }
 
 .blog-list-item {

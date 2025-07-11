@@ -15,7 +15,7 @@ const taglines = [
     "Always look North",
     "The Right Time",
     "No dice",
-    "T think of you favorably",
+    "I think of you favorably",
 ];
 
 function displayRandomTagline() {
