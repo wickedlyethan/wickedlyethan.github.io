@@ -14,6 +14,8 @@ const taglines = [
     "Fighting fires with a squirt gun",
     "Always look North",
     "The Right Time",
+    "No dice",
+    "T think of you favorably",
 ];
 
 function displayRandomTagline() {
