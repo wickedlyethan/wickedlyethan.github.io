@@ -3,3 +3,4 @@ content/.DS_Store
 /public
 .markdownlint.json
 node_modules
+.hugo_build.lock
