@@ -46,11 +46,6 @@ footer li {
     display: inline;
 }
 
-header ul,
-footer ul {
-    padding: 0;
-}
-
 em {
     font-weight: 500;
 }
@@ -61,13 +56,6 @@ ul li ul {
 
 article h1 {
     font-size: 200%;
-    margin-bottom: 0.5rem;
-    margin-bottom: 0.25lh;
-}
-
-article header {
-    margin-bottom: 2rem;
-    margin-bottom: 2lh;
 }
 
 #post-data {
@@ -92,8 +80,8 @@ article > p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
-    margin-bottom: 2lh;
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;
     flex-wrap: wrap;
 }
 
@@ -106,19 +94,18 @@ article > p {
 
 .card {
     padding: 1rem;
-    margin-bottom: 2rem;
-    margin-bottom: 2lh;
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;
 }
 
 .card img {
     display: block;
-    max-width: 50vh;
+    max-height: 66vh;
     margin: auto;
 }
 
 .bordered {
     border: solid 0.1rem;
-    /* border-radius: 1%; */
     /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
     box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
 }
@@ -148,7 +135,8 @@ pre {
     border-radius: 5px;
 }
 
-/* Photo section styles */
+/* || Photo section styles */
+
 #camera-roll {
     display: grid;
     grid-template-columns: repeat(3, auto);
