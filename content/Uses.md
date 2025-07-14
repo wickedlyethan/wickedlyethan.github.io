@@ -1,7 +1,7 @@
 ---
 title: "Uses"
 type: single
-updated: 2024-12-28
+updated: 2025-07-14
 ---
 I love tech and gadgets and thinking about how my setups have changed over the years. Following in the footsteps of [many](https://uses.tech/) indieweb-ers, here's my Uses page where I list out stuff I use and love!
 
@@ -9,17 +9,16 @@ I love tech and gadgets and thinking about how my setups have changed over the y
 
 ## Computers
 
-- Apple Macbook M1 Air
-- Synology DiskStation DS118
-- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16gb of RAM, and all SSD storage – only used for multiplayer games and music library management
+- Apple Macbook M4 Air
 - Lenovo M900 for my [homelab]({{<ref "/blog/2024-10-05 my new homelab.md">}})
-- Raspberry Pi 4 with a Hifiberry Digi+ S/PDIF output for music streaming
+- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16 GB of RAM – only used for multiplayer games and music library management
+- Synology DiskStation DS118
 
 ## My desk
 
 <figure>
     <img src="/images/blog/2024-03-04-17h57m07.jpg" alt="Description of the image content">
-    <figcaption>This photo is a touch out of date, my keyboard looks a lot nicer now and I sold the Stream Deck</figcaption>
+    <figcaption>This photo is pretty out of date but it's close enough</figcaption>
 </figure>
 
 - Flexispot E7 standing desk in black walnut
@@ -62,16 +61,3 @@ Everyone runs their lives out of apps, but I *really* can't live without my to-d
 - [Inoreader](https://www.inoreader.com) to further the great cause of RSS
 - [Instapaper](https://www.instapaper.com/u) to read longer things from the internet
 - [Visual Studio Code](https://code.visualstudio.com/) for making this website
-
-## Homelab
-
-[My homelab]({{<ref "/blog/2024-10-05 my new homelab.md">}}) has become important infrastructure and I self-host some good stuff:
-
-- Lenovo M900 mini PC (i5, 16 GB RAM, 256 GB SSD) running Proxmox VE
-  - Home Assistant OS
-  - AdGuard Home
-  - Portainer
-    - Navidrome
-    - Linkding
-    - MeTube
-    - Whoogle
