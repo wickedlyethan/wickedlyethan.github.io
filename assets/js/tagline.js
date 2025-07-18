@@ -12,10 +12,11 @@ const taglines = [
     '"But, masters, remember that I am an ass"',
     "What's your convention?",
     "Fighting fires with a squirt gun",
-    "Always look North",
     "The Right Time",
     "No dice",
     "I think of you favorably",
+    "Thrive in my absence",
+    "doing the rotten work"
 ];
 
 function displayRandomTagline() {
