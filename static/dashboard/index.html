@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>my dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="pico.classless.min.css" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>↗️</text></svg>"
+        />
+        <style>
+            :root {
+                /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
+                font-size: calc(1rem + 0.25vw);
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, 10em);
+                grid-column-gap: 1rem;
+                grid-row-gap: 1rem;
+                padding-top: 10vh;
+            }
+            .group ul {
+                padding: 0;
+            }
+            ul li {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container grid" id="grid"></main>
+        <script>
+            const data = [
+                {
+                    title: "Do Stuff",
+                    links: {
+                        heimdall: "http://heimdall.yggdrasil.home/",
+                        ticktick: "http://www.ticktick.com/webapp/#q/all/tasks",
+                        "google keep": "http://keep.google.com/",
+                        // "linkding": "http://linkding.yggdrasil.home/"
+                    },
+                },
+                {
+                    title: "Listen",
+                    links: {
+                        "youtube music": "https://music.youtube.com/",
+                        pocketcasts: "https://play.pocketcasts.com/",
+                        brainfm: "https://my.brain.fm/",
+                        "a soft murmur": "https://asoftmurmur.com/",
+                    },
+                },
+                {
+                    title: "Read",
+                    links: {
+                        inoreader: "https://www.inoreader.com/all_articles",
+                        instapaper: "https://www.instapaper.com/u",
+                        tumblr: "https://www.tumblr.com/",
+                        "pinboard popular": "https://pinboard.in/popular",
+                        "hacker news": "https://news.ycombinator.com/",
+                    },
+                },
+            ];
+
+            const grid = document.getElementById("grid");
+
+            data.forEach((item) => {
+                const group = document.createElement("div");
+                group.className = "group";
+
+                const h2 = document.createElement("h2");
+                h2.textContent = item.title;
+                group.appendChild(h2);
+
+                const ul = document.createElement("ul");
+
+                Object.entries(item.links).forEach(([name, url]) => {
+                    const li = document.createElement("li");
+                    const a = document.createElement("a");
+                    a.href = url;
+                    a.textContent = name;
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                });
+
+                group.appendChild(ul);
+                grid.appendChild(group);
+            });
+        </script>
+    </body>
+</html>
