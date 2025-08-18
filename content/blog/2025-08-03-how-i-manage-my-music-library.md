@@ -11,7 +11,7 @@ I think of managing a music library as one of my primary computer tasks – some
 
 ## Getting music
 
-Pretty straightforward: I buy it. I buy it on [Bandcamp](https://bandcamp.com/) for cool indies, or [7Digital](https://us.7digital.com/), [Pro Studio Masters](https://www.prostudiomasters.com/) or [HDtracks](https://www.hdtracks.com/) for anything else. These are the kind of websites that have 24-bit 192kHz recordings of Pink Floyd on the front page no matter what year you go there, to get a sense of the vibe. I don’t go that far, but my goal is always to get music in at least CD quality, so that means FLAC by default, 320 kbps MP3 if I must. This all started with ripping my CDs to FLAC as a kid with [Exact Audio Copy](https://www.exactaudiocopy.de/), so we might as well continue in that tradition.
+Pretty straightforward: I buy it. I buy it on [Bandcamp](https://bandcamp.com/) for cool indies, or [7Digital](https://us.7digital.com/), [Pro Studio Masters](https://www.prostudiomasters.com/), or [HDtracks](https://www.hdtracks.com/) for anything else. These are the kind of websites that have 24-bit 192kHz recordings of Pink Floyd on the front page no matter what year you go there, to get a sense of the vibe. I don’t go that far, but my goal is always to get music that's at least CD quality, so that means FLAC by default, 320 kbps MP3 if I must. This all started with ripping my CDs to FLAC as a kid with [Exact Audio Copy](https://www.exactaudiocopy.de/), so we might as well continue in that tradition.
 
 I’m not a saint or anything – if something can’t be bought or is prohibitively expensive I’ll hop on Soulseek, but I try to avoid it. And I do stream music – I use YouTube Music to listen to tracks people have recommended me or I’m checking out, but I try to adhere to the principle of buying music if I’ve listened to it a certain number of times.
 
@@ -21,7 +21,7 @@ Editing the tags for your music is both personal and shouldn’t be – ideally
 
 My library manager of choice is [MusicBee](https://www.getmusicbee.com/), which is unfortunately on Windows and best available through, of all things, the Microsoft Store. It’s an excellent piece of software with great features, good design, and no BS. I’d pay for it if they asked me to, and I wish it was on macOS.
 
-First, I import downloaded files into the MusicBee inbox – but not into my library yet – to check the existing tags against MusicBrainz, the default metadata source, making sure to get good cover art if it isn’t there! The main tag I’m concerned with is genre, and I try to have the opposite of dogma about it – music genres honestly [baffle and irritate](https://everynoise.com/) me, instead I just need a general sense of what music is going to be like, how loud it’s going to be, that kind of thing. I keep it simple with tags like “Rock”, “Acoustic”, “Electronic”, “Pop”, etc. That might makes people super mad, whatever sue me.
+First, I import downloaded files into the MusicBee inbox – but not into my library yet – to check the existing tags against MusicBrainz, the default metadata source, making sure to get good cover art if it isn’t there! The main tag I’m concerned with is genre, and I try to have the opposite of dogma about it. Music genres honestly [baffle and irritate](https://everynoise.com/) me; I just need a general sense of what music is going to be like, how loud it’s going to be, that kind of thing. I keep it simple with tags like “Rock”, “Acoustic”, “Electronic”, “Pop”, etc. That might makes people super mad, whatever sue me.
 
 Next I use MusicBee’s volume analyzer to make sure every track has robust [ReplayGain](https://en.wikipedia.org/wiki/ReplayGain) tags. ReplayGain is a great technology not used enough.
 
@@ -43,7 +43,7 @@ Now everything gets copied over to my NAS – I use the Windows machine where a
 
 ## Listening everywhere
 
-Managing the library is a nice ritual but it’s only worth it if you can get to your music everywhere you want, and that has been a freaking journey. Music isn’t like documents, where once you’re in plain text land you’re good to go anywhere (except iOS because fuck you). You need a file system streamer, renderer, output, etc., and there’s less of a cool hipster movement to make great audio players. Again, Spotify has eaten the world.
+Managing the library is a nice ritual but it’s only worth it if you can get to your music everywhere you want, and that has been a freaking journey. Music isn’t like documents, where once you’re in plain text land you’re good to go anywhere (except iOS because fuck you). You need a file system streamer, renderer, output, etc., and there’s less of a cool hipster movement to make great audio players. Spotify has eaten the world.
 
 This is where this gets pretty inaccessible if you’re like me and have requirements like:
 
