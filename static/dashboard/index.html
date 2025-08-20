@@ -14,12 +14,16 @@
                 /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
                 font-size: calc(1rem + 0.25vw);
             }
-            .grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, 10em);
-                grid-column-gap: 1rem;
-                grid-row-gap: 1rem;
+            .container {
                 padding-top: 10vh;
+            }
+            .flex {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1em;
+            }
+            .flex > * {
+                flex: 0 1 10em;
             }
             .group ul {
                 padding: 0;
@@ -30,7 +34,7 @@
         </style>
     </head>
     <body>
-        <main class="container grid" id="grid"></main>
+        <main class="container flex" id="flex"></main>
         <script>
             const data = [
                 {
@@ -59,15 +63,18 @@
                         tumblr: "https://www.tumblr.com/",
                         "pinboard popular": "https://pinboard.in/popular",
                         "hacker news": "https://news.ycombinator.com/",
+                        "google news": "https://news.google.com/home",
+                        "npr": "https://text.npr.org/",
                     },
                 },
             ];
 
-            const grid = document.getElementById("grid");
+            const flex = document.getElementById("flex");
 
             data.forEach((item) => {
                 const group = document.createElement("div");
                 group.className = "group";
+                group.id = item.title;
 
                 const h2 = document.createElement("h2");
                 h2.textContent = item.title;
@@ -87,7 +94,7 @@
                 });
 
                 group.appendChild(ul);
-                grid.appendChild(group);
+                flex.appendChild(group);
             });
         </script>
     </body>
