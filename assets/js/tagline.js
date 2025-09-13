@@ -14,7 +14,9 @@ const taglines = [
     "No dice",
     "I think of you favorably",
     "Thrive in my absence",
-    "doing the rotten work"
+    "doing the rotten work",
+    "Mess with the best, die like the rest",
+    
 ];
 
 function displayRandomTagline() {
