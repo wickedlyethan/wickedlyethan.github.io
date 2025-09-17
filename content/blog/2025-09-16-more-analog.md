@@ -1,7 +1,7 @@
 ---
-title: 'More Analog'
+title: 'Mo Analog'
 date: '2025-09-16T10:10:45-04:00'
-subtitle: Too few brainworms to be an influencer, not badass enough to be a Luddite
+subtitle: Too few brainworms to be an influencer, not cool enough to be a Luddite
 summary: My wife bought an analog watch the other day, and it felt like a sea change. I’ve found a lot of joy lately in making my life more analog lately by consciously choosing to not engage with the latest and supposedly greatest of technologies, and I’ve found my life to feel slower, more intentional, and a lot less stressful because of it. At risk of being utterly pretentious and reductive, here’s a bunch of ways to do the same.
 ---
 
