@@ -4,3 +4,4 @@ content/.DS_Store
 .markdownlint.json
 node_modules
 .hugo_build.lock
+.vale/
