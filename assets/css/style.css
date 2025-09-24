@@ -54,10 +54,6 @@ ul li ul {
     margin-top: 0.5rem;
 }
 
-article h1 {
-    font-size: 200%;
-}
-
 #post-data {
     font-style: italic;
 }
@@ -135,6 +131,14 @@ pre {
     border-radius: 5px;
 }
 
+.card h2 a, #site-header a {
+    text-decoration: none;
+}
+
+.card h2 a:not(:hover) {
+    color: rgb(from CanvasText r g b / 90%);
+}
+
 /* || Photo section styles */
 
 #camera-roll {
@@ -159,4 +163,40 @@ pre {
     a {
         color: #8c8cff;
     }
+}
+
+/* || Typography scale Minor third 1.2 */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.15;
+}
+
+h1,
+.text-size-h1 {
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 2.49em;
+}
+
+h2,
+.text-size-h2 { font-size: 2.07em; }
+
+h3,
+.text-size-h3 { font-size: 1.73em; }
+
+h4,
+.text-size-h4 { font-size: 1.44em; }
+
+h5,
+.text-size-h5 { font-size: 1.2em; }
+
+.text-caption { font-size: 0.83em; }
+
+small,
+.text-small {
+  font-size: 0.69em;
 }
