@@ -62,7 +62,7 @@ article > p {
     margin-block: 1lh;
 }
 
-header h1 {
+#logo {
     font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
