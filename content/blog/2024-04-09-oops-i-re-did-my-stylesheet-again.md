@@ -25,14 +25,26 @@ That's it! Like I said, 37 lines of code at time of writing. I ripped my hands o
 
 I've been writing and posting more on here, and hopefully this re-design will let me stop thinking about anything other than that. This is my black t-shirt and black pants of the web; no more decision fatigue here. At least for a few months, right?
 
-## Update 2024-08
+## 2024-08
 
-I'm up to a back-breaking [62 lines of CSS](https://github.com/wickedlyethan/wickedlyethan.github.io/blob/main/themes/wickedlyethan/assets/css/style.css), but now I minify it and embed it in every page, so I don't feel too bad. The new lines are just some things to differentiate elements in blog posts, specifically figure captions and blockquotes; I did end up having to add a few lines to force Safari's hand and color links nicely, so that's their fault, not mine. I even went crazy and upgraded my title to "xxx-large".
+I'm up to a back-breaking [62 lines of CSS](https://github.com/wickedlyethan/wickedlyethan.github.io/blob/main/assets/css/style.css), but now I minify it and embed it in every page, so I don't feel too bad. The new lines are just some things to differentiate elements in blog posts, specifically figure captions and blockquotes; I did end up having to add a few lines to force Safari's hand and color links nicely, so that's their fault, not mine. I even went crazy and upgraded my title to "xxx-large".
 
 I recently added some more visual elements to site that I'm really happy with because they're just [unicode icons](https://www.compart.com/en/unicode), which can be relied upon to be rendered nicely and totally fit the vibe and ethos I'm going for.
 
 Most importantly, I've blogged and posted more this year than I have in the past five combined. The site feels great to me and I'm proud of it, and it feels clever to offload the design work and focus on content.
 
-## Update 2024-12
+## 2024-12
 
 A few more lines of CSS have crept into the stylesheet, now sitting at a bloated, disgusting 83 lines. It was worth it, I swear! I added sub-headlines and needed to adjust the default spacing, and I realized that using CSS keywords for the few elements that had non-standard sizing was locking them in, instead of letting them ebb and flow with the root font size calculation, so I changed those to percentages. Oh and I dedicated a whole foul line to set the line height of content paragraphs to [the golden ratio](https://medium.com/@zkareemz/golden-ratio-62b3b6d4282a), which feels similar to the root font size like a "well duh!" rule I never would've thought of. It felt instantly right and I'm going to force it upon every citizen I see.
+
+## 2025-09
+
+Dropping the bit about more CSS being a foul, degenerate thing because I did come around to injecting *a little* more personality into the site. I'm sticking to my overall thesis by using only [system colors](https://developer.mozilla.org/en-US/docs/Web/CSS/system-color) so I don't need to even attempt to create a cohesive color palette, which I consider a dark, arcane art.
+
+When I need to tweak them I learned about the [relative color syntax](https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/), which is really nice for taking edge off of some system colors or reusing them for other things, like the bottom border of the header. Now I feel fancy too, because this is pretty modern CSS.
+
+I just finished doing a pass to try to go as classless as possible, which I also like as a philosophy – HTML5 provides so many useful semantic elements that I'm resorting to classes and IDs only for truly bespoke elements that are many times repeating or truly singular, respectively.
+
+Lastly, I'm giving in to an old habit and implementing a typography scale, specifically the [minor third](https://baseline.is/tools/type-scale-generator/) because it feels linear instead of exponential in growth, which I find more pleasing and predictable. I think this is one thing the default stylesheet does do poorly, and using someone else's math to fix it is right in line with what I'm trying to accomplish.
+
+So yeah, the stylesheet has grown 3.5x in a year, but that's because I'm actually using my site and want it to look nice. I'm the main audience, after all, and I'm really proud of how clean and readable it is on pretty much any device! It might get worse too – I'm thinking of adding actual functionality to the blog too, *gasp*.
