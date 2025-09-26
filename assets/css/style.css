@@ -55,10 +55,6 @@ ul li ul {
     margin-top: 0.5rem;
 }
 
-#post-data {
-    font-style: italic;
-}
-
 article > p {
     line-height: 1.618;
     /* https://webkit.org/blog/16831/line-height-units/ */
