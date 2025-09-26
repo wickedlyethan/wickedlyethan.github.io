@@ -3,7 +3,7 @@
 {{ $content := where .Site.RegularPages "Type" "in" "blog,photos,notes" }}
 {{ $paginator := .Paginate $content.ByDate.Reverse 7 }}
 {{ range $paginator.Pages }}
-<div class="card bordered">
+<div class="card">
     {{if in .Section "blog"}}
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         <p>{{ .Params.subtitle }}</p>
