@@ -31,11 +31,11 @@ em {
 }
 
 a:visited {
-    color: light-dark(purple, silver);
+    color: inherit;
 }
 
 a:hover {
-    color: light-dark(silver,purple);
+    color: ActiveText;
 }
 
 li {
@@ -88,7 +88,7 @@ article > p {
 }
 
 pre {
-    background-color: darkslateblue;
+    background-color: Field;
     padding: 1rem;
     border-radius: 5px;
 }
