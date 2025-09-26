@@ -35,7 +35,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(from gold r g b / 90%);
+    color: light-dark(silver,purple);
 }
 
 li {
@@ -57,20 +57,34 @@ img {
     height: auto;
 }
 
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-bottom: 1lh;
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(from CanvasText r g b / 50%);
+}
+
+footer {
+    margin-top: 1rem;
+    margin-top: 1lh;
+    border-top: 1px solid rgb(from CanvasText r g b / 50%);
+}
+
+article > header {
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;   
+}
+
 article > p {
     line-height: 1.618;
     /* https://webkit.org/blog/16831/line-height-units/ */
     margin-block: 1rem;
     margin-block: 1lh;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-    flex-wrap: wrap;
 }
 
 pre {
@@ -177,7 +191,6 @@ h5 {
 h1,
 .text-size-h1 {
     font-weight: 700;
-    margin-top: 0;
     font-size: 2.49em;
 }
 
