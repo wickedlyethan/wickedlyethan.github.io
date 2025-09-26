@@ -83,7 +83,8 @@ pre code {
     white-space: pre-wrap;
 }
 
-pre, figcaption {
+pre,
+figcaption {
     font-size: 75%;
     font-family: monospace;
 }
@@ -98,7 +99,7 @@ blockquote p {
     font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
-    margin:0 0 0.5rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 #tagline {
@@ -128,7 +129,8 @@ blockquote p {
     gap: 1rem;
 }
 
-.card h2 a, header a {
+.card h2 a,
+header a {
     text-decoration: none;
 }
 
@@ -169,31 +171,41 @@ h2,
 h3,
 h4,
 h5 {
-  line-height: 1.15;
+    line-height: 1.15;
 }
 
 h1,
 .text-size-h1 {
-  font-weight: 700;
-  margin-top: 0;
-  font-size: 2.49em;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 2.49em;
 }
 
 h2,
-.text-size-h2 { font-size: 2.07em; }
+.text-size-h2 {
+    font-size: 2.07em;
+}
 
 h3,
-.text-size-h3 { font-size: 1.73em; }
+.text-size-h3 {
+    font-size: 1.73em;
+}
 
 h4,
-.text-size-h4 { font-size: 1.44em; }
+.text-size-h4 {
+    font-size: 1.44em;
+}
 
 h5,
-.text-size-h5 { font-size: 1.2em; }
+.text-size-h5 {
+    font-size: 1.2em;
+}
 
-.text-caption { font-size: 0.83em; }
+.text-caption {
+    font-size: 0.83em;
+}
 
 small,
 .text-small {
-  font-size: 0.69em;
+    font-size: 0.69em;
 }
