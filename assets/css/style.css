@@ -24,17 +24,18 @@ body {
     margin: auto;
 }
 
+/* || Classless styles */
+
+em {
+    font-weight: 500;
+}
+
 a:visited {
-    color: light-dark(purple, silver);
+    color: inherit;
 }
 
 a:hover {
-    color: rgb(from gold r g b / 90%);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    color: ActiveText;
 }
 
 li {
@@ -44,18 +45,38 @@ li {
 header li,
 footer li {
     display: inline;
-}
-
-em {
-    font-weight: 500;
+    margin-right: 0.15rem;
 }
 
 ul li ul {
     margin-top: 0.5rem;
 }
 
-#post-data {
-    font-style: italic;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-bottom: 1lh;
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(from CanvasText r g b / 50%);
+}
+
+article {
+    margin-bottom: 1.5rem;
+    margin-bottom: 1.5lh;
+}
+
+article > header {
+    margin-bottom: 1rem;
+    margin-bottom: 1lh;   
 }
 
 article > p {
@@ -65,20 +86,33 @@ article > p {
     margin-block: 1lh;
 }
 
-.title {
-    font-family: 'Helvetica Neue', sans-serif;
+pre {
+    background-color: Field;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+pre code {
+    white-space: pre-wrap;
+}
+
+pre,
+figcaption {
+    font-size: 75%;
+    font-family: monospace;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+/* || Classes and IDs */
+
+#title {
     font-size: 250%;
     font-weight: bolder;
     text-decoration: none;
-}
-
-#site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-    flex-wrap: wrap;
+    margin: 0 0 0.5rem 0;
 }
 
 #tagline {
@@ -92,6 +126,9 @@ article > p {
     padding: 1rem;
     margin-bottom: 1rem;
     margin-bottom: 1lh;
+    border: solid 0.1rem;
+    /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
+    box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
 }
 
 .card img {
@@ -100,38 +137,13 @@ article > p {
     margin: auto;
 }
 
-.bordered {
-    border: solid 0.1rem;
-    /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
-    box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
-}
-
 .blog-list-item {
     display: flex;
     gap: 1rem;
 }
 
-pre code {
-    white-space: pre-wrap;
-}
-
-figcaption,
-pre {
-    font-size: 75%;
-    font-family: monospace;
-}
-
-blockquote p {
-    font-style: italic;
-}
-
-pre {
-    background-color: darkslateblue;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.card h2 a, #site-header a {
+.card h2 a,
+header a {
     text-decoration: none;
 }
 
@@ -172,31 +184,40 @@ h2,
 h3,
 h4,
 h5 {
-  line-height: 1.15;
+    line-height: 1.15;
 }
 
 h1,
 .text-size-h1 {
-  font-weight: 700;
-  margin-top: 0;
-  font-size: 2.49em;
+    font-weight: 700;
+    font-size: 2.49em;
 }
 
 h2,
-.text-size-h2 { font-size: 2.07em; }
+.text-size-h2 {
+    font-size: 2.07em;
+}
 
 h3,
-.text-size-h3 { font-size: 1.73em; }
+.text-size-h3 {
+    font-size: 1.73em;
+}
 
 h4,
-.text-size-h4 { font-size: 1.44em; }
+.text-size-h4 {
+    font-size: 1.44em;
+}
 
 h5,
-.text-size-h5 { font-size: 1.2em; }
+.text-size-h5 {
+    font-size: 1.2em;
+}
 
-.text-caption { font-size: 0.83em; }
+.text-caption {
+    font-size: 0.83em;
+}
 
 small,
 .text-small {
-  font-size: 0.69em;
+    font-size: 0.69em;
 }

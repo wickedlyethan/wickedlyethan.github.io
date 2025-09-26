@@ -1,12 +1,12 @@
-<header id="site-header">
+<header>
     <div>
-        <a href="{{ "" | relURL }}" id="title" class="title">WCKD</a>
+        <a id="title" href="{{ "" | relURL }}">WCKD</a>
         <p id="tagline">Now with more blather</p>
     </div>
-    <nav class="first-nav">
+    <nav>
         <ul>
         {{range site.Menus.main}}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{- end }}
         </ul>
     </nav>
