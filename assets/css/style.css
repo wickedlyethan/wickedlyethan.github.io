@@ -24,17 +24,18 @@ body {
     margin: auto;
 }
 
+/* || Classless styles */
+
+em {
+    font-weight: 500;
+}
+
 a:visited {
     color: light-dark(purple, silver);
 }
 
 a:hover {
     color: rgb(from gold r g b / 90%);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 li {
@@ -47,12 +48,13 @@ footer li {
     margin-right: 0.15rem;
 }
 
-em {
-    font-weight: 500;
-}
-
 ul li ul {
     margin-top: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 article > p {
@@ -62,13 +64,6 @@ article > p {
     margin-block: 1lh;
 }
 
-#logo {
-    font-size: 250%;
-    font-weight: bolder;
-    text-decoration: none;
-    margin:0 0 0.5rem 0;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -76,6 +71,34 @@ header {
     margin-bottom: 1rem;
     margin-bottom: 1lh;
     flex-wrap: wrap;
+}
+
+pre {
+    background-color: darkslateblue;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+pre code {
+    white-space: pre-wrap;
+}
+
+pre, figcaption {
+    font-size: 75%;
+    font-family: monospace;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+/* || Classes and IDs */
+
+#logo {
+    font-size: 250%;
+    font-weight: bolder;
+    text-decoration: none;
+    margin:0 0 0.5rem 0;
 }
 
 #tagline {
@@ -103,26 +126,6 @@ header {
 .blog-list-item {
     display: flex;
     gap: 1rem;
-}
-
-pre code {
-    white-space: pre-wrap;
-}
-
-figcaption,
-pre {
-    font-size: 75%;
-    font-family: monospace;
-}
-
-blockquote p {
-    font-style: italic;
-}
-
-pre {
-    background-color: darkslateblue;
-    padding: 1rem;
-    border-radius: 5px;
 }
 
 .card h2 a, header a {
