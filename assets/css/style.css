@@ -2,11 +2,13 @@
     /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
     font-size: calc(1rem + 0.25vw);
     line-height: 1.5;
-    color-scheme: light dark;
+    color-scheme: dark light;
 }
 
-* {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+box-sizing: border-box;
 }
 
 html {
@@ -14,6 +16,10 @@ html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     margin: 1rem 2rem 4rem 2rem;
+
+    @media (width < 500px) {
+        margin: 1rem;
+    }
 }
 
 body {
@@ -30,6 +36,15 @@ em {
     font-weight: 500;
 }
 
+/* https://frontendmasters.com/blog/the-coyier-css-starter/#the-whole-thing */
+a {
+    text-underline-offset: 2px;
+    
+    &:not(:is(:hover, :focus)) {
+      text-decoration-color: color-mix(in srgb, currentcolor, transparent 25%);
+    }
+}
+
 a:visited {
     color: inherit;
 }
@@ -40,6 +55,10 @@ a:hover {
 
 li {
     margin-bottom: 0.5rem;
+}
+
+header ul {
+    padding: 0;
 }
 
 header li,
@@ -84,6 +103,7 @@ article > p {
     /* https://webkit.org/blog/16831/line-height-units/ */
     margin-block: 1rem;
     margin-block: 1lh;
+    text-wrap: pretty;
 }
 
 pre {
@@ -120,6 +140,10 @@ blockquote p {
     margin: 0;
     padding-left: 0.5rem;
     font-style: italic;
+
+    @media (width < 500px) {
+        padding: 0;
+    }
 }
 
 .card {
