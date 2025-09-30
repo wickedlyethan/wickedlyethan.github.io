@@ -64,7 +64,7 @@ Did I walk out of this a few hours ago? Yes. Did I see it in IMAX 3D with Dolby 
 
 There's not a single "well, that happened!" joke in this movie. No wink to the audience that they're watching something, no flinching while playing chicken with your eyes taking in one of cinema's greatest magic tricks. You're going to drink this whole thing in and feel it go down; it is the feeling of plugging your nose and going under right as the wave hits you, bowling you over as everything around you churns.
 
-*The Way of Water* is also explicitly a movie in which the whales **kill the motherfucking whalers**, and that should be comended.
+*The Way of Water* is also explicitly a movie in which the whales **kill the motherfucking whalers**, and that should be commended.
 
 **Honorable Mentions**: *The Sea Beast*, *Bodies Bodies Bodies*, *Prey*
 
@@ -114,7 +114,7 @@ There are so few ways to adequately tackle this book, its specificities, and unc
 
 ### Legends & Lattes by Travis Baldtree
 
-Mentioned offhand by a writing teacher in a short story class I took in the fall, this self-labeled "cozy fantasy" about an orc quitting adventuring to open a café is, I suspect, what you need right now, no matter who you are or when it is. It smartly doesn't remove conflict but it does refuse adventure in the traditional sense, and instead makes the argument yet again - the throughline for this year - that emotional stakes feel bigger and better than world-ending external ones. It's a quick, satisfying read that makes you want more, much like a hot drink.
+Mentioned offhand by a writing teacher in a short story class I took in the fall, this self-labeled "cozy fantasy" about an orc quitting adventuring to open a café is, I suspect, what you need right now, no matter who you are or when it is. It smartly doesn't remove conflict but it does refuse adventure in the traditional sense, and instead makes the argument yet again - the through line for this year - that emotional stakes feel bigger and better than world-ending external ones. It's a quick, satisfying read that makes you want more, much like a hot drink.
 
 ## 2023
 
