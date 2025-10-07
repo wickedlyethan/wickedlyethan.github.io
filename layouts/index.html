@@ -5,9 +5,11 @@
 {{ range $paginator.Pages }}
 <div class="card">
     {{if in .Section "blog"}}
-        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-        <p>{{ .Params.subtitle }}</p>
-        {{- partial "post-data.html" . -}}
+        <header>
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            <p>{{ .Params.subtitle }}</p>
+            {{- partial "post-data.html" . -}}
+        </header>
         {{.Summary}}
       <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
     {{ else if in .Section "photos"}}
