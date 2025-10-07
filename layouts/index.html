@@ -14,11 +14,10 @@
       <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
     {{ else if in .Section "photos"}}
         <a href="{{ .RelPermalink }}">
-        {{with .Params.photos}}
-            {{ range first 1 .}}
-                <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
-            {{ end }}
+        {{range .Params.photos}}
+            <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
         {{ end }}
+        {{.Content}}
         </a>
         <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
     {{else}}
