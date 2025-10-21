@@ -132,6 +132,9 @@ figcaption {
 }
 
 blockquote p {
+    border-left: 1px solid CanvasText;
+    padding-left: 1em;
+    font-size: 95%;
     font-style: italic;
 }
 
