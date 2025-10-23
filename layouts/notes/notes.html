@@ -1,11 +1,16 @@
-{{ define "main" }} 
-<h1>Notes</h1>
-{{ $paginator := .Paginate .Pages.ByDate.Reverse }} 
-{{ range $paginator.Pages }}
-<div class="card">
-    {{.Content}}
-    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
-</div>
-{{ end }}
-{{ partial "pagination-links" (dict "myPaginator" $paginator) }}
+{{ define "main" }}
+    <h1>Notes</h1>
+    {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+    {{ range $paginator.Pages }}
+        <div class="card">
+            {{ .Content }}
+            <p>
+                //
+                <a href="{{ .RelPermalink }}">
+                    {{ .Date.Format "2006-01-02" }}
+                </a>
+            </p>
+        </div>
+    {{ end }}
+    {{ partial "pagination-links" (dict "myPaginator" $paginator) }}
 {{ end }}

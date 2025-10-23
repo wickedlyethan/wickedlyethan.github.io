@@ -5,12 +5,10 @@
     {{ range .Pages }}
         <div class="photo-post">
             <a href="{{ .RelPermalink }}">
-                {{with .Params.photos}}
-                {{ range first 1 .}}
-                    <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
+                {{range first 1 .Params.photos}}
+                <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
                 {{ end }}
             </a>
         </div>
-        {{ end }}
     {{ end }}
 {{ end }}

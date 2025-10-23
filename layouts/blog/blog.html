@@ -1,11 +1,13 @@
 {{ define "main" }}
-<h1>Blog</h1>
-<div>
-    {{ range .Pages }}
-        <p class="blog-list-item">
-            <span>{{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat)}}</span>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </p>
-    {{ end }}
-</div>
+    <h1>Blog</h1>
+    <div>
+        {{ range .Pages }}
+            <p class="blog-list-item">
+                <span>
+                    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+                </span>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </p>
+        {{ end }}
+    </div>
 {{ end }}
