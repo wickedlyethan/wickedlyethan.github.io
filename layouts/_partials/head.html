@@ -1,28 +1,37 @@
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{{ $css := resources.Get "css/style.css" | minify}}
+{{ $css := resources.Get "css/style.css" | minify }}
 <style>{{ $css.Content | safeCSS }}</style>
 
-<title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
-<meta name="description" content="{{ .Page.Summary}}" />
+<title>
+    {{- block "title" . }}
+        {{ with .Title }}{{ . }} |{{ end }}{{ .Site.Title }}
+    {{- end }}
+</title>
+<meta name="description" content="{{ .Page.Summary }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>"/>
+<link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>" />
 
 {{ partial "schema.html" . }}
 {{ partial "opengraph.html" . }}
 
-{{if .Params.photos}}
-{{with index .Params.photos 0}}
-<meta property="og:image" content="{{.src}}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image:src" content="{{.src}}">
-{{end}}
-{{end}}
+{{ if .Params.photos }}
+    {{ with index .Params.photos 0 }}
+        <meta property="og:image" content="{{ .src }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:src" content="{{ .src }}" />
+    {{ end }}
+{{ end }}
 
 {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
 
 {{ $script := resources.Get "js/tagline.js" }}
-<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
+<script
+    src="{{ $script.RelPermalink }}"
+    integrity="{{ $script.Data.Integrity }}"
+    crossorigin="anonymous"></script>
