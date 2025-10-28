@@ -1,62 +1,61 @@
-title: 'wickedlyethan'
+title: "wickedlyethan"
 Params:
-  author: 'Ethan'
-  description: "Wickedlyethan's personal website and garden"
-  dateFormat: "2006-01-02"
+    description: "wickedlyethan's blog"
+    dateFormat: "2006-01-02"
 
 menus:
-  main:
-    - name: Blog
-      pageRef: /blog
-      weight: 1
-    - name: Notes
-      pageRef: /notes
-      weight: 2
-    - name: Photos
-      pageRef: /photos
-      weight: 3
-    - name: About
-      pageRef: /about
-      weight: 4
+    main:
+        - name: Blog
+          pageRef: /blog
+          weight: 1
+        - name: Notes
+          pageRef: /notes
+          weight: 2
+        - name: Photos
+          pageRef: /photos
+          weight: 3
+        - name: About
+          pageRef: /about
+          weight: 4
 
 permalinks:
-  blog: /blog/:year/:month/:slug/
-  notes: /notes/:contentbasename
+    blog: /blog/:year/:month/:slug/
+    notes: /notes/:contentbasename
 
-publishDir: 'public'
+publishDir: "public"
 
-baseURL: 'https://wickedlyethan.com/'
-languageCode: 'en-us'
+baseURL: "https://wickedlyethan.com/"
+languageCode: "en-us"
 enableRobotsTXT: false
 
 disableKinds: ["taxonomy", "term"]
 
 outputs:
-  home:
-  - html
-  - rss
-  section:
-  - html
+    home:
+        - html
+        - rss
+    section:
+        - html
 
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
-  date:
-  - :filename
-  - :default
+    date:
+        - :filename
+        - :default
 
 markup:
-  goldmark:
-    extensions:
-      footnote: true
-    renderer:
-      unsafe: true
+    goldmark:
+        extensions:
+            footnote: true
+        renderer:
+            unsafe: true
 
 pagination:
-  disableAliases: true
+    disableAliases: true
 
 minify:
-  minifyOutput: true
-  tdewolff:
-    html:
-      keepComments: false
-      keepWhitespace: true
+    minifyOutput: true
+    tdewolff:
+        html:
+            keepComments: false
+            keepWhitespace: true
