@@ -1,34 +1,39 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ .Site.Title }}</title>
-    <link>{{ .Permalink }}</link>
-    <description>{{ .Site.Params.description | default .Site.Title }}</description>
-    <generator>Hugo</generator>
-    <language>{{ .Site.LanguageCode }}</language>
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
-    <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
-    {{/* merge the three sections into one slice, then range */}}
-    {{ $pages := union
-        (where .Site.RegularPages "Section" "blog")
-        (union
-          (where .Site.RegularPages "Section" "notes")
-          (where .Site.RegularPages "Section" "photos")
-        )
-    }}
-    {{ range first 10 $pages.ByDate.Reverse}}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      <author>wickedlyethan</author>
-      <guid isPermaLink="true">{{ .Permalink }}</guid>
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ .Site.Title }}</title>
+  <link href="{{ .Permalink }}index.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ .Site.BaseURL }}"/>
+  <updated>{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+  <id>{{ .Permalink }}</id>
+  <author>
+    <name>wickedlyethan</name>
+  </author>
+  <generator uri="https://gohugo.io">Hugo</generator>
+
+  {{/* merge the three sections into one slice, then range */}}
+  {{ $pages := union
+      (where .Site.RegularPages "Section" "blog")
+      (union
+        (where .Site.RegularPages "Section" "notes")
+        (where .Site.RegularPages "Section" "photos")
+      )
+  }}
+  {{ range first 10 $pages.ByDate.Reverse}}
+  <entry>
+    <title type="html">{{ .Title }}</title>
+    <link rel="alternate" type="text/html" href="{{ .Permalink }}"/>
+    <id>{{ .Permalink }}</id>
+    <updated>{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</updated>
+    <author>
+      <name>wickedlyethan</name>
+    </author>
+    <content type="html">
       {{ if and (eq .Section "photos") .Params.Photos }}
-        <enclosure url="{{ (index .Params.Photos 0).src | absURL }}" type="image" />
+        <img src="{{ (index .Params.Photos 0).src | absURL }}" alt="{{(index .Params.Photos 0).alt}}" />
       {{ end }}
-      <description>
-        {{ .Summary | transform.XMLEscape | safeHTML }} <p><a href="{{ .Permalink }}">Read more →</a></p>
-      </description>
-    </item>
-    {{ end }}
-  </channel>
-</rss>
+      {{ .Summary | transform.XMLEscape | safeHTML }}
+      <p><a href="{{ .Permalink }}">Read more →</a></p>
+    </content>
+  </entry>
+  {{ end }}
+</feed>
