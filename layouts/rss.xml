@@ -6,6 +6,7 @@
     <description>{{ .Site.Params.description}}</description>
     <generator>Hugo</generator>
     <language>{{ .Site.LanguageCode}}</language>
+    <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
     {{ $pages := union
       (where .Site.RegularPages "Section" "blog")
       (union
