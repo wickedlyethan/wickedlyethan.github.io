@@ -12,14 +12,6 @@
         </header>
         {{.Summary}}
       <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
-    {{ else if in .Section "photos"}}
-        <a href="{{ .RelPermalink }}">
-        {{range .Params.photos}}
-            <img src="{{.src}}" alt="{{.alt}}" title="{{.caption}}"></a>
-        {{ end }}
-        {{.Content}}
-        </a>
-        <p>// <a href="{{ .RelPermalink }}">{{ .Title}}</a></p>
     {{else}}
         {{.Content}}
         <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
