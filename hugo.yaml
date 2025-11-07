@@ -1,9 +1,18 @@
-title: 'wickedlyethan'
-Params:
-  author: 'Ethan'
-  description: "Wickedlyethan's personal website and garden"
-  dateFormat: "2006-01-02"
-
+baseURL: https://wickedlyethan.com/
+disableKinds: ["taxonomy", "term"]
+enableRobotsTXT: false
+# https://gohugo.io/getting-started/configuration/#configure-dates
+frontmatter:
+  date:
+    - ':filename'
+    - ':default'
+languageCode: en-us
+markup:
+  goldmark:
+    extensions:
+      footnote: true
+    renderer:
+      unsafe: true
 menus:
   main:
     - name: Blog
@@ -18,45 +27,26 @@ menus:
     - name: About
       pageRef: /about
       weight: 4
-
-permalinks:
-  blog: /blog/:year/:month/:slug/
-  notes: /notes/:contentbasename
-
-publishDir: 'public'
-
-baseURL: 'https://wickedlyethan.com/'
-languageCode: 'en-us'
-enableRobotsTXT: false
-
-disableKinds: ["taxonomy", "term"]
-
-outputs:
-  home:
-  - html
-  - rss
-  section:
-  - html
-
-# https://gohugo.io/getting-started/configuration/#configure-dates
-frontmatter:
-  date:
-  - :filename
-  - :default
-
-markup:
-  goldmark:
-    extensions:
-      footnote: true
-    renderer:
-      unsafe: true
-
-pagination:
-  disableAliases: true
-
 minify:
   minifyOutput: true
   tdewolff:
     html:
       keepComments: false
       keepWhitespace: true
+outputs:
+  home:
+    - html
+    - rss
+  section:
+    - html
+pagination:
+  disableAliases: true
+params:
+  author: Ethan
+  dateFormat: '2006-01-02'
+  description: Wickedlyethan's personal website and garden
+permalinks:
+  blog: /blog/:year/:month/:slug/
+  notes: /notes/:contentbasename
+publishDir: public
+title: wickedlyethan
