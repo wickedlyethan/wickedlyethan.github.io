@@ -45,6 +45,7 @@ params:
   author: Ethan
   dateFormat: '2006-01-02'
   description: Wickedlyethan's personal website and garden
+  pinnedPost: /blog/2025-04-16-revenge-of-the-dumbphone
 permalinks:
   blog: /blog/:year/:month/:slug/
   notes: /notes/:contentbasename

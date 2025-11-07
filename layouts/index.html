@@ -1,22 +1,39 @@
 {{ define "main" }}
 {{ .Content }}
+{{ with .Site.GetPage .Site.Params.pinnedPost}}
+<div class="card">
+  <mark>&#128204; Pinned Post</mark>
+  {{if in .Section "blog"}}
+    <header>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <p>{{ .Params.subtitle }}</p>
+      {{- partial "post-data.html" . -}}
+    </header>
+    {{.Summary}}
+    <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
+  {{else}}
+    {{.Content}}
+    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+  {{end}}
+</div>
+{{ end }}
 {{ $content := where .Site.RegularPages "Type" "in" "blog,photos,notes" }}
 {{ $paginator := .Paginate $content.ByDate.Reverse 7 }}
 {{ range $paginator.Pages }}
 <div class="card">
-    {{if in .Section "blog"}}
-        <header>
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-            <p>{{ .Params.subtitle }}</p>
-            {{- partial "post-data.html" . -}}
-        </header>
-        {{.Summary}}
-      <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
-    {{else}}
-        {{.Content}}
-        <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
-    {{end}}
-  </div>
+  {{if in .Section "blog"}}
+    <header>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <p>{{ .Params.subtitle }}</p>
+      {{- partial "post-data.html" . -}}
+    </header>
+    {{.Summary}}
+    <p><a href="{{ .RelPermalink }}">&#8627;</a></p>
+  {{else}}
+    {{.Content}}
+    <p>// <a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }}</a></p>
+  {{end}}
+</div>
 {{end}}
 {{ partial "pagination-links" (dict "myPaginator" $paginator) }}
 {{end}}
