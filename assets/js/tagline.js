@@ -3,7 +3,6 @@ const taglines = [
     "Go tell Ea-Nassir",
     "Faux fox pass pas",
     "Needlepeets",
-    "Friends don't let friends publish shit",
     "Sharp sighs",
     "Always listening for zebras",
     "Tomorrow, tomorrow, tomorrow",
@@ -12,10 +11,13 @@ const taglines = [
     "What's your convention?",
     "Fighting fires with a squirt gun",
     "No dice",
-    "I think of you favorably",
     "Thrive in my absence",
     "doing the rotten work",
     "Mess with the best, die like the rest",
+    "Through hardships, to the stars!",
+    "Misery made manifest",
+    "You really need to get that looked at",
+    "(thoughtful beeps)"
 ];
 
 function displayRandomTagline() {
