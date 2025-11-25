@@ -1,5 +1,4 @@
 baseURL: https://wickedlyethan.com/
-disableKinds: ["taxonomy", "term"]
 enableRobotsTXT: false
 # https://gohugo.io/getting-started/configuration/#configure-dates
 frontmatter:
@@ -37,7 +36,11 @@ outputs:
   home:
     - html
     - rss
+  page:
+    - html
   section:
+    - html
+  taxonomy:
     - html
 pagination:
   disableAliases: true
@@ -50,4 +53,6 @@ permalinks:
   blog: /blog/:year/:month/:slug/
   notes: /notes/:contentbasename
 publishDir: public
+taxonomies:
+  tag: tags
 title: wickedlyethan

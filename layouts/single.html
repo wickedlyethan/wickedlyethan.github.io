@@ -29,6 +29,18 @@
 
 {{ .Content }}
 
+{{ if and (eq .Section "blog") (isset .Params "tags") (gt (len .Params.tags) 1) }}
+<section>
+    {{- range .Params.tags -}}
+    <code>
+        <a href="{{ "/tags/" }}{{ . | urlize }}">
+            #{{- . -}}
+        </a>
+    </code>
+    {{ end }}
+</section>
+{{ end }}
+
 </article>
 
 {{ end }}

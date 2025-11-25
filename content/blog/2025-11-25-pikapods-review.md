@@ -3,6 +3,7 @@ title: 'PikaPods review: Self-hosting without the headache'
 date: '2025-11-25T10:14:15-05:00'
 subtitle: If you want to use great open source apps but can’t be arsed to become a hobbyist system administrator, this is a great place to start.
 summary: I love my humble homelab, but one thing I knew I was never going to do was expose the homelab to the outside internet. I’ve thought for a long time about setting up a virtual private server (VPS), but renting a VPS is DIY but on someone else’s silicon, and that means all the fussing. Enter [PikaPods](https://www.pikapods.com/), an open source app hosting service based in Malta that manages containerized applications with a super easy interface and cheap prices. Instead of renting a virtual machine, I’m asking for space on someone’s Docker instance and they take care of the rest.
+tags: [tech, homelab]
 ---
 
 I love my humble [homelab]({{<relref "/blog/2024-10-05-my-new-homelab.md">}}) and host a few services that I would consider essential: [Home Assistant](https://www.home-assistant.io/), [AdGuard](https://adguard.com/en/welcome.html), [Navidrome](https://www.navidrome.org/), and [Linkding](https://linkding.link/) are crucial digital infrastructure that make my life better.

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+<h1>{{ .Title }}</h1>
+
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ $count := len $taxonomy }}
+    <p class="blog-list-item">
+        <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
+            {{ $name }}
+        </a>
+        ({{ $count }})
+    </p>
+{{ end }}
+
+</main>
+{{ end }}
