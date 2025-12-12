@@ -3,6 +3,7 @@ title: 'Revenge of the Dumbphone'
 date: '2025-04-16T18:04:24-04:00'
 subtitle: "Hot take: phones are good, actually. You're just doing it wrong."
 summary: With the release of the Light Phone 3 the discourse of dumb phones is back for another round. Smart phones are incredible tools, but maybe the way we use them is what makes them dumb. How do we make them truly smart?
+tags: [tech]
 ---
 
 ![Edited photo by Alexander Andrews, via Unsplash](/images/blog/alexander-andrews-bxhYCD7cdq8-unsplash_edited.jpg)

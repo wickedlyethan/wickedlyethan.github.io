@@ -3,6 +3,7 @@ title: 'Firefox Failed Us'
 date: '2025-08-17T21:31:32-04:00'
 subtitle: (Insert "you were the chosen one!" meme here)
 summary: 
+tags: [tech]
 ---
 
 The other day I investigated a [Tumblr post](https://www.tumblr.com/ralfmaximus/791886234381385728/some-users-report-firefox-scoffing-cpu-power) accusing Firefox of implementing LLM features that were causing spikes in CPU usage and aggressive battery drainage. The [article](https://www.theregister.com/2025/08/13/firefox_ai_scoffing_power/) linked is of dubious quality, as are others I could find on the subject ([OMGUbuntu](https://www.omgubuntu.co.uk/2025/08/firefox-high-cpu-usage-inference-disable), [Neowin](https://www.neowin.net/news/mozilla-under-fire-for-firefox-ai-bloat-that-blows-up-cpu-and-drains-battery/)); both rely on a [single Reddit thread](https://www.reddit.com/r/firefox/comments/1mle0ql/mozilla_please_for_the_love_of_god_please_do_not/?sort=top) that’s now been deleted. A [more recent thread](https://www.reddit.com/r/firefox/comments/1mp960y/firefox_ai_feature_causes_cpu_spikes_why_users/?sort=top) links to a [guide article](https://www.maketecheasier.com/firefox-ai-feature-causes-cpu-spikes/) that offers no source for its claim that Firefox’s new AI features are abusing resources.

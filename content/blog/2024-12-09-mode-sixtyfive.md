@@ -3,6 +3,7 @@ title: 'Mode SixtyFive Review – Finally Worth It'
 date: '2024-12-03T10:15:52-05:00'
 subtitle: 'After years of being budget-conscious, it turns out going all-out is the path to satisfaction'
 summary: 
+tags: [review, tech]
 ---
 
 ![My Mode SixtyFive](/images/blog/2024-12-09-mode-sixtyfive/2024-12-02-18h53m40_Pixel-8.jpg)

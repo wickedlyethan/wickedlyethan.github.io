@@ -3,6 +3,7 @@ title: "Making Windows 11 Palatable with CTT and Microwin"
 date: 2024-09-28
 updated:
 summary: 
+tags: [tech]
 ---
 I've transitioned to macOS now as my primary OS, so my hulking Windows gaming computer only gets booted for [music library management]({{<ref "2024-08-14.md">}}) and playing multiplayer games. I wanted to nuke Windows yet again and leave it as stripped-down as possible; enter the incredible [Chris Titus Utility and microwin](https://youtu.be/92SM8Az5QVM?si=2_bw-S7QLqY5_K2g), which makes an ISO that installs Windows in about 5 minutes and gets rid of so much Microsoft cruft it's too much to list.
 

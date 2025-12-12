@@ -3,6 +3,7 @@ title: 'Thunderbolts Review: Huh?'
 date: '2025-05-06T21:29:22-04:00'
 subtitle: “I’m not what you are, and not what you intended.”
 summary: ‘Thunderbolts’ isn’t what you think it’s going to be, and that’s a good thing. It doesn’t make it a good movie. Trigger warning **and** spoilers!
+tags: [review]
 ---
 
 **Trigger warning** for suicidal ideation and **spoilers warning** for the following review! And fair warning, I don’t give a shit about comics.

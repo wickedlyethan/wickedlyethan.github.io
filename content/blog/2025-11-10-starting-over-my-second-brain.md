@@ -3,6 +3,7 @@ title: 'Starting Over My "Second Brain"'
 date: '2025-11-10T21:11:33-05:00'
 subtitle: Four years and hundreds of notes later, it was time to wipe it clean.
 summary: 
+tags: [tech]
 ---
 
 ![Oh yeah, I had to include the graph](/images/blog/2025-11-10-starting-over-my-second-brain.png)

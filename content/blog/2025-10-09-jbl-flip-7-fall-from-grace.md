@@ -3,6 +3,7 @@ title: 'JBL Flip 7 Review: My Fall From Grace'
 date: '2025-10-09T10:24:04-04:00'
 subtitle: This wireless speaker's killer feature is a wire. 
 summary: 
+tags: [tech, review]
 ---
 
 When I was ten, I was given a Sony boombox for my room. (This outraged my sister, who had to wait until she was twelve to get her Sharp stereo, which had a six CD changer! Younger sibling privilege strikes again.) Next I inherited my grandpa’s Sony compact stereo system; my dad trash-picked gigantic 80s plywood speakers and I hooked those up and used both speaker zones at the same time to blast Less Than Jake as I got ready for freshman year of high school.

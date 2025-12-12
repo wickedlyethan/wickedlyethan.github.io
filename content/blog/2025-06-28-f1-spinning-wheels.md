@@ -3,6 +3,7 @@ title: 'F1: The Movie review: Spinning its wheels'
 date: '2025-06-28T18:05:31-04:00'
 subtitle:  Car go very fast. Brands very large on screen. These dudes are real jerks. Cool I guess?
 summary: 'Remember how *Ted Lasso* spent a lot of time and energy making its roster of rich twenty-something footballer fuckboys likeable and human? *F1: The Movie* doesn’t bother with that, or much of anything that would make it a story worth telling, instead putting out on the track the most maximalist sports movie ever made; every time you might get bored or remember for a moment how shallow and crass it all is, it has the easiest distraction ready: *let’s do another lap*.'
+tags: [review]
 ---
 
 Remember how *Ted Lasso* spent a lot of time and energy making its roster of rich twenty-something footballer fuckboys likeable and human? *F1: The Movie* doesn’t bother with that or much of anything that would make it a story worth telling. Intead it puts out on the track the most maximalist sports movie ever made; every time you might get bored or remember for a moment how shallow and crass it all is, it has the easiest distraction ready: *let’s do another lap*.

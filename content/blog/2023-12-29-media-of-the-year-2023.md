@@ -1,6 +1,7 @@
 ---
 title: Media of the Year 2023
 date: 2023-12-29
+tags: [favorites-of-the-year]
 ---
 
 ## Books

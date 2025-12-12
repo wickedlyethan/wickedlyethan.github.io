@@ -3,7 +3,7 @@ title: 'Replacing my gaming PC OS with Bazzite: Field notes from Linux'
 date: '2025-12-03T22:10:44-05:00'
 subtitle: 
 summary: I recently Ship of Theseus’d my gaming desktop – which blissfully hasn’t been my primary computer for a long time – into a Micro ATX case and installed the Linux distribution Bazzite as the only OS on the machine. The process hasn't been smooth. What follows are my field notes from switching my gaming desktop from Windows to Linux, from the deliberately naive viewpoint of “why is this like this??”
-
+tags: [tech, homelab]
 ---
 
 ![I'm the one in the middle](/images/blog/Laughing_Wolves.jpg)

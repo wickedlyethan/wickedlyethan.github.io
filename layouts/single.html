@@ -29,11 +29,11 @@
 
 {{ .Content }}
 
-{{ if and (eq .Section "blog") (isset .Params "tags") (gt (len .Params.tags) 1) }}
+{{ if and (eq .Section "blog") (isset .Params "tags") }}
 <section>
     {{- range .Params.tags -}}
     <code>
-        <a href="{{ "/tags/" }}{{ . | urlize }}">
+        <a class="tags" href="{{ "/tags/" }}{{ . | urlize }}">
             #{{- . -}}
         </a>
     </code>

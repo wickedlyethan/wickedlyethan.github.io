@@ -2,6 +2,7 @@
 title: Argylle is One of the Worst Movies I’ve Ever Seen
 date: 2024-02-06
 slug: "argylle-is-really-bad"
+tags: [review]
 ---
 
 The first red flag was Henry Cavill's haircut in the trailer. The second red flag, also from the trailer, was the obnoxious title card "FROM THE TWISTED MIND OF MATTHEW VAUGHN". The third red flag was [this BBC One interview](https://youtu.be/KOi56bSn3ew?si=Zahkp6YxQQqRWKe—) where the venerable Ali Plumb tries his best to find anything to talk about but can't because of all supposed twists and turns of this "meta" spy adventure.

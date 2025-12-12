@@ -3,6 +3,7 @@ title: 'My Favorite Books of 2024'
 date: '2024-12-16T20:34:35-05:00'
 subtitle: 'Greek tragedy (in Italy), the best cozy fantasy, and a couple of timeless reads got me through the year.'
 summary: I've moved past doing a yearly reading goal, but I read 29 books this year and it was a pretty good, if not amazing selection! Books like *Glorious Exploits* by Ferdia Lennon, *Bookshops & Bonedust* by Travis Baldree, and *Annie Bot* by Sierra Greer were my favorite new releases.
+tags: [review, favorites-of-the-year]
 ---
 
 I've moved past doing a yearly reading goal, which is slightly ironic because I've also transitioned from Goodreads to [The Storygraph](https://app.thestorygraph.com/) and it offers way more data, but I read 29 books this year and it was a good if not amazing year. In 2023 I gave 40% of the books I read total four stars out of five; this year it's a much wider spread, to the point it almost feels petty. As much as I like having the flexibility in Storygraph to give increments of stars, it feels like I've gotten a bit fussy with it.

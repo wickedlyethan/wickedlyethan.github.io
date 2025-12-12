@@ -1,8 +1,9 @@
 ---
 title: '10 Years of ‘E•mo•tion’, the greatest ode to love ever written'
 date: '2025-10-21T11:51:58-04:00'
-subtitle: 
-summary: 
+subtitle:
+summary:
+tags: [review]
 ---
 
 I’m not a music writer so I’m not going to pretend to have analytical insight into Carly Rae Jepsen’s seminal pop delight *E•mo•tion*, which is celebrating its 10th anniversary with a deluxe reissue and a few new tracks, but I had to write about it. [Pitchfork](https://pitchfork.com/reviews/albums/carly-rae-jepsen-emotion-10th-anniversary-edition/) has an excellent writeup that sets the table:

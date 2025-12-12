@@ -3,6 +3,7 @@ title: 'My Favorite Music of 2024'
 date: '2024-12-20T12:34:15-05:00'
 subtitle: Sabrina Carpenter, Chappell Roan, Elbow, Maggie Rogers, and shouting the chorus
 summary: As we barreled towards the future there was something intensely fun about a summer of excellent pop music. Meanwhile the new Maggie Rogers album devastated me, Coldplay wrote one good song, and there was plenty more good stuff I couldn't fit to write about.
+tags: [review, favorites-of-the-year]
 ---
 
 No introduction needed! These are the albums and songs I loved this year.

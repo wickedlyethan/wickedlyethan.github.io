@@ -3,6 +3,7 @@ title: 'Mo Analog'
 date: '2025-09-16T10:10:45-04:00'
 subtitle: Too few brainworms to be an influencer, not cool enough to be a Luddite
 summary: My wife bought an analog watch the other day, and it felt like a sea change. I’ve found a lot of joy lately in making my life more analog lately by consciously choosing to not engage with the latest and supposedly greatest of technologies, and I’ve found my life to feel slower, more intentional, and a lot less stressful because of it. At risk of being utterly pretentious and reductive, here’s a bunch of ways to do the same.
+tags: [tech]
 ---
 
 My wife bought a [tiny Timex analog field watch](https://timex.com/products/expedition-field-mini-26mm-leather-strap-watch-tw4b12000)  the other day and it felt like a sea change. In June, the piece of shit HHS secretary vomited the idea that every American should be [wearing a health tracker](https://www.politico.com/newsletters/future-pulse/2025/06/24/rfk-jr-wants-a-wearable-on-your-wrist-00419190), and we instantly soured on wearing our Fitbits every day. We had been talking through our fixation on the daily numbers, the waves of guilt and the rush of a new high score, but this was the nail in the coffin. I think we’re turning into "techno hippies", which I use instead of Luddite because the Luddites were [badass](https://www.hachettebookgroup.com/titles/brian-merchant/blood-in-the-machine/9780316487740/) in a way that we’re not – we’re simply exhausted.

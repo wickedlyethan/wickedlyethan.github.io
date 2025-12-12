@@ -3,6 +3,7 @@ title: 'How I Manage My Music Library'
 date: '2025-08-03T17:10:11-04:00'
 subtitle: 
 summary: 
+tags: [tech]
 ---
 
 Spotify is ubiquitous enough to feel like digital infrastructure, but like most modern infrastructure it’s pretty shit. The quality is bad, the UI is bad, the economics are bad; however, I don’t own my music *because* Spotify is bad; I think Spotify is intolerably bad *because* I’ve never stopped owning my music.

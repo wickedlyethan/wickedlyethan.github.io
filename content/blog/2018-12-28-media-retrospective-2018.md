@@ -3,6 +3,7 @@ title: "Media of the Year 2018"
 date: 2018-12-28
 image: blog/2018-media-retrospective/book-address-book-learning-learn-159751.png
 summary: "I'll never remember everything, and there's little things that I can't fit into these categories, but here's a retrospective of all the input I took in this year, all the thoughts I let invade my head to try and quiet it down a little bit, or conversely, wake up from a deep dream."
+tags: [favorites-of-the-year]
 ---
 
 I'll never remember everything, and there's little things that I can't fit into these categories, but here's a retrospective of all the input I took in this year, all the thoughts I let invade my head to try and quiet it down a little bit, or conversely, wake it up from the modern malaise.

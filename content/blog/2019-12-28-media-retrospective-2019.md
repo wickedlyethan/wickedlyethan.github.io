@@ -3,6 +3,7 @@ title: "Media of the Year 2019"
 date: 2019-12-28
 image: /blog/2019-media-retrospective/vortex.jpg
 summary: "That's right, we're doing one of these EVERY year. Featuring: communist witches, superhero ennui, hot scots, and the answer to what part of you your cat will eat first when you die."
+tags: [favorites-of-the-year]
 ---
 
 ## Games

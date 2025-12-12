@@ -3,6 +3,7 @@ title: 'Not My Vampire'
 date: '2024-12-31T09:43:53-05:00'
 subtitle: There are many kinds of vampires, and Count Orlock just isn't my type
 summary: Robert Eggers' latest, *Nosferatu*, is masterfully made and a worthy update to the 1922 film of the same name, but it didn't do a lot for me and I think I know why – it's not my favorite flavor of vampire.
+tags: [review]
 ---
 
 ![I can't believe I made this](/images/blog/not-quite-my-vampyr.jpg)

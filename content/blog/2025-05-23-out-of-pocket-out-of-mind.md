@@ -2,6 +2,7 @@
 title: 'Out of Pocket, Out of Mind'
 subtitle: There are many posts about breaking up with the internet, but this one is mine.
 date: 2025-05-23T09:39:30-04:00
+tags: [tech]
 ---
 
 Mozilla continues to flail, and yesterday announced it’s shutting down [Pocket](https://www.theverge.com/news/672924/mozilla-pocket-fakespot-shutting-down), which used to be the premier “read it later” app until it was infected with low-quality sponsored content and became a bloated mess. There’s a lot to be written about building sustainable businesses out of web utilities, enshittification, etc., but what struck me when reading the announcement was how much less of the internet I sit down and read nowadays.

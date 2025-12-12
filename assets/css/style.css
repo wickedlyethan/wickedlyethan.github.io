@@ -205,6 +205,11 @@ header a {
     font-style: italic;
 }
 
+.tags {
+    font-family: Monaco, monospace;
+    font-size: 85%;
+}
+
 /* || Photo section styles */
 
 #camera-roll {
