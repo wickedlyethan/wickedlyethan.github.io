@@ -15,4 +15,11 @@
                 alt="Written by a Human" />
         </p>
     </div>
+    <script src="/pagefind/pagefind-ui.js" type="text/javascript"></script>
+    <div id="search"></div>
+    <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search" });
+    });
+    </script>
 </footer>
