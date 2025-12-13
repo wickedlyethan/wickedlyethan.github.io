@@ -14,9 +14,9 @@ I recently Ship of Theseus’d my gaming desktop – which blissfully hasn’t b
 
 I want no more Windows, no apps that aren’t for gaming, and for it all to be easy enough that I can plug this system into the TV and play. We’ve had [moments of brilliance]({{<relref "notes/2025/2025-12-02.md">}}), but the process hasn't been smooth.
 
-What follows are my field notes from switching my gaming desktop from Windows to Linux, from the deliberately naive viewpoint of “why is this like this??”, as if I was a normal user trying to use my computer normally[^2].
+What follows are my field notes from switching my gaming desktop from Windows to Linux, from the deliberately naive viewpoint of “why is this like this??”, as if I was a normal user trying to use my computer normally[^2] [^3].
 
-This one is definitely a "living" post.
+Latest update: 2025-12-13.
 
 ## Installation
 
@@ -56,7 +56,15 @@ This one is definitely a "living" post.
   - I haven’t fixed this one yet. Some posts on the internet suggest it’s a Proton issue, a Blizzard issue, or an NVIDIA issue.
   - For now I’ll play *Overwatch 2*, the main game I play for the most hours a week, via GeForce Now on my Macbook Air. Speaking of which:
 - There is a native GeForce Now app for the Steam Deck, and it’s great. But there’s no native GeForce Now app for Linux otherwise, and using GeForce Now in a web browser gives you far less than what you pay for. So, I’ll run it on my Macbook Air instead.
+- After taking a week off or so I wanted a comfort replay for the holidays and booted up *The Witcher 3: Wild Hunt – Blood and Wine* (2019), with mixed results.
+  - The first night everything ran pretty smoothly, but the next day it consistently crashed in menus. This appears to be a known issue with DirectX 12, which the game's special launcher defaults to. To fix this I had to add a parameter to the game's launch options in steam to skip the launcher *and* edit a JSON file to tell the game to default to DirectX 11.
+  - Using DirectX 11 gets rid of all the modern graphics technology implemented in the game's "next gen" patch from 2022, and in general made performance much sloppier and choppier, not great for a ten year-old game. Need to look into this.
+  - *The Witcher 3* is rated **platinum** on [ProtonDB](https://www.protondb.com/app/292030), showing a flaw in the methodology. The game has the highest possible rating, yet every recent entry includes "tinker steps" like setting a specific Proton version, the aforementioned launcher skipping (which to be fair you'd do on Windows too), fixes for audio syncing and "crackling", etc. One might argue that the need for any tweaks at all should disqualify it from "platinum" status, but the bar is pretty low here.
+- After getting my ass whooped by the Bruxa fight in the first hours of *Blood and Wine* (it's been years, I forgot to do any mutagens or character points), I tried to de-stress with [*Lushfoil Photography Sim*](https://store.steampowered.com/app/1749860/Lushfoil_Photography_Sim/), a chill photography game. It crashed on starting the level every time.
+  - It's also rated [platinum](https://store.steampowered.com/app/1749860/Lushfoil_Photography_Sim/) on ProtonDB, though with only eight reports. The latest report suggests rolling back your graphics driver (?!) to get the game to work.
 
 [^1]: To be clear, I have years of Linux experience and run multiple virtual machines every day on my homelab. I broke my first family computer by erasing the Windows partition to install Ubuntu when I was eleven years old. I hate that I feel I have to provide bona-fides, but talking about Linux at length both lacks nuance *and* is overly complicated, leading to crusader-like conflations and idiotic circular logic. Anyways, back to the post.
 
 [^2]: I won't write my whole manifesto about this, but tl;dr Linux needs to be held to the same standards as any CONSUMER piece of software. Great UI, thoughtful UX, legible documentation, golden paths, affordances, et-fucking-cetera. The fractured, pretentious landscape doesn't help, but I'm going to treat this experiment like I bought this thing pre-built from fucking Best Buy. Pretending otherwise is a disservice to everyone.
+
+[^3]: I considered adding a rundown of my computer's specs here, but actually I shouldn't have to; this should all work with most modern hardware. Suffice to say I'm running a brand new, modern AMD CPU architecture and a powerful but somewhat aged NVIDIA GPU. I don't care if Linux works better with AMD cards, NVIDIA is like 90% of the market and one of the points of this build was to not spend $500+ on a brick of silicon.
