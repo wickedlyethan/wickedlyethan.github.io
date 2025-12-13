@@ -19,7 +19,11 @@
     <div id="search"></div>
     <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search" });
+        new PagefindUI({ 
+            element: "#search",
+            showImages: false,
+            resetStyles: false
+        });
     });
     </script>
 </footer>
