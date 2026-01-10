@@ -1,13 +1,19 @@
 {{ define "main" }}
-    <h1>Blog</h1>
-    <div>
+<h1>Blog</h1>
+<div>
+    {{ range $index, $group := .Pages.GroupByDate "2006" "dsc" }}
+    <details {{ if or (eq $index 0) (eq $index 1) }} open {{end}}>
+        <summary>{{.Key}} ({{len .Pages}})</summary>
         {{ range .Pages }}
-            <p class="blog-list-item">
-                <span>
-                    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-                </span>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </p>
+        <p class="blog-list-item">
+            <span>
+                {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat)
+                }}
+            </span>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </p>
         {{ end }}
-    </div>
+    </details>
+    {{ end }}
+</div>
 {{ end }}
