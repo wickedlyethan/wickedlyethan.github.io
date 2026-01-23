@@ -43,6 +43,10 @@ Latest update: 2025-12-13.
   - Denied. Downloading games, utilizing 90% of the available CPU, doesn't count as activity, so Bazzite went to sleep 15 minutes after I walked away, then shut down at 3 AM.
   - There’s no equivalent to macOS’ superlative `caffeinate` command on Fedora-based distros, so I change the power settings to never, ever go to sleep and do the same thing the next night.
   - Success! I’ve installed 7 modern video games at 450 GB total. Shameful.
+- Wi-Fi continues to be weird. When an ethernet cable is plugged in the OS still prefers using the Wi-Fi connection, and sometimes after an update simply forgets the Wi-Fi network credentials entirely.
+- The ethernet connection is named `enp6s0` in the system UI. Why?
+- The Dolphin file manager lists two items under "Devices" in the sidebar by default: a completely full root directory just named "/" and something else that appears to be the rest of the computer, even though it's named after the OS itself and has the option to unmount it. No thank you.
+- A rare pure positive: Connecting to my Pixel 9 to get photos off of it was super easy and just works. Neat!
 
 ## Playing games
 
