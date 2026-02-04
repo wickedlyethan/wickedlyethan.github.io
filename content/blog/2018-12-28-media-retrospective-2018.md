@@ -44,7 +44,6 @@ I am allegedly in Pocket's top 1% of users, which is both a humblebrag and evide
 ![The Anthropocene Reviewed](/images/blog/2018-media-retrospective/anthro_400x400.jpg)
 
 - [*The Anthropocene Reviewed*](https://www.wnycstudios.org/shows/anthropocene-reviewed) by John Green (Complexly and WNYC Studios); I could write about how this show has made me think so much, how it's made me feel both less and alone and truly alone, but instead go listen to it. Preferably on a drive to somewhere you can chat about all that you've thought about.
-- [*What Trump Can Teach Us About Con Law*](https://trumpconlaw.com/) by Elizabeth Joh and Roman Mars; "what can we learn from all this?" has become an important lens for our daily struggles, but this podcast takes that literally. What can we learn about our flawed, vague, brilliant, frustrating, perversely sanctified constitution by "examining the thoughts and tweets of America's fourty-fifth president"?
 - ["The Shipping Forecast"](https://99percentinvisible.org/episode/the-shipping-forecast/) from *99% Invisible*; learn the history of the dulcet, extremely British sounds of the BBC shipping forecast, a soft-spoken cipher of sailorly information that is as important as it is sublime.
 
 ## Games
