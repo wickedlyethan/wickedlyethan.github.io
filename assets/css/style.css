@@ -135,6 +135,14 @@ figcaption {
     font-family: monospace;
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
 blockquote p {
     border-left: 1px solid CanvasText;
     padding-left: 1em;
@@ -143,8 +151,8 @@ blockquote p {
 }
 
 mark {
-	background-color: rgb(from LinkText r g b / 50%);
-	padding: 0.25em;
+    background-color: rgb(from LinkText r g b / 50%);
+    padding: 0.25em;
     color: CanvasText;
     font-size: 90%;
 }
