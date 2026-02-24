@@ -1,17 +1,16 @@
 ---
 title: "Uses"
 type: single
-updated: 2025-07-14
 ---
 I love tech and gadgets and thinking about how my setups have changed over the years. Following in the footsteps of [many](https://uses.tech/) indieweb-ers, here's my Uses page where I list out stuff I use and love!
 
-`Last Updated: {{% param updated %}}`
+`Last Updated: 2026-02-23`
 
 ## Computers
 
 - Apple Macbook M4 Air
+- DIY Linux desktop with a Ryzen 9600X and RTX 5060ti in a Lian-Li A3 mATX case
 - Lenovo M900 for my [homelab]({{<ref "/blog/2024-10-05 my new homelab.md">}})
-- DIY Windows desktop with an i5-9600k, RTX 2070 Super, 16 GB of RAM – only used for multiplayer games and music library management
 - Synology DiskStation DS118
 
 ## My desk
@@ -26,7 +25,7 @@ I love tech and gadgets and thinking about how my setups have changed over the y
   - Grovemade matte natural linoleum desk pad
   - Grovemade walnut headphone stand
   - (I really like Grovemade's stuff)
-- 27" 1440p 144hz Dell gaming monitor with G-Sync
+- 27" 1440p 144hz HP Omen gaming monitor
   - BenQ Screenbar monitor light (eye-saver)
   - Logitech C920 webcam (ancient)
 - [Mode SixtyFive]({{<ref "/blog/2024-12-09 Mode SixtyFive.md">}})
@@ -35,9 +34,7 @@ I love tech and gadgets and thinking about how my setups have changed over the y
   - Osume Night Market keycaps, using the "luminous orchid" and "brilliant yellow" accent keys
 - Logitech G603 mouse (2017, still going)
 - Yeti Snowball ICE (got it for $20 at a pawn shop)
-- JDS Labs Atom DAC and amplifier stack, version 1
-  - Sherwood stereo receiver, which was a gift for my 16th birthday
-  - Dependable Pioneer SP-BS22-LR speakers
+- Questyle M15C DAC
   - Sennheiser HD 598 headphones, which you'll claw from my cold, dead hands
   - Sony XM4 headphones for when I need to block out everything
 - Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/)
