@@ -1,5 +1,5 @@
 ---
-title: '"Iron Lung" and Single Room Sci-Fi'
+title: '‘Iron Lung‘ and Single Room Sci-Fi'
 date: '2026-02-03T21:24:39-05:00'
 subtitle:
 summary:
