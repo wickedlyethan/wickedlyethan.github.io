@@ -224,6 +224,10 @@ header a {
     font-size: 85%;
 }
 
+.footnote-ref {
+    padding-left: 0.15em;
+}
+
 /* || Photo section styles */
 
 #camera-roll {
