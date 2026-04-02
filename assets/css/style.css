@@ -71,6 +71,12 @@ footer li {
     margin-right: 0.15rem;
 }
 
+ul {
+    @media (width < 500px) {
+        padding-left: 1rem;
+    }
+}
+
 ul li ul {
     margin-top: 0.5rem;
 }
@@ -145,10 +151,16 @@ figcaption {
     text-align: center;
 }
 
+blockquote {
+    @media (width < 500px) {
+        margin: auto 1em auto 0;
+    }
+}
+
 blockquote p {
     border-left: 1px solid CanvasText;
     padding-left: 1em;
-    font-size: 95%;
+    font-size: 90%;
     font-family: Georgia, serif;
 }
 
