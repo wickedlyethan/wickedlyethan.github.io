@@ -17,7 +17,9 @@ const taglines = [
     "Through hardships, to the stars!",
     "Misery made manifest",
     "You really need to get that looked at",
-    "(thoughtful beeps)"
+    "(thoughtful beeps)",
+    "Because I knew you so well",
+    "Blood in the gums of a sensitive mouth",
 ];
 
 function displayRandomTagline() {
