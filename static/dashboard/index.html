@@ -24,12 +24,16 @@
                     "Helvetica Neue",
                     sans-serif;
                 color-scheme: dark;
+                /* https://www.wada-sanzo-colors.com/combination/classic/2 */
+                --background-color: #12354e;
+                --accent-color: #f99d1b;
             }
             body {
                 /*https://modern-css.com/mobile-viewport-height-without-100vh-hack/*/
                 height: 100dvh;
                 width: 100dvw;
                 margin: 0;
+                background-color: var(--background-color);
             }
             .container {
                 padding-top: 10vh;
@@ -50,6 +54,7 @@
 
             /* https://frontendmasters.com/blog/the-coyier-css-starter/#the-whole-thing */
             a {
+                color: var(--accent-color);
                 text-underline-offset: 2px;
 
                 &:not(:is(:hover, :focus)) {
@@ -61,18 +66,16 @@
                 }
             }
 
-            a:visited {
-                color: LinkText;
+            a:hover {
+                color: color-mix(in srgb, currentcolor, transparent 25%);
             }
 
-            a:hover {
-                color: ActiveText;
-            }
             ul li {
                 list-style: none;
                 padding-bottom: 0.25em;
                 line-height: 1.75;
             }
+
             @media (max-width: 768px) {
                 .container {
                     padding-top: 2.5vh;
@@ -82,6 +85,10 @@
                 }
                 .flex > * {
                     flex: 0 1 100%;
+                    text-align: right;
+                }
+                h2 {
+                    margin-top: 0.5rem;
                 }
             }
         </style>
@@ -93,7 +100,6 @@
                 {
                     title: "Enjoy",
                     links: {
-                        puzzmo: "https://www.puzzmo.com/",
                         tumblr: "https://www.tumblr.com/",
                         miniflux: "https://aspiring-oyster.pikapod.net/unread",
                         wallabag: "https://voracious-grasshopper.pikapod.net/",
@@ -105,17 +111,18 @@
                     links: {
                         "youtube music": "https://music.youtube.com/",
                         bandcamp: "https://bandcamp.com/wickedlyethan",
-                        brainfm: "https://my.brain.fm/",
                         pocketcasts: "https://play.pocketcasts.com/",
+                        brainfm: "https://my.brain.fm/",
                         "a soft murmur": "https://asoftmurmur.com/",
                     },
                 },
                 {
                     title: "Do stuff",
                     links: {
-                        homepage: "http://homepage.yggdrasil.home/",
+                        ticktick: "https://ticktick.com/webapp/",
                         "google keep": "https://keep.google.com/",
                         "google calendar": "https://calendar.google.com",
+                        homepage: "http://homepage.yggdrasil.home/",
                         "wolfram alpha": "https://www.wolframalpha.com/",
                         "tip calculator":
                             "https://www.calculatorsoup.com/calculators/financial/tip-calculator.php",
