@@ -171,6 +171,10 @@ mark {
     font-size: 90%;
 }
 
+code {
+    font-size: 90%;
+}
+
 /* || Classes and IDs */
 
 #title {
