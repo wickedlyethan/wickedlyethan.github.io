@@ -5,7 +5,7 @@ frontmatter:
   date:
     - ':filename'
     - ':default'
-languageCode: en-us
+locale: en-us
 markup:
   goldmark:
     extensions:

@@ -2,7 +2,10 @@
 title: "About"
 type: single
 ---
-![Profile illustration](/images/et_friendmaker.png#profile-picture "Made with 'friend maker' picrew by Rowan!")
+<figure>
+<img src="/images/et_friendmaker.png" id="profile-picture" alt="Profile illustration">
+<figcaption>Made with the picrew <a href="https://picrew.me/en/image_maker/1322863/" target="_blank">'friend maker'</a> by Rowan</figcaption>
+</figure>
 
 Hi! I'm Ethan! I'm an aspiring writer from Massachusetts. Professionally I'm a technical writer in healthcare and biotechnology despite studying game design in college.
 
@@ -12,7 +15,7 @@ I have a lot of stories I want to tell and am constantly struggling to carve out
 
 I have a deeply adversarial relationship with platforms and social media, so part of my perennial tinkering with this site is to work that out. I hope I post stuff that people like, but if not then it's still a great exercise in creativity and finishing things.
 
-Check out my: [Uses](/uses) page for what kind of gear and gadgets I use.
+Check out my [Uses](/uses) page for what kind of gear and gadgets I use.
 
 ## Colophon
 
@@ -22,7 +25,7 @@ After years of struggling to come up with a great identity via design I decided 
 
 {{<blog-stats>}}
 
-## Amazing people I know who have websites
+## People I know who have websites
 
 - [Allie's Digital Garden 🌱](https://garden.alliecaton.com/)
 - [CHRIS MAHER | multimedia designer / animator](https://chrismaher.xyz/)

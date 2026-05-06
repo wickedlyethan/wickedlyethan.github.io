@@ -37,11 +37,11 @@ I love tech and gadgets and thinking about how my setups have changed over the y
 - Questyle M15C DAC
   - Sennheiser HD 598 headphones that'll you'll claw from my cold, dead hands
   - Sony XM4 headphones for noise cancelling
-- Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [my amazing wife](https://www.emilymullerart.com/)
+- Art by [Daniela Gamba](https://www.danielagamba.com/), [Mike Krahulik](https://www.penny-arcade.com/), [Mike Maihack](https://mikemaihack.bigcartel.com/), [Supergiant Games](https://www.supergiantgames.com/), [The Robotorium](https://westernavenuestudios.com/listing/the-robotorium-2/), and [Emily Muller](https://www.emilymullerart.com/)
 
 ## Stationery
 
-I went through a decade-long relationship with Moleskines ever since I bought my first while on a trip to England as a kid, but in the past few years I've leveled up my paper and pens:
+I went through a decades-long relationship with Moleskines ever since I bought my first while on a trip to England as a kid, but in the past few years I've leveled up my paper and pens:
 
 - Midori MD A5 lined notebooks for journaling
 - Midori B6 Slim notebook for ideas and keeping in my EDC bag
