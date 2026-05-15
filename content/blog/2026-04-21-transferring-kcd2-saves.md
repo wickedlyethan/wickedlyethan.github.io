@@ -22,9 +22,9 @@ To export your Xbox Game Pass saves (using *Kingdom Come: Deliverance II* as an 
 2) Open GPSaveConverter. It'll scan your system for Xbox games and try to find file translations based on online sources.
 3) Select *Kingdom Come: Deliverance II* in the "Potential Xbox packages" panel and weep because you need to make your own file translations.
 4) Select "Explore Xbox paths" to open File Explorer to where your Xbox saves are. Zip them up as a backup, just in case.
-5) Select **View > Show File Translations**.
+5) Back in GPSaveConverter, select **View > Show File Translations**.
 6) In the File Translations section, create a file translation per type of save file.
-   - File translations are RegEx formulas, and with the help the app's [wiki](https://github.com/Fr33dan/GPSaveConverter/wiki/File-Translations) and [this blessed YouTube video](https://youtu.be/EdCjEr4-jfc?si=TzyL3bSBpTNiSB36) it becomes pretty simple, but it was confusing at first.
+   - File translations are RegEx formulas, and with the help of the app's [wiki](https://github.com/Fr33dan/GPSaveConverter/wiki/File-Translations) and [this blessed YouTube video](https://youtu.be/EdCjEr4-jfc?si=TzyL3bSBpTNiSB36) it becomes pretty simple.
    - KCD2 has multiple types of saves: "autosave", "permanent", and "save", all with a triple-digit number on the end.
    - Therefore I created a file translation per type of save with `${SaveNumber}` as a variable, then defined that variable as `[0-9]+` in the **Named Regex Group** section of the file translation.
 
