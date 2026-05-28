@@ -21,8 +21,7 @@ const taglines = [
     "Because I knew you so well",
     "Blood in the gums of a sensitive mouth",
     "We're here because we're because we're here",
-    "Am I making you feel uncool?",
-    "I'll wait for the moment to pass"
+    "I've got the yips"
 ];
 
 function displayRandomTagline() {
