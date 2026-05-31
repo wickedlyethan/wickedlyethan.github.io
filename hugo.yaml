@@ -14,16 +14,16 @@ markup:
       unsafe: true
 menus:
   main:
-    - name: Blog
+    - name: blog
       pageRef: /blog
       weight: 1
-    - name: Notes
+    - name: notes
       pageRef: /notes
       weight: 2
-    - name: Photos
+    - name: photos
       pageRef: /photos
       weight: 3
-    - name: About
+    - name: about
       pageRef: /about
       weight: 4
 minify:

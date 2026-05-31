@@ -187,7 +187,7 @@ code {
 #tagline {
     font-size: 90%;
     margin: 0;
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     font-style: italic;
 
     @media (width < 500px) {
@@ -202,6 +202,7 @@ code {
     border: solid 0.1rem;
     /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
     box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
+    border-radius: 0.25rem;
 }
 
 .card img {
