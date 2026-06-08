@@ -255,11 +255,33 @@ header a {
     padding-bottom: 1em;
 }
 
+.photo-post {
+    position: relative;
+}
+
 .photo-post img {
     height: 100%;
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.photo-count {
+    position: absolute;
+    display: inline;
+    z-index: 1000;
+    bottom: 0.1em;
+    right: 0.1em;
+    width: 2em;
+    height: 2em;
+    background-color: rgb(from CanvasText r g b / 75%);
+    color: Canvas;
+    font-size: 80%;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 
 /* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */

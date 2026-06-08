@@ -7,6 +7,12 @@
             <a href="{{ .RelPermalink }}">
                 <img src="{{.Params.coverImage}}" alt="{{.Params.coverImageAltText}}"></a>
             </a>
+            {{ $images := findRE `!\[.*?\]\(.*?\)` .RawContent }}
+            {{ if gt (len $images) 1 }}
+            <div class="photo-count">
+                {{ len $images }}
+            </div>
+            {{ end }}
         </div>
     {{ end }}
 {{ end }}
