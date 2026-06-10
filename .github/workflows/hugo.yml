@@ -44,8 +44,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 26
+          cache: pnpm
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: pnpm install --frozen-lockfile
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -55,7 +62,7 @@ jobs:
           hugo \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Run Pagefind
-        run: npx pagefind --site public
+        run: pnpm exec pagefind --site public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

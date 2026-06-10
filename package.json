@@ -24,5 +24,6 @@
   },
   "devDependencies": {
     "pagefind": "^1.4.0"
-  }
+  },
+  "packageManager": "pnpm@11.5.3"
 }
