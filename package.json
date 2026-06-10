@@ -20,10 +20,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "hugo build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "pagefind": "^1.4.0"
-  },
-  "packageManager": "pnpm@11.5.3"
+  }
 }
