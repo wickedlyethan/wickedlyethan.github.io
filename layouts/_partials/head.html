@@ -5,6 +5,8 @@
 <style>{{ $css.Content | safeCSS }}</style>
 {{ $css := resources.Get "css/coyier-css-starter.css" | minify }}
 <style>{{ $css.Content | safeCSS }}</style>
+{{ $css := resources.Get "css/typography-scale-minor-third.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
 <style>
     :root {
     /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
@@ -17,8 +19,34 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 body {
-    max-width: 34rem;
+    max-width: 38rem;
     margin: auto;
+}
+body > header {
+    margin-bottom: 1rem;
+}
+h1,h2,h3,h4,h5,p {
+    margin: 1lh 0;
+}
+#title {
+    font-size: 250%;
+    font-weight: bolder;
+}
+#tagline {
+    font-size: 90%;
+    margin: 1rem 0;
+    font-style: italic;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+.card {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: solid 0.1rem;
+    border-radius: 0.2rem;
 }
 </style>
 
