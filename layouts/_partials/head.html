@@ -1,8 +1,26 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-{{ $css := resources.Get "css/style.css" | minify }}
+{{ $css := resources.Get "css/piccalilli-reset.css" | minify }}
 <style>{{ $css.Content | safeCSS }}</style>
+{{ $css := resources.Get "css/coyier-css-starter.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
+<style>
+    :root {
+    /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
+    font-size: calc(1rem + 0.25vw);
+    line-height: 1.5;
+}
+html {
+    text-rendering: optimizelegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    max-width: 34rem;
+    margin: auto;
+}
+</style>
 
 <title>
     {{- block "title" . }}
