@@ -1,20 +1,6 @@
 {{ define "main" }}
 <h1>Blog</h1>
 <div>
-{{ $pages := where .Site.RegularPages "Type" "in" (slice "blog") }}
-{{ $totalWords := 0 }}
-{{ $count := 0 }}
-{{ range $pages }}
-    {{ $totalWords = add $totalWords .WordCount }}
-    {{ $count = add $count 1 }}
-{{ end }}
-{{ $avgWords := div $totalWords $count }}
-{{ $readingTime := div $avgWords 212 }}
-<p>Good, proper Posts.</p>
-<p>Average number of words: {{ $avgWords }}</p>
-<p>Average reading time: {{ $readingTime }} minutes</p>
-</div>
-<div>
     {{ range $index, $group := .Pages.GroupByDate "2006" "dsc" }}
     <details {{ if or (eq $index 0) (eq $index 1) }} open {{end}}>
         <summary>{{.Key}} ({{len .Pages}})</summary>
@@ -23,7 +9,7 @@
             <span>
                 {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat)
                 }}
-            </span>
+            </span> –
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </p>
         {{ end }}
