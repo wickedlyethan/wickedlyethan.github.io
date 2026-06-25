@@ -1,6 +1,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+{{ $css := resources.Get "css/piccalilli-reset.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
+{{ $css := resources.Get "css/coyier-css-starter.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
+{{ $css := resources.Get "css/typography-scale-minor-third.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
 {{ $css := resources.Get "css/style.css" | minify }}
 <style>{{ $css.Content | safeCSS }}</style>
 

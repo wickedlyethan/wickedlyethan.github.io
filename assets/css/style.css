@@ -1,331 +1,60 @@
 :root {
-    /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
-    font-size: calc(1rem + 0.25vw);
-    line-height: 1.5;
-    color-scheme: dark light;
+  /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
+  font-size: calc(1rem + 0.25vw);
 }
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 html {
-    text-rendering: optimizelegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    margin: 1rem 2rem 4rem 2rem;
-
-    @media (width < 500px) {
-        margin: 1rem;
-    }
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
-
 body {
-    font-family:
-        system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-        Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    max-width: 34rem;
-    margin: auto;
+  max-width: 38rem;
+  margin: auto;
 }
-
-/* || Classless styles */
-
-em {
-    font-weight: 500;
+body > header, .pagefind-ui__search-input {
+  margin-bottom: 1rem;
+  margin-bottom: 1lh;
 }
-
-/* https://frontendmasters.com/blog/the-coyier-css-starter/#the-whole-thing */
-a {
-    text-underline-offset: 2px;
-
-    &:not(:is(:hover, :focus)) {
-        text-decoration-color: color-mix(
-            in srgb,
-            currentcolor,
-            transparent 25%
-        );
-    }
-}
-
-a:visited {
-    color: inherit;
-}
-
-a:hover {
-    color: ActiveText;
-}
-
-li {
-    margin-bottom: 0.5rem;
-}
-
-header ul {
-    padding: 0;
-}
-
-header li,
-footer li {
-    display: inline;
-    margin-right: 0.15rem;
-}
-
-ul {
-    @media (width < 500px) {
-        padding-left: 1rem;
-    }
-}
-
-ul li ul {
-    margin-top: 0.5rem;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    max-height: 650px;
-    margin: auto;
-}
-
-iframe {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-}
-
-body > header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 1rem;
-    padding-bottom: 1lh;
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-    flex-wrap: wrap;
-    border-bottom: 1px solid rgb(from CanvasText r g b / 50%);
-}
-
-footer {
-    margin-bottom: 2em;
-}
-
-article {
-    margin-bottom: 1.5rem;
-    margin-bottom: 1.5lh;
-}
-
-article header {
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-}
-
-article p {
-    line-height: 1.618;
-    /* https://webkit.org/blog/16831/line-height-units/ */
-    margin-block: 1rem;
-    margin-block: 1lh;
-    text-wrap: pretty;
-}
-
-pre {
-    background-color: Field;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-pre code {
-    white-space: pre-wrap;
-}
-
-pre,
-figcaption {
-    font-size: 75%;
-    font-family: monospace;
-}
-
-figure {
-    margin: 0;
-}
-
-figcaption {
-    text-align: center;
-}
-
-blockquote {
-    @media (width < 500px) {
-        margin: auto 1em auto 0;
-    }
-}
-
-blockquote p {
-    border-left: 1px solid CanvasText;
-    padding-left: 1em;
-    font-size: 90%;
-    font-family: Georgia, serif;
-}
-
-mark {
-    background-color: rgb(from LinkText r g b / 50%);
-    padding: 0.25em;
-    color: CanvasText;
-    font-size: 90%;
-}
-
-code {
-    font-size: 90%;
-}
-
-/* || Classes and IDs */
-
-#title {
-    font-size: 250%;
-    font-weight: bolder;
-    text-decoration: none;
-    margin: 0 0 0.5rem 0;
-}
-
-#tagline {
-    font-size: 90%;
-    margin: 0;
-    /* padding-left: 0.5rem; */
-    font-style: italic;
-
-    @media (width < 500px) {
-        padding: 0;
-    }
-}
-
-.card {
-    padding: 1rem;
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-    border: solid 0.1rem;
-    /* https://chriscoyier.net/2023/05/12/add-opacity-to-an-existing-color/ */
-    box-shadow: 0.5rem 0.5rem 0 rgb(from LinkText r g b / 50%);
-    border-radius: 0.25rem;
-}
-
-.card img {
-    display: block;
-    max-height: 66vh;
-    margin: auto;
-}
-
-.card header {
-    line-height: 1.25;
-    margin-bottom: 1.5em;
-    margin-bottom: 1.5lh;
-}
-
-.card h2 a,
-header a {
-    text-decoration: none;
-}
-
-.card h2 a:not(:hover) {
-    color: rgb(from CanvasText r g b / 90%);
-}
-
-.blog-list-item {
-    display: flex;
-    gap: 1rem;
-}
-
-.post-data {
-    font-size: 95%;
-    font-style: italic;
-}
-
-.tags {
-    font-family: Monaco, monospace;
-    font-size: 85%;
-}
-
-.footnote-ref {
-    padding-left: 0.15em;
-}
-
-/* || Photo section styles */
-
-#camera-roll {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 0.5em;
-    justify-items: center;
-    padding-bottom: 1em;
-}
-
-.photo-post {
-    position: relative;
-}
-
-.photo-post img {
-    height: 100%;
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.photo-count {
-    position: absolute;
-    display: inline;
-    z-index: 1000;
-    bottom: 0.1em;
-    right: 0.1em;
-    width: 2em;
-    height: 2em;
-    background-color: rgb(from CanvasText r g b / 75%);
-    color: Canvas;
-    font-size: 80%;
-    border-radius: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-}
-
-/* Locking Safari dark mode into link color from Firefox dark mode to fix bad link colors */
-/* https://wojtek.im/journal/targeting-safari-with-css-media-query */
-@supports (hanging-punctuation: first) and (font: -apple-system-body) and
-    (-webkit-appearance: none) and (prefers-color-scheme: dark) {
-    a {
-        color: #8c8cff;
-    }
-}
-
-/* || Typography scale Minor third 1.2 */
-
 h1,
-.text-size-h1 {
-    font-weight: 700;
-    font-size: 2.49em;
-}
-
 h2,
-.text-size-h2 {
-    font-size: 2.07em;
-}
-
 h3,
-.text-size-h3 {
-    font-size: 1.73em;
-}
-
 h4,
-.text-size-h4 {
-    font-size: 1.44em;
-}
-
 h5,
-.text-size-h5 {
-    font-size: 1.2em;
+p {
+  margin: 1rem 0;
+  margin: 1lh 0;
 }
-
-.text-caption {
-    font-size: 0.83em;
+img {
+  max-height: 90vh;
+  margin: auto;
 }
-
-small,
-.text-small {
-    font-size: 0.69em;
+mark {
+  display: inline-block;
+  margin-top: 1em;
+  margin-top: 1lh;
+}
+#title {
+  font-size: 250%;
+  font-weight: bolder;
+}
+#tagline {
+  font-size: 90%;
+  font-style: italic;
+}
+#site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.card {
+  margin: 1rem 0;
+  margin: 1lh 0;
+  padding: 0 1rem;
+  border: solid 0.1rem;
+  border-radius: 0.2rem;
+}
+.card img {
+  display: block;
+  max-height: 66vh;
+  margin: auto;
 }
