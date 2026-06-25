@@ -11,7 +11,7 @@ body {
   max-width: 38rem;
   margin: auto;
 }
-body > header {
+body > header, .pagefind-ui__search-input {
   margin-bottom: 1rem;
   margin-bottom: 1lh;
 }
@@ -58,3 +58,4 @@ mark {
   max-height: 66vh;
   margin: auto;
 }
+.pagefind-ui__search-input {}
