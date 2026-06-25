@@ -7,50 +7,8 @@
 <style>{{ $css.Content | safeCSS }}</style>
 {{ $css := resources.Get "css/typography-scale-minor-third.css" | minify }}
 <style>{{ $css.Content | safeCSS }}</style>
-<style>
-    :root {
-    /* https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/ */
-    font-size: calc(1rem + 0.25vw);
-    line-height: 1.5;
-}
-html {
-    text-rendering: optimizelegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-}
-body {
-    max-width: 38rem;
-    margin: auto;
-}
-body > header {
-    margin-bottom: 1rem;
-    margin-bottom: 1lh;
-}
-h1,h2,h3,h4,h5,p {
-    margin: 1rem 0;
-    margin: 1lh 0;
-}
-#title {
-    font-size: 250%;
-    font-weight: bolder;
-}
-#tagline {
-    font-size: 90%;
-    font-style: italic;
-}
-#site-nav ul {
-	list-style: none;
-	display: flex;
-	gap: 1rem;
-}
-.card {
-    margin: 1rem 0;
-    margin: 1lh 0;
-    padding: 0 1rem;
-    border: solid 0.1rem;
-    border-radius: 0.2rem;
-}
-</style>
+{{ $css := resources.Get "css/style.css" | minify }}
+<style>{{ $css.Content | safeCSS }}</style>
 
 <title>
     {{- block "title" . }}
